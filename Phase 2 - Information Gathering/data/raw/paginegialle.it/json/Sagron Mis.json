@@ -1,0 +1,542 @@
+[
+    {
+        "name": "Asd Gioca Sport",
+        "address": "Via Fossi, 12",
+        "comune": "Primiero San Martino di Castrozza",
+        "open_hours": {},
+        "phone_number": [
+            "043964707",
+            "3487465813"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Da Calcio Regolamentare Mezzano",
+        "address": "Via del Pian, 37",
+        "comune": "Mezzano",
+        "open_hours": {
+            "Friday": "09:00 - 19:00",
+            "Saturday": "09:00 - 19:00",
+            "Sunday": "09:00 - 19:00",
+            "Tuesday": "09:00 - 19:00",
+            "Wednesday": "09:00 - 19:00",
+            "Thursday": "09:00 - 19:00"
+        },
+        "phone_number": [
+            "0439678068",
+            "043962407"
+        ],
+        "website": null
+    },
+    {
+        "name": "Sport e Tempo Libero Societa' Sportiva Dilettantistica S.r.l.",
+        "address": "Via dello Sport, 6",
+        "comune": "Primiero San Martino di Castrozza",
+        "open_hours": {},
+        "phone_number": [
+            "043962885"
+        ],
+        "website": null
+    },
+    {
+        "name": "Impianti Falcade Col Margherita",
+        "address": "Piazzale Molino, 3",
+        "comune": "Falcade",
+        "open_hours": {},
+        "phone_number": [
+            "0437507044"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina Comunale Pedavena",
+        "address": "Via Dante Alighieri, 1",
+        "comune": "Pedavena",
+        "open_hours": {
+            "Friday": "06:30 - 08:15 / 18:20 - 20:00",
+            "Saturday": "10:30 - 14:15",
+            "Sunday": "10:30 - 12:30 / 16:00 - 20:00",
+            "Monday": "09:00 - 12:00",
+            "Tuesday": "10:30 - 14:15 / 18:20 - 20:00",
+            "Wednesday": "06:30 - 08:15",
+            "Thursday": "10:30 - 14:15 / 19:00 - 21:00"
+        },
+        "phone_number": [
+            "0439302061"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina Comunale S. Giustina",
+        "address": "Via Scuole Nuove, 12/B",
+        "comune": "Santa Giustina",
+        "open_hours": {
+            "Friday": "16:00 - 20:00",
+            "Saturday": "16:00 - 20:00",
+            "Sunday": "16:00 - 20:00",
+            "Tuesday": "16:00 - 20:00",
+            "Wednesday": "16:00 - 20:00",
+            "Thursday": "16:00 - 20:00"
+        },
+        "phone_number": [
+            "0437888538"
+        ],
+        "website": null
+    },
+    {
+        "name": "Miros",
+        "address": "Via Masi Simonetti, 51",
+        "comune": "Belluno",
+        "open_hours": {
+            "Friday": "06:30 - 22:00",
+            "Saturday": "08:00 - 22:00",
+            "Sunday": "10:00 - 17:00",
+            "Monday": "10:00 - 12:00",
+            "Tuesday": "08:00 - 22:00",
+            "Wednesday": "06:30 - 22:00",
+            "Thursday": "08:00 - 22:00"
+        },
+        "phone_number": [
+            "043733098"
+        ],
+        "website": null
+    },
+    {
+        "name": "Asd Tennis Club Norcen",
+        "address": "Via Antonio Vecelli, 45",
+        "comune": "Pedavena",
+        "open_hours": {
+            "Friday": "08:00 - 23:00",
+            "Saturday": "08:00 - 23:00",
+            "Sunday": "08:00 - 23:00",
+            "Monday": "08:00 - 23:00",
+            "Tuesday": "08:00 - 23:00",
+            "Wednesday": "08:00 - 23:00",
+            "Thursday": "08:00 - 23:00"
+        },
+        "phone_number": [
+            "3880515132"
+        ],
+        "website": null
+    },
+    {
+        "name": "Associazione Pro Loco di Caviola",
+        "address": "Largo Tegosa, 8",
+        "comune": "Falcade",
+        "open_hours": {},
+        "phone_number": [
+            "0437599441"
+        ],
+        "website": null
+    },
+    {
+        "name": "Bellenzier Paolo",
+        "address": "Via Mazzarol Sebastiano, 42",
+        "comune": "Cencenighe Agordino",
+        "open_hours": {},
+        "phone_number": [
+            "0437580184"
+        ],
+        "website": null
+    },
+    {
+        "name": "Bloom Academy",
+        "address": "Via Vittorio Veneto, 293",
+        "comune": "Belluno",
+        "open_hours": {
+            "Friday": "16:30 - 20:30",
+            "Saturday": "09:00 - 20:30",
+            "Tuesday": "09:00 - 20:30",
+            "Wednesday": "16:30 - 20:30",
+            "Thursday": "09:00 - 20:30"
+        },
+        "phone_number": [
+            "3914274358",
+            "0437659050"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo A.Zatta",
+        "address": "Localit Gravazze, 20",
+        "comune": "Santa Giustina",
+        "open_hours": {},
+        "phone_number": [],
+        "website": null
+    },
+    {
+        "name": "Campo ghiaccio naturale",
+        "address": "Via Laghetto, 40",
+        "comune": "Primiero San Martino di Castrozza",
+        "open_hours": {},
+        "phone_number": [
+            "0439769312"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Principale Ugo Frezza",
+        "address": "Via Olimpia",
+        "comune": "Limana",
+        "open_hours": {},
+        "phone_number": [],
+        "website": null
+    },
+    {
+        "name": "Campo R.Savaris",
+        "address": "Via Nongole",
+        "comune": "Belluno",
+        "open_hours": {},
+        "phone_number": [],
+        "website": null
+    },
+    {
+        "name": "Campo Sportivo Sois",
+        "address": "Via Bios",
+        "comune": "Belluno",
+        "open_hours": {},
+        "phone_number": [],
+        "website": null
+    },
+    {
+        "name": "Circolo Tennis Belluno",
+        "address": "Via Fisterre, 9",
+        "comune": "Belluno",
+        "open_hours": {
+            "Friday": "08:00 - 22:00",
+            "Saturday": "08:00 - 22:00",
+            "Sunday": "08:00 - 22:00",
+            "Monday": "08:00 - 22:00",
+            "Tuesday": "08:00 - 22:00",
+            "Wednesday": "08:00 - 22:00",
+            "Thursday": "08:00 - 22:00"
+        },
+        "phone_number": [
+            "0437940289"
+        ],
+        "website": null
+    },
+    {
+        "name": "Collegio Regionale Maestri Sci Regione Veneto",
+        "address": "Via Mezzaterra, 70",
+        "comune": "Belluno",
+        "open_hours": {},
+        "phone_number": [
+            "0437657119",
+            "3440610582"
+        ],
+        "website": null
+    },
+    {
+        "name": "Comune di Trichiana",
+        "address": "Localita' Cavassico Inferiore, 201",
+        "comune": "Borgo Valbelluna",
+        "open_hours": {},
+        "phone_number": [
+            "0437556223",
+            "0437556205",
+            "0437555126"
+        ],
+        "website": null
+    },
+    {
+        "name": "Del Zenero Mirco Sauro",
+        "address": "Via De Gasperi Alcide, 65",
+        "comune": "Alleghe",
+        "open_hours": {},
+        "phone_number": [
+            "0437523418"
+        ],
+        "website": null
+    },
+    {
+        "name": "Equipe",
+        "address": "Corso Roma, 27",
+        "comune": "Falcade",
+        "open_hours": {},
+        "phone_number": [
+            "3285476476",
+            "0437599616",
+            "3407027975",
+            "3485355474"
+        ],
+        "website": null
+    },
+    {
+        "name": "Gymnica",
+        "address": "Via Goffredo Mameli, 108",
+        "comune": "Belluno",
+        "open_hours": {
+            "Friday": "15:00 - 21:00",
+            "Saturday": "15:00 - 21:00",
+            "Sunday": "15:00 - 21:00",
+            "Tuesday": "15:00 - 21:00",
+            "Wednesday": "15:00 - 21:00",
+            "Thursday": "15:00 - 21:00"
+        },
+        "phone_number": [
+            "043732535",
+            "3382900448"
+        ],
+        "website": null
+    },
+    {
+        "name": "Impianti Falcade Col Margherita S.p.a.",
+        "address": "Localita' Pian della Sussistenza, 1",
+        "comune": "Falcade",
+        "open_hours": {},
+        "phone_number": [
+            "0437599585"
+        ],
+        "website": null
+    },
+    {
+        "name": "Istituto Canossiane",
+        "address": "Via Monte Grappa, 1",
+        "comune": "Feltre",
+        "open_hours": {},
+        "phone_number": [],
+        "website": null
+    },
+    {
+        "name": "Ondablu Societa' Cooperativa Sportiva Dilettantistica",
+        "address": "Via Lungo Rova, 1",
+        "comune": "Agordo",
+        "open_hours": {},
+        "phone_number": [
+            "043762406"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palaghiaccio di Feltre",
+        "address": "Via Le Rive",
+        "comune": "Feltre",
+        "open_hours": {},
+        "phone_number": [
+            "043981700"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palaghiaccio Feltreghiaccio",
+        "address": "Via Marconi Guglielmo, 1",
+        "comune": "Feltre",
+        "open_hours": {},
+        "phone_number": [
+            "043981700"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palazzo della Regione del Veneto",
+        "address": "Via Lungo Lago, 18",
+        "comune": "Alleghe",
+        "open_hours": {},
+        "phone_number": [
+            "0437723749",
+            "0437721404"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina Comunale Pedavena Gestione Ondablu",
+        "address": "1, V. Dante",
+        "comune": "Pedavena",
+        "open_hours": {},
+        "phone_number": [
+            "0439302061"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina di Agordo",
+        "address": "Via Lungo Rova, 1",
+        "comune": "Agordo",
+        "open_hours": {
+            "Friday": "16:00 - 21:00",
+            "Saturday": "16:00 - 20:00",
+            "Sunday": "09:30 - 20:00 / 15:00 - 19:00",
+            "Monday": "15:00 - 19:00",
+            "Tuesday": "16:00 - 21:00",
+            "Wednesday": "16:00 - 21:00",
+            "Thursday": "10:30 - 14:15 / 16:00 - 21:00"
+        },
+        "phone_number": [
+            "043762406"
+        ],
+        "website": null
+    },
+    {
+        "name": "Pollazzon Anna Maria",
+        "address": "Via Serenissima, 2",
+        "comune": "Alleghe",
+        "open_hours": {},
+        "phone_number": [
+            "0437523462",
+            "04371843521"
+        ],
+        "website": null
+    },
+    {
+        "name": "Sportivamente Belluno S.r.l. Societa' Sportiva Dilettantistica",
+        "address": "Via Gabelli Aristide, 2",
+        "comune": "Belluno",
+        "open_hours": {},
+        "phone_number": [
+            "0437948308",
+            "3480369308"
+        ],
+        "website": null
+    },
+    {
+        "name": "Squash Club",
+        "address": "Via Masi Simonetti, 52",
+        "comune": "Belluno",
+        "open_hours": {},
+        "phone_number": [
+            "0437930077"
+        ],
+        "website": null
+    },
+    {
+        "name": "Stadio del Ghiaccio",
+        "address": "Via Lungolago, 18",
+        "comune": "Alleghe",
+        "open_hours": {
+            "Friday": "15:00 - 19:30",
+            "Saturday": "15:00 - 19:30",
+            "Sunday": "15:00 - 19:30",
+            "Monday": "15:00 - 19:30",
+            "Tuesday": "15:00 - 19:30",
+            "Wednesday": "15:00 - 19:30",
+            "Thursday": "15:00 - 19:30"
+        },
+        "phone_number": [
+            "0437523176"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Club Agordo",
+        "address": "Via Paganini R., 27",
+        "comune": "Agordo",
+        "open_hours": {
+            "Friday": "09:00 - 22:00",
+            "Saturday": "09:00 - 22:00",
+            "Sunday": "09:00 - 22:00",
+            "Monday": "09:00 - 22:00",
+            "Tuesday": "09:00 - 22:00",
+            "Wednesday": "09:00 - 22:00",
+            "Thursday": "09:00 - 22:00"
+        },
+        "phone_number": [
+            "3408134441"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Club Fonzaso",
+        "address": "Via Zucco A., 7",
+        "comune": "Fonzaso",
+        "open_hours": {
+            "Friday": "08:00 - 23:59",
+            "Saturday": "08:00 - 23:59",
+            "Sunday": "08:00 - 23:59",
+            "Monday": "08:00 - 23:59",
+            "Tuesday": "08:00 - 23:59",
+            "Wednesday": "08:00 - 23:59",
+            "Thursday": "08:00 - 23:59"
+        },
+        "phone_number": [
+            "04395132"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Club Pedavena",
+        "address": "Via Sandro Pertini, 24",
+        "comune": "Pedavena",
+        "open_hours": {
+            "Friday": "08:00 - 23:00",
+            "Saturday": "08:00 - 23:00",
+            "Sunday": "08:00 - 19:00",
+            "Monday": "08:00 - 19:00",
+            "Wednesday": "08:00 - 23:00",
+            "Thursday": "08:00 - 23:00"
+        },
+        "phone_number": [
+            "0439301888"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Club Sedico",
+        "address": "Via Villa, 7/A",
+        "comune": "Sedico",
+        "open_hours": {
+            "Friday": "09:00 - 23:00",
+            "Saturday": "09:00 - 23:00",
+            "Sunday": "09:00 - 18:00",
+            "Monday": "09:00 - 12:00",
+            "Tuesday": "09:00 - 23:00",
+            "Wednesday": "09:00 - 23:00",
+            "Thursday": "09:00 - 23:00"
+        },
+        "phone_number": [
+            "3347471997",
+            "0437852522"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tiro a Segno Nazionale",
+        "address": "Via Nuova Erto, 47",
+        "comune": "Ponte Nelle Alpi",
+        "open_hours": {},
+        "phone_number": [
+            "043799586"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tiro a Segno Nazionale",
+        "address": "Via Rosselli Fratelli, 250",
+        "comune": "Belluno",
+        "open_hours": {},
+        "phone_number": [
+            "043725718",
+            "3201771901"
+        ],
+        "website": null
+    },
+    {
+        "name": "Valbelluna Sport Academy",
+        "address": "Via Seghe di Villa, 11",
+        "comune": "Sedico",
+        "open_hours": {
+            "Friday": "09:30 - 12:00",
+            "Saturday": "09:30 - 12:00",
+            "Sunday": "09:30 - 12:00",
+            "Monday": "09:30 - 12:00",
+            "Tuesday": "09:30 - 12:00",
+            "Wednesday": "09:30 - 12:00",
+            "Thursday": "09:30 - 12:00"
+        },
+        "phone_number": [
+            "3332395935"
+        ],
+        "website": null
+    },
+    {
+        "name": "Zoldo Ski Team Associazione Sportiva Dilettantistica",
+        "address": "Via Molin, 7",
+        "comune": "Val di Zoldo",
+        "open_hours": {},
+        "phone_number": [
+            "3497447166",
+            "3386926854"
+        ],
+        "website": null
+    }
+]

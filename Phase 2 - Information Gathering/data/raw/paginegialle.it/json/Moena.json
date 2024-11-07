@@ -1,0 +1,496 @@
+[
+    {
+        "name": "Comune di Moena",
+        "address": "Piazza De Navalge",
+        "comune": "Moena",
+        "open_hours": {},
+        "phone_number": [
+            "0462574013"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Club Moena",
+        "address": "Localit Navalge",
+        "comune": "Moena",
+        "open_hours": {
+            "Friday": "10:00 - 12:00 / 14:00 - 18:00",
+            "Saturday": "10:00 - 12:00 / 14:00 - 18:00",
+            "Sunday": "10:00 - 12:00 / 14:00 - 18:00",
+            "Monday": "10:00 - 12:00 / 14:00 - 18:00",
+            "Tuesday": "10:00 - 12:00 / 14:00 - 18:00",
+            "Wednesday": "10:00 - 12:00 / 14:00 - 18:00",
+            "Thursday": "10:00 - 12:00 / 14:00 - 18:00"
+        },
+        "phone_number": [
+            "0462574013"
+        ],
+        "website": null
+    },
+    {
+        "name": "Asv Welschnofen - Sektion Tennis Raiffeisen",
+        "address": "Via Dolomitenstrasse, 26/A",
+        "comune": "Nova Levante",
+        "open_hours": {},
+        "phone_number": [
+            "0471613273"
+        ],
+        "website": null
+    },
+    {
+        "name": "Golfclub Carezza",
+        "address": "Via Carezza, 171",
+        "comune": "Nova Levante",
+        "open_hours": {},
+        "phone_number": [
+            "04711888167",
+            "3664648302"
+        ],
+        "website": null
+    },
+    {
+        "name": "Ippico Fontanelle",
+        "address": "Via Lagorai, 117",
+        "comune": "Predazzo",
+        "open_hours": {},
+        "phone_number": [
+            "3357057094"
+        ],
+        "website": null
+    },
+    {
+        "name": "Weisshorn S.p.a. % Weisshorn A.G.",
+        "address": "Via Obereggen - Eggen, 31",
+        "comune": "Nova Ponente",
+        "open_hours": {},
+        "phone_number": [
+            "0471615511",
+            "0471615627",
+            "0471615122"
+        ],
+        "website": null
+    },
+    {
+        "name": "Impianti Falcade Col Margherita",
+        "address": "Piazzale Molino, 3",
+        "comune": "Falcade",
+        "open_hours": {},
+        "phone_number": [
+            "0437507044"
+        ],
+        "website": null
+    },
+    {
+        "name": "Scuola Sci e Snowboard Saslong",
+        "address": "Via Rezia, 10",
+        "comune": "Ortisei",
+        "open_hours": {
+            "Friday": "08:00 - 19:00",
+            "Saturday": "08:00 - 19:00",
+            "Sunday": "08:00 - 19:00",
+            "Monday": "08:00 - 19:00",
+            "Tuesday": "08:00 - 19:00",
+            "Wednesday": "08:00 - 19:00",
+            "Thursday": "08:00 - 19:00"
+        },
+        "phone_number": [
+            "0471786258"
+        ],
+        "website": null
+    },
+    {
+        "name": "Arcieri di Fiemme",
+        "address": "Localit Roda",
+        "comune": "Ziano di Fiemme",
+        "open_hours": {},
+        "phone_number": [
+            "3478579908"
+        ],
+        "website": null
+    },
+    {
+        "name": "Associazione Pro Loco di Caviola",
+        "address": "Largo Tegosa, 8",
+        "comune": "Falcade",
+        "open_hours": {},
+        "phone_number": [
+            "0437599441"
+        ],
+        "website": null
+    },
+    {
+        "name": "Asv Tiers",
+        "address": "Via Georg Strasse, 25",
+        "comune": "Tires",
+        "open_hours": {
+            "Friday": "00:00 - 23:59",
+            "Saturday": "00:00 - 23:59",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "00:00 - 23:59",
+            "Wednesday": "00:00 - 23:59",
+            "Thursday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "3491404634"
+        ],
+        "website": null
+    },
+    {
+        "name": "Bellenzier Paolo",
+        "address": "Via Mazzarol Sebastiano, 42",
+        "comune": "Cencenighe Agordino",
+        "open_hours": {},
+        "phone_number": [
+            "0437580184"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo di pattinaggio",
+        "address": "Via Lago",
+        "comune": "Tesero",
+        "open_hours": {},
+        "phone_number": [
+            "0462814064",
+            "0462812358"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo ghiaccio naturale",
+        "address": "Via Laghetto, 40",
+        "comune": "Primiero San Martino di Castrozza",
+        "open_hours": {},
+        "phone_number": [
+            "0439769312"
+        ],
+        "website": null
+    },
+    {
+        "name": "Circolo Tennis Cavalese Asd",
+        "address": "Localit Parco della Pieve, 1",
+        "comune": "Cavalese",
+        "open_hours": {
+            "Friday": "08:00 - 23:00",
+            "Saturday": "08:00 - 23:00",
+            "Sunday": "08:00 - 23:00",
+            "Monday": "08:00 - 23:00",
+            "Tuesday": "08:00 - 23:00",
+            "Wednesday": "08:00 - 23:00",
+            "Thursday": "08:00 - 23:00"
+        },
+        "phone_number": [
+            "0462340003"
+        ],
+        "website": null
+    },
+    {
+        "name": "Dlaondes Canazei",
+        "address": "Via del Piz, 7",
+        "comune": "Canazei",
+        "open_hours": {
+            "Friday": "10:00 - 20:00",
+            "Saturday": "10:00 - 20:00",
+            "Sunday": "10:00 - 20:00",
+            "Monday": "10:00 - 20:00",
+            "Tuesday": "10:00 - 20:00",
+            "Wednesday": "10:00 - 20:00",
+            "Thursday": "10:00 - 22:00"
+        },
+        "phone_number": [
+            "0462601348"
+        ],
+        "website": null
+    },
+    {
+        "name": "El Zerilo Ranch",
+        "address": "Localit Stava",
+        "comune": "Tesero",
+        "open_hours": {},
+        "phone_number": [
+            "0462814649",
+            "3343535108"
+        ],
+        "website": null
+    },
+    {
+        "name": "Elikos S.r.l.",
+        "address": "Strada Dantercepies, 16",
+        "comune": "Selva di Val Gardena",
+        "open_hours": {},
+        "phone_number": [
+            "3357880149",
+            "3357880150"
+        ],
+        "website": null
+    },
+    {
+        "name": "Equipe",
+        "address": "Corso Roma, 27",
+        "comune": "Falcade",
+        "open_hours": {},
+        "phone_number": [
+            "3285476476",
+            "0437599616",
+            "3407027975",
+            "3485355474"
+        ],
+        "website": null
+    },
+    {
+        "name": "Federconsorzio Dolomiti Superski",
+        "address": "Strada Arnaria, 43",
+        "comune": "Castelrotto",
+        "open_hours": {},
+        "phone_number": [
+            "0471795397"
+        ],
+        "website": null
+    },
+    {
+        "name": "Golf Club Alta Badia",
+        "address": "Via Planac, 9",
+        "comune": "Corvara in Badia",
+        "open_hours": {
+            "Friday": "09:00 - 18:00",
+            "Saturday": "09:00 - 18:00",
+            "Sunday": "09:00 - 18:00",
+            "Monday": "09:00 - 18:00",
+            "Tuesday": "09:00 - 18:00",
+            "Wednesday": "09:00 - 18:00",
+            "Thursday": "09:00 - 18:00"
+        },
+        "phone_number": [
+            "0471836655"
+        ],
+        "website": null
+    },
+    {
+        "name": "Golf Club Petersberg",
+        "address": "Via Unterwinkel, 5",
+        "comune": "Nova Ponente",
+        "open_hours": {},
+        "phone_number": [
+            "0471615122"
+        ],
+        "website": null
+    },
+    {
+        "name": "Golfclub St. Vigil Seis",
+        "address": "Via San Vigilio, 20",
+        "comune": "Castelrotto",
+        "open_hours": {
+            "Friday": "08:00 - 18:00",
+            "Saturday": "08:00 - 18:00",
+            "Sunday": "08:00 - 18:00",
+            "Monday": "08:00 - 18:00",
+            "Tuesday": "08:00 - 18:00",
+            "Wednesday": "08:00 - 18:00",
+            "Thursday": "08:00 - 18:00"
+        },
+        "phone_number": [
+            "0471708708"
+        ],
+        "website": null
+    },
+    {
+        "name": "Impianti Falcade Col Margherita S.p.a.",
+        "address": "Localita' Pian della Sussistenza, 1",
+        "comune": "Falcade",
+        "open_hours": {},
+        "phone_number": [
+            "0437599585"
+        ],
+        "website": null
+    },
+    {
+        "name": "Maneggio Happy Ranch",
+        "address": "Localit Ischia",
+        "comune": "Campitello di Fassa",
+        "open_hours": {},
+        "phone_number": [
+            "0462750472",
+            "3385222653"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palaghiaccio di Cavalese",
+        "address": "Via Cermis",
+        "comune": "Cavalese",
+        "open_hours": {},
+        "phone_number": [
+            "0462231252",
+            "0462230407"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina Cavalese",
+        "address": "Via Fratelli Bronzetti, 60",
+        "comune": "Cavalese",
+        "open_hours": {
+            "Friday": "09:00 - 21:00 / 09:30 - 20:00",
+            "Saturday": "09:00 - 21:00 / 09:30 - 20:00",
+            "Sunday": "09:00 - 21:00 / 09:30 - 20:00",
+            "Monday": "09:00 - 21:00 / 09:30 - 20:00",
+            "Tuesday": "09:00 - 21:00 / 09:30 - 20:00",
+            "Wednesday": "09:00 - 21:00 / 09:30 - 20:00",
+            "Thursday": "09:00 - 21:00 / 09:30 - 20:00"
+        },
+        "phone_number": [
+            "0462230407"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina Comunale Cavalese",
+        "address": "Via Rossini, 3",
+        "comune": "Cavalese",
+        "open_hours": {
+            "Friday": "09:00 - 21:00",
+            "Saturday": "09:00 - 21:00",
+            "Sunday": "10:00 - 20:00",
+            "Monday": "10:00 - 20:00",
+            "Tuesday": "09:00 - 21:00",
+            "Wednesday": "09:00 - 21:00",
+            "Thursday": "09:00 - 21:00"
+        },
+        "phone_number": [
+            "0462341810"
+        ],
+        "website": null
+    },
+    {
+        "name": "Progetto Lavaze' S.r.l.",
+        "address": "Passo di Lavaze'",
+        "comune": "Ville di Fiemme",
+        "open_hours": {},
+        "phone_number": [
+            "0462230447"
+        ],
+        "website": null
+    },
+    {
+        "name": "SEIK G.M.B.H. - S.R.L.",
+        "address": "Zona San Lugano, 6",
+        "comune": "Trodena nel Parco Naturale",
+        "open_hours": {},
+        "phone_number": [
+            "0471887040",
+            "0471887087"
+        ],
+        "website": null
+    },
+    {
+        "name": "SEIK G.M.B.H. - S.R.L.",
+        "address": "Zona Artigianale, 26",
+        "comune": "Trodena nel Parco Naturale",
+        "open_hours": {},
+        "phone_number": [
+            "0471887087"
+        ],
+        "website": null
+    },
+    {
+        "name": "Societa' per L'Amministrazione e La Gestione di Impianti Sportivi - S.A.G.I.S. S.r.l.",
+        "address": "Localita' Lagorai, 3",
+        "comune": "Cavalese",
+        "open_hours": {},
+        "phone_number": [
+            "0462341810"
+        ],
+        "website": null
+    },
+    {
+        "name": "Sportcenter",
+        "address": "Via del Campo Sportivo, 16",
+        "comune": "Aldino",
+        "open_hours": {},
+        "phone_number": [
+            "0471886072"
+        ],
+        "website": null
+    },
+    {
+        "name": "Sportiva Hockey Club Fassa - Societa' Sportiva Dilettantistica a Responsabilita' Limitata in Sigla S.H.C. Fassa S.r.l.",
+        "address": "Streda  De Doleda, 8",
+        "comune": "Canazei",
+        "open_hours": {},
+        "phone_number": [
+            "0462602499"
+        ],
+        "website": null
+    },
+    {
+        "name": "Stadio del Ghiaccio Pranives",
+        "address": "Strada Nives, 17",
+        "comune": "Selva di Val Gardena",
+        "open_hours": {},
+        "phone_number": [
+            "0471794409"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Club Ortisei Valgardena",
+        "address": "Via Arnaria, 3",
+        "comune": "Ortisei",
+        "open_hours": {},
+        "phone_number": [
+            "0471797275"
+        ],
+        "website": null
+    },
+    {
+        "name": "Val di Fassa Golf Club",
+        "address": "Via Dolomiti, 33",
+        "comune": "Campitello di Fassa",
+        "open_hours": {
+            "Friday": "09:00 - 12:00 / 13:00 - 18:00",
+            "Saturday": "09:00 - 12:00 / 13:00 - 18:00",
+            "Sunday": "09:00 - 12:00 / 13:00 - 18:00",
+            "Monday": "09:00 - 12:00 / 13:00 - 18:00",
+            "Tuesday": "09:00 - 12:00 / 13:00 - 18:00",
+            "Wednesday": "09:00 - 12:00 / 13:00 - 18:00",
+            "Thursday": "09:00 - 12:00 / 13:00 - 18:00"
+        },
+        "phone_number": [
+            "3356063499"
+        ],
+        "website": null
+    },
+    {
+        "name": "Weisshorn S.p.a. % Weisshorn A.G.",
+        "address": "Localita' Unterrain, 5",
+        "comune": "Nova Ponente",
+        "open_hours": {},
+        "phone_number": [
+            "0471615122"
+        ],
+        "website": null
+    },
+    {
+        "name": "Zelger Albert S.r.l.",
+        "address": "Localit Stenk,, 6/C",
+        "comune": "Nova Ponente",
+        "open_hours": {},
+        "phone_number": [
+            "0471618084",
+            "04711969950"
+        ],
+        "website": null
+    },
+    {
+        "name": "Zelger Albert",
+        "address": "Localita' Stenk, 6",
+        "comune": "Nova Ponente",
+        "open_hours": {},
+        "phone_number": [
+            "0471618084",
+            "04711969950"
+        ],
+        "website": null
+    }
+]

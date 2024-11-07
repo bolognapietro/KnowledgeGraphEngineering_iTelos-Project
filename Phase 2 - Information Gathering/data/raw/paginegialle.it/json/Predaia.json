@@ -1,0 +1,892 @@
+[
+    {
+        "name": "Kusch S.n.c. Junior di dalla Tina Maurizio & C.",
+        "address": "Via IV Novembre, 83",
+        "comune": "Predaia",
+        "open_hours": {},
+        "phone_number": [
+            "0463538361",
+            "0463536185"
+        ],
+        "website": null
+    },
+    {
+        "name": "Pista da Pattinaggio sul Ghiaccio",
+        "address": "Localit Dossi",
+        "comune": "Predaia",
+        "open_hours": {},
+        "phone_number": [
+            "0463536085",
+            "3385037536"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo sportivo comunale di Mal",
+        "address": "Localit Molini",
+        "comune": "Mal",
+        "open_hours": {},
+        "phone_number": [],
+        "website": null
+    },
+    {
+        "name": "Centro per lo sport e del tempo libero",
+        "address": "Viale Degasperi, 163",
+        "comune": "Cles",
+        "open_hours": {},
+        "phone_number": [
+            "0463454023"
+        ],
+        "website": null
+    },
+    {
+        "name": "Dolomiti Golf Club",
+        "address": "Localita' Centro Sportivo Verde, 1",
+        "comune": "Sarnonico",
+        "open_hours": {
+            "Friday": "08:30 - 19:30",
+            "Saturday": "08:30 - 19:30",
+            "Sunday": "08:30 - 19:30",
+            "Monday": "08:30 - 19:30",
+            "Tuesday": "08:30 - 19:30",
+            "Wednesday": "08:30 - 19:30",
+            "Thursday": "08:30 - 19:30"
+        },
+        "phone_number": [
+            "0463832698"
+        ],
+        "website": null
+    },
+    {
+        "name": "Stadio del ghiaccio di Mal",
+        "address": "Localit Molin, 4",
+        "comune": "Mal",
+        "open_hours": {},
+        "phone_number": [
+            "0463901905"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Centro Val di Non Associazione Sportiva Dilettantistica",
+        "address": "Via Quattro Ville, 3",
+        "comune": "Ville d'Anaunia",
+        "open_hours": {
+            "Friday": "09:00 - 12:00",
+            "Saturday": "09:00 - 12:00",
+            "Sunday": "09:00 - 12:00",
+            "Tuesday": "09:00 - 12:00",
+            "Wednesday": "09:00 - 12:00",
+            "Thursday": "09:00 - 12:00"
+        },
+        "phone_number": [
+            "3388986749"
+        ],
+        "website": null
+    },
+    {
+        "name": "Noleggio 5 Laghi",
+        "address": "Via Presanella, 10",
+        "comune": "Pinzolo",
+        "open_hours": {
+            "Friday": "08:30 - 19:00",
+            "Saturday": "08:30 - 19:00",
+            "Tuesday": "08:30 - 19:00",
+            "Wednesday": "08:30 - 19:00",
+            "Thursday": "08:30 - 19:00"
+        },
+        "phone_number": [
+            "0465443199"
+        ],
+        "website": null
+    },
+    {
+        "name": "Scuola Italiana Snowboard Zebra",
+        "address": "Piazza Righi, 5",
+        "comune": "Pinzolo",
+        "open_hours": {
+            "Friday": "08:00 - 12:30 / 15:00 - 20:00",
+            "Saturday": "08:00 - 12:30 / 15:00 - 20:00",
+            "Sunday": "08:00 - 12:30 / 15:00 - 20:00",
+            "Monday": "08:00 - 12:30 / 15:00 - 20:00",
+            "Tuesday": "08:00 - 12:30 / 15:00 - 20:00",
+            "Wednesday": "08:00 - 12:30 / 15:00 - 20:00",
+            "Thursday": "08:00 - 12:30 / 15:00 - 20:00"
+        },
+        "phone_number": [
+            "0465442080"
+        ],
+        "website": null
+    },
+    {
+        "name": "Zeus Charging Station - Dolomeet",
+        "address": "21 C/O Innovation Center,, LOC. ZONA INDUSTRIALE",
+        "comune": "Mal",
+        "open_hours": {
+            "Friday": "08:00 - 18:00",
+            "Saturday": "08:00 - 18:00",
+            "Tuesday": "08:00 - 18:00",
+            "Wednesday": "08:00 - 18:00",
+            "Thursday": "08:00 - 18:00"
+        },
+        "phone_number": [
+            "3384093792",
+            "0463901272"
+        ],
+        "website": null
+    },
+    {
+        "name": "Scuola Italiana Sci 5 Laghi",
+        "address": "Via Presanella, 10",
+        "comune": "Pinzolo",
+        "open_hours": {},
+        "phone_number": [
+            "0465443181",
+            "0465441650",
+            "0465440355"
+        ],
+        "website": null
+    },
+    {
+        "name": "Trentino Wild",
+        "address": "Via Gole, 412",
+        "comune": "Dimaro Folgarida",
+        "open_hours": {
+            "Friday": "09:00 - 19:00",
+            "Saturday": "09:00 - 19:00",
+            "Sunday": "09:00 - 19:00",
+            "Monday": "09:00 - 19:00",
+            "Tuesday": "09:00 - 19:00",
+            "Wednesday": "09:00 - 19:00",
+            "Thursday": "09:00 - 19:00"
+        },
+        "phone_number": [
+            "3402175873",
+            "0463973278"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Sportivo Andalo",
+        "address": "Via del Parco, 1",
+        "comune": "Andalo",
+        "open_hours": {
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00"
+        },
+        "phone_number": [
+            "0461585776"
+        ],
+        "website": null
+    },
+    {
+        "name": "Appiano",
+        "address": "Via Cappuccini, 23",
+        "comune": "Appiano sulla Strada del Vino",
+        "open_hours": {
+            "Friday": "09:00 - 12:00 / 14:00 - 17:00",
+            "Saturday": "09:00 - 12:00 / 14:00 - 17:00",
+            "Tuesday": "09:00 - 12:00 / 14:00 - 17:00",
+            "Wednesday": "09:00 - 12:00 / 14:00 - 17:00",
+            "Thursday": "09:00 - 12:00 / 14:00 - 17:00"
+        },
+        "phone_number": [
+            "0471661165"
+        ],
+        "website": null
+    },
+    {
+        "name": "Asd Sarnonico",
+        "address": "Viale San Lorenzo, 4",
+        "comune": "Sarnonico",
+        "open_hours": {
+            "Friday": "17:00 - 21:30",
+            "Saturday": "17:00 - 21:30",
+            "Tuesday": "17:00 - 21:30",
+            "Wednesday": "17:00 - 21:30",
+            "Thursday": "17:00 - 21:30"
+        },
+        "phone_number": [
+            "3480938543"
+        ],
+        "website": null
+    },
+    {
+        "name": "A.S.V. Tramin - Sektion Tennis",
+        "address": "Via Weinstrasse, 154",
+        "comune": "Termeno sulla Strada del Vino",
+        "open_hours": {},
+        "phone_number": [
+            "0471860812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Black Ice S.n.c. di Bettin Yuri & C.",
+        "address": "Via al Dos Ciastel, 4",
+        "comune": "Fai della Paganella",
+        "open_hours": {},
+        "phone_number": [
+            "3292599675"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Calcio Martignano",
+        "address": "Via Talvera, 11",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "08:30 - 17:00",
+            "Saturday": "08:30 - 12:30",
+            "Tuesday": "08:30 - 12:30 / 14:30 - 17:00",
+            "Wednesday": "08:30 - 12:30 / 14:30 - 17:00",
+            "Thursday": "08:30 - 12:30 / 14:30 - 17:00"
+        },
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Calcio Meano",
+        "address": "Via Bellaria, 9",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo da calcio Bedolpian",
+        "address": "Localit Bedolpian",
+        "comune": "Baselga di Pin",
+        "open_hours": {
+            "Friday": "00:00 - 23:59",
+            "Saturday": "00:00 - 23:59",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "00:00 - 23:59",
+            "Wednesday": "00:00 - 23:59",
+            "Thursday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "0461558634",
+            "3496989956"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Di Tiro - Centro Promescaiol",
+        "address": "Strada Provinciale degli Ortioi, 1",
+        "comune": "Mezzana",
+        "open_hours": {
+            "Friday": "08:00 - 23:00",
+            "Saturday": "08:00 - 23:00",
+            "Sunday": "08:00 - 23:00",
+            "Monday": "08:00 - 23:00",
+            "Tuesday": "08:00 - 23:00",
+            "Wednesday": "08:00 - 23:00",
+            "Thursday": "08:00 - 23:00"
+        },
+        "phone_number": [
+            "0463757451"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo sportivo di Mezzocorona",
+        "address": "Via San Giovanni Bosco",
+        "comune": "Mezzocorona",
+        "open_hours": {},
+        "phone_number": [],
+        "website": null
+    },
+    {
+        "name": "Carli Sport S.r.l.",
+        "address": "Via Cane', 7",
+        "comune": "Mezzocorona",
+        "open_hours": {},
+        "phone_number": [
+            "0461605049"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Equestre Happy Ranch",
+        "address": "Localit Lago Santo",
+        "comune": "Cembra Lisignago",
+        "open_hours": {
+            "Saturday": "18:00 - 03:00",
+            "Sunday": "11:00 - 03:00",
+            "Monday": "11:00 - 23:59"
+        },
+        "phone_number": [
+            "0461683518"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Equitazione Alpina Val",
+        "address": "Localit Pressenago",
+        "comune": "Pellizzano",
+        "open_hours": {},
+        "phone_number": [
+            "3386078681",
+            "0463751552"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Equitazione Andalo",
+        "address": "Via Priori, 16",
+        "comune": "Andalo",
+        "open_hours": {
+            "Friday": "09:00 - 12:00 / 14:00 - 18:00",
+            "Saturday": "09:00 - 12:00 / 14:00 - 18:00",
+            "Sunday": "09:00 - 12:00 / 14:00 - 18:00",
+            "Monday": "09:00 - 12:00 / 14:00 - 18:00",
+            "Wednesday": "09:00 - 12:00 / 14:00 - 18:00",
+            "Thursday": "09:00 - 12:00 / 14:00 - 18:00"
+        },
+        "phone_number": [
+            "0461585900"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Sportivo Comunale Di Mezzana",
+        "address": "Via del Pressenach, 1",
+        "comune": "Mezzana",
+        "open_hours": {
+            "Friday": "09:00 - 22:00",
+            "Saturday": "09:00 - 22:00",
+            "Sunday": "09:00 - 22:00",
+            "Monday": "09:00 - 22:00",
+            "Tuesday": "09:00 - 22:00",
+            "Wednesday": "09:00 - 22:00",
+            "Thursday": "09:00 - 22:00"
+        },
+        "phone_number": [
+            "0463757551"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Sportivo Trento Nord Gardolo",
+        "address": "Via IV Novembre, 23/4",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "09:00 - 21:00",
+            "Saturday": "09:00 - 21:00",
+            "Sunday": "09:00 - 21:00",
+            "Monday": "09:00 - 21:00",
+            "Tuesday": "09:00 - 21:00",
+            "Wednesday": "09:00 - 21:00",
+            "Thursday": "09:00 - 21:00"
+        },
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Comune di Caldaro sulla Strada del Vino",
+        "address": "Via Castelvecchio, 45",
+        "comune": "Caldaro sulla Strada del Vino",
+        "open_hours": {},
+        "phone_number": [
+            "0471961114"
+        ],
+        "website": null
+    },
+    {
+        "name": "Ecosport Italia S.r.l.",
+        "address": "Via Avisio, 24",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "3295459087",
+            "0438837210",
+            "043882778"
+        ],
+        "website": null
+    },
+    {
+        "name": "Flying Park",
+        "address": "Via De Gasperi, 8",
+        "comune": "Mal",
+        "open_hours": {},
+        "phone_number": [
+            "0463903033",
+            "3924860806"
+        ],
+        "website": null
+    },
+    {
+        "name": "Frasnelli Kart S.r.l.",
+        "address": "Ischia Frizzi, 3/A",
+        "comune": "Vadena",
+        "open_hours": {},
+        "phone_number": [
+            "3356069288"
+        ],
+        "website": null
+    },
+    {
+        "name": "Golf & Country Sdtirol",
+        "address": "Strada Riva di Sotto, 74",
+        "comune": "Appiano sulla Strada del Vino",
+        "open_hours": {
+            "Friday": "00:00 - 23:59",
+            "Saturday": "00:00 - 23:59",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "00:00 - 23:59",
+            "Wednesday": "00:00 - 23:59",
+            "Thursday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "3364648302",
+            "04711888164"
+        ],
+        "website": null
+    },
+    {
+        "name": "Golf Club Campo Carlo Magno",
+        "address": "Via Cima Tosa, 15",
+        "comune": "Pinzolo",
+        "open_hours": {
+            "Friday": "08:00 - 18:00",
+            "Saturday": "08:00 - 18:00",
+            "Sunday": "08:00 - 18:00",
+            "Monday": "08:00 - 18:00",
+            "Tuesday": "08:00 - 18:00",
+            "Wednesday": "08:00 - 18:00",
+            "Thursday": "08:00 - 18:00"
+        },
+        "phone_number": [
+            "0465440622"
+        ],
+        "website": null
+    },
+    {
+        "name": "Golf Club Carezza Freudenstein",
+        "address": "Strada Sasso Croce, 6",
+        "comune": "Appiano sulla Strada del Vino",
+        "open_hours": {},
+        "phone_number": [
+            "3393271291",
+            "0471660332"
+        ],
+        "website": null
+    },
+    {
+        "name": "Golf Club Carezza Freudenstein",
+        "address": "Strada Masaccio, 3",
+        "comune": "Appiano sulla Strada del Vino",
+        "open_hours": {},
+        "phone_number": [
+            "3393271291"
+        ],
+        "website": null
+    },
+    {
+        "name": "Hotel Markushof S.a.s. di Graiff Markus & C.",
+        "address": "Via Truidn, 1",
+        "comune": "Ora",
+        "open_hours": {},
+        "phone_number": [
+            "0471810025",
+            "047181243",
+            "0471802872",
+            "0471810272",
+            "0471814243"
+        ],
+        "website": null
+    },
+    {
+        "name": "Leichtathletik Ssv - Leifers",
+        "address": "Via Pietralba, 64",
+        "comune": "Laives",
+        "open_hours": {},
+        "phone_number": [
+            "0471952434"
+        ],
+        "website": null
+    },
+    {
+        "name": "Maneggio Ranch Roen",
+        "address": "Via Roen",
+        "comune": "Amblar-Don",
+        "open_hours": {
+            "Friday": "08:00 - 20:00",
+            "Saturday": "08:00 - 20:00",
+            "Sunday": "08:00 - 20:00",
+            "Monday": "08:00 - 20:00",
+            "Tuesday": "08:00 - 20:00",
+            "Wednesday": "08:00 - 20:00",
+            "Thursday": "08:00 - 20:00"
+        },
+        "phone_number": [
+            "3395026924",
+            "0463830077"
+        ],
+        "website": null
+    },
+    {
+        "name": "Markspeed Race di Marchesan Gianni",
+        "address": "Via Nambino, 27",
+        "comune": "Pinzolo",
+        "open_hours": {},
+        "phone_number": [
+            "3356266636"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palaghiaccio",
+        "address": "Via Rio Nero, 7",
+        "comune": "Ora",
+        "open_hours": {},
+        "phone_number": [
+            "0471802022"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palaghiaccio Folgarida",
+        "address": "Strada del Roccolo, 24",
+        "comune": "Dimaro Folgarida",
+        "open_hours": {
+            "Friday": "00:00 - 23:59",
+            "Saturday": "00:00 - 23:59",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "00:00 - 23:59",
+            "Wednesday": "00:00 - 23:59",
+            "Thursday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "0463986113",
+            "0463986266"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palasmeraldo Fondo",
+        "address": "Via Lago Smeraldo",
+        "comune": "Borgo d'Anaunia",
+        "open_hours": {
+            "Friday": "09:00 - 12:30",
+            "Saturday": "09:00 - 12:30",
+            "Sunday": "09:00 - 12:30",
+            "Tuesday": "09:00 - 12:30",
+            "Wednesday": "09:00 - 12:30",
+            "Thursday": "09:00 - 12:30"
+        },
+        "phone_number": [
+            "0463850000"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palazzetto Polifunzionale dello Sport di Molveno",
+        "address": "Localit Ischia",
+        "comune": "Molveno",
+        "open_hours": {
+            "Tuesday": "08:00 - 23:00",
+            "Wednesday": "08:00 - 23:00"
+        },
+        "phone_number": [
+            "0461586978"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina Acquacenter Val di Sole",
+        "address": "Via alla Croce, 1",
+        "comune": "Mal",
+        "open_hours": {
+            "Friday": "15:00 - 19:30",
+            "Saturday": "15:00 - 19:30",
+            "Sunday": "10:00 - 21:00",
+            "Monday": "10:00 - 21:00",
+            "Tuesday": "10:00 - 21:00",
+            "Wednesday": "15:00 - 19:30",
+            "Thursday": "15:00 - 19:30"
+        },
+        "phone_number": [
+            "0463902545"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina Comunale",
+        "address": "Via Rio Nero, 1",
+        "comune": "Ora",
+        "open_hours": {},
+        "phone_number": [
+            "3492637459",
+            "3490058257"
+        ],
+        "website": null
+    },
+    {
+        "name": "SEIK G.M.B.H. - S.R.L.",
+        "address": "Zona Artigianale, 26",
+        "comune": "Trodena nel Parco Naturale",
+        "open_hours": {},
+        "phone_number": [
+            "0471887087"
+        ],
+        "website": null
+    },
+    {
+        "name": "Sportarena Unterland",
+        "address": "Via Brenner, 7",
+        "comune": "Egna",
+        "open_hours": {},
+        "phone_number": [
+            "0471813613",
+            "0471820900",
+            "0471813614"
+        ],
+        "website": null
+    },
+    {
+        "name": "Sportarena Unterland",
+        "address": "Via Brennero, 7",
+        "comune": "Egna",
+        "open_hours": {},
+        "phone_number": [
+            "0471813613",
+            "0471813614",
+            "3382285799",
+            "0471823224",
+            "0471820900",
+            "0471813625"
+        ],
+        "website": null
+    },
+    {
+        "name": "Sportcenter",
+        "address": "Via del Campo Sportivo, 16",
+        "comune": "Aldino",
+        "open_hours": {},
+        "phone_number": [
+            "0471886072"
+        ],
+        "website": null
+    },
+    {
+        "name": "S.S. Buonconsiglio Nuoto",
+        "address": "Via IV Novembre, 23",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461961625",
+            "0461910464",
+            "0461416162",
+            "0461416164",
+            "0461416163"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tc Rungg Asv",
+        "address": "Via Maso Ronco",
+        "comune": "Appiano sulla Strada del Vino",
+        "open_hours": {
+            "Friday": "08:00 - 22:00",
+            "Saturday": "08:00 - 22:00",
+            "Sunday": "08:00 - 22:00",
+            "Tuesday": "08:00 - 22:00",
+            "Wednesday": "08:00 - 22:00",
+            "Thursday": "08:00 - 22:00"
+        },
+        "phone_number": [
+            "0471663104"
+        ],
+        "website": null
+    },
+    {
+        "name": "Technoalpin S.p.a.",
+        "address": "Via Vurza, 5",
+        "comune": "Laives",
+        "open_hours": {},
+        "phone_number": [
+            "0471254236"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Academy Service A.S.D.",
+        "address": "Via Nazionale, 23",
+        "comune": "Bronzolo",
+        "open_hours": {
+            "Friday": "08:00 - 22:00",
+            "Saturday": "08:00 - 22:00",
+            "Sunday": "08:00 - 22:00",
+            "Tuesday": "08:00 - 22:00",
+            "Wednesday": "08:00 - 22:00",
+            "Thursday": "08:00 - 22:00"
+        },
+        "phone_number": [
+            "3283786609"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Centro Val Di Sole Assoc.Sp.Dilettantistica",
+        "address": "Via Brescia, 88",
+        "comune": "Dimaro Folgarida",
+        "open_hours": {
+            "Friday": "09:00 - 12:00 / 15:00 - 19:00",
+            "Saturday": "09:00 - 12:00 / 15:00 - 19:00",
+            "Sunday": "09:00 - 12:00 / 15:00 - 19:00",
+            "Monday": "09:00 - 12:00 / 15:00 - 19:00",
+            "Tuesday": "09:00 - 12:00 / 15:00 - 19:00",
+            "Wednesday": "09:00 - 12:00 / 15:00 - 19:00",
+            "Thursday": "09:00 - 12:00 / 15:00 - 19:00"
+        },
+        "phone_number": [
+            "0463970004"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Club Bronzolo Branzoll Sportiva Dilettantistica",
+        "address": "Via Aldino, 23",
+        "comune": "Bronzolo",
+        "open_hours": {},
+        "phone_number": [
+            "0471967351",
+            "3474479818",
+            "3317351051"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Club Ora",
+        "address": "Localita' Rio Nero, 1",
+        "comune": "Ora",
+        "open_hours": {},
+        "phone_number": [
+            "0471810272"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Sparer",
+        "address": "Via Monticolo, 80",
+        "comune": "Appiano sulla Strada del Vino",
+        "open_hours": {
+            "Friday": "09:00 - 22:00",
+            "Saturday": "09:00 - 22:00",
+            "Sunday": "09:00 - 22:00",
+            "Monday": "09:00 - 18:00",
+            "Tuesday": "09:00 - 22:00",
+            "Wednesday": "09:00 - 22:00",
+            "Thursday": "09:00 - 22:00"
+        },
+        "phone_number": [
+            "0471664657",
+            "3387629002"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennisclub Dilettanti Laghetti",
+        "address": "Via Cauria, 57",
+        "comune": "Egna",
+        "open_hours": {},
+        "phone_number": [
+            "3407433050"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennisclub Neumarkt",
+        "address": "Via Schiesstandweg, 4",
+        "comune": "Egna",
+        "open_hours": {},
+        "phone_number": [
+            "0471812438"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tiro a Segno Nazionale - Sezione Appiano S. Michele",
+        "address": "Via Cappuccini, 25/A",
+        "comune": "Appiano sulla Strada del Vino",
+        "open_hours": {},
+        "phone_number": [
+            "0471664588"
+        ],
+        "website": null
+    },
+    {
+        "name": "Wild Goose Stadium",
+        "address": "Via Roma, 14",
+        "comune": "Egna",
+        "open_hours": {},
+        "phone_number": [
+            "0471812649"
+        ],
+        "website": null
+    },
+    {
+        "name": "Woody Valley S.r.l.",
+        "address": "Localita' Spini",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461950811"
+        ],
+        "website": null
+    },
+    {
+        "name": "Woody Valley S.r.l.",
+        "address": "Via Vienna, 92",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "360041005200"
+        ],
+        "website": null
+    },
+    {
+        "name": "A.S.I.S.",
+        "address": "Via IV Novembre, 23/4",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461959799",
+            "0461992990",
+            "0461992888"
+        ],
+        "website": null
+    },
+    {
+        "name": "Scuola Italiana Sci CCM Campiglio",
+        "address": "Via Zeledria, 8",
+        "comune": "Pinzolo",
+        "open_hours": {
+            "Friday": "08:00 - 19:00",
+            "Saturday": "08:00 - 19:00",
+            "Sunday": "08:00 - 19:00",
+            "Monday": "08:00 - 19:00",
+            "Tuesday": "08:00 - 19:00",
+            "Wednesday": "08:00 - 19:00",
+            "Thursday": "08:00 - 19:00"
+        },
+        "phone_number": [
+            "0465443222"
+        ],
+        "website": null
+    }
+]

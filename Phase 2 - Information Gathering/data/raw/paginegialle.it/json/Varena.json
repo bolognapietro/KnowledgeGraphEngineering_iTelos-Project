@@ -1,0 +1,1165 @@
+[
+    {
+        "name": "Circolo Tennis Cavalese Asd",
+        "address": "Localit Parco della Pieve, 1",
+        "comune": "Cavalese",
+        "open_hours": {
+            "Friday": "08:00 - 23:00",
+            "Saturday": "08:00 - 23:00",
+            "Sunday": "08:00 - 23:00",
+            "Monday": "08:00 - 23:00",
+            "Tuesday": "08:00 - 23:00",
+            "Wednesday": "08:00 - 23:00",
+            "Thursday": "08:00 - 23:00"
+        },
+        "phone_number": [
+            "0462340003"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palaghiaccio di Cavalese",
+        "address": "Via Cermis",
+        "comune": "Cavalese",
+        "open_hours": {},
+        "phone_number": [
+            "0462231252",
+            "0462230407"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina Cavalese",
+        "address": "Via Fratelli Bronzetti, 60",
+        "comune": "Cavalese",
+        "open_hours": {
+            "Friday": "09:00 - 21:00 / 09:30 - 20:00",
+            "Saturday": "09:00 - 21:00 / 09:30 - 20:00",
+            "Sunday": "09:00 - 21:00 / 09:30 - 20:00",
+            "Monday": "09:00 - 21:00 / 09:30 - 20:00",
+            "Tuesday": "09:00 - 21:00 / 09:30 - 20:00",
+            "Wednesday": "09:00 - 21:00 / 09:30 - 20:00",
+            "Thursday": "09:00 - 21:00 / 09:30 - 20:00"
+        },
+        "phone_number": [
+            "0462230407"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina Comunale Cavalese",
+        "address": "Via Rossini, 3",
+        "comune": "Cavalese",
+        "open_hours": {
+            "Friday": "09:00 - 21:00",
+            "Saturday": "09:00 - 21:00",
+            "Sunday": "10:00 - 20:00",
+            "Monday": "10:00 - 20:00",
+            "Tuesday": "09:00 - 21:00",
+            "Wednesday": "09:00 - 21:00",
+            "Thursday": "09:00 - 21:00"
+        },
+        "phone_number": [
+            "0462341810"
+        ],
+        "website": null
+    },
+    {
+        "name": "Societa' per L'Amministrazione e La Gestione di Impianti Sportivi - S.A.G.I.S. S.r.l.",
+        "address": "Localita' Lagorai, 3",
+        "comune": "Cavalese",
+        "open_hours": {},
+        "phone_number": [
+            "0462341810"
+        ],
+        "website": null
+    },
+    {
+        "name": "Arcieri di Fiemme",
+        "address": "Localit Roda",
+        "comune": "Ziano di Fiemme",
+        "open_hours": {},
+        "phone_number": [
+            "3478579908"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo di pattinaggio",
+        "address": "Via Lago",
+        "comune": "Tesero",
+        "open_hours": {},
+        "phone_number": [
+            "0462814064",
+            "0462812358"
+        ],
+        "website": null
+    },
+    {
+        "name": "El Zerilo Ranch",
+        "address": "Localit Stava",
+        "comune": "Tesero",
+        "open_hours": {},
+        "phone_number": [
+            "0462814649",
+            "3343535108"
+        ],
+        "website": null
+    },
+    {
+        "name": "Progetto Lavaze' S.r.l.",
+        "address": "Passo di Lavaze'",
+        "comune": "Ville di Fiemme",
+        "open_hours": {},
+        "phone_number": [
+            "0462230447"
+        ],
+        "website": null
+    },
+    {
+        "name": "SEIK G.M.B.H. - S.R.L.",
+        "address": "Zona San Lugano, 6",
+        "comune": "Trodena nel Parco Naturale",
+        "open_hours": {},
+        "phone_number": [
+            "0471887040",
+            "0471887087"
+        ],
+        "website": null
+    },
+    {
+        "name": "SEIK G.M.B.H. - S.R.L.",
+        "address": "Zona Artigianale, 26",
+        "comune": "Trodena nel Parco Naturale",
+        "open_hours": {},
+        "phone_number": [
+            "0471887087"
+        ],
+        "website": null
+    },
+    {
+        "name": "Sportcenter",
+        "address": "Via del Campo Sportivo, 16",
+        "comune": "Aldino",
+        "open_hours": {},
+        "phone_number": [
+            "0471886072"
+        ],
+        "website": null
+    },
+    {
+        "name": "Weisshorn S.p.a. % Weisshorn A.G.",
+        "address": "Via Obereggen - Eggen, 31",
+        "comune": "Nova Ponente",
+        "open_hours": {},
+        "phone_number": [
+            "0471615511",
+            "0471615627",
+            "0471615122"
+        ],
+        "website": null
+    },
+    {
+        "name": "Scuolatennis.it - Bolzano",
+        "address": "Via Parma, 8",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "07:00 - 23:00",
+            "Saturday": "07:00 - 23:00",
+            "Sunday": "07:00 - 21:00",
+            "Monday": "07:00 - 21:00",
+            "Tuesday": "07:00 - 23:00",
+            "Wednesday": "07:00 - 23:00",
+            "Thursday": "07:00 - 23:00"
+        },
+        "phone_number": [
+            "3926048829"
+        ],
+        "website": null
+    },
+    {
+        "name": "Ellequaranta di Alberto Avena",
+        "address": "Via Amedeo Avogadro, snc",
+        "comune": "Bolzano",
+        "open_hours": {},
+        "phone_number": [
+            "0471203037"
+        ],
+        "website": null
+    },
+    {
+        "name": "Energym",
+        "address": "Via Resia, 84",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "10:00 - 21:30",
+            "Saturday": "08:30 - 21:30",
+            "Sunday": "09:30 - 12:30 / 14:00 - 18:00",
+            "Tuesday": "08:30 - 21:30",
+            "Wednesday": "10:00 - 21:30",
+            "Thursday": "08:30 - 21:30"
+        },
+        "phone_number": [
+            "0471914230"
+        ],
+        "website": null
+    },
+    {
+        "name": "Fiera Bolzano S.p.a.",
+        "address": "Piazza Fiera, 1",
+        "comune": "Bolzano",
+        "open_hours": {},
+        "phone_number": [
+            "3346954229",
+            "0471516000"
+        ],
+        "website": null
+    },
+    {
+        "name": "Paintball Sdtirol",
+        "address": "Via Maso della Pieve, 5",
+        "comune": "Bolzano",
+        "open_hours": {},
+        "phone_number": [
+            "3461028816",
+            "3488843134",
+            "3336889299"
+        ],
+        "website": null
+    },
+    {
+        "name": "Ristorante Forst Fiera",
+        "address": "Messeplatz 1 Bozen",
+        "comune": "Bolzano",
+        "open_hours": {},
+        "phone_number": [
+            "0471932292"
+        ],
+        "website": null
+    },
+    {
+        "name": "Aikikai - Aikido",
+        "address": "Via Cadorna Luigi, 6",
+        "comune": "Bolzano",
+        "open_hours": {},
+        "phone_number": [
+            "3687030347",
+            "0471347287"
+        ],
+        "website": null
+    },
+    {
+        "name": "Appiano",
+        "address": "Via Cappuccini, 23",
+        "comune": "Appiano sulla Strada del Vino",
+        "open_hours": {
+            "Friday": "09:00 - 12:00 / 14:00 - 17:00",
+            "Saturday": "09:00 - 12:00 / 14:00 - 17:00",
+            "Tuesday": "09:00 - 12:00 / 14:00 - 17:00",
+            "Wednesday": "09:00 - 12:00 / 14:00 - 17:00",
+            "Thursday": "09:00 - 12:00 / 14:00 - 17:00"
+        },
+        "phone_number": [
+            "0471661165"
+        ],
+        "website": null
+    },
+    {
+        "name": "Asv Tiers",
+        "address": "Via Georg Strasse, 25",
+        "comune": "Tires",
+        "open_hours": {
+            "Friday": "00:00 - 23:59",
+            "Saturday": "00:00 - 23:59",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "00:00 - 23:59",
+            "Wednesday": "00:00 - 23:59",
+            "Thursday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "3491404634"
+        ],
+        "website": null
+    },
+    {
+        "name": "A.S.V. Tramin - Sektion Tennis",
+        "address": "Via Weinstrasse, 154",
+        "comune": "Termeno sulla Strada del Vino",
+        "open_hours": {},
+        "phone_number": [
+            "0471860812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Asv Welschnofen - Sektion Tennis Raiffeisen",
+        "address": "Via Dolomitenstrasse, 26/A",
+        "comune": "Nova Levante",
+        "open_hours": {},
+        "phone_number": [
+            "0471613273"
+        ],
+        "website": null
+    },
+    {
+        "name": "Body Fitness",
+        "address": "Via della Visitazione, 38",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "09:30 - 21:30",
+            "Saturday": "09:30 - 21:30",
+            "Sunday": "09:30 - 13:00 / 15:00 - 17:00",
+            "Tuesday": "09:30 - 21:30",
+            "Wednesday": "09:30 - 21:30",
+            "Thursday": "09:30 - 21:30"
+        },
+        "phone_number": [
+            "0471200511"
+        ],
+        "website": null
+    },
+    {
+        "name": "Bolzano Nuoto",
+        "address": "Via Maso della Pieve, 11",
+        "comune": "Bolzano",
+        "open_hours": {},
+        "phone_number": [
+            "0471250171"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo da calcio Bedolpian",
+        "address": "Localit Bedolpian",
+        "comune": "Baselga di Pin",
+        "open_hours": {
+            "Friday": "00:00 - 23:59",
+            "Saturday": "00:00 - 23:59",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "00:00 - 23:59",
+            "Wednesday": "00:00 - 23:59",
+            "Thursday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "0461558634",
+            "3496989956"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Sportivo Coni",
+        "address": "Via Santa Geltrude, 1",
+        "comune": "Bolzano",
+        "open_hours": {},
+        "phone_number": [
+            "0471283404"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Sportivo Coni",
+        "address": "Via Santa Geltrude, 54/56",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "08:00 - 20:00",
+            "Saturday": "08:00 - 20:00",
+            "Tuesday": "08:00 - 20:00",
+            "Wednesday": "08:00 - 20:00",
+            "Thursday": "08:00 - 20:00"
+        },
+        "phone_number": [
+            "0471283404"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Sportivo Internorm Arena Rigi",
+        "address": "Via Luigi Cadorna, 25",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "16:00 - 20:00",
+            "Wednesday": "16:00 - 20:00",
+            "Thursday": "16:00 - 20:00"
+        },
+        "phone_number": [
+            "0471270696"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Sportivo Pfarrhof - Maso della Pieve",
+        "address": "Via Maso della Pieve, 11",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "00:00 - 23:59",
+            "Saturday": "00:00 - 23:59",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "00:00 - 23:59",
+            "Wednesday": "00:00 - 23:59",
+            "Thursday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "0471251926",
+            "335252614"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Civico Don Bosco",
+        "address": "Piazza Don Bosco, 17",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "08:00 - 20:00",
+            "Saturday": "08:00 - 20:00",
+            "Sunday": "08:00 - 20:00",
+            "Monday": "08:00 - 20:00",
+            "Tuesday": "08:00 - 20:00",
+            "Wednesday": "08:00 - 20:00",
+            "Thursday": "08:00 - 20:00"
+        },
+        "phone_number": [
+            "0471997050"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Equestre Happy Ranch",
+        "address": "Localit Lago Santo",
+        "comune": "Cembra Lisignago",
+        "open_hours": {
+            "Saturday": "18:00 - 03:00",
+            "Sunday": "11:00 - 03:00",
+            "Monday": "11:00 - 23:59"
+        },
+        "phone_number": [
+            "0461683518"
+        ],
+        "website": null
+    },
+    {
+        "name": "Circolo Tennis",
+        "address": "Viale Druso, 20",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "08:00 - 22:00",
+            "Saturday": "08:00 - 22:00",
+            "Sunday": "08:00 - 22:00",
+            "Monday": "08:00 - 22:00",
+            "Tuesday": "08:00 - 22:00",
+            "Wednesday": "08:00 - 22:00",
+            "Thursday": "08:00 - 22:00"
+        },
+        "phone_number": [
+            "3312700579",
+            "0471449915"
+        ],
+        "website": null
+    },
+    {
+        "name": "Circolo Tennis Bauzanum '77",
+        "address": "Via del Macello, 32",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "08:00 - 22:00",
+            "Saturday": "08:00 - 22:00",
+            "Sunday": "08:00 - 22:00",
+            "Monday": "08:00 - 22:00",
+            "Tuesday": "08:00 - 22:00",
+            "Wednesday": "08:00 - 22:00",
+            "Thursday": "08:00 - 22:00"
+        },
+        "phone_number": [
+            "0471976402"
+        ],
+        "website": null
+    },
+    {
+        "name": "Circolo Tennis Cassa di Risparmio",
+        "address": "Via San Giacomo, 158",
+        "comune": "Laives",
+        "open_hours": {
+            "Friday": "09:00 - 23:00",
+            "Saturday": "09:00 - 23:00",
+            "Sunday": "09:00 - 23:00",
+            "Monday": "09:00 - 23:00",
+            "Tuesday": "09:00 - 23:00",
+            "Wednesday": "09:00 - 23:00",
+            "Thursday": "09:00 - 23:00"
+        },
+        "phone_number": [
+            "0471251565"
+        ],
+        "website": null
+    },
+    {
+        "name": "Comune di Caldaro sulla Strada del Vino",
+        "address": "Via Castelvecchio, 45",
+        "comune": "Caldaro sulla Strada del Vino",
+        "open_hours": {},
+        "phone_number": [
+            "0471961114"
+        ],
+        "website": null
+    },
+    {
+        "name": "Comune di Moena",
+        "address": "Piazza De Navalge",
+        "comune": "Moena",
+        "open_hours": {},
+        "phone_number": [
+            "0462574013"
+        ],
+        "website": null
+    },
+    {
+        "name": "Ellequaranta di Alberto Avena",
+        "address": "Via Orazio, 4/H",
+        "comune": "Bolzano",
+        "open_hours": {},
+        "phone_number": [
+            "0471270120",
+            "0471203037"
+        ],
+        "website": null
+    },
+    {
+        "name": "Frasnelli Kart S.r.l.",
+        "address": "Ischia Frizzi, 3/A",
+        "comune": "Vadena",
+        "open_hours": {},
+        "phone_number": [
+            "3356069288"
+        ],
+        "website": null
+    },
+    {
+        "name": "Golf Club Carezza Freudenstein",
+        "address": "Strada Sasso Croce, 6",
+        "comune": "Appiano sulla Strada del Vino",
+        "open_hours": {},
+        "phone_number": [
+            "3393271291",
+            "0471660332"
+        ],
+        "website": null
+    },
+    {
+        "name": "Golf Club Carezza Freudenstein",
+        "address": "Strada Masaccio, 3",
+        "comune": "Appiano sulla Strada del Vino",
+        "open_hours": {},
+        "phone_number": [
+            "3393271291"
+        ],
+        "website": null
+    },
+    {
+        "name": "Golf Club Eppan Gmbh - S.r.l.",
+        "address": "Via Museo, 33",
+        "comune": "Bolzano",
+        "open_hours": {},
+        "phone_number": [
+            "04711888167",
+            "04711888164"
+        ],
+        "website": null
+    },
+    {
+        "name": "Golf Club Petersberg",
+        "address": "Via Unterwinkel, 5",
+        "comune": "Nova Ponente",
+        "open_hours": {},
+        "phone_number": [
+            "0471615122"
+        ],
+        "website": null
+    },
+    {
+        "name": "Golfclub Carezza",
+        "address": "Via Carezza, 171",
+        "comune": "Nova Levante",
+        "open_hours": {},
+        "phone_number": [
+            "04711888167",
+            "3664648302"
+        ],
+        "website": null
+    },
+    {
+        "name": "Hotel Markushof S.a.s. di Graiff Markus & C.",
+        "address": "Via Truidn, 1",
+        "comune": "Ora",
+        "open_hours": {},
+        "phone_number": [
+            "0471810025",
+            "047181243",
+            "0471802872",
+            "0471810272",
+            "0471814243"
+        ],
+        "website": null
+    },
+    {
+        "name": "Impuls Fitness Center",
+        "address": "Via dei Grappoli, 15",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "07:00 - 21:30",
+            "Saturday": "07:00 - 21:30",
+            "Sunday": "07:30 - 18:30",
+            "Monday": "08:00 - 14:00",
+            "Tuesday": "07:00 - 21:30",
+            "Wednesday": "07:00 - 21:30",
+            "Thursday": "07:00 - 21:30"
+        },
+        "phone_number": [
+            "0471976686"
+        ],
+        "website": null
+    },
+    {
+        "name": "Ippico Fontanelle",
+        "address": "Via Lagorai, 117",
+        "comune": "Predazzo",
+        "open_hours": {},
+        "phone_number": [
+            "3357057094"
+        ],
+        "website": null
+    },
+    {
+        "name": "Kaessbohrer Italia S.r.l.",
+        "address": "Via Galilei, 32",
+        "comune": "Bolzano",
+        "open_hours": {},
+        "phone_number": [
+            "0471933027"
+        ],
+        "website": null
+    },
+    {
+        "name": "Leichtathletik Ssv - Leifers",
+        "address": "Via Pietralba, 64",
+        "comune": "Laives",
+        "open_hours": {},
+        "phone_number": [
+            "0471952434"
+        ],
+        "website": null
+    },
+    {
+        "name": "Libertas Kickboxing Bolzano",
+        "address": "Via Resia, 180",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "19:00 - 20:00",
+            "Tuesday": "19:00 - 20:00",
+            "Wednesday": "19:00 - 20:00",
+            "Thursday": "19:00 - 20:00"
+        },
+        "phone_number": [
+            "3489325033"
+        ],
+        "website": null
+    },
+    {
+        "name": "Maneggio Ranch Roen",
+        "address": "Via Roen",
+        "comune": "Amblar-Don",
+        "open_hours": {
+            "Friday": "08:00 - 20:00",
+            "Saturday": "08:00 - 20:00",
+            "Sunday": "08:00 - 20:00",
+            "Monday": "08:00 - 20:00",
+            "Tuesday": "08:00 - 20:00",
+            "Wednesday": "08:00 - 20:00",
+            "Thursday": "08:00 - 20:00"
+        },
+        "phone_number": [
+            "3395026924",
+            "0463830077"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palaghiaccio",
+        "address": "Via Rio Nero, 7",
+        "comune": "Ora",
+        "open_hours": {},
+        "phone_number": [
+            "0471802022"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palaonda",
+        "address": "Via Galvani, 34",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "08:00 - 20:00",
+            "Saturday": "08:00 - 20:00",
+            "Sunday": "08:00 - 20:00",
+            "Tuesday": "08:00 - 20:00",
+            "Wednesday": "08:00 - 20:00",
+            "Thursday": "08:00 - 20:00"
+        },
+        "phone_number": [
+            "0471913968",
+            "0471914813"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palascherma",
+        "address": "Via Resia, 39",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "08:00 - 23:00",
+            "Saturday": "08:00 - 23:00",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "08:00 - 23:00",
+            "Wednesday": "08:00 - 23:00",
+            "Thursday": "08:00 - 23:00"
+        },
+        "phone_number": [
+            "0471500777",
+            "0471997451"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palasport",
+        "address": "Via Resia, 39/A",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "07:00 - 21:30",
+            "Saturday": "07:00 - 21:30",
+            "Sunday": "07:00 - 21:30",
+            "Monday": "07:00 - 21:30",
+            "Tuesday": "07:00 - 21:30",
+            "Wednesday": "07:00 - 21:30",
+            "Thursday": "07:00 - 21:30"
+        },
+        "phone_number": [
+            "0471935558"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palazzetto dello Sport",
+        "address": "Viale Trieste, 21",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Sunday": "15:00 - 23:00",
+            "Monday": "09:00 - 20:00"
+        },
+        "phone_number": [
+            "0471910217"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina Comunale",
+        "address": "Via Rio Nero, 1",
+        "comune": "Ora",
+        "open_hours": {},
+        "phone_number": [
+            "3492637459",
+            "3490058257"
+        ],
+        "website": null
+    },
+    {
+        "name": "Pista da ghiaccio Maso della Pieve",
+        "address": "Via Maso della Pieve, 11",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "09:00 - 22:00",
+            "Saturday": "09:00 - 22:00",
+            "Sunday": "09:00 - 22:00",
+            "Monday": "09:00 - 22:00",
+            "Tuesday": "09:00 - 22:00",
+            "Wednesday": "09:00 - 22:00",
+            "Thursday": "09:00 - 22:00"
+        },
+        "phone_number": [
+            "0471250598"
+        ],
+        "website": null
+    },
+    {
+        "name": "Polisportiva Pineta",
+        "address": "Via Aldo Moro, 9",
+        "comune": "Laives",
+        "open_hours": {
+            "Friday": "08:00 - 22:00",
+            "Saturday": "08:00 - 22:00",
+            "Sunday": "08:00 - 22:00",
+            "Monday": "08:00 - 22:00",
+            "Tuesday": "08:00 - 22:00",
+            "Wednesday": "08:00 - 22:00",
+            "Thursday": "08:00 - 22:00"
+        },
+        "phone_number": [
+            "0471951633"
+        ],
+        "website": null
+    },
+    {
+        "name": "Punto K S.r.l. Sportiva Dilettantistica",
+        "address": "Viale Europa, 102",
+        "comune": "Bolzano",
+        "open_hours": {},
+        "phone_number": [
+            "3533162817",
+            "0471919432"
+        ],
+        "website": null
+    },
+    {
+        "name": "Sportarena Unterland",
+        "address": "Via Brenner, 7",
+        "comune": "Egna",
+        "open_hours": {},
+        "phone_number": [
+            "0471813613",
+            "0471820900",
+            "0471813614"
+        ],
+        "website": null
+    },
+    {
+        "name": "Sportarena Unterland",
+        "address": "Via Brennero, 7",
+        "comune": "Egna",
+        "open_hours": {},
+        "phone_number": [
+            "0471813613",
+            "0471813614",
+            "3382285799",
+            "0471823224",
+            "0471820900",
+            "0471813625"
+        ],
+        "website": null
+    },
+    {
+        "name": "Sportbau S.r.l.",
+        "address": "Ponte Ponte Adige, 43",
+        "comune": "Bolzano",
+        "open_hours": {},
+        "phone_number": [
+            "0471663158",
+            "0471631611"
+        ],
+        "website": null
+    },
+    {
+        "name": "Sportbau Srl Costruzione Impianti Sportivi",
+        "address": "Via Castel Firmiano, 43",
+        "comune": "Bolzano",
+        "open_hours": {},
+        "phone_number": [
+            "0471631610",
+            "0471663158",
+            "0471631611"
+        ],
+        "website": null
+    },
+    {
+        "name": "Sportclub Federhofer",
+        "address": "Via San Vigilio, 80/94",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "09:30 - 22:00",
+            "Saturday": "09:30 - 22:00",
+            "Sunday": "09:30 - 16:00",
+            "Tuesday": "09:30 - 22:00",
+            "Wednesday": "09:30 - 22:00",
+            "Thursday": "09:30 - 22:00"
+        },
+        "phone_number": [
+            "3403570160",
+            "0471282804"
+        ],
+        "website": null
+    },
+    {
+        "name": "Squash Club Bolzano",
+        "address": "Via Resia, 39",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "12:30 - 14:00",
+            "Saturday": "12:30 - 14:00 / 17:00 - 23:00",
+            "Sunday": "16:00 - 20:00",
+            "Tuesday": "12:30 - 14:00 / 17:00 - 23:00",
+            "Wednesday": "12:30 - 14:00 / 17:00 - 23:00",
+            "Thursday": "12:30 - 14:00 / 17:00 - 23:00"
+        },
+        "phone_number": [
+            "0471935528"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tc Rungg Asv",
+        "address": "Via Maso Ronco",
+        "comune": "Appiano sulla Strada del Vino",
+        "open_hours": {
+            "Friday": "08:00 - 22:00",
+            "Saturday": "08:00 - 22:00",
+            "Sunday": "08:00 - 22:00",
+            "Tuesday": "08:00 - 22:00",
+            "Wednesday": "08:00 - 22:00",
+            "Thursday": "08:00 - 22:00"
+        },
+        "phone_number": [
+            "0471663104"
+        ],
+        "website": null
+    },
+    {
+        "name": "Technoalpin S.p.a.",
+        "address": "Via Vurza, 5",
+        "comune": "Laives",
+        "open_hours": {},
+        "phone_number": [
+            "0471254236"
+        ],
+        "website": null
+    },
+    {
+        "name": "Technoalpin S.p.a.",
+        "address": "Via Piero Agostini, 2",
+        "comune": "Bolzano",
+        "open_hours": {},
+        "phone_number": [
+            "0471550524",
+            "0471200061",
+            "0471550605",
+            "0471550522",
+            "0471550534"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Academy Service A.S.D.",
+        "address": "Via Nazionale, 23",
+        "comune": "Bronzolo",
+        "open_hours": {
+            "Friday": "08:00 - 22:00",
+            "Saturday": "08:00 - 22:00",
+            "Sunday": "08:00 - 22:00",
+            "Tuesday": "08:00 - 22:00",
+            "Wednesday": "08:00 - 22:00",
+            "Thursday": "08:00 - 22:00"
+        },
+        "phone_number": [
+            "3283786609"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Club Bolzano Bozen",
+        "address": "Via Knoller Martin, 8",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "08:00 - 23:00",
+            "Saturday": "08:00 - 23:00",
+            "Sunday": "08:00 - 23:00",
+            "Monday": "08:00 - 18:00",
+            "Tuesday": "08:00 - 23:00",
+            "Wednesday": "08:00 - 23:00",
+            "Thursday": "08:00 - 23:00"
+        },
+        "phone_number": [
+            "0471280587"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Club Bronzolo Branzoll Sportiva Dilettantistica",
+        "address": "Via Aldino, 23",
+        "comune": "Bronzolo",
+        "open_hours": {},
+        "phone_number": [
+            "0471967351",
+            "3474479818",
+            "3317351051"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Club Comune di Bolzano",
+        "address": "Viale Principe Eugenio di Savoia, 11/A",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "09:00 - 12:30 / 14:00 - 17:30",
+            "Saturday": "09:00 - 12:30 / 14:00 - 17:30",
+            "Sunday": "09:00 - 12:30 / 14:00 - 17:30",
+            "Monday": "09:00 - 12:30 / 14:00 - 17:30",
+            "Tuesday": "09:00 - 12:30 / 14:00 - 17:30",
+            "Wednesday": "09:00 - 12:30 / 14:00 - 17:30",
+            "Thursday": "09:00 - 12:30 / 14:00 - 17:30"
+        },
+        "phone_number": [
+            "0471271897"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Club Moena",
+        "address": "Localit Navalge",
+        "comune": "Moena",
+        "open_hours": {
+            "Friday": "10:00 - 12:00 / 14:00 - 18:00",
+            "Saturday": "10:00 - 12:00 / 14:00 - 18:00",
+            "Sunday": "10:00 - 12:00 / 14:00 - 18:00",
+            "Monday": "10:00 - 12:00 / 14:00 - 18:00",
+            "Tuesday": "10:00 - 12:00 / 14:00 - 18:00",
+            "Wednesday": "10:00 - 12:00 / 14:00 - 18:00",
+            "Thursday": "10:00 - 12:00 / 14:00 - 18:00"
+        },
+        "phone_number": [
+            "0462574013"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Club Ora",
+        "address": "Localita' Rio Nero, 1",
+        "comune": "Ora",
+        "open_hours": {},
+        "phone_number": [
+            "0471810272"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Sparer",
+        "address": "Via Monticolo, 80",
+        "comune": "Appiano sulla Strada del Vino",
+        "open_hours": {
+            "Friday": "09:00 - 22:00",
+            "Saturday": "09:00 - 22:00",
+            "Sunday": "09:00 - 22:00",
+            "Monday": "09:00 - 18:00",
+            "Tuesday": "09:00 - 22:00",
+            "Wednesday": "09:00 - 22:00",
+            "Thursday": "09:00 - 22:00"
+        },
+        "phone_number": [
+            "0471664657",
+            "3387629002"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennisclub Dilettanti Laghetti",
+        "address": "Via Cauria, 57",
+        "comune": "Egna",
+        "open_hours": {},
+        "phone_number": [
+            "3407433050"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennisclub Neumarkt",
+        "address": "Via Schiesstandweg, 4",
+        "comune": "Egna",
+        "open_hours": {},
+        "phone_number": [
+            "0471812438"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tiro a Segno Nazionale",
+        "address": "Via San Maurizio, 56",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "14:00 - 17:00",
+            "Sunday": "14:00 - 18:30",
+            "Thursday": "14:00 - 19:00"
+        },
+        "phone_number": [
+            "0471280292"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tiro a Segno Nazionale - Sezione Appiano S. Michele",
+        "address": "Via Cappuccini, 25/A",
+        "comune": "Appiano sulla Strada del Vino",
+        "open_hours": {},
+        "phone_number": [
+            "0471664588"
+        ],
+        "website": null
+    },
+    {
+        "name": "Train to Smile",
+        "address": "Via dei Vanga, 77",
+        "comune": "Bolzano",
+        "open_hours": {
+            "Friday": "09:00 - 21:00",
+            "Saturday": "08:00 - 21:00",
+            "Sunday": "09:00 - 13:00",
+            "Monday": "17:00 - 20:00",
+            "Tuesday": "08:00 - 21:00",
+            "Wednesday": "09:00 - 21:00",
+            "Thursday": "08:00 - 21:00"
+        },
+        "phone_number": [
+            "0471971300"
+        ],
+        "website": null
+    },
+    {
+        "name": "Weisshorn S.p.a. % Weisshorn A.G.",
+        "address": "Localita' Unterrain, 5",
+        "comune": "Nova Ponente",
+        "open_hours": {},
+        "phone_number": [
+            "0471615122"
+        ],
+        "website": null
+    },
+    {
+        "name": "Wild Goose Stadium",
+        "address": "Via Roma, 14",
+        "comune": "Egna",
+        "open_hours": {},
+        "phone_number": [
+            "0471812649"
+        ],
+        "website": null
+    },
+    {
+        "name": "Zelger Albert S.r.l.",
+        "address": "Localit Stenk,, 6/C",
+        "comune": "Nova Ponente",
+        "open_hours": {},
+        "phone_number": [
+            "0471618084",
+            "04711969950"
+        ],
+        "website": null
+    },
+    {
+        "name": "Zelger Albert",
+        "address": "Localita' Stenk, 6",
+        "comune": "Nova Ponente",
+        "open_hours": {},
+        "phone_number": [
+            "0471618084",
+            "04711969950"
+        ],
+        "website": null
+    }
+]

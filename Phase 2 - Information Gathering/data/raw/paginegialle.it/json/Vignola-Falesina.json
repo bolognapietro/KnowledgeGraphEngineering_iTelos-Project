@@ -1,0 +1,1414 @@
+[
+    {
+        "name": "Azienda Speciale per La Gestione degli Impianti Sportivi del Comune di Trento",
+        "address": "Piazza dalla Chiesa Carlo Alberto, 1",
+        "comune": "Levico Terme",
+        "open_hours": {},
+        "phone_number": [
+            "0461708313",
+            "0461708312"
+        ],
+        "website": null
+    },
+    {
+        "name": "Break Point Golf Club",
+        "address": "Localit Maso Grillo, 4",
+        "comune": "Pergine Valsugana",
+        "open_hours": {
+            "Friday": "08:30 - 21:00",
+            "Saturday": "08:30 - 21:00",
+            "Sunday": "08:30 - 21:00",
+            "Monday": "08:30 - 21:00",
+            "Tuesday": "08:30 - 21:00",
+            "Wednesday": "08:30 - 21:00",
+            "Thursday": "08:30 - 21:00"
+        },
+        "phone_number": [
+            "3474647351"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Calcio Argentario",
+        "address": "Via Ponte Alto, 79",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "08:30 - 17:00",
+            "Saturday": "08:30 - 12:30",
+            "Tuesday": "08:30 - 17:00",
+            "Thursday": "08:30 - 17:00"
+        },
+        "phone_number": [
+            "0461992990"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo da calcio Bedolpian",
+        "address": "Localit Bedolpian",
+        "comune": "Baselga di Pin",
+        "open_hours": {
+            "Friday": "00:00 - 23:59",
+            "Saturday": "00:00 - 23:59",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "00:00 - 23:59",
+            "Wednesday": "00:00 - 23:59",
+            "Thursday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "0461558634",
+            "3496989956"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo di Golf",
+        "address": "Via Ferme",
+        "comune": "Roncegno Terme",
+        "open_hours": {},
+        "phone_number": [
+            "0461773337"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Ghiaccio di Pergine",
+        "address": "Via al Ponte, 1/A",
+        "comune": "Pergine Valsugana",
+        "open_hours": {
+            "Friday": "14:00 - 16:30",
+            "Saturday": "14:00 - 16:30",
+            "Sunday": "14:00 - 16:30",
+            "Monday": "14:00 - 16:30",
+            "Tuesday": "14:00 - 16:30",
+            "Wednesday": "14:00 - 16:30",
+            "Thursday": "14:00 - 16:00"
+        },
+        "phone_number": [
+            "0461534423"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Sportivo Comunale",
+        "address": "Viale Lido",
+        "comune": "Levico Terme",
+        "open_hours": {
+            "Friday": "00:00 - 23:59",
+            "Saturday": "00:00 - 23:59",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "00:00 - 23:59",
+            "Wednesday": "00:00 - 23:59",
+            "Thursday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "0461706892"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Sportivo Moar",
+        "address": "Frazione Azzolini, 82",
+        "comune": "Lavarone",
+        "open_hours": {
+            "Friday": "00:00 - 23:59",
+            "Saturday": "00:00 - 23:59",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "00:00 - 23:59",
+            "Wednesday": "00:00 - 23:59",
+            "Thursday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "0464783179"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Equestre Citt di Trento",
+        "address": "Via della Selva, 34",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [],
+        "website": null
+    },
+    {
+        "name": "Centro Equitazione Airone",
+        "address": "Localit Barco, 3",
+        "comune": "Levico Terme",
+        "open_hours": {
+            "Friday": "00:00 - 23:59",
+            "Saturday": "00:00 - 23:59",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "00:00 - 23:59",
+            "Wednesday": "00:00 - 23:59",
+            "Thursday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "3396768993"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Ippico",
+        "address": "Via dei Paludi, 22",
+        "comune": "Baselga di Pin",
+        "open_hours": {
+            "Friday": "09:00 - 12:00 / 14:00 - 19:00",
+            "Saturday": "09:00 - 12:00 / 14:00 - 19:00",
+            "Sunday": "09:00 - 12:00 / 14:00 - 19:00",
+            "Monday": "09:00 - 12:00 / 14:00 - 19:00",
+            "Tuesday": "09:00 - 12:00 / 14:00 - 19:00",
+            "Wednesday": "09:00 - 12:00 / 14:00 - 19:00",
+            "Thursday": "09:00 - 12:00 / 14:00 - 19:00"
+        },
+        "phone_number": [
+            "3470152778"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Ippico Paoli",
+        "address": "Localit Lochere, 33",
+        "comune": "Caldonazzo",
+        "open_hours": {
+            "Friday": "08:00 - 12:00 / 14:00 - 20:00",
+            "Saturday": "08:00 - 12:00 / 14:00 - 20:00",
+            "Sunday": "08:00 - 12:00 / 14:00 - 20:00",
+            "Monday": "08:00 - 12:00 / 14:00 - 20:00",
+            "Tuesday": "08:00 - 12:00 / 14:00 - 20:00",
+            "Wednesday": "08:00 - 12:00 / 14:00 - 20:00",
+            "Thursday": "08:00 - 12:00 / 14:00 - 20:00"
+        },
+        "phone_number": [
+            "0461706186",
+            "3200829633"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Natatorio Pergine Valsugana",
+        "address": "Via Marconi Guglielmo, 51",
+        "comune": "Pergine Valsugana",
+        "open_hours": {
+            "Friday": "07:00 - 22:00",
+            "Saturday": "06:00 - 22:00",
+            "Sunday": "08:00 - 20:00",
+            "Monday": "08:00 - 20:00",
+            "Tuesday": "06:00 - 22:00",
+            "Wednesday": "07:00 - 22:00",
+            "Thursday": "06:00 - 22:00"
+        },
+        "phone_number": [
+            "0461531773"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Sportivo M. Zorzi Mattarello",
+        "address": "Via per Castel Vedro, 3",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Sportivo O. Ceschi - Gabbiolo",
+        "address": "Via alla Cros, 10",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Circolo Ippico La Roccia",
+        "address": "Localit Pianiza, 33",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "09:00 - 19:00",
+            "Saturday": "09:00 - 19:00",
+            "Sunday": "09:00 - 19:00",
+            "Monday": "09:00 - 19:00",
+            "Tuesday": "09:00 - 19:00",
+            "Wednesday": "09:00 - 19:00",
+            "Thursday": "09:00 - 19:00"
+        },
+        "phone_number": [
+            "0461913143"
+        ],
+        "website": null
+    },
+    {
+        "name": "Circolo Tennis Pergine Assoc.Sport.Dilettantistica",
+        "address": "Viale Petri, 2",
+        "comune": "Pergine Valsugana",
+        "open_hours": {},
+        "phone_number": [
+            "0461532169"
+        ],
+        "website": null
+    },
+    {
+        "name": "Dilettantistica Tennis Levico Terme",
+        "address": "Localit Belvedere",
+        "comune": "Levico Terme",
+        "open_hours": {
+            "Friday": "08:00 - 23:00",
+            "Saturday": "08:00 - 23:00",
+            "Sunday": "08:00 - 23:00",
+            "Monday": "08:00 - 23:00",
+            "Tuesday": "08:00 - 23:00",
+            "Wednesday": "08:00 - 23:00",
+            "Thursday": "08:00 - 23:00"
+        },
+        "phone_number": [
+            "3394631152"
+        ],
+        "website": null
+    },
+    {
+        "name": "Gym \"G. Pascoli\"",
+        "address": "Via Znojmo, 24",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461992990"
+        ],
+        "website": null
+    },
+    {
+        "name": "Ice Rink Pin",
+        "address": "Via dello Via dello Stadio, 17",
+        "comune": "Baselga di Pin",
+        "open_hours": {
+            "Friday": "09:00 - 12:30 / 14:00 - 16:30",
+            "Saturday": "09:00 - 12:30 / 14:00 - 16:30",
+            "Sunday": "09:00 - 12:30",
+            "Tuesday": "09:00 - 12:30 / 14:00 - 16:30",
+            "Wednesday": "09:00 - 12:30 / 14:00 - 16:30",
+            "Thursday": "09:00 - 12:30 / 14:00 - 16:30"
+        },
+        "phone_number": [
+            "0461554167"
+        ],
+        "website": null
+    },
+    {
+        "name": "Ice Rink Pine'",
+        "address": "Via dello Stadio Fraz Miola 17",
+        "comune": "Baselga di Pin",
+        "open_hours": {},
+        "phone_number": [
+            "0461554167"
+        ],
+        "website": null
+    },
+    {
+        "name": "Ice Rink Pine' S.r.l.",
+        "address": "Frazione Miola, 17",
+        "comune": "Baselga di Pin",
+        "open_hours": {},
+        "phone_number": [
+            "0461557476"
+        ],
+        "website": null
+    },
+    {
+        "name": "Madonna Bianca",
+        "address": "Via Bettini Angelo, 2",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461390785"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palazzetto di Caldonazzo",
+        "address": "Via Marconi, 9",
+        "comune": "Caldonazzo",
+        "open_hours": {
+            "Friday": "17:00 - 21:00",
+            "Saturday": "17:00 - 21:00",
+            "Tuesday": "17:00 - 21:00",
+            "Wednesday": "17:00 - 21:00",
+            "Thursday": "17:00 - 21:00"
+        },
+        "phone_number": [
+            "0461718105"
+        ],
+        "website": null
+    },
+    {
+        "name": "Panarotta S.r.l.",
+        "address": "Localita' Panarotta, 1",
+        "comune": "Levico Terme",
+        "open_hours": {},
+        "phone_number": [
+            "3470333532"
+        ],
+        "website": null
+    },
+    {
+        "name": "Pista Motocross",
+        "address": "Frazione Canezza",
+        "comune": "Pergine Valsugana",
+        "open_hours": {
+            "Monday": "09:00 - 12:00 / 15:00 - 18:00"
+        },
+        "phone_number": [
+            "3283636093"
+        ],
+        "website": null
+    },
+    {
+        "name": "S.S.D. Rari Nantes Valsugana a R.L.",
+        "address": "Piazza dalla Chiesa Carlo Alberto, 1",
+        "comune": "Levico Terme",
+        "open_hours": {},
+        "phone_number": [
+            "0461700373"
+        ],
+        "website": null
+    },
+    {
+        "name": "S.S.D. Rari Nantes Valsugana a R.L.",
+        "address": "Via Trieste, 7",
+        "comune": "Roncegno Terme",
+        "open_hours": {},
+        "phone_number": [
+            "0461525178"
+        ],
+        "website": null
+    },
+    {
+        "name": "Studio Tecnico Associato Gasperotti di Ing. Dott. Gasperotti Luca ed Ing. Dott. Gasperotti Giorgio",
+        "address": "Salita S. Agata, 23",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461811409"
+        ],
+        "website": null
+    },
+    {
+        "name": "Alessio Donzella Coach",
+        "address": "Piazza Tridente, 9",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "08:30 - 21:00",
+            "Saturday": "08:30 - 21:00",
+            "Sunday": "08:30 - 19:00",
+            "Tuesday": "08:30 - 21:00",
+            "Wednesday": "08:30 - 21:00",
+            "Thursday": "08:30 - 21:00"
+        },
+        "phone_number": [
+            "393497682763"
+        ],
+        "website": null
+    },
+    {
+        "name": "Scuola Italiana Sci Folgaria",
+        "address": "Localit Francolini, 41",
+        "comune": "Folgaria",
+        "open_hours": {
+            "Friday": "09:00 - 13:00",
+            "Saturday": "09:00 - 13:00",
+            "Tuesday": "09:00 - 13:00",
+            "Wednesday": "09:00 - 13:00",
+            "Thursday": "09:00 - 13:00"
+        },
+        "phone_number": [
+            "0464721926"
+        ],
+        "website": null
+    },
+    {
+        "name": "Circolo Tennis Trento",
+        "address": "Via Venezia, 41/1",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "3381313658"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina Comunale di Roffo Angelo",
+        "address": "Piazzale degli Alpini, 2",
+        "comune": "Roana",
+        "open_hours": {
+            "Friday": "09:30 - 21:30",
+            "Saturday": "09:30 - 21:30",
+            "Sunday": "09:30 - 19:30",
+            "Monday": "09:30 - 19:30",
+            "Tuesday": "09:30 - 21:30",
+            "Wednesday": "09:30 - 21:30",
+            "Thursday": "09:30 - 21:30"
+        },
+        "phone_number": [
+            "3888676170",
+            "3346879265"
+        ],
+        "website": null
+    },
+    {
+        "name": "Star Club",
+        "address": "Via Unterveger Giambattista, 104",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "05:00 - 23:00",
+            "Saturday": "05:00 - 23:00",
+            "Sunday": "05:00 - 20:00",
+            "Monday": "05:00 - 20:00",
+            "Tuesday": "05:00 - 23:00",
+            "Wednesday": "05:00 - 23:00",
+            "Thursday": "05:00 - 23:00"
+        },
+        "phone_number": [
+            "0461821284"
+        ],
+        "website": null
+    },
+    {
+        "name": "Ac Trento 1921 S.r.l.",
+        "address": "Via Roberto da Sanseverino, 41",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461524993"
+        ],
+        "website": null
+    },
+    {
+        "name": "Albergatori Tonezza",
+        "address": "Via Campana, 7",
+        "comune": "Tonezza del Cimone",
+        "open_hours": {},
+        "phone_number": [
+            "3428898244"
+        ],
+        "website": null
+    },
+    {
+        "name": "Aquila Basket Trento 2013 S.r.l.",
+        "address": "Via Marighetto Ancilla, 28",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461419794"
+        ],
+        "website": null
+    },
+    {
+        "name": "Aquila Basket Trento 2013 S.r.l.",
+        "address": "Via Bolghera, 37",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461528417"
+        ],
+        "website": null
+    },
+    {
+        "name": "Aquila Basket Trento 2013 S.r.l.",
+        "address": "Via Zara, 14",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461262253"
+        ],
+        "website": null
+    },
+    {
+        "name": "Aquila Basket Trento 2013 S.r.l.",
+        "address": "Via Guardini Romano, 42",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461439684"
+        ],
+        "website": null
+    },
+    {
+        "name": "Aquila Basket Trento 2013 S.r.l.",
+        "address": "Via Fersina, 11",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461935181"
+        ],
+        "website": null
+    },
+    {
+        "name": "Aquila Basket Trento 2013 S.r.l.",
+        "address": "Viale della Costituzione, 5",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461437435"
+        ],
+        "website": null
+    },
+    {
+        "name": "Aquila Basket Trento 2013 S.r.l.",
+        "address": "Passaggio Clementel Ezio, 7",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461437387"
+        ],
+        "website": null
+    },
+    {
+        "name": "Aquila Basket Trento 2013 S.r.l.",
+        "address": "Viale Olivetti Adriano, 20",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461527402",
+            "0461525310"
+        ],
+        "website": null
+    },
+    {
+        "name": "Aquila Basket Trento 2013 S.r.l.",
+        "address": "Via Chini Eusebio, 59",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461916579",
+            "0461931035"
+        ],
+        "website": null
+    },
+    {
+        "name": "Associazione Equestre Cavalcailvento",
+        "address": "Localit Salin",
+        "comune": "Cavedine",
+        "open_hours": {},
+        "phone_number": [
+            "3493856899",
+            "0461568267"
+        ],
+        "website": null
+    },
+    {
+        "name": "Associazione Sportiva Sportivando",
+        "address": "Via Brunner Giuseppe, 9",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461091706"
+        ],
+        "website": null
+    },
+    {
+        "name": "Azienda Speciale per La Gestione degli Impianti Sportivi del Comune di Trento",
+        "address": "Via IV Novembre . Gardolo, 23",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461959800"
+        ],
+        "website": null
+    },
+    {
+        "name": "Azienda Speciale per La Gestione degli Impianti Sportivi del Comune di Trento",
+        "address": "Via Menguzzato Veglia Clorinda, 6",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461390785"
+        ],
+        "website": null
+    },
+    {
+        "name": "Azienda Speciale per La Gestione degli Impianti Sportivi del Comune di Trento",
+        "address": "Strada delle Viote, 1",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461948032"
+        ],
+        "website": null
+    },
+    {
+        "name": "Black Ice S.n.c. di Bettin Yuri & C.",
+        "address": "Via al Dos Ciastel, 4",
+        "comune": "Fai della Paganella",
+        "open_hours": {},
+        "phone_number": [
+            "3292599675"
+        ],
+        "website": null
+    },
+    {
+        "name": "Body Planet",
+        "address": "Via Gentilotti Benedetto, 4",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "10:00 - 22:00",
+            "Saturday": "08:00 - 22:00",
+            "Sunday": "10:00 - 16:00",
+            "Tuesday": "08:00 - 22:00",
+            "Wednesday": "10:00 - 22:00",
+            "Thursday": "08:00 - 22:00"
+        },
+        "phone_number": [
+            "0461910096"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Baseball",
+        "address": "Via Fersina, 17",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Baseball",
+        "address": "Via Fersina, 2",
+        "comune": "Trento",
+        "open_hours": {
+            "Saturday": "15:15 - 21:00",
+            "Thursday": "15:15 - 21:00"
+        },
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Calcio",
+        "address": "Via Lavisotto, 41",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "00:00 - 23:59",
+            "Saturday": "00:00 - 23:59",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "00:00 - 23:59",
+            "Wednesday": "00:00 - 23:59",
+            "Thursday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Calcio Martignano",
+        "address": "Via Talvera, 11",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "08:30 - 17:00",
+            "Saturday": "08:30 - 12:30",
+            "Tuesday": "08:30 - 12:30 / 14:30 - 17:00",
+            "Wednesday": "08:30 - 12:30 / 14:30 - 17:00",
+            "Thursday": "08:30 - 12:30 / 14:30 - 17:00"
+        },
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Calcio Meano",
+        "address": "Via Bellaria, 9",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Calcio Piedicastello",
+        "address": "Via Santissimi Cosma e Damiano, 107",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Calcio San Bortolomeo",
+        "address": "Viale degli Olmi, 44",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Calcio Sopramonte",
+        "address": "Via di Mura, 24",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo da calcio La Pineta di Folgaria",
+        "address": "Via De Gasperi",
+        "comune": "Folgaria",
+        "open_hours": {},
+        "phone_number": [
+            "0464723131"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo da Softball",
+        "address": "Via Hubert Jedin",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "08:30 - 12:30 / 14:30 - 17:00",
+            "Saturday": "08:30 - 12:30",
+            "Tuesday": "08:30 - 12:30 / 14:30 - 17:00",
+            "Wednesday": "08:30 - 12:30 / 14:30 - 17:00",
+            "Thursday": "08:30 - 12:30 / 14:30 - 17:00"
+        },
+        "phone_number": [
+            "0461992990"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo di Atletica Leggera Comunale",
+        "address": "Via Maccani Ezio, 2",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461830454"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo di Atletica Leggera Comunale",
+        "address": "Piazzale Camillo Rusconi, 5",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "08:30 - 17:00",
+            "Saturday": "08:30 - 12:30",
+            "Tuesday": "08:30 - 12:30 / 14:30 - 17:00",
+            "Wednesday": "08:30 - 12:30 / 14:30 - 17:00",
+            "Thursday": "08:30 - 12:30 / 14:30 - 17:00"
+        },
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Pedemonte",
+        "address": "Via Brancafora",
+        "comune": "Pedemonte",
+        "open_hours": {},
+        "phone_number": [],
+        "website": null
+    },
+    {
+        "name": "Campo Sportivo Cristo Re",
+        "address": "Via Lavisotto, 41",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "06992990"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo sportivo di Mezzocorona",
+        "address": "Via San Giovanni Bosco",
+        "comune": "Mezzocorona",
+        "open_hours": {},
+        "phone_number": [],
+        "website": null
+    },
+    {
+        "name": "Campo sportivo San Bartolomeo",
+        "address": "Via degli Olmi",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461992990"
+        ],
+        "website": null
+    },
+    {
+        "name": "Carli Sport S.r.l.",
+        "address": "Via Cane', 7",
+        "comune": "Mezzocorona",
+        "open_hours": {},
+        "phone_number": [
+            "0461605049"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Equestre Happy Ranch",
+        "address": "Localit Lago Santo",
+        "comune": "Cembra Lisignago",
+        "open_hours": {
+            "Saturday": "18:00 - 03:00",
+            "Sunday": "11:00 - 03:00",
+            "Monday": "11:00 - 23:59"
+        },
+        "phone_number": [
+            "0461683518"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Ippico Il Salice",
+        "address": "Via Carducci Giosue', 98",
+        "comune": "Folgaria",
+        "open_hours": {},
+        "phone_number": [
+            "3487842363"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Natatorio Folgaria",
+        "address": "Via Nazioni Unite, 21/B",
+        "comune": "Folgaria",
+        "open_hours": {
+            "Friday": "10:00 - 21:00",
+            "Saturday": "10:00 - 21:00",
+            "Sunday": "15:30 - 20:30",
+            "Monday": "15:30 - 20:30",
+            "Tuesday": "10:00 - 21:00",
+            "Wednesday": "10:00 - 21:00",
+            "Thursday": "10:00 - 21:00"
+        },
+        "phone_number": [
+            "0464720058"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Pilates e Gyrotonic",
+        "address": "Piazza del Duomo, 30",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "06:30 - 21:30",
+            "Saturday": "06:30 - 21:30",
+            "Sunday": "06:30 - 21:30",
+            "Monday": "06:30 - 21:30",
+            "Tuesday": "06:30 - 21:30",
+            "Wednesday": "06:30 - 21:30",
+            "Thursday": "06:30 - 21:30"
+        },
+        "phone_number": [
+            "3398683083"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Polisportivo Borgo Valsugana",
+        "address": "Via Giuseppe Gozzer, 52",
+        "comune": "Borgo Valsugana",
+        "open_hours": {
+            "Friday": "09:00 - 21:00",
+            "Saturday": "09:00 - 21:00",
+            "Sunday": "09:00 - 21:00",
+            "Monday": "09:00 - 21:00",
+            "Tuesday": "09:00 - 21:00",
+            "Wednesday": "09:00 - 21:00",
+            "Thursday": "09:00 - 21:00"
+        },
+        "phone_number": [
+            "0461753836"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Sportivo Di Trilacum",
+        "address": "Via 12 Settembre, 6",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "08:00 - 20:00",
+            "Saturday": "08:00 - 20:00",
+            "Sunday": "08:00 - 20:00",
+            "Monday": "08:00 - 20:00",
+            "Tuesday": "08:00 - 20:00",
+            "Wednesday": "08:00 - 20:00",
+            "Thursday": "08:00 - 20:00"
+        },
+        "phone_number": [
+            "0461866471"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Sportivo M. Zorzi Mattarello",
+        "address": "Via del Capitel, 3",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "08:30 - 12:30 / 14:30 - 17:00",
+            "Saturday": "08:30 - 12:30",
+            "Tuesday": "08:30 - 12:30 / 14:30 - 17:00",
+            "Wednesday": "08:30 - 12:30 / 14:30 - 17:00",
+            "Thursday": "08:30 - 12:30 / 14:30 - 17:00"
+        },
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Sportivo Manazzon",
+        "address": "Via Fogazzaro Antonio, 2",
+        "comune": "Trento",
+        "open_hours": {
+            "Sunday": "09:00 - 19:00",
+            "Monday": "09:00 - 13:00"
+        },
+        "phone_number": [
+            "0461924248"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Sportivo Melta",
+        "address": "Via 25 Aprile, 10",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Sportivo Trento Nord Gardolo",
+        "address": "Via IV Novembre, 23/4",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "09:00 - 21:00",
+            "Saturday": "09:00 - 21:00",
+            "Sunday": "09:00 - 21:00",
+            "Monday": "09:00 - 21:00",
+            "Tuesday": "09:00 - 21:00",
+            "Wednesday": "09:00 - 21:00",
+            "Thursday": "09:00 - 21:00"
+        },
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Universitario Sportivo Trento Ass.Sp.Dilettantistica",
+        "address": "Via delle Regole, 101",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "09:00 - 23:00",
+            "Saturday": "09:00 - 23:00",
+            "Sunday": "09:00 - 18:00",
+            "Monday": "09:00 - 13:00",
+            "Tuesday": "09:00 - 23:00",
+            "Wednesday": "09:00 - 23:00",
+            "Thursday": "09:00 - 23:00"
+        },
+        "phone_number": [
+            "0461944356"
+        ],
+        "website": null
+    },
+    {
+        "name": "Circolo Ippico Castel Beseno",
+        "address": "Via Morini, 26",
+        "comune": "Calliano",
+        "open_hours": {
+            "Friday": "14:00 - 15:00",
+            "Saturday": "14:00 - 15:00",
+            "Sunday": "14:00 - 15:00",
+            "Monday": "14:00 - 15:00",
+            "Wednesday": "14:00 - 15:00",
+            "Thursday": "14:00 - 15:00"
+        },
+        "phone_number": [
+            "0464834483"
+        ],
+        "website": null
+    },
+    {
+        "name": "Circolo Tennis Borgo Assoc.Sport.Dilettantistica",
+        "address": "Piazza Mercato, 12",
+        "comune": "Borgo Valsugana",
+        "open_hours": {
+            "Friday": "09:00 - 22:00",
+            "Saturday": "09:00 - 22:00",
+            "Sunday": "09:00 - 22:00",
+            "Monday": "09:00 - 22:00",
+            "Tuesday": "09:00 - 22:00",
+            "Wednesday": "09:00 - 22:00",
+            "Thursday": "09:00 - 22:00"
+        },
+        "phone_number": [
+            "0461753711"
+        ],
+        "website": null
+    },
+    {
+        "name": "Circolo Tennis Calisio",
+        "address": "Via Pradiscola, 1",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "09:00 - 23:00",
+            "Saturday": "09:00 - 23:00",
+            "Sunday": "09:00 - 23:00",
+            "Monday": "09:00 - 23:00",
+            "Tuesday": "09:00 - 23:00",
+            "Wednesday": "09:00 - 23:00",
+            "Thursday": "09:00 - 23:00"
+        },
+        "phone_number": [
+            "0461820040"
+        ],
+        "website": null
+    },
+    {
+        "name": "Circolo Tennis Grillo",
+        "address": "Via San Pio X, 117",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "09:00 - 23:00",
+            "Saturday": "09:00 - 23:00",
+            "Sunday": "09:00 - 23:00",
+            "Tuesday": "09:00 - 23:00",
+            "Wednesday": "09:00 - 23:00",
+            "Thursday": "09:00 - 23:00"
+        },
+        "phone_number": [
+            "0461925234"
+        ],
+        "website": null
+    },
+    {
+        "name": "Circolo Tennis Lavarone A.S.D.",
+        "address": "Frazione Gionghi, 107",
+        "comune": "Lavarone",
+        "open_hours": {
+            "Friday": "00:00 - 23:59",
+            "Saturday": "00:00 - 23:59",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "00:00 - 23:59",
+            "Wednesday": "00:00 - 23:59",
+            "Thursday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "0464724146"
+        ],
+        "website": null
+    },
+    {
+        "name": "Ecosport Italia S.r.l.",
+        "address": "Via Avisio, 24",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "3295459087",
+            "0438837210",
+            "043882778"
+        ],
+        "website": null
+    },
+    {
+        "name": "Golf Club Folgaria",
+        "address": "Localit Maso Spilzi",
+        "comune": "Folgaria",
+        "open_hours": {},
+        "phone_number": [
+            "0464720480"
+        ],
+        "website": null
+    },
+    {
+        "name": "Imperial Center",
+        "address": "Via Maccani Ezio, 88",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "3917414107",
+            "0461262403"
+        ],
+        "website": null
+    },
+    {
+        "name": "Joyfitness Club",
+        "address": "Localit Acquaviva, 4",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "10:00 - 22:00",
+            "Saturday": "10:00 - 22:00",
+            "Sunday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 22:00",
+            "Wednesday": "10:00 - 22:00",
+            "Thursday": "10:00 - 22:00"
+        },
+        "phone_number": [
+            "3286165313"
+        ],
+        "website": null
+    },
+    {
+        "name": "Juta Center",
+        "address": "Via Galilei Galileo, 32",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "07:00 - 22:30",
+            "Saturday": "07:00 - 22:30",
+            "Sunday": "10:00 - 20:00",
+            "Tuesday": "07:00 - 22:30",
+            "Wednesday": "07:00 - 22:30",
+            "Thursday": "07:00 - 22:30"
+        },
+        "phone_number": [
+            "3887278568",
+            "0461230797"
+        ],
+        "website": null
+    },
+    {
+        "name": "Maestri di Sci e Snowboard Cristallo A.T.P.",
+        "address": "Localita' Vason, 110",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "3806328814"
+        ],
+        "website": null
+    },
+    {
+        "name": "Navarini",
+        "address": "Via Filari Longhi, 2/A",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "00:00 - 23:59",
+            "Saturday": "00:00 - 23:59",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "00:00 - 23:59",
+            "Wednesday": "00:00 - 23:59",
+            "Thursday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palaghiaccio Palafolgaria",
+        "address": "Via Nazioni Unite, 46",
+        "comune": "Folgaria",
+        "open_hours": {},
+        "phone_number": [
+            "0464720337"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palasport di Folgaria",
+        "address": "Via Nazioni Unite, 21/B",
+        "comune": "Folgaria",
+        "open_hours": {},
+        "phone_number": [
+            "0464720277"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palazzetto dello Sport",
+        "address": "Via Piomarta, 1",
+        "comune": "Rovereto",
+        "open_hours": {},
+        "phone_number": [
+            "0464413377",
+            "0464438055"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palestra Povo",
+        "address": "Via dei Masi, 6",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina Comunale",
+        "address": "Via Giuseppe Gozzer, 52",
+        "comune": "Borgo Valsugana",
+        "open_hours": {},
+        "phone_number": [
+            "0461751227",
+            "0461241833"
+        ],
+        "website": null
+    },
+    {
+        "name": "Rocco Angelo Gestioni Impianti Sportivi",
+        "address": "Via Maggiore",
+        "comune": "Roana",
+        "open_hours": {
+            "Friday": "09:30 - 21:30",
+            "Saturday": "09:30 - 21:30",
+            "Sunday": "09:30 - 19:30",
+            "Monday": "09:30 - 19:30",
+            "Tuesday": "09:30 - 21:30",
+            "Wednesday": "09:30 - 21:30",
+            "Thursday": "09:30 - 21:30"
+        },
+        "phone_number": [
+            "0424450154"
+        ],
+        "website": null
+    },
+    {
+        "name": "S.S. Buonconsiglio Nuoto",
+        "address": "Via IV Novembre, 23",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461961625",
+            "0461910464",
+            "0461416162",
+            "0461416164",
+            "0461416163"
+        ],
+        "website": null
+    },
+    {
+        "name": "S.S. Buonconsiglio Nuoto",
+        "address": "Via Fogazzaro Antonio, 4",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461961625",
+            "0461416164",
+            "0461910464"
+        ],
+        "website": null
+    },
+    {
+        "name": "S.S.D. Rari Nantes Valsugana a R.L.",
+        "address": "Corso Ausugum, 22",
+        "comune": "Borgo Valsugana",
+        "open_hours": {},
+        "phone_number": [
+            "0461751227",
+            "0461241833"
+        ],
+        "website": null
+    },
+    {
+        "name": "Stadio Quercia",
+        "address": "Via Palestrina, 3",
+        "comune": "Rovereto",
+        "open_hours": {},
+        "phone_number": [],
+        "website": null
+    },
+    {
+        "name": "Trim",
+        "address": "Via Chini Eusebio, 99/1",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "09:00 - 21:00",
+            "Saturday": "09:00 - 21:00",
+            "Sunday": "09:00 - 12:30 / 14:30 - 18:00",
+            "Tuesday": "09:00 - 21:00",
+            "Wednesday": "09:00 - 21:00",
+            "Thursday": "09:00 - 21:00"
+        },
+        "phone_number": [
+            "0461924604",
+            "0461912600"
+        ],
+        "website": null
+    },
+    {
+        "name": "Vela Centro Sportivo",
+        "address": "Localit Vela",
+        "comune": "Trento",
+        "open_hours": {
+            "Friday": "00:00 - 23:59",
+            "Saturday": "00:00 - 23:59",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "00:00 - 23:59",
+            "Wednesday": "00:00 - 23:59",
+            "Thursday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "0461959812"
+        ],
+        "website": null
+    },
+    {
+        "name": "Woody Valley S.r.l.",
+        "address": "Localita' Spini",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461950811"
+        ],
+        "website": null
+    },
+    {
+        "name": "Woody Valley S.r.l.",
+        "address": "Via Vienna, 92",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "360041005200"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palaghiaccio Palafolgaria",
+        "address": "Via Nazioni Unite, 46",
+        "comune": "Folgaria",
+        "open_hours": {},
+        "phone_number": [
+            "0464720337"
+        ],
+        "website": null
+    },
+    {
+        "name": "A.S.I.S.",
+        "address": "Via IV Novembre, 23/4",
+        "comune": "Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0461959799",
+            "0461992990",
+            "0461992888"
+        ],
+        "website": null
+    }
+]

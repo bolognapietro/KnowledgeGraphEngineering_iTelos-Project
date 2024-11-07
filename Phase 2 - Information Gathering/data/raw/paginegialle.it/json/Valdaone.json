@@ -1,0 +1,404 @@
+[
+    {
+        "name": "Circolo Tennis Ledro",
+        "address": "Localit Besta, 1",
+        "comune": "Ledro",
+        "open_hours": {
+            "Friday": "08:00 - 20:00",
+            "Saturday": "08:00 - 20:00",
+            "Sunday": "08:00 - 20:00",
+            "Monday": "08:00 - 20:00",
+            "Tuesday": "08:00 - 20:00",
+            "Wednesday": "08:00 - 20:00",
+            "Thursday": "08:00 - 20:00"
+        },
+        "phone_number": [
+            "3805235139"
+        ],
+        "website": null
+    },
+    {
+        "name": "Hotel Maroni",
+        "address": "Via Casarino, 1",
+        "comune": "Ledro",
+        "open_hours": {
+            "Friday": "09:00 - 19:00",
+            "Saturday": "09:00 - 19:00",
+            "Sunday": "09:00 - 19:00",
+            "Monday": "09:00 - 19:00",
+            "Tuesday": "09:00 - 19:00",
+            "Wednesday": "09:00 - 19:00",
+            "Thursday": "09:00 - 19:00"
+        },
+        "phone_number": [
+            "0464508198"
+        ],
+        "website": null
+    },
+    {
+        "name": "kite centergarda lake",
+        "address": "Via Valle dell'Acqua, snc",
+        "comune": "Malcesine",
+        "open_hours": {},
+        "phone_number": [
+            "3454795705"
+        ],
+        "website": null
+    },
+    {
+        "name": "Garda Sporting Club Hotel",
+        "address": "Via Antonio Abondio, 7",
+        "comune": "Riva del Garda",
+        "open_hours": {},
+        "phone_number": [
+            "0464552072"
+        ],
+        "website": null
+    },
+    {
+        "name": "Altogarda Golf",
+        "address": "Localit San Tomaso",
+        "comune": "Riva del Garda",
+        "open_hours": {
+            "Friday": "08:00 - 20:00",
+            "Saturday": "08:00 - 20:00",
+            "Sunday": "08:00 - 20:00",
+            "Monday": "08:00 - 20:00",
+            "Tuesday": "08:00 - 20:00",
+            "Wednesday": "08:00 - 20:00",
+            "Thursday": "08:00 - 20:00"
+        },
+        "phone_number": [
+            "0365643006"
+        ],
+        "website": null
+    },
+    {
+        "name": "Amici Nuoto Riva",
+        "address": "Viale Rovereto, 45",
+        "comune": "Riva del Garda",
+        "open_hours": {},
+        "phone_number": [
+            "3490586660",
+            "0464311398",
+            "0464520078",
+            "3397376737"
+        ],
+        "website": null
+    },
+    {
+        "name": "A.S.D. Tennis Darzo",
+        "address": "Via Capitello, 5",
+        "comune": "Storo",
+        "open_hours": {
+            "Friday": "09:00 - 11:59 / 12:00 - 23:00",
+            "Saturday": "09:00 - 11:59 / 12:00 - 23:00",
+            "Sunday": "09:00 - 11:59 / 12:00 - 23:00",
+            "Monday": "09:00 - 11:59 / 12:00 - 23:00",
+            "Tuesday": "09:00 - 11:59 / 12:00 - 23:00",
+            "Wednesday": "09:00 - 11:59 / 12:00 - 23:00",
+            "Thursday": "09:00 - 11:59 / 12:00 - 23:00"
+        },
+        "phone_number": [
+            "0465299257"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo da Calcio",
+        "address": "Via Fasse",
+        "comune": "Limone sul Garda",
+        "open_hours": {
+            "Friday": "07:00 - 20:00",
+            "Saturday": "07:00 - 20:00",
+            "Sunday": "07:00 - 20:00",
+            "Monday": "07:00 - 20:00",
+            "Tuesday": "07:00 - 20:00",
+            "Wednesday": "07:00 - 20:00",
+            "Thursday": "07:00 - 20:00"
+        },
+        "phone_number": [
+            "0365954008"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Felice Nensi",
+        "address": "Via Paina",
+        "comune": "Malcesine",
+        "open_hours": {},
+        "phone_number": [],
+        "website": null
+    },
+    {
+        "name": "Campo Pallavolo-Calcetto San Colombano",
+        "address": "Via Maniva, 84",
+        "comune": "Collio",
+        "open_hours": {
+            "Friday": "00:00 - 23:59",
+            "Saturday": "00:00 - 23:59",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "00:00 - 23:59",
+            "Wednesday": "00:00 - 23:59",
+            "Thursday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "030927213"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Sportivo Oratorio",
+        "address": "Via Medaglie D'Argento",
+        "comune": "Sellero",
+        "open_hours": {},
+        "phone_number": [
+            "0346637013"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro sportivo Tione",
+        "address": "Localit Sesena, 5",
+        "comune": "Tione di Trento",
+        "open_hours": {},
+        "phone_number": [
+            "0465321023"
+        ],
+        "website": null
+    },
+    {
+        "name": "Circolo Tennis Arco",
+        "address": "Via Pomerio, 11",
+        "comune": "Arco",
+        "open_hours": {
+            "Friday": "09:00 - 22:30",
+            "Saturday": "09:00 - 22:30",
+            "Sunday": "09:00 - 19:00",
+            "Tuesday": "09:00 - 22:30",
+            "Wednesday": "09:00 - 22:30",
+            "Thursday": "09:00 - 22:30"
+        },
+        "phone_number": [
+            "0464516824"
+        ],
+        "website": null
+    },
+    {
+        "name": "Circolo Tennis Torbole",
+        "address": "Strada Granda, 67",
+        "comune": "Nago-Torbole",
+        "open_hours": {
+            "Friday": "08:00 - 23:00",
+            "Saturday": "08:00 - 23:00",
+            "Sunday": "08:00 - 23:00",
+            "Monday": "08:00 - 23:00",
+            "Tuesday": "08:00 - 23:00",
+            "Wednesday": "08:00 - 23:00",
+            "Thursday": "08:00 - 23:00"
+        },
+        "phone_number": [
+            "3925442873"
+        ],
+        "website": null
+    },
+    {
+        "name": "Club Ippico San Giorgio",
+        "address": "Localit San Giorgio Arco",
+        "comune": "Arco",
+        "open_hours": {
+            "Friday": "09:00 - 12:00 / 14:00 - 19:00",
+            "Saturday": "09:00 - 12:00 / 14:00 - 19:00",
+            "Sunday": "09:00 - 12:00 / 14:00 - 19:00",
+            "Monday": "09:00 - 12:00 / 14:00 - 19:00",
+            "Wednesday": "09:00 - 12:00 / 14:00 - 19:00",
+            "Thursday": "09:00 - 12:00 / 14:00 - 19:00"
+        },
+        "phone_number": [
+            "3484438307"
+        ],
+        "website": null
+    },
+    {
+        "name": "Comune Di Paspardo",
+        "address": "Localit Canneto",
+        "comune": "Paspardo",
+        "open_hours": {
+            "Friday": "08:00 - 12:00 / 14:00 - 18:00",
+            "Saturday": "08:00 - 12:00 / 14:00 - 18:00",
+            "Sunday": "08:00 - 12:00 / 14:00 - 18:00",
+            "Tuesday": "08:00 - 12:00 / 14:00 - 18:00",
+            "Wednesday": "08:00 - 12:00 / 14:00 - 18:00",
+            "Thursday": "08:00 - 12:00 / 14:00 - 18:00"
+        },
+        "phone_number": [
+            "036448025"
+        ],
+        "website": null
+    },
+    {
+        "name": "Comune di Riva del Garda",
+        "address": "Piazza Contini Maria, 5",
+        "comune": "Riva del Garda",
+        "open_hours": {},
+        "phone_number": [
+            "0464520078"
+        ],
+        "website": null
+    },
+    {
+        "name": "Fly2fun Parapendio Biposto",
+        "address": "Localit Sottodossi",
+        "comune": "Malcesine",
+        "open_hours": {},
+        "phone_number": [
+            "3349469757"
+        ],
+        "website": null
+    },
+    {
+        "name": "Maneggio H-Cadr",
+        "address": "Via Piave, 84",
+        "comune": "Ledro",
+        "open_hours": {},
+        "phone_number": [
+            "0464508292"
+        ],
+        "website": null
+    },
+    {
+        "name": "Oratorio Bagolino",
+        "address": "Via Parrocchia, 14",
+        "comune": "Bagolino",
+        "open_hours": {
+            "Friday": "18:00 - 22:00",
+            "Saturday": "18:00 - 22:00",
+            "Sunday": "18:00 - 22:00",
+            "Monday": "14:00 - 22:00",
+            "Tuesday": "18:00 - 22:00",
+            "Wednesday": "18:00 - 22:00",
+            "Thursday": "18:00 - 22:00"
+        },
+        "phone_number": [
+            "3394164273",
+            "036599108"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palagarda",
+        "address": "Via San Tommaso, 69",
+        "comune": "Riva del Garda",
+        "open_hours": {},
+        "phone_number": [
+            "0464555772",
+            "0464554551"
+        ],
+        "website": null
+    },
+    {
+        "name": "Parrocchia Paspardo",
+        "address": "Via San Gaudenzio, 14",
+        "comune": "Paspardo",
+        "open_hours": {
+            "Friday": "00:00 - 23:59",
+            "Saturday": "00:00 - 23:59",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "00:00 - 23:59",
+            "Wednesday": "00:00 - 23:59",
+            "Thursday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "036448018"
+        ],
+        "website": null
+    },
+    {
+        "name": "Pineta",
+        "address": "Via Marconi, 38",
+        "comune": "Cevo",
+        "open_hours": {
+            "Friday": "00:00 - 23:59",
+            "Saturday": "00:00 - 23:59",
+            "Sunday": "00:00 - 23:59",
+            "Monday": "00:00 - 23:59",
+            "Tuesday": "00:00 - 23:59",
+            "Wednesday": "00:00 - 23:59",
+            "Thursday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "0364634104"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina Comunale Arco",
+        "address": "Via Legionari Cecoslovacchi, 14",
+        "comune": "Arco",
+        "open_hours": {},
+        "phone_number": [
+            "0464516830",
+            "0464517000"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina Comunale Enrico Meroni",
+        "address": "Piazza Contini Maria, 5",
+        "comune": "Riva del Garda",
+        "open_hours": {},
+        "phone_number": [
+            "0464520078"
+        ],
+        "website": null
+    },
+    {
+        "name": "Riva S.a.s. di Schneider Wilma e C.",
+        "address": "Viale Tigli, 40",
+        "comune": "Riva del Garda",
+        "open_hours": {},
+        "phone_number": [
+            "3292146937",
+            "0464552072"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Club Associazione Sportiva Dilettantistica",
+        "address": "Frazione Santa Croce",
+        "comune": "Bleggio Superiore",
+        "open_hours": {},
+        "phone_number": [
+            "3342925960"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennisclinic",
+        "address": "Via Belluno, 4",
+        "comune": "Riva del Garda",
+        "open_hours": {},
+        "phone_number": [
+            "3270808849"
+        ],
+        "website": null
+    },
+    {
+        "name": "Atletica Alto Garda E Ledro",
+        "address": "Via Pomerio, 9",
+        "comune": "Arco",
+        "open_hours": {
+            "Friday": "07:00 - 23:59",
+            "Saturday": "07:00 - 23:59",
+            "Tuesday": "07:00 - 23:59",
+            "Wednesday": "07:00 - 23:59",
+            "Thursday": "07:00 - 23:59"
+        },
+        "phone_number": [
+            "0464510346"
+        ],
+        "website": null
+    }
+]
