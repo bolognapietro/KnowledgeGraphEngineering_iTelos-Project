@@ -11,11 +11,11 @@ import shutil
 
 chdir(dirname(__file__))
 
-ROOT: str = "../dati.trentino.it"
+ROOT: str = "../data/raw/dati.trentino.it"
 ROOT_JSON = join(ROOT, "json")
 ROOT_CSV = join(ROOT, "csv")
 
-shutil.rmtree(ROOT)
+#shutil.rmtree(ROOT)
 
 makedirs(ROOT, exist_ok=True)
 makedirs(ROOT_JSON, exist_ok=True)
