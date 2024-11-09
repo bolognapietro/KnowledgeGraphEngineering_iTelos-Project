@@ -106,9 +106,13 @@ while True:
 
             continue
         
+        if isfile(join(ROOT_JSON, f"{name}.json")):
+            continue
+
         json_resource = [resource.find_all("li")[1].find("a").attrs["href"] for resource in resources if resource.find("span", {"data-format": "json"})][0]
 
         current_events = []
+        final_results_csv = []
 
         while json_resource is not None:
 
@@ -127,12 +131,22 @@ while True:
             
             if isinstance(data, list):
                 current_events.extend(data)
+                final_results_csv.extend([list(event.values()) for event in data])
                 break
 
             else:
-                current_events.extend(data["searchHits"])
+
+                items = data["searchHits"]
+
+                current_events.extend(items)
+                final_results_csv.extend([list(event["data"]["ita-IT"].values()) for event in items])
+
                 json_resource = data["nextPageQuery"]
 
-        with open(join(ROOT_JSON, f"{name}.json"), "w+", encoding="utf-8") as f:
-            f.write(json.dumps(current_events, indent=4))
+        if len(current_events):
+            with open(join(ROOT_JSON, f"{name}.json"), "w+", encoding="utf-8") as f:
+                f.write(json.dumps(current_events, indent=4))
+
+            df = pd.DataFrame(data=final_results_csv, columns=list(current_events[0].keys()))
+            df.to_csv(join(ROOT_CSV, f"{name}.csv"), index=False, sep=";")
 
