@@ -21,13 +21,13 @@ makedirs(ROOT_CSV, exist_ok=True)
 municipalities = [
     'Ala', 'Albiano', 'Aldeno', 'Altavalle', 'Altopiano della Vigolana', 'Amblar-Don', 'Andalo', 'Arco', 'Avio', 
     'Baselga di Pinè', 'Bedollo', 'Besenello', 'Bieno', 'Bleggio Superiore', 'Bocenago', 'Bondone', 'Borgo Chiese', 
-    'Borgo Lares', 'Borgo Valsugana', 'Brentonico', 'Bresimo', 'Brez', 'Caderzone Terme', 'Cagnò', 'Calceranica al Lago', 
+    'Borgo Lares', 'Borgo Valsugana', 'Brentonico', 'Bresimo', 'Brez', 'Caderzone Terme', 'Cagno\' Novella', 'Calceranica al Lago', 
     'Caldes', 'Caldonazzo', 'Calliano', 'Campitello di Fassa', 'Campodenno', 'Canal San Bovo', 'Canazei', 'Capriana', 
-    'Carano', 'Carisolo', 'Carzano', 'Castel Condino', 'Castel Ivano', 'Castelfondo', 'Castello-Molina di Fiemme', 
+    'Ville di Fiemme', 'Carisolo', 'Carzano', 'Castel Condino', 'Castel Ivano', 'Castelfondo', 'Castello-Molina di Fiemme', 
     'Castello Tesino', 'Castelnuovo', 'Cavalese', 'Cavareno', 'Cavedago', 'Cavedine', 'Cavizzana', 'Cembra Lisignago', 
     'Cimone', 'Cinte Tesino', 'Cis', 'Civezzano', 'Cles', 'Cloz', 'Comano Terme', 'Commezzadura', 'Contà', 'Croviana', 
-    'Daiano', 'Dambel', 'Denno', 'Dimaro Folgarida', 'Drena', 'Dro', 'Faedo', 'Fai della Paganella', 'Fiavè', 'Fierozzo', 
-    'Folgaria', 'Fondo', 'Fornace', 'Frassilongo', 'Garniga Terme', 'Giovo', 'Giustino', 'Grigno', 'Imer', 'Isera', 
+    'Daiano', 'Dambel', 'Denno', 'Dimaro Folgarida', 'Drena', 'Dro', 'Faedo San Michele all\'Adige', 'Fai della Paganella', 'Fiavè', 'Fierozzo', 
+    'Folgaria', 'Fondo Borgo d\'Anaunia', 'Fornace', 'Frassilongo', 'Garniga Terme', 'Giovo', 'Giustino', 'Grigno', 'Imer', 'Isera', 
     'Lavarone', 'Lavis', 'Ledro', 'Levico Terme', 'Livo', 'Lona-Lases', 'Luserna', 'Madruzzo', 'Malè', 'Malosco', 
     'Massimeno', 'Mazzin', 'Mezzana', 'Mezzano', 'Mezzocorona', 'Mezzolombardo', 'Moena', 'Molveno', 'Mori', 
     'Nago-Torbole', 'Nave San Rocco', 'Nogaredo', 'Nomi', 'Novaledo', 'Ospedaletto', 'Ossana', 'Palù del Fersina', 
@@ -38,13 +38,14 @@ municipalities = [
     "San Michele all'Adige", "Sant'Orsola Terme", 'Sanzeno', 'Sarnonico', 'Scurelle', 'Segonzano', 'Sella Giudicarie', 
     'San Giovanni di Fassa', 'Sfruz', 'Soraga di Fassa', 'Sover', 'Spiazzo', 'Spormaggiore', 'Sporminore', 'Stenico', 
     'Storo', 'Strembo', 'Telve', 'Telve di Sopra', 'Tenna', 'Tenno', 'Terragnolo', 'Terzolas', 'Tesero', 'Tione di Trento', 
-    'Ton', 'Torcegno', 'Trambileno', 'Tre Ville', 'Trent', 'Valdaone', 'Valfloriana', 'Vallarsa', 'Vallelaghi', 'Varena', 
+    'Ton', 'Torcegno', 'Trambileno', 'Tre Ville', 'Trento', 'Valdaone', 'Valfloriana', 'Vallarsa', 'Vallelaghi', 'Varena', 
     'Vermiglio', 'Vignola-Falesina', 'Villa Lagarina', "Ville d'Anaunia", 'Volano', 'Zambana', 'Ziano di Fiemme'
 ]
 
-columns = ["name", "address", "comune", "open_hours", "phone_number", "website"]
+for index, municipality in enumerate(municipalities):
 
-for municipality in municipalities:
+    print(" "*100, end="\r")
+    print(f"[{index+1} / {len(municipalities)}] {municipality}", end="\r")
 
     if isfile(join(ROOT_JSON, f"{municipality}.json")) and isfile(join(ROOT_CSV, f"{municipality}.csv")):
         continue
@@ -54,18 +55,22 @@ for municipality in municipalities:
 
     page = 1
 
+    municipality_paginegialle = municipality
+
     while True:
 
-        url = f"https://www.paginegialle.it/ricerca/impianto%20sportivo/{municipality}/p-{page}?output=json"
+        url = f"https://www.paginegialle.it/ricerca/impianto%20sportivo/{municipality_paginegialle}/p-{page}?output=json"
 
         response = requests.get(url=url)
 
         if response.status_code == 404:
-            with open(join(ROOT_JSON, f"{municipality}.json"), "w+") as f:
-                f.write(json.dumps(final_results_json, indent=4))
-            
-            df = pd.DataFrame(data=final_results_csv, columns=columns)
-            df.to_csv(join(ROOT_CSV, f"{municipality}.csv"), index=False, sep=";")
+
+            if len(final_results_json):
+                with open(join(ROOT_JSON, f"{municipality}.json"), "w+") as f:
+                    f.write(json.dumps(final_results_json, indent=4))
+                
+                df = pd.DataFrame(data=final_results_csv, columns=list(final_results_json[0].keys()))
+                df.to_csv(join(ROOT_CSV, f"{municipality}.csv"), index=False, sep=";")
 
             break
     
@@ -74,11 +79,26 @@ for municipality in municipalities:
         error = data.get("error", {})
 
         if len(error):
-            with open(join(ROOT_JSON, f"{municipality}.json"), "w+") as f:
-                f.write(json.dumps(final_results_json, indent=4))
             
-            df = pd.DataFrame(data=final_results_csv, columns=columns)
-            df.to_csv(join(ROOT_CSV, f"{municipality}.csv"), index=False, sep=";")
+            suggestions = data.get("list", {}).get("suggest", {}).get("multiloc", [])
+            best_suggestion = [suggestion for suggestion in suggestions if "trentino alto adige" in suggestion["reg"].lower()]
+
+            if len(best_suggestion):
+                municipality_paginegialle = best_suggestion[0].get("fraz")
+
+                if municipality_paginegialle is None:
+                    municipality_paginegialle = f"{municipality} ({best_suggestion[0]['cd_prv']})"
+                else:
+                    municipality_paginegialle = best_suggestion[0]["com"] + " " + municipality_paginegialle
+
+                continue
+
+            if len(final_results_json):
+                with open(join(ROOT_JSON, f"{municipality}.json"), "w+") as f:
+                    f.write(json.dumps(final_results_json, indent=4))
+                
+                df = pd.DataFrame(data=final_results_csv, columns=list(final_results_json[0].keys()))
+                df.to_csv(join(ROOT_CSV, f"{municipality}.csv"), index=False, sep=";")
 
             break
 
@@ -87,7 +107,7 @@ for municipality in municipalities:
         for index, result in enumerate(results):
 
             print(" "*100, end="\r")
-            print(f"{municipality} {len(final_results_json) + index}", end="\r")
+            print(f"[{index+1} / {len(municipalities)}] {municipality} {len(final_results_json) + index}", end="\r")
 
             result_name = result.get("ds_insegna", "")
 
