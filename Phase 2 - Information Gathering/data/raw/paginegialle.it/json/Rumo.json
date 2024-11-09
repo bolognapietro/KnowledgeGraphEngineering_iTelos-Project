@@ -4,11 +4,11 @@
         "address": "Viale San Lorenzo, 4",
         "comune": "Sarnonico",
         "open_hours": {
-            "Friday": "17:00 - 21:30",
-            "Saturday": "17:00 - 21:30",
-            "Tuesday": "17:00 - 21:30",
-            "Wednesday": "17:00 - 21:30",
-            "Thursday": "17:00 - 21:30"
+            "tuesday": "17:00 - 21:30",
+            "wednesday": "17:00 - 21:30",
+            "thursday": "17:00 - 21:30",
+            "friday": "17:00 - 21:30",
+            "saturday": "17:00 - 21:30"
         },
         "phone_number": [
             "3480938543"
@@ -30,13 +30,13 @@
         "address": "Localita' Centro Sportivo Verde, 1",
         "comune": "Sarnonico",
         "open_hours": {
-            "Friday": "08:30 - 19:30",
-            "Saturday": "08:30 - 19:30",
-            "Sunday": "08:30 - 19:30",
-            "Monday": "08:30 - 19:30",
-            "Tuesday": "08:30 - 19:30",
-            "Wednesday": "08:30 - 19:30",
-            "Thursday": "08:30 - 19:30"
+            "sunday": "08:30 - 19:30",
+            "monday": "08:30 - 19:30",
+            "tuesday": "08:30 - 19:30",
+            "wednesday": "08:30 - 19:30",
+            "thursday": "08:30 - 19:30",
+            "friday": "08:30 - 19:30",
+            "saturday": "08:30 - 19:30"
         },
         "phone_number": [
             "0463832698"
@@ -48,12 +48,12 @@
         "address": "Via Lago Smeraldo",
         "comune": "Borgo d'Anaunia",
         "open_hours": {
-            "Friday": "09:00 - 12:30",
-            "Saturday": "09:00 - 12:30",
-            "Sunday": "09:00 - 12:30",
-            "Tuesday": "09:00 - 12:30",
-            "Wednesday": "09:00 - 12:30",
-            "Thursday": "09:00 - 12:30"
+            "sunday": "09:00 - 12:30",
+            "tuesday": "09:00 - 12:30",
+            "wednesday": "09:00 - 12:30",
+            "thursday": "09:00 - 12:30",
+            "friday": "09:00 - 12:30",
+            "saturday": "09:00 - 12:30"
         },
         "phone_number": [
             "0463850000"
@@ -65,13 +65,13 @@
         "address": "Via Parma, 8",
         "comune": "Bolzano",
         "open_hours": {
-            "Friday": "07:00 - 23:00",
-            "Saturday": "07:00 - 23:00",
-            "Sunday": "07:00 - 21:00",
-            "Monday": "07:00 - 21:00",
-            "Tuesday": "07:00 - 23:00",
-            "Wednesday": "07:00 - 23:00",
-            "Thursday": "07:00 - 23:00"
+            "sunday": "07:00 - 21:00",
+            "monday": "07:00 - 21:00",
+            "tuesday": "07:00 - 23:00",
+            "wednesday": "07:00 - 23:00",
+            "thursday": "07:00 - 23:00",
+            "friday": "07:00 - 23:00",
+            "saturday": "07:00 - 23:00"
         },
         "phone_number": [
             "3926048829"
@@ -83,15 +83,15 @@
         "address": "21 C/O Innovation Center,, LOC. ZONA INDUSTRIALE",
         "comune": "Mal",
         "open_hours": {
-            "Friday": "08:00 - 18:00",
-            "Saturday": "08:00 - 18:00",
-            "Tuesday": "08:00 - 18:00",
-            "Wednesday": "08:00 - 18:00",
-            "Thursday": "08:00 - 18:00"
+            "tuesday": "08:00 - 18:00",
+            "wednesday": "08:00 - 18:00",
+            "thursday": "08:00 - 18:00",
+            "friday": "08:00 - 18:00",
+            "saturday": "08:00 - 18:00"
         },
         "phone_number": [
-            "3384093792",
-            "0463901272"
+            "0463901272",
+            "3384093792"
         ],
         "website": null
     },
@@ -100,13 +100,13 @@
         "address": "Via Gole, 412",
         "comune": "Dimaro Folgarida",
         "open_hours": {
-            "Friday": "09:00 - 19:00",
-            "Saturday": "09:00 - 19:00",
-            "Sunday": "09:00 - 19:00",
-            "Monday": "09:00 - 19:00",
-            "Tuesday": "09:00 - 19:00",
-            "Wednesday": "09:00 - 19:00",
-            "Thursday": "09:00 - 19:00"
+            "sunday": "09:00 - 19:00",
+            "monday": "09:00 - 19:00",
+            "tuesday": "09:00 - 19:00",
+            "wednesday": "09:00 - 19:00",
+            "thursday": "09:00 - 19:00",
+            "friday": "09:00 - 19:00",
+            "saturday": "09:00 - 19:00"
         },
         "phone_number": [
             "3402175873",
@@ -119,12 +119,12 @@
         "address": "Via Resia, 84",
         "comune": "Bolzano",
         "open_hours": {
-            "Friday": "10:00 - 21:30",
-            "Saturday": "08:30 - 21:30",
-            "Sunday": "09:30 - 12:30 / 14:00 - 18:00",
-            "Tuesday": "08:30 - 21:30",
-            "Wednesday": "10:00 - 21:30",
-            "Thursday": "08:30 - 21:30"
+            "sunday": "09:30 - 12:30 / 14:00 - 18:00",
+            "tuesday": "08:30 - 21:30",
+            "wednesday": "10:00 - 21:30",
+            "thursday": "08:30 - 21:30",
+            "friday": "10:00 - 21:30",
+            "saturday": "08:30 - 21:30"
         },
         "phone_number": [
             "0471914230"
@@ -158,8 +158,8 @@
         "comune": "San Pancrazio",
         "open_hours": {},
         "phone_number": [
-            "0473787100",
-            "0473787090"
+            "0473787090",
+            "0473787100"
         ],
         "website": null
     },
@@ -169,9 +169,9 @@
         "comune": "San Pancrazio",
         "open_hours": {},
         "phone_number": [
-            "0473787100",
             "0473787000",
-            "0473787090"
+            "0473787090",
+            "0473787100"
         ],
         "website": null
     },
@@ -180,11 +180,11 @@
         "address": "Via Cappuccini, 23",
         "comune": "Appiano sulla Strada del Vino",
         "open_hours": {
-            "Friday": "09:00 - 12:00 / 14:00 - 17:00",
-            "Saturday": "09:00 - 12:00 / 14:00 - 17:00",
-            "Tuesday": "09:00 - 12:00 / 14:00 - 17:00",
-            "Wednesday": "09:00 - 12:00 / 14:00 - 17:00",
-            "Thursday": "09:00 - 12:00 / 14:00 - 17:00"
+            "tuesday": "09:00 - 12:00 / 14:00 - 17:00",
+            "wednesday": "09:00 - 12:00 / 14:00 - 17:00",
+            "thursday": "09:00 - 12:00 / 14:00 - 17:00",
+            "friday": "09:00 - 12:00 / 14:00 - 17:00",
+            "saturday": "09:00 - 12:00 / 14:00 - 17:00"
         },
         "phone_number": [
             "0471661165"
@@ -196,13 +196,13 @@
         "address": "Via Mercato, 48",
         "comune": "Laces",
         "open_hours": {
-            "Friday": "11:00 - 19:00",
-            "Saturday": "11:00 - 19:00",
-            "Sunday": "11:00 - 19:00",
-            "Monday": "11:00 - 19:00",
-            "Tuesday": "11:00 - 19:00",
-            "Wednesday": "11:00 - 19:00",
-            "Thursday": "11:00 - 19:00"
+            "sunday": "11:00 - 19:00",
+            "monday": "11:00 - 19:00",
+            "tuesday": "11:00 - 19:00",
+            "wednesday": "11:00 - 19:00",
+            "thursday": "11:00 - 19:00",
+            "friday": "11:00 - 19:00",
+            "saturday": "11:00 - 19:00"
         },
         "phone_number": [
             "0473623560"
@@ -246,8 +246,8 @@
         "comune": "Merano",
         "open_hours": {},
         "phone_number": [
-            "0473244023",
-            "0473609932"
+            "0473609932",
+            "0473244023"
         ],
         "website": null
     },
@@ -256,12 +256,12 @@
         "address": "Via della Visitazione, 38",
         "comune": "Bolzano",
         "open_hours": {
-            "Friday": "09:30 - 21:30",
-            "Saturday": "09:30 - 21:30",
-            "Sunday": "09:30 - 13:00 / 15:00 - 17:00",
-            "Tuesday": "09:30 - 21:30",
-            "Wednesday": "09:30 - 21:30",
-            "Thursday": "09:30 - 21:30"
+            "sunday": "09:30 - 13:00 / 15:00 - 17:00",
+            "tuesday": "09:30 - 21:30",
+            "wednesday": "09:30 - 21:30",
+            "thursday": "09:30 - 21:30",
+            "friday": "09:30 - 21:30",
+            "saturday": "09:30 - 21:30"
         },
         "phone_number": [
             "0471200511"
@@ -284,8 +284,8 @@
         "comune": "Lana",
         "open_hours": {},
         "phone_number": [
-            "0473557291",
-            "0473568138"
+            "0473568138",
+            "0473557291"
         ],
         "website": null
     },
@@ -294,13 +294,13 @@
         "address": "Strada Provinciale degli Ortioi, 1",
         "comune": "Mezzana",
         "open_hours": {
-            "Friday": "08:00 - 23:00",
-            "Saturday": "08:00 - 23:00",
-            "Sunday": "08:00 - 23:00",
-            "Monday": "08:00 - 23:00",
-            "Tuesday": "08:00 - 23:00",
-            "Wednesday": "08:00 - 23:00",
-            "Thursday": "08:00 - 23:00"
+            "sunday": "08:00 - 23:00",
+            "monday": "08:00 - 23:00",
+            "tuesday": "08:00 - 23:00",
+            "wednesday": "08:00 - 23:00",
+            "thursday": "08:00 - 23:00",
+            "friday": "08:00 - 23:00",
+            "saturday": "08:00 - 23:00"
         },
         "phone_number": [
             "0463757451"
@@ -320,13 +320,13 @@
         "address": "Via Maso della Pieve, 11",
         "comune": "Bolzano",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
             "0471251926",
@@ -339,13 +339,13 @@
         "address": "Piazza Don Bosco, 17",
         "comune": "Bolzano",
         "open_hours": {
-            "Friday": "08:00 - 20:00",
-            "Saturday": "08:00 - 20:00",
-            "Sunday": "08:00 - 20:00",
-            "Monday": "08:00 - 20:00",
-            "Tuesday": "08:00 - 20:00",
-            "Wednesday": "08:00 - 20:00",
-            "Thursday": "08:00 - 20:00"
+            "sunday": "08:00 - 20:00",
+            "monday": "08:00 - 20:00",
+            "tuesday": "08:00 - 20:00",
+            "wednesday": "08:00 - 20:00",
+            "thursday": "08:00 - 20:00",
+            "friday": "08:00 - 20:00",
+            "saturday": "08:00 - 20:00"
         },
         "phone_number": [
             "0471997050"
@@ -368,13 +368,13 @@
         "address": "Via del Pressenach, 1",
         "comune": "Mezzana",
         "open_hours": {
-            "Friday": "09:00 - 22:00",
-            "Saturday": "09:00 - 22:00",
-            "Sunday": "09:00 - 22:00",
-            "Monday": "09:00 - 22:00",
-            "Tuesday": "09:00 - 22:00",
-            "Wednesday": "09:00 - 22:00",
-            "Thursday": "09:00 - 22:00"
+            "sunday": "09:00 - 22:00",
+            "monday": "09:00 - 22:00",
+            "tuesday": "09:00 - 22:00",
+            "wednesday": "09:00 - 22:00",
+            "thursday": "09:00 - 22:00",
+            "friday": "09:00 - 22:00",
+            "saturday": "09:00 - 22:00"
         },
         "phone_number": [
             "0463757551"
@@ -386,13 +386,13 @@
         "address": "Via San Giacomo, 158",
         "comune": "Laives",
         "open_hours": {
-            "Friday": "09:00 - 23:00",
-            "Saturday": "09:00 - 23:00",
-            "Sunday": "09:00 - 23:00",
-            "Monday": "09:00 - 23:00",
-            "Tuesday": "09:00 - 23:00",
-            "Wednesday": "09:00 - 23:00",
-            "Thursday": "09:00 - 23:00"
+            "sunday": "09:00 - 23:00",
+            "monday": "09:00 - 23:00",
+            "tuesday": "09:00 - 23:00",
+            "wednesday": "09:00 - 23:00",
+            "thursday": "09:00 - 23:00",
+            "friday": "09:00 - 23:00",
+            "saturday": "09:00 - 23:00"
         },
         "phone_number": [
             "0471251565"
@@ -456,13 +456,13 @@
         "address": "Strada Riva di Sotto, 74",
         "comune": "Appiano sulla Strada del Vino",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
             "3364648302",
@@ -507,11 +507,11 @@
         "comune": "Ora",
         "open_hours": {},
         "phone_number": [
-            "0471810025",
+            "0471814243",
             "047181243",
             "0471802872",
             "0471810272",
-            "0471814243"
+            "0471810025"
         ],
         "website": null
     },
@@ -541,13 +541,13 @@
         "address": "Via Brandis, 13",
         "comune": "Lana",
         "open_hours": {
-            "Friday": "08:00 - 19:00",
-            "Saturday": "08:00 - 19:00",
-            "Sunday": "08:00 - 19:00",
-            "Monday": "08:00 - 19:00",
-            "Tuesday": "08:00 - 19:00",
-            "Wednesday": "08:00 - 19:00",
-            "Thursday": "08:00 - 19:00"
+            "sunday": "08:00 - 19:00",
+            "monday": "08:00 - 19:00",
+            "tuesday": "08:00 - 19:00",
+            "wednesday": "08:00 - 19:00",
+            "thursday": "08:00 - 19:00",
+            "friday": "08:00 - 19:00",
+            "saturday": "08:00 - 19:00"
         },
         "phone_number": [
             "0473564696"
@@ -569,10 +569,10 @@
         "address": "Via Resia, 180",
         "comune": "Bolzano",
         "open_hours": {
-            "Friday": "19:00 - 20:00",
-            "Tuesday": "19:00 - 20:00",
-            "Wednesday": "19:00 - 20:00",
-            "Thursday": "19:00 - 20:00"
+            "tuesday": "19:00 - 20:00",
+            "wednesday": "19:00 - 20:00",
+            "thursday": "19:00 - 20:00",
+            "friday": "19:00 - 20:00"
         },
         "phone_number": [
             "3489325033"
@@ -584,17 +584,17 @@
         "address": "Via Roen",
         "comune": "Amblar-Don",
         "open_hours": {
-            "Friday": "08:00 - 20:00",
-            "Saturday": "08:00 - 20:00",
-            "Sunday": "08:00 - 20:00",
-            "Monday": "08:00 - 20:00",
-            "Tuesday": "08:00 - 20:00",
-            "Wednesday": "08:00 - 20:00",
-            "Thursday": "08:00 - 20:00"
+            "sunday": "08:00 - 20:00",
+            "monday": "08:00 - 20:00",
+            "tuesday": "08:00 - 20:00",
+            "wednesday": "08:00 - 20:00",
+            "thursday": "08:00 - 20:00",
+            "friday": "08:00 - 20:00",
+            "saturday": "08:00 - 20:00"
         },
         "phone_number": [
-            "3395026924",
-            "0463830077"
+            "0463830077",
+            "3395026924"
         ],
         "website": null
     },
@@ -613,13 +613,13 @@
         "address": "Strada del Roccolo, 24",
         "comune": "Dimaro Folgarida",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
             "0463986113",
@@ -632,16 +632,16 @@
         "address": "Via Galvani, 34",
         "comune": "Bolzano",
         "open_hours": {
-            "Friday": "08:00 - 20:00",
-            "Saturday": "08:00 - 20:00",
-            "Sunday": "08:00 - 20:00",
-            "Tuesday": "08:00 - 20:00",
-            "Wednesday": "08:00 - 20:00",
-            "Thursday": "08:00 - 20:00"
+            "sunday": "08:00 - 20:00",
+            "tuesday": "08:00 - 20:00",
+            "wednesday": "08:00 - 20:00",
+            "thursday": "08:00 - 20:00",
+            "friday": "08:00 - 20:00",
+            "saturday": "08:00 - 20:00"
         },
         "phone_number": [
-            "0471913968",
-            "0471914813"
+            "0471914813",
+            "0471913968"
         ],
         "website": null
     },
@@ -650,17 +650,17 @@
         "address": "Via Resia, 39",
         "comune": "Bolzano",
         "open_hours": {
-            "Friday": "08:00 - 23:00",
-            "Saturday": "08:00 - 23:00",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "08:00 - 23:00",
-            "Wednesday": "08:00 - 23:00",
-            "Thursday": "08:00 - 23:00"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "08:00 - 23:00",
+            "wednesday": "08:00 - 23:00",
+            "thursday": "08:00 - 23:00",
+            "friday": "08:00 - 23:00",
+            "saturday": "08:00 - 23:00"
         },
         "phone_number": [
-            "0471500777",
-            "0471997451"
+            "0471997451",
+            "0471500777"
         ],
         "website": null
     },
@@ -669,13 +669,13 @@
         "address": "Via Resia, 39/A",
         "comune": "Bolzano",
         "open_hours": {
-            "Friday": "07:00 - 21:30",
-            "Saturday": "07:00 - 21:30",
-            "Sunday": "07:00 - 21:30",
-            "Monday": "07:00 - 21:30",
-            "Tuesday": "07:00 - 21:30",
-            "Wednesday": "07:00 - 21:30",
-            "Thursday": "07:00 - 21:30"
+            "sunday": "07:00 - 21:30",
+            "monday": "07:00 - 21:30",
+            "tuesday": "07:00 - 21:30",
+            "wednesday": "07:00 - 21:30",
+            "thursday": "07:00 - 21:30",
+            "friday": "07:00 - 21:30",
+            "saturday": "07:00 - 21:30"
         },
         "phone_number": [
             "0471935558"
@@ -689,8 +689,8 @@
         "open_hours": {},
         "phone_number": [
             "0473563828",
-            "3357792677",
-            "3357792679"
+            "3357792679",
+            "3357792677"
         ],
         "website": null
     },
@@ -699,13 +699,13 @@
         "address": "Via alla Croce, 1",
         "comune": "Mal",
         "open_hours": {
-            "Friday": "15:00 - 19:30",
-            "Saturday": "15:00 - 19:30",
-            "Sunday": "10:00 - 21:00",
-            "Monday": "10:00 - 21:00",
-            "Tuesday": "10:00 - 21:00",
-            "Wednesday": "15:00 - 19:30",
-            "Thursday": "15:00 - 19:30"
+            "sunday": "10:00 - 21:00",
+            "monday": "10:00 - 21:00",
+            "tuesday": "10:00 - 21:00",
+            "wednesday": "15:00 - 19:30",
+            "thursday": "15:00 - 19:30",
+            "friday": "15:00 - 19:30",
+            "saturday": "15:00 - 19:30"
         },
         "phone_number": [
             "0463902545"
@@ -718,8 +718,8 @@
         "comune": "Ora",
         "open_hours": {},
         "phone_number": [
-            "3492637459",
-            "3490058257"
+            "3490058257",
+            "3492637459"
         ],
         "website": null
     },
@@ -728,13 +728,13 @@
         "address": "Via Maso della Pieve, 11",
         "comune": "Bolzano",
         "open_hours": {
-            "Friday": "09:00 - 22:00",
-            "Saturday": "09:00 - 22:00",
-            "Sunday": "09:00 - 22:00",
-            "Monday": "09:00 - 22:00",
-            "Tuesday": "09:00 - 22:00",
-            "Wednesday": "09:00 - 22:00",
-            "Thursday": "09:00 - 22:00"
+            "sunday": "09:00 - 22:00",
+            "monday": "09:00 - 22:00",
+            "tuesday": "09:00 - 22:00",
+            "wednesday": "09:00 - 22:00",
+            "thursday": "09:00 - 22:00",
+            "friday": "09:00 - 22:00",
+            "saturday": "09:00 - 22:00"
         },
         "phone_number": [
             "0471250598"
@@ -801,11 +801,11 @@
         "comune": "Egna",
         "open_hours": {},
         "phone_number": [
-            "0471813613",
             "0471813614",
+            "0471813613",
             "3382285799",
-            "0471823224",
             "0471820900",
+            "0471823224",
             "0471813625"
         ],
         "website": null
@@ -827,9 +827,9 @@
         "comune": "Bolzano",
         "open_hours": {},
         "phone_number": [
-            "0471631610",
             "0471663158",
-            "0471631611"
+            "0471631611",
+            "0471631610"
         ],
         "website": null
     },
@@ -838,12 +838,12 @@
         "address": "Via Resia, 39",
         "comune": "Bolzano",
         "open_hours": {
-            "Friday": "12:30 - 14:00",
-            "Saturday": "12:30 - 14:00 / 17:00 - 23:00",
-            "Sunday": "16:00 - 20:00",
-            "Tuesday": "12:30 - 14:00 / 17:00 - 23:00",
-            "Wednesday": "12:30 - 14:00 / 17:00 - 23:00",
-            "Thursday": "12:30 - 14:00 / 17:00 - 23:00"
+            "sunday": "16:00 - 20:00",
+            "tuesday": "12:30 - 14:00 / 17:00 - 23:00",
+            "wednesday": "12:30 - 14:00 / 17:00 - 23:00",
+            "thursday": "12:30 - 14:00 / 17:00 - 23:00",
+            "friday": "12:30 - 14:00",
+            "saturday": "12:30 - 14:00 / 17:00 - 23:00"
         },
         "phone_number": [
             "0471935528"
@@ -875,12 +875,12 @@
         "address": "Via Maso Ronco",
         "comune": "Appiano sulla Strada del Vino",
         "open_hours": {
-            "Friday": "08:00 - 22:00",
-            "Saturday": "08:00 - 22:00",
-            "Sunday": "08:00 - 22:00",
-            "Tuesday": "08:00 - 22:00",
-            "Wednesday": "08:00 - 22:00",
-            "Thursday": "08:00 - 22:00"
+            "sunday": "08:00 - 22:00",
+            "tuesday": "08:00 - 22:00",
+            "wednesday": "08:00 - 22:00",
+            "thursday": "08:00 - 22:00",
+            "friday": "08:00 - 22:00",
+            "saturday": "08:00 - 22:00"
         },
         "phone_number": [
             "0471663104"
@@ -903,11 +903,11 @@
         "comune": "Bolzano",
         "open_hours": {},
         "phone_number": [
-            "0471550524",
             "0471200061",
-            "0471550605",
             "0471550522",
-            "0471550534"
+            "0471550605",
+            "0471550534",
+            "0471550524"
         ],
         "website": null
     },
@@ -926,12 +926,12 @@
         "address": "Via Nazionale, 23",
         "comune": "Bronzolo",
         "open_hours": {
-            "Friday": "08:00 - 22:00",
-            "Saturday": "08:00 - 22:00",
-            "Sunday": "08:00 - 22:00",
-            "Tuesday": "08:00 - 22:00",
-            "Wednesday": "08:00 - 22:00",
-            "Thursday": "08:00 - 22:00"
+            "sunday": "08:00 - 22:00",
+            "tuesday": "08:00 - 22:00",
+            "wednesday": "08:00 - 22:00",
+            "thursday": "08:00 - 22:00",
+            "friday": "08:00 - 22:00",
+            "saturday": "08:00 - 22:00"
         },
         "phone_number": [
             "3283786609"
@@ -943,16 +943,16 @@
         "address": "Via Gustav Flora, 29",
         "comune": "Naturno",
         "open_hours": {
-            "Friday": "08:00 - 22:00",
-            "Saturday": "08:00 - 22:00",
-            "Sunday": "08:00 - 22:00",
-            "Tuesday": "08:00 - 22:00",
-            "Wednesday": "08:00 - 22:00",
-            "Thursday": "08:00 - 22:00"
+            "sunday": "08:00 - 22:00",
+            "tuesday": "08:00 - 22:00",
+            "wednesday": "08:00 - 22:00",
+            "thursday": "08:00 - 22:00",
+            "friday": "08:00 - 22:00",
+            "saturday": "08:00 - 22:00"
         },
         "phone_number": [
-            "3381201416",
-            "0473668094"
+            "0473668094",
+            "3381201416"
         ],
         "website": null
     },
@@ -961,12 +961,12 @@
         "address": "Via Quattro Ville, 3",
         "comune": "Ville d'Anaunia",
         "open_hours": {
-            "Friday": "09:00 - 12:00",
-            "Saturday": "09:00 - 12:00",
-            "Sunday": "09:00 - 12:00",
-            "Tuesday": "09:00 - 12:00",
-            "Wednesday": "09:00 - 12:00",
-            "Thursday": "09:00 - 12:00"
+            "sunday": "09:00 - 12:00",
+            "tuesday": "09:00 - 12:00",
+            "wednesday": "09:00 - 12:00",
+            "thursday": "09:00 - 12:00",
+            "friday": "09:00 - 12:00",
+            "saturday": "09:00 - 12:00"
         },
         "phone_number": [
             "3388986749"
@@ -978,13 +978,13 @@
         "address": "Via Brescia, 88",
         "comune": "Dimaro Folgarida",
         "open_hours": {
-            "Friday": "09:00 - 12:00 / 15:00 - 19:00",
-            "Saturday": "09:00 - 12:00 / 15:00 - 19:00",
-            "Sunday": "09:00 - 12:00 / 15:00 - 19:00",
-            "Monday": "09:00 - 12:00 / 15:00 - 19:00",
-            "Tuesday": "09:00 - 12:00 / 15:00 - 19:00",
-            "Wednesday": "09:00 - 12:00 / 15:00 - 19:00",
-            "Thursday": "09:00 - 12:00 / 15:00 - 19:00"
+            "sunday": "09:00 - 12:00 / 15:00 - 19:00",
+            "monday": "09:00 - 12:00 / 15:00 - 19:00",
+            "tuesday": "09:00 - 12:00 / 15:00 - 19:00",
+            "wednesday": "09:00 - 12:00 / 15:00 - 19:00",
+            "thursday": "09:00 - 12:00 / 15:00 - 19:00",
+            "friday": "09:00 - 12:00 / 15:00 - 19:00",
+            "saturday": "09:00 - 12:00 / 15:00 - 19:00"
         },
         "phone_number": [
             "0463970004"
@@ -997,8 +997,8 @@
         "comune": "Bronzolo",
         "open_hours": {},
         "phone_number": [
-            "0471967351",
             "3474479818",
+            "0471967351",
             "3317351051"
         ],
         "website": null
@@ -1018,12 +1018,12 @@
         "address": "Via Palade, 1/B",
         "comune": "Cermes",
         "open_hours": {
-            "Friday": "08:00 - 23:59",
-            "Saturday": "08:00 - 23:59",
-            "Sunday": "08:00 - 23:59",
-            "Tuesday": "08:00 - 23:59",
-            "Wednesday": "08:00 - 23:59",
-            "Thursday": "08:00 - 23:59"
+            "sunday": "08:00 - 23:59",
+            "tuesday": "08:00 - 23:59",
+            "wednesday": "08:00 - 23:59",
+            "thursday": "08:00 - 23:59",
+            "friday": "08:00 - 23:59",
+            "saturday": "08:00 - 23:59"
         },
         "phone_number": [
             "0473561625"
@@ -1035,17 +1035,17 @@
         "address": "Via Monticolo, 80",
         "comune": "Appiano sulla Strada del Vino",
         "open_hours": {
-            "Friday": "09:00 - 22:00",
-            "Saturday": "09:00 - 22:00",
-            "Sunday": "09:00 - 22:00",
-            "Monday": "09:00 - 18:00",
-            "Tuesday": "09:00 - 22:00",
-            "Wednesday": "09:00 - 22:00",
-            "Thursday": "09:00 - 22:00"
+            "sunday": "09:00 - 22:00",
+            "monday": "09:00 - 18:00",
+            "tuesday": "09:00 - 22:00",
+            "wednesday": "09:00 - 22:00",
+            "thursday": "09:00 - 22:00",
+            "friday": "09:00 - 22:00",
+            "saturday": "09:00 - 22:00"
         },
         "phone_number": [
-            "0471664657",
-            "3387629002"
+            "3387629002",
+            "0471664657"
         ],
         "website": null
     },
@@ -1064,9 +1064,9 @@
         "address": "Via San Maurizio, 56",
         "comune": "Bolzano",
         "open_hours": {
-            "Friday": "14:00 - 17:00",
-            "Sunday": "14:00 - 18:30",
-            "Thursday": "14:00 - 19:00"
+            "sunday": "14:00 - 18:30",
+            "thursday": "14:00 - 19:00",
+            "friday": "14:00 - 17:00"
         },
         "phone_number": [
             "0471280292"

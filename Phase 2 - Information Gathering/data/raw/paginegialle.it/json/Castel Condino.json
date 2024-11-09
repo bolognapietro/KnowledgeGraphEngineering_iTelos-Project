@@ -4,13 +4,13 @@
         "address": "Via Capitello, 5",
         "comune": "Storo",
         "open_hours": {
-            "Friday": "09:00 - 11:59 / 12:00 - 23:00",
-            "Saturday": "09:00 - 11:59 / 12:00 - 23:00",
-            "Sunday": "09:00 - 11:59 / 12:00 - 23:00",
-            "Monday": "09:00 - 11:59 / 12:00 - 23:00",
-            "Tuesday": "09:00 - 11:59 / 12:00 - 23:00",
-            "Wednesday": "09:00 - 11:59 / 12:00 - 23:00",
-            "Thursday": "09:00 - 11:59 / 12:00 - 23:00"
+            "sunday": "09:00 - 11:59 / 12:00 - 23:00",
+            "monday": "09:00 - 11:59 / 12:00 - 23:00",
+            "tuesday": "09:00 - 11:59 / 12:00 - 23:00",
+            "wednesday": "09:00 - 11:59 / 12:00 - 23:00",
+            "thursday": "09:00 - 11:59 / 12:00 - 23:00",
+            "friday": "09:00 - 11:59 / 12:00 - 23:00",
+            "saturday": "09:00 - 11:59 / 12:00 - 23:00"
         },
         "phone_number": [
             "0465299257"
@@ -22,13 +22,13 @@
         "address": "Localit Besta, 1",
         "comune": "Ledro",
         "open_hours": {
-            "Friday": "08:00 - 20:00",
-            "Saturday": "08:00 - 20:00",
-            "Sunday": "08:00 - 20:00",
-            "Monday": "08:00 - 20:00",
-            "Tuesday": "08:00 - 20:00",
-            "Wednesday": "08:00 - 20:00",
-            "Thursday": "08:00 - 20:00"
+            "sunday": "08:00 - 20:00",
+            "monday": "08:00 - 20:00",
+            "tuesday": "08:00 - 20:00",
+            "wednesday": "08:00 - 20:00",
+            "thursday": "08:00 - 20:00",
+            "friday": "08:00 - 20:00",
+            "saturday": "08:00 - 20:00"
         },
         "phone_number": [
             "3805235139"
@@ -40,13 +40,13 @@
         "address": "Via Casarino, 1",
         "comune": "Ledro",
         "open_hours": {
-            "Friday": "09:00 - 19:00",
-            "Saturday": "09:00 - 19:00",
-            "Sunday": "09:00 - 19:00",
-            "Monday": "09:00 - 19:00",
-            "Tuesday": "09:00 - 19:00",
-            "Wednesday": "09:00 - 19:00",
-            "Thursday": "09:00 - 19:00"
+            "sunday": "09:00 - 19:00",
+            "monday": "09:00 - 19:00",
+            "tuesday": "09:00 - 19:00",
+            "wednesday": "09:00 - 19:00",
+            "thursday": "09:00 - 19:00",
+            "friday": "09:00 - 19:00",
+            "saturday": "09:00 - 19:00"
         },
         "phone_number": [
             "0464508198"
@@ -58,13 +58,13 @@
         "address": "Via Gardesana, 144/B",
         "comune": "Malcesine",
         "open_hours": {
-            "Friday": "08:30 - 18:00",
-            "Saturday": "08:30 - 18:00",
-            "Sunday": "08:30 - 18:00",
-            "Monday": "08:30 - 18:00",
-            "Tuesday": "08:30 - 18:00",
-            "Wednesday": "08:30 - 18:00",
-            "Thursday": "08:30 - 18:00"
+            "sunday": "08:30 - 18:00",
+            "monday": "08:30 - 18:00",
+            "tuesday": "08:30 - 18:00",
+            "wednesday": "08:30 - 18:00",
+            "thursday": "08:30 - 18:00",
+            "friday": "08:30 - 18:00",
+            "saturday": "08:30 - 18:00"
         },
         "phone_number": [
             "0457401697",
@@ -97,13 +97,13 @@
         "address": "Localit San Tomaso",
         "comune": "Riva del Garda",
         "open_hours": {
-            "Friday": "08:00 - 20:00",
-            "Saturday": "08:00 - 20:00",
-            "Sunday": "08:00 - 20:00",
-            "Monday": "08:00 - 20:00",
-            "Tuesday": "08:00 - 20:00",
-            "Wednesday": "08:00 - 20:00",
-            "Thursday": "08:00 - 20:00"
+            "sunday": "08:00 - 20:00",
+            "monday": "08:00 - 20:00",
+            "tuesday": "08:00 - 20:00",
+            "wednesday": "08:00 - 20:00",
+            "thursday": "08:00 - 20:00",
+            "friday": "08:00 - 20:00",
+            "saturday": "08:00 - 20:00"
         },
         "phone_number": [
             "0365643006"
@@ -116,10 +116,10 @@
         "comune": "Riva del Garda",
         "open_hours": {},
         "phone_number": [
-            "3490586660",
             "0464311398",
-            "0464520078",
-            "3397376737"
+            "3397376737",
+            "3490586660",
+            "0464520078"
         ],
         "website": null
     },
@@ -138,13 +138,13 @@
         "address": "Via Fasse",
         "comune": "Limone sul Garda",
         "open_hours": {
-            "Friday": "07:00 - 20:00",
-            "Saturday": "07:00 - 20:00",
-            "Sunday": "07:00 - 20:00",
-            "Monday": "07:00 - 20:00",
-            "Tuesday": "07:00 - 20:00",
-            "Wednesday": "07:00 - 20:00",
-            "Thursday": "07:00 - 20:00"
+            "sunday": "07:00 - 20:00",
+            "monday": "07:00 - 20:00",
+            "tuesday": "07:00 - 20:00",
+            "wednesday": "07:00 - 20:00",
+            "thursday": "07:00 - 20:00",
+            "friday": "07:00 - 20:00",
+            "saturday": "07:00 - 20:00"
         },
         "phone_number": [
             "0365954008"
@@ -164,13 +164,13 @@
         "address": "Via Maniva, 84",
         "comune": "Collio",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
             "030927213"
@@ -192,12 +192,12 @@
         "address": "Via Pomerio, 11",
         "comune": "Arco",
         "open_hours": {
-            "Friday": "09:00 - 22:30",
-            "Saturday": "09:00 - 22:30",
-            "Sunday": "09:00 - 19:00",
-            "Tuesday": "09:00 - 22:30",
-            "Wednesday": "09:00 - 22:30",
-            "Thursday": "09:00 - 22:30"
+            "sunday": "09:00 - 19:00",
+            "tuesday": "09:00 - 22:30",
+            "wednesday": "09:00 - 22:30",
+            "thursday": "09:00 - 22:30",
+            "friday": "09:00 - 22:30",
+            "saturday": "09:00 - 22:30"
         },
         "phone_number": [
             "0464516824"
@@ -209,13 +209,13 @@
         "address": "Strada Granda, 67",
         "comune": "Nago-Torbole",
         "open_hours": {
-            "Friday": "08:00 - 23:00",
-            "Saturday": "08:00 - 23:00",
-            "Sunday": "08:00 - 23:00",
-            "Monday": "08:00 - 23:00",
-            "Tuesday": "08:00 - 23:00",
-            "Wednesday": "08:00 - 23:00",
-            "Thursday": "08:00 - 23:00"
+            "sunday": "08:00 - 23:00",
+            "monday": "08:00 - 23:00",
+            "tuesday": "08:00 - 23:00",
+            "wednesday": "08:00 - 23:00",
+            "thursday": "08:00 - 23:00",
+            "friday": "08:00 - 23:00",
+            "saturday": "08:00 - 23:00"
         },
         "phone_number": [
             "3925442873"
@@ -227,12 +227,12 @@
         "address": "Localit San Giorgio Arco",
         "comune": "Arco",
         "open_hours": {
-            "Friday": "09:00 - 12:00 / 14:00 - 19:00",
-            "Saturday": "09:00 - 12:00 / 14:00 - 19:00",
-            "Sunday": "09:00 - 12:00 / 14:00 - 19:00",
-            "Monday": "09:00 - 12:00 / 14:00 - 19:00",
-            "Wednesday": "09:00 - 12:00 / 14:00 - 19:00",
-            "Thursday": "09:00 - 12:00 / 14:00 - 19:00"
+            "sunday": "09:00 - 12:00 / 14:00 - 19:00",
+            "monday": "09:00 - 12:00 / 14:00 - 19:00",
+            "wednesday": "09:00 - 12:00 / 14:00 - 19:00",
+            "thursday": "09:00 - 12:00 / 14:00 - 19:00",
+            "friday": "09:00 - 12:00 / 14:00 - 19:00",
+            "saturday": "09:00 - 12:00 / 14:00 - 19:00"
         },
         "phone_number": [
             "3484438307"
@@ -244,12 +244,12 @@
         "address": "Localit Canneto",
         "comune": "Paspardo",
         "open_hours": {
-            "Friday": "08:00 - 12:00 / 14:00 - 18:00",
-            "Saturday": "08:00 - 12:00 / 14:00 - 18:00",
-            "Sunday": "08:00 - 12:00 / 14:00 - 18:00",
-            "Tuesday": "08:00 - 12:00 / 14:00 - 18:00",
-            "Wednesday": "08:00 - 12:00 / 14:00 - 18:00",
-            "Thursday": "08:00 - 12:00 / 14:00 - 18:00"
+            "sunday": "08:00 - 12:00 / 14:00 - 18:00",
+            "tuesday": "08:00 - 12:00 / 14:00 - 18:00",
+            "wednesday": "08:00 - 12:00 / 14:00 - 18:00",
+            "thursday": "08:00 - 12:00 / 14:00 - 18:00",
+            "friday": "08:00 - 12:00 / 14:00 - 18:00",
+            "saturday": "08:00 - 12:00 / 14:00 - 18:00"
         },
         "phone_number": [
             "036448025"
@@ -311,17 +311,17 @@
         "address": "Via Parrocchia, 14",
         "comune": "Bagolino",
         "open_hours": {
-            "Friday": "18:00 - 22:00",
-            "Saturday": "18:00 - 22:00",
-            "Sunday": "18:00 - 22:00",
-            "Monday": "14:00 - 22:00",
-            "Tuesday": "18:00 - 22:00",
-            "Wednesday": "18:00 - 22:00",
-            "Thursday": "18:00 - 22:00"
+            "sunday": "18:00 - 22:00",
+            "monday": "14:00 - 22:00",
+            "tuesday": "18:00 - 22:00",
+            "wednesday": "18:00 - 22:00",
+            "thursday": "18:00 - 22:00",
+            "friday": "18:00 - 22:00",
+            "saturday": "18:00 - 22:00"
         },
         "phone_number": [
-            "3394164273",
-            "036599108"
+            "036599108",
+            "3394164273"
         ],
         "website": null
     },
@@ -331,8 +331,8 @@
         "comune": "Riva del Garda",
         "open_hours": {},
         "phone_number": [
-            "0464555772",
-            "0464554551"
+            "0464554551",
+            "0464555772"
         ],
         "website": null
     },
@@ -341,13 +341,13 @@
         "address": "Via San Gaudenzio, 14",
         "comune": "Paspardo",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
             "036448018"
@@ -391,8 +391,8 @@
         "comune": "Riva del Garda",
         "open_hours": {},
         "phone_number": [
-            "3292146937",
-            "0464552072"
+            "0464552072",
+            "3292146937"
         ],
         "website": null
     },
@@ -431,13 +431,13 @@
         "address": "Via Federico Bagozzi",
         "comune": "Collio",
         "open_hours": {
-            "Friday": "09:00 - 17:00",
-            "Saturday": "09:00 - 17:00",
-            "Sunday": "09:00 - 17:00",
-            "Monday": "09:00 - 17:00",
-            "Tuesday": "09:00 - 17:00",
-            "Wednesday": "09:00 - 17:00",
-            "Thursday": "09:00 - 17:00"
+            "sunday": "09:00 - 17:00",
+            "monday": "09:00 - 17:00",
+            "tuesday": "09:00 - 17:00",
+            "wednesday": "09:00 - 17:00",
+            "thursday": "09:00 - 17:00",
+            "friday": "09:00 - 17:00",
+            "saturday": "09:00 - 17:00"
         },
         "phone_number": [
             "030927213"
@@ -459,11 +459,11 @@
         "address": "Via Pomerio, 9",
         "comune": "Arco",
         "open_hours": {
-            "Friday": "07:00 - 23:59",
-            "Saturday": "07:00 - 23:59",
-            "Tuesday": "07:00 - 23:59",
-            "Wednesday": "07:00 - 23:59",
-            "Thursday": "07:00 - 23:59"
+            "tuesday": "07:00 - 23:59",
+            "wednesday": "07:00 - 23:59",
+            "thursday": "07:00 - 23:59",
+            "friday": "07:00 - 23:59",
+            "saturday": "07:00 - 23:59"
         },
         "phone_number": [
             "0464510346"

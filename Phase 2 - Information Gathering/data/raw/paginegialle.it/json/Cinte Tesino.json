@@ -14,13 +14,13 @@
         "address": "Localit Coldan, 11",
         "comune": "Pieve Tesino",
         "open_hours": {
-            "Friday": "09:00 - 18:00",
-            "Saturday": "09:00 - 18:00",
-            "Sunday": "09:00 - 18:00",
-            "Monday": "09:00 - 18:00",
-            "Tuesday": "09:00 - 18:00",
-            "Wednesday": "09:00 - 18:00",
-            "Thursday": "09:00 - 18:00"
+            "sunday": "09:00 - 18:00",
+            "monday": "09:00 - 18:00",
+            "tuesday": "09:00 - 18:00",
+            "wednesday": "09:00 - 18:00",
+            "thursday": "09:00 - 18:00",
+            "friday": "09:00 - 18:00",
+            "saturday": "09:00 - 18:00"
         },
         "phone_number": [
             "3505332726"
@@ -32,13 +32,13 @@
         "address": "Via Dante Alighieri, 1",
         "comune": "Pedavena",
         "open_hours": {
-            "Friday": "06:30 - 08:15 / 18:20 - 20:00",
-            "Saturday": "10:30 - 14:15",
-            "Sunday": "10:30 - 12:30 / 16:00 - 20:00",
-            "Monday": "09:00 - 12:00",
-            "Tuesday": "10:30 - 14:15 / 18:20 - 20:00",
-            "Wednesday": "06:30 - 08:15",
-            "Thursday": "10:30 - 14:15 / 19:00 - 21:00"
+            "sunday": "10:30 - 12:30 / 16:00 - 20:00",
+            "monday": "09:00 - 12:00",
+            "tuesday": "10:30 - 14:15 / 18:20 - 20:00",
+            "wednesday": "06:30 - 08:15",
+            "thursday": "10:30 - 14:15 / 19:00 - 21:00",
+            "friday": "06:30 - 08:15 / 18:20 - 20:00",
+            "saturday": "10:30 - 14:15"
         },
         "phone_number": [
             "0439302061"
@@ -50,17 +50,17 @@
         "address": "Piazzale degli Alpini, 2",
         "comune": "Roana",
         "open_hours": {
-            "Friday": "09:30 - 21:30",
-            "Saturday": "09:30 - 21:30",
-            "Sunday": "09:30 - 19:30",
-            "Monday": "09:30 - 19:30",
-            "Tuesday": "09:30 - 21:30",
-            "Wednesday": "09:30 - 21:30",
-            "Thursday": "09:30 - 21:30"
+            "sunday": "09:30 - 19:30",
+            "monday": "09:30 - 19:30",
+            "tuesday": "09:30 - 21:30",
+            "wednesday": "09:30 - 21:30",
+            "thursday": "09:30 - 21:30",
+            "friday": "09:30 - 21:30",
+            "saturday": "09:30 - 21:30"
         },
         "phone_number": [
-            "3888676170",
-            "3346879265"
+            "3346879265",
+            "3888676170"
         ],
         "website": null
     },
@@ -90,13 +90,13 @@
         "address": "Via Antonio Vecelli, 45",
         "comune": "Pedavena",
         "open_hours": {
-            "Friday": "08:00 - 23:00",
-            "Saturday": "08:00 - 23:00",
-            "Sunday": "08:00 - 23:00",
-            "Monday": "08:00 - 23:00",
-            "Tuesday": "08:00 - 23:00",
-            "Wednesday": "08:00 - 23:00",
-            "Thursday": "08:00 - 23:00"
+            "sunday": "08:00 - 23:00",
+            "monday": "08:00 - 23:00",
+            "tuesday": "08:00 - 23:00",
+            "wednesday": "08:00 - 23:00",
+            "thursday": "08:00 - 23:00",
+            "friday": "08:00 - 23:00",
+            "saturday": "08:00 - 23:00"
         },
         "phone_number": [
             "3880515132"
@@ -109,9 +109,9 @@
         "comune": "Asiago",
         "open_hours": {},
         "phone_number": [
-            "0424463475",
+            "3494463801",
             "3491730849",
-            "3494463801"
+            "0424463475"
         ],
         "website": null
     },
@@ -150,12 +150,12 @@
         "address": "Via del Pian, 37",
         "comune": "Mezzano",
         "open_hours": {
-            "Friday": "09:00 - 19:00",
-            "Saturday": "09:00 - 19:00",
-            "Sunday": "09:00 - 19:00",
-            "Tuesday": "09:00 - 19:00",
-            "Wednesday": "09:00 - 19:00",
-            "Thursday": "09:00 - 19:00"
+            "sunday": "09:00 - 19:00",
+            "tuesday": "09:00 - 19:00",
+            "wednesday": "09:00 - 19:00",
+            "thursday": "09:00 - 19:00",
+            "friday": "09:00 - 19:00",
+            "saturday": "09:00 - 19:00"
         },
         "phone_number": [
             "0439678068",
@@ -186,13 +186,13 @@
         "address": "Localit Barco, 3",
         "comune": "Levico Terme",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
             "3396768993"
@@ -204,13 +204,13 @@
         "address": "Via Giuseppe Gozzer, 52",
         "comune": "Borgo Valsugana",
         "open_hours": {
-            "Friday": "09:00 - 21:00",
-            "Saturday": "09:00 - 21:00",
-            "Sunday": "09:00 - 21:00",
-            "Monday": "09:00 - 21:00",
-            "Tuesday": "09:00 - 21:00",
-            "Wednesday": "09:00 - 21:00",
-            "Thursday": "09:00 - 21:00"
+            "sunday": "09:00 - 21:00",
+            "monday": "09:00 - 21:00",
+            "tuesday": "09:00 - 21:00",
+            "wednesday": "09:00 - 21:00",
+            "thursday": "09:00 - 21:00",
+            "friday": "09:00 - 21:00",
+            "saturday": "09:00 - 21:00"
         },
         "phone_number": [
             "0461753836"
@@ -222,13 +222,13 @@
         "address": "Piazza Mercato, 12",
         "comune": "Borgo Valsugana",
         "open_hours": {
-            "Friday": "09:00 - 22:00",
-            "Saturday": "09:00 - 22:00",
-            "Sunday": "09:00 - 22:00",
-            "Monday": "09:00 - 22:00",
-            "Tuesday": "09:00 - 22:00",
-            "Wednesday": "09:00 - 22:00",
-            "Thursday": "09:00 - 22:00"
+            "sunday": "09:00 - 22:00",
+            "monday": "09:00 - 22:00",
+            "tuesday": "09:00 - 22:00",
+            "wednesday": "09:00 - 22:00",
+            "thursday": "09:00 - 22:00",
+            "friday": "09:00 - 22:00",
+            "saturday": "09:00 - 22:00"
         },
         "phone_number": [
             "0461753711"
@@ -279,13 +279,13 @@
         "address": "Piazza della Stazione, 1",
         "comune": "Asiago",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
             "042464144"
@@ -356,13 +356,13 @@
         "address": "Via Maggiore",
         "comune": "Roana",
         "open_hours": {
-            "Friday": "09:30 - 21:30",
-            "Saturday": "09:30 - 21:30",
-            "Sunday": "09:30 - 19:30",
-            "Monday": "09:30 - 19:30",
-            "Tuesday": "09:30 - 21:30",
-            "Wednesday": "09:30 - 21:30",
-            "Thursday": "09:30 - 21:30"
+            "sunday": "09:30 - 19:30",
+            "monday": "09:30 - 19:30",
+            "tuesday": "09:30 - 21:30",
+            "wednesday": "09:30 - 21:30",
+            "thursday": "09:30 - 21:30",
+            "friday": "09:30 - 21:30",
+            "saturday": "09:30 - 21:30"
         },
         "phone_number": [
             "0424450154"
@@ -435,13 +435,13 @@
         "address": "Via Zucco A., 7",
         "comune": "Fonzaso",
         "open_hours": {
-            "Friday": "08:00 - 23:59",
-            "Saturday": "08:00 - 23:59",
-            "Sunday": "08:00 - 23:59",
-            "Monday": "08:00 - 23:59",
-            "Tuesday": "08:00 - 23:59",
-            "Wednesday": "08:00 - 23:59",
-            "Thursday": "08:00 - 23:59"
+            "sunday": "08:00 - 23:59",
+            "monday": "08:00 - 23:59",
+            "tuesday": "08:00 - 23:59",
+            "wednesday": "08:00 - 23:59",
+            "thursday": "08:00 - 23:59",
+            "friday": "08:00 - 23:59",
+            "saturday": "08:00 - 23:59"
         },
         "phone_number": [
             "04395132"
@@ -453,12 +453,12 @@
         "address": "Via Sandro Pertini, 24",
         "comune": "Pedavena",
         "open_hours": {
-            "Friday": "08:00 - 23:00",
-            "Saturday": "08:00 - 23:00",
-            "Sunday": "08:00 - 19:00",
-            "Monday": "08:00 - 19:00",
-            "Wednesday": "08:00 - 23:00",
-            "Thursday": "08:00 - 23:00"
+            "sunday": "08:00 - 19:00",
+            "monday": "08:00 - 19:00",
+            "wednesday": "08:00 - 23:00",
+            "thursday": "08:00 - 23:00",
+            "friday": "08:00 - 23:00",
+            "saturday": "08:00 - 23:00"
         },
         "phone_number": [
             "0439301888"

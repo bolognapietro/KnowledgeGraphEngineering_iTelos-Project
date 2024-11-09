@@ -14,13 +14,13 @@
         "address": "Localit Navalge",
         "comune": "Moena",
         "open_hours": {
-            "Friday": "10:00 - 12:00 / 14:00 - 18:00",
-            "Saturday": "10:00 - 12:00 / 14:00 - 18:00",
-            "Sunday": "10:00 - 12:00 / 14:00 - 18:00",
-            "Monday": "10:00 - 12:00 / 14:00 - 18:00",
-            "Tuesday": "10:00 - 12:00 / 14:00 - 18:00",
-            "Wednesday": "10:00 - 12:00 / 14:00 - 18:00",
-            "Thursday": "10:00 - 12:00 / 14:00 - 18:00"
+            "sunday": "10:00 - 12:00 / 14:00 - 18:00",
+            "monday": "10:00 - 12:00 / 14:00 - 18:00",
+            "tuesday": "10:00 - 12:00 / 14:00 - 18:00",
+            "wednesday": "10:00 - 12:00 / 14:00 - 18:00",
+            "thursday": "10:00 - 12:00 / 14:00 - 18:00",
+            "friday": "10:00 - 12:00 / 14:00 - 18:00",
+            "saturday": "10:00 - 12:00 / 14:00 - 18:00"
         },
         "phone_number": [
             "0462574013"
@@ -54,8 +54,8 @@
         "comune": "Campitello di Fassa",
         "open_hours": {},
         "phone_number": [
-            "0462750472",
-            "3385222653"
+            "3385222653",
+            "0462750472"
         ],
         "website": null
     },
@@ -64,13 +64,13 @@
         "address": "Via Dolomiti, 33",
         "comune": "Campitello di Fassa",
         "open_hours": {
-            "Friday": "09:00 - 12:00 / 13:00 - 18:00",
-            "Saturday": "09:00 - 12:00 / 13:00 - 18:00",
-            "Sunday": "09:00 - 12:00 / 13:00 - 18:00",
-            "Monday": "09:00 - 12:00 / 13:00 - 18:00",
-            "Tuesday": "09:00 - 12:00 / 13:00 - 18:00",
-            "Wednesday": "09:00 - 12:00 / 13:00 - 18:00",
-            "Thursday": "09:00 - 12:00 / 13:00 - 18:00"
+            "sunday": "09:00 - 12:00 / 13:00 - 18:00",
+            "monday": "09:00 - 12:00 / 13:00 - 18:00",
+            "tuesday": "09:00 - 12:00 / 13:00 - 18:00",
+            "wednesday": "09:00 - 12:00 / 13:00 - 18:00",
+            "thursday": "09:00 - 12:00 / 13:00 - 18:00",
+            "friday": "09:00 - 12:00 / 13:00 - 18:00",
+            "saturday": "09:00 - 12:00 / 13:00 - 18:00"
         },
         "phone_number": [
             "3356063499"
@@ -104,13 +104,13 @@
         "address": "Via Rezia, 10",
         "comune": "Ortisei",
         "open_hours": {
-            "Friday": "08:00 - 19:00",
-            "Saturday": "08:00 - 19:00",
-            "Sunday": "08:00 - 19:00",
-            "Monday": "08:00 - 19:00",
-            "Tuesday": "08:00 - 19:00",
-            "Wednesday": "08:00 - 19:00",
-            "Thursday": "08:00 - 19:00"
+            "sunday": "08:00 - 19:00",
+            "monday": "08:00 - 19:00",
+            "tuesday": "08:00 - 19:00",
+            "wednesday": "08:00 - 19:00",
+            "thursday": "08:00 - 19:00",
+            "friday": "08:00 - 19:00",
+            "saturday": "08:00 - 19:00"
         },
         "phone_number": [
             "0471786258"
@@ -142,13 +142,13 @@
         "address": "Via Georg Strasse, 25",
         "comune": "Tires",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
             "3491404634"
@@ -171,8 +171,8 @@
         "comune": "Tesero",
         "open_hours": {},
         "phone_number": [
-            "0462814064",
-            "0462812358"
+            "0462812358",
+            "0462814064"
         ],
         "website": null
     },
@@ -191,13 +191,13 @@
         "address": "Localit Parco della Pieve, 1",
         "comune": "Cavalese",
         "open_hours": {
-            "Friday": "08:00 - 23:00",
-            "Saturday": "08:00 - 23:00",
-            "Sunday": "08:00 - 23:00",
-            "Monday": "08:00 - 23:00",
-            "Tuesday": "08:00 - 23:00",
-            "Wednesday": "08:00 - 23:00",
-            "Thursday": "08:00 - 23:00"
+            "sunday": "08:00 - 23:00",
+            "monday": "08:00 - 23:00",
+            "tuesday": "08:00 - 23:00",
+            "wednesday": "08:00 - 23:00",
+            "thursday": "08:00 - 23:00",
+            "friday": "08:00 - 23:00",
+            "saturday": "08:00 - 23:00"
         },
         "phone_number": [
             "0462340003"
@@ -209,13 +209,13 @@
         "address": "Via del Piz, 7",
         "comune": "Canazei",
         "open_hours": {
-            "Friday": "10:00 - 20:00",
-            "Saturday": "10:00 - 20:00",
-            "Sunday": "10:00 - 20:00",
-            "Monday": "10:00 - 20:00",
-            "Tuesday": "10:00 - 20:00",
-            "Wednesday": "10:00 - 20:00",
-            "Thursday": "10:00 - 22:00"
+            "sunday": "10:00 - 20:00",
+            "monday": "10:00 - 20:00",
+            "tuesday": "10:00 - 20:00",
+            "wednesday": "10:00 - 20:00",
+            "thursday": "10:00 - 22:00",
+            "friday": "10:00 - 20:00",
+            "saturday": "10:00 - 20:00"
         },
         "phone_number": [
             "0462601348"
@@ -239,8 +239,8 @@
         "comune": "Selva di Val Gardena",
         "open_hours": {},
         "phone_number": [
-            "3357880149",
-            "3357880150"
+            "3357880150",
+            "3357880149"
         ],
         "website": null
     },
@@ -250,10 +250,10 @@
         "comune": "Falcade",
         "open_hours": {},
         "phone_number": [
-            "3285476476",
-            "0437599616",
+            "3485355474",
             "3407027975",
-            "3485355474"
+            "3285476476",
+            "0437599616"
         ],
         "website": null
     },
@@ -272,13 +272,13 @@
         "address": "Via Planac, 9",
         "comune": "Corvara in Badia",
         "open_hours": {
-            "Friday": "09:00 - 18:00",
-            "Saturday": "09:00 - 18:00",
-            "Sunday": "09:00 - 18:00",
-            "Monday": "09:00 - 18:00",
-            "Tuesday": "09:00 - 18:00",
-            "Wednesday": "09:00 - 18:00",
-            "Thursday": "09:00 - 18:00"
+            "sunday": "09:00 - 18:00",
+            "monday": "09:00 - 18:00",
+            "tuesday": "09:00 - 18:00",
+            "wednesday": "09:00 - 18:00",
+            "thursday": "09:00 - 18:00",
+            "friday": "09:00 - 18:00",
+            "saturday": "09:00 - 18:00"
         },
         "phone_number": [
             "0471836655"
@@ -300,13 +300,13 @@
         "address": "Via San Vigilio, 20",
         "comune": "Castelrotto",
         "open_hours": {
-            "Friday": "08:00 - 18:00",
-            "Saturday": "08:00 - 18:00",
-            "Sunday": "08:00 - 18:00",
-            "Monday": "08:00 - 18:00",
-            "Tuesday": "08:00 - 18:00",
-            "Wednesday": "08:00 - 18:00",
-            "Thursday": "08:00 - 18:00"
+            "sunday": "08:00 - 18:00",
+            "monday": "08:00 - 18:00",
+            "tuesday": "08:00 - 18:00",
+            "wednesday": "08:00 - 18:00",
+            "thursday": "08:00 - 18:00",
+            "friday": "08:00 - 18:00",
+            "saturday": "08:00 - 18:00"
         },
         "phone_number": [
             "0471708708"
@@ -339,8 +339,8 @@
         "comune": "Cavalese",
         "open_hours": {},
         "phone_number": [
-            "0462231252",
-            "0462230407"
+            "0462230407",
+            "0462231252"
         ],
         "website": null
     },
@@ -349,13 +349,13 @@
         "address": "Via Fratelli Bronzetti, 60",
         "comune": "Cavalese",
         "open_hours": {
-            "Friday": "09:00 - 21:00 / 09:30 - 20:00",
-            "Saturday": "09:00 - 21:00 / 09:30 - 20:00",
-            "Sunday": "09:00 - 21:00 / 09:30 - 20:00",
-            "Monday": "09:00 - 21:00 / 09:30 - 20:00",
-            "Tuesday": "09:00 - 21:00 / 09:30 - 20:00",
-            "Wednesday": "09:00 - 21:00 / 09:30 - 20:00",
-            "Thursday": "09:00 - 21:00 / 09:30 - 20:00"
+            "sunday": "09:00 - 21:00 / 09:30 - 20:00",
+            "monday": "09:00 - 21:00 / 09:30 - 20:00",
+            "tuesday": "09:00 - 21:00 / 09:30 - 20:00",
+            "wednesday": "09:00 - 21:00 / 09:30 - 20:00",
+            "thursday": "09:00 - 21:00 / 09:30 - 20:00",
+            "friday": "09:00 - 21:00 / 09:30 - 20:00",
+            "saturday": "09:00 - 21:00 / 09:30 - 20:00"
         },
         "phone_number": [
             "0462230407"
@@ -367,13 +367,13 @@
         "address": "Via Rossini, 3",
         "comune": "Cavalese",
         "open_hours": {
-            "Friday": "09:00 - 21:00",
-            "Saturday": "09:00 - 21:00",
-            "Sunday": "10:00 - 20:00",
-            "Monday": "10:00 - 20:00",
-            "Tuesday": "09:00 - 21:00",
-            "Wednesday": "09:00 - 21:00",
-            "Thursday": "09:00 - 21:00"
+            "sunday": "10:00 - 20:00",
+            "monday": "10:00 - 20:00",
+            "tuesday": "09:00 - 21:00",
+            "wednesday": "09:00 - 21:00",
+            "thursday": "09:00 - 21:00",
+            "friday": "09:00 - 21:00",
+            "saturday": "09:00 - 21:00"
         },
         "phone_number": [
             "0462341810"
@@ -396,8 +396,8 @@
         "comune": "Trodena nel Parco Naturale",
         "open_hours": {},
         "phone_number": [
-            "0471887040",
-            "0471887087"
+            "0471887087",
+            "0471887040"
         ],
         "website": null
     },

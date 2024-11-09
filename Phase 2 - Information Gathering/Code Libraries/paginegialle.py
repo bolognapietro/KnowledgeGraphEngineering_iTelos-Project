@@ -4,18 +4,21 @@ from os.path import isfile, join, dirname
 from os import makedirs, chdir
 import shutil
 import json
+import pandas as pd
 
 chdir(dirname(__file__))
 
 ROOT: str = "../data/raw/paginegialle.it"
 ROOT_JSON = join(ROOT, "json")
+ROOT_CSV = join(ROOT, "csv")
 
 #shutil.rmtree(ROOT)
 
 makedirs(ROOT, exist_ok=True)
 makedirs(ROOT_JSON, exist_ok=True)
+makedirs(ROOT_CSV, exist_ok=True)
 
-comuni = [
+municipalities = [
     'Ala', 'Albiano', 'Aldeno', 'Altavalle', 'Altopiano della Vigolana', 'Amblar-Don', 'Andalo', 'Arco', 'Avio', 
     'Baselga di Pinè', 'Bedollo', 'Besenello', 'Bieno', 'Bleggio Superiore', 'Bocenago', 'Bondone', 'Borgo Chiese', 
     'Borgo Lares', 'Borgo Valsugana', 'Brentonico', 'Bresimo', 'Brez', 'Caderzone Terme', 'Cagnò', 'Calceranica al Lago', 
@@ -39,34 +42,44 @@ comuni = [
     'Vermiglio', 'Vignola-Falesina', 'Villa Lagarina', "Ville d'Anaunia", 'Volano', 'Zambana', 'Ziano di Fiemme'
 ]
 
-for comune in comuni:
+columns = ["name", "address", "comune", "open_hours", "phone_number", "website"]
 
-    if isfile(join(ROOT_JSON, f"{comune}.json")):
+for municipality in municipalities:
+
+    if isfile(join(ROOT_JSON, f"{municipality}.json")) and isfile(join(ROOT_CSV, f"{municipality}.csv")):
         continue
 
-    final_results = []
+    final_results_json = []
+    final_results_csv = []
+
     page = 1
 
     while True:
 
-        url = f"https://www.paginegialle.it/ricerca/impianto%20sportivo/{comune}/p-{page}?output=json"
+        url = f"https://www.paginegialle.it/ricerca/impianto%20sportivo/{municipality}/p-{page}?output=json"
 
         response = requests.get(url=url)
 
         if response.status_code == 404:
-            with open(join(ROOT_JSON, f"{comune}.json"), "w+") as f:
-                f.write(json.dumps(final_results, indent=4))
+            with open(join(ROOT_JSON, f"{municipality}.json"), "w+") as f:
+                f.write(json.dumps(final_results_json, indent=4))
             
+            df = pd.DataFrame(data=final_results_csv, columns=columns)
+            df.to_csv(join(ROOT_CSV, f"{municipality}.csv"), index=False, sep=";")
+
             break
-        
+    
         data = response.json()
 
         error = data.get("error", {})
 
         if len(error):
-            with open(join(ROOT_JSON, f"{comune}.json"), "w+") as f:
-                f.write(json.dumps(final_results, indent=4))
+            with open(join(ROOT_JSON, f"{municipality}.json"), "w+") as f:
+                f.write(json.dumps(final_results_json, indent=4))
             
+            df = pd.DataFrame(data=final_results_csv, columns=columns)
+            df.to_csv(join(ROOT_CSV, f"{municipality}.csv"), index=False, sep=";")
+
             break
 
         results = data.get("list", {}).get("out", {}).get("base", {}).get("results", [])
@@ -74,7 +87,7 @@ for comune in comuni:
         for index, result in enumerate(results):
 
             print(" "*100, end="\r")
-            print(f"{comune} {len(final_results) + index}", end="\r")
+            print(f"{municipality} {len(final_results_json) + index}", end="\r")
 
             result_name = result.get("ds_insegna", "")
 
@@ -94,7 +107,7 @@ for comune in comuni:
 
             for day, times in result_time.items():
 
-                day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"][int(day) - 1]
+                day = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"][int(day) - 1]
                 times = " / ".join(times)
 
                 result_time_formatted[day] = times
@@ -105,7 +118,7 @@ for comune in comuni:
 
             result_website = result.get("site_link", {}).get("url")
             
-            final_results.append({
+            final_results_json.append({
                 "name": result_name,
                 "address": result_address,
                 "comune": result_comune,
@@ -113,5 +126,14 @@ for comune in comuni:
                 "phone_number": result_phones,
                 "website": result_website
             })
+
+            final_results_csv.append([
+                result_name,
+                result_address,
+                result_comune,
+                ", ".join([f"{key}: {value}" for key, value in result_time_formatted.items()]),
+                " ".join(result_phones),
+                result_website
+            ])
 
         page = page + 1

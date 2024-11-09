@@ -14,13 +14,13 @@
         "address": "Via Capitello, 5",
         "comune": "Storo",
         "open_hours": {
-            "Friday": "09:00 - 11:59 / 12:00 - 23:00",
-            "Saturday": "09:00 - 11:59 / 12:00 - 23:00",
-            "Sunday": "09:00 - 11:59 / 12:00 - 23:00",
-            "Monday": "09:00 - 11:59 / 12:00 - 23:00",
-            "Tuesday": "09:00 - 11:59 / 12:00 - 23:00",
-            "Wednesday": "09:00 - 11:59 / 12:00 - 23:00",
-            "Thursday": "09:00 - 11:59 / 12:00 - 23:00"
+            "sunday": "09:00 - 11:59 / 12:00 - 23:00",
+            "monday": "09:00 - 11:59 / 12:00 - 23:00",
+            "tuesday": "09:00 - 11:59 / 12:00 - 23:00",
+            "wednesday": "09:00 - 11:59 / 12:00 - 23:00",
+            "thursday": "09:00 - 11:59 / 12:00 - 23:00",
+            "friday": "09:00 - 11:59 / 12:00 - 23:00",
+            "saturday": "09:00 - 11:59 / 12:00 - 23:00"
         },
         "phone_number": [
             "0465299257"
@@ -42,17 +42,17 @@
         "address": "Via Parrocchia, 14",
         "comune": "Bagolino",
         "open_hours": {
-            "Friday": "18:00 - 22:00",
-            "Saturday": "18:00 - 22:00",
-            "Sunday": "18:00 - 22:00",
-            "Monday": "14:00 - 22:00",
-            "Tuesday": "18:00 - 22:00",
-            "Wednesday": "18:00 - 22:00",
-            "Thursday": "18:00 - 22:00"
+            "sunday": "18:00 - 22:00",
+            "monday": "14:00 - 22:00",
+            "tuesday": "18:00 - 22:00",
+            "wednesday": "18:00 - 22:00",
+            "thursday": "18:00 - 22:00",
+            "friday": "18:00 - 22:00",
+            "saturday": "18:00 - 22:00"
         },
         "phone_number": [
-            "3394164273",
-            "036599108"
+            "036599108",
+            "3394164273"
         ],
         "website": null
     },
@@ -71,13 +71,13 @@
         "address": "Via Gardesana, 144/B",
         "comune": "Malcesine",
         "open_hours": {
-            "Friday": "08:30 - 18:00",
-            "Saturday": "08:30 - 18:00",
-            "Sunday": "08:30 - 18:00",
-            "Monday": "08:30 - 18:00",
-            "Tuesday": "08:30 - 18:00",
-            "Wednesday": "08:30 - 18:00",
-            "Thursday": "08:30 - 18:00"
+            "sunday": "08:30 - 18:00",
+            "monday": "08:30 - 18:00",
+            "tuesday": "08:30 - 18:00",
+            "wednesday": "08:30 - 18:00",
+            "thursday": "08:30 - 18:00",
+            "friday": "08:30 - 18:00",
+            "saturday": "08:30 - 18:00"
         },
         "phone_number": [
             "0457401697",
@@ -130,17 +130,17 @@
         "address": "Via Praes, 61",
         "comune": "Odolo",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
-            "3331948229",
-            "3336507819"
+            "3336507819",
+            "3331948229"
         ],
         "website": null
     },
@@ -159,13 +159,13 @@
         "address": "Via Nuova",
         "comune": "Preseglie",
         "open_hours": {
-            "Friday": "08:00 - 22:00",
-            "Saturday": "08:00 - 22:00",
-            "Sunday": "08:00 - 22:00",
-            "Monday": "08:00 - 22:00",
-            "Tuesday": "08:00 - 22:00",
-            "Wednesday": "08:00 - 22:00",
-            "Thursday": "08:00 - 22:00"
+            "sunday": "08:00 - 22:00",
+            "monday": "08:00 - 22:00",
+            "tuesday": "08:00 - 22:00",
+            "wednesday": "08:00 - 22:00",
+            "thursday": "08:00 - 22:00",
+            "friday": "08:00 - 22:00",
+            "saturday": "08:00 - 22:00"
         },
         "phone_number": [
             "036584221"
@@ -177,13 +177,13 @@
         "address": "Via Fasse",
         "comune": "Limone sul Garda",
         "open_hours": {
-            "Friday": "07:00 - 20:00",
-            "Saturday": "07:00 - 20:00",
-            "Sunday": "07:00 - 20:00",
-            "Monday": "07:00 - 20:00",
-            "Tuesday": "07:00 - 20:00",
-            "Wednesday": "07:00 - 20:00",
-            "Thursday": "07:00 - 20:00"
+            "sunday": "07:00 - 20:00",
+            "monday": "07:00 - 20:00",
+            "tuesday": "07:00 - 20:00",
+            "wednesday": "07:00 - 20:00",
+            "thursday": "07:00 - 20:00",
+            "friday": "07:00 - 20:00",
+            "saturday": "07:00 - 20:00"
         },
         "phone_number": [
             "0365954008"
@@ -203,13 +203,13 @@
         "address": "Via Maniva, 84",
         "comune": "Collio",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
             "030927213"
@@ -231,12 +231,12 @@
         "address": "Via Goffredo Mameli, 1",
         "comune": "Ro Volciano",
         "open_hours": {
-            "Saturday": "10:00 - 23:59",
-            "Sunday": "10:00 - 23:59",
-            "Monday": "10:00 - 23:59",
-            "Tuesday": "10:00 - 23:59",
-            "Wednesday": "10:00 - 23:59",
-            "Thursday": "10:00 - 23:59"
+            "sunday": "10:00 - 23:59",
+            "monday": "10:00 - 23:59",
+            "tuesday": "10:00 - 23:59",
+            "wednesday": "10:00 - 23:59",
+            "thursday": "10:00 - 23:59",
+            "saturday": "10:00 - 23:59"
         },
         "phone_number": [
             "0365556259"
@@ -248,13 +248,13 @@
         "address": "Viale Orsolina Avanzi, 61",
         "comune": "Gavardo",
         "open_hours": {
-            "Saturday": "16:30 - 19:00",
-            "Tuesday": "16:30 - 19:00",
-            "Wednesday": "16:30 - 19:00"
+            "tuesday": "16:30 - 19:00",
+            "wednesday": "16:30 - 19:00",
+            "saturday": "16:30 - 19:00"
         },
         "phone_number": [
-            "0365377411",
-            "3385989551"
+            "3385989551",
+            "0365377411"
         ],
         "website": null
     },
@@ -263,13 +263,13 @@
         "address": "Localit Besta, 1",
         "comune": "Ledro",
         "open_hours": {
-            "Friday": "08:00 - 20:00",
-            "Saturday": "08:00 - 20:00",
-            "Sunday": "08:00 - 20:00",
-            "Monday": "08:00 - 20:00",
-            "Tuesday": "08:00 - 20:00",
-            "Wednesday": "08:00 - 20:00",
-            "Thursday": "08:00 - 20:00"
+            "sunday": "08:00 - 20:00",
+            "monday": "08:00 - 20:00",
+            "tuesday": "08:00 - 20:00",
+            "wednesday": "08:00 - 20:00",
+            "thursday": "08:00 - 20:00",
+            "friday": "08:00 - 20:00",
+            "saturday": "08:00 - 20:00"
         },
         "phone_number": [
             "3805235139"
@@ -282,8 +282,8 @@
         "comune": "Sal",
         "open_hours": {},
         "phone_number": [
-            "036541740",
-            "036541484"
+            "036541484",
+            "036541740"
         ],
         "website": null
     },
@@ -312,13 +312,13 @@
         "address": "Via del Golf, 21",
         "comune": "Toscolano Maderno",
         "open_hours": {
-            "Friday": "08:00 - 18:30",
-            "Saturday": "08:00 - 18:30",
-            "Sunday": "08:00 - 18:30",
-            "Monday": "08:00 - 18:30",
-            "Tuesday": "08:00 - 18:30",
-            "Wednesday": "08:00 - 18:30",
-            "Thursday": "08:00 - 18:30"
+            "sunday": "08:00 - 18:30",
+            "monday": "08:00 - 18:30",
+            "tuesday": "08:00 - 18:30",
+            "wednesday": "08:00 - 18:30",
+            "thursday": "08:00 - 18:30",
+            "friday": "08:00 - 18:30",
+            "saturday": "08:00 - 18:30"
         },
         "phone_number": [
             "0365643006"
@@ -330,13 +330,13 @@
         "address": "Via Casarino, 1",
         "comune": "Ledro",
         "open_hours": {
-            "Friday": "09:00 - 19:00",
-            "Saturday": "09:00 - 19:00",
-            "Sunday": "09:00 - 19:00",
-            "Monday": "09:00 - 19:00",
-            "Tuesday": "09:00 - 19:00",
-            "Wednesday": "09:00 - 19:00",
-            "Thursday": "09:00 - 19:00"
+            "sunday": "09:00 - 19:00",
+            "monday": "09:00 - 19:00",
+            "tuesday": "09:00 - 19:00",
+            "wednesday": "09:00 - 19:00",
+            "thursday": "09:00 - 19:00",
+            "friday": "09:00 - 19:00",
+            "saturday": "09:00 - 19:00"
         },
         "phone_number": [
             "0464508198"
@@ -388,18 +388,18 @@
         "address": "Largo Dante Alighieri, 5",
         "comune": "Sal",
         "open_hours": {
-            "Friday": "15:00 - 18:00",
-            "Saturday": "15:00 - 18:00",
-            "Sunday": "15:00 - 18:00",
-            "Monday": "15:00 - 18:00",
-            "Tuesday": "15:00 - 18:00",
-            "Wednesday": "15:00 - 18:00",
-            "Thursday": "15:00 - 18:00"
+            "sunday": "15:00 - 18:00",
+            "monday": "15:00 - 18:00",
+            "tuesday": "15:00 - 18:00",
+            "wednesday": "15:00 - 18:00",
+            "thursday": "15:00 - 18:00",
+            "friday": "15:00 - 18:00",
+            "saturday": "15:00 - 18:00"
         },
         "phone_number": [
             "036543646",
-            "0365521700",
-            "036543498"
+            "036543498",
+            "0365521700"
         ],
         "website": null
     },
@@ -428,13 +428,13 @@
         "address": "Piazzale Donatori di Sangue, 1",
         "comune": "Sal",
         "open_hours": {
-            "Friday": "07:30 - 21:00",
-            "Saturday": "07:30 - 21:00",
-            "Sunday": "07:30 - 19:00",
-            "Monday": "08:00 - 18:00",
-            "Tuesday": "07:30 - 21:00",
-            "Wednesday": "07:30 - 21:00",
-            "Thursday": "08:00 - 21:00"
+            "sunday": "07:30 - 19:00",
+            "monday": "08:00 - 18:00",
+            "tuesday": "07:30 - 21:00",
+            "wednesday": "07:30 - 21:00",
+            "thursday": "08:00 - 21:00",
+            "friday": "07:30 - 21:00",
+            "saturday": "07:30 - 21:00"
         },
         "phone_number": [
             "036540030"
@@ -446,17 +446,17 @@
         "address": "Via Sottostrada, 52",
         "comune": "Vobarno",
         "open_hours": {
-            "Friday": "16:00 - 20:30",
-            "Saturday": "20:00 - 22:30",
-            "Sunday": "15:00 - 20:00",
-            "Monday": "15:00 - 20:00",
-            "Tuesday": "17:00 - 20:00",
-            "Wednesday": "15:30 - 22:30",
-            "Thursday": "16:30 - 18:30"
+            "sunday": "15:00 - 20:00",
+            "monday": "15:00 - 20:00",
+            "tuesday": "17:00 - 20:00",
+            "wednesday": "15:30 - 22:30",
+            "thursday": "16:30 - 18:30",
+            "friday": "16:00 - 20:30",
+            "saturday": "20:00 - 22:30"
         },
         "phone_number": [
-            "3357600429",
-            "3331705691"
+            "3331705691",
+            "3357600429"
         ],
         "website": null
     },
@@ -466,8 +466,8 @@
         "comune": "Riva del Garda",
         "open_hours": {},
         "phone_number": [
-            "3292146937",
-            "0464552072"
+            "0464552072",
+            "3292146937"
         ],
         "website": null
     },
@@ -496,17 +496,17 @@
         "address": "Via Benvenuti",
         "comune": "Sal",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
-            "3315762941",
-            "0365296845"
+            "0365296845",
+            "3315762941"
         ],
         "website": null
     },
@@ -515,13 +515,13 @@
         "address": "Via Federico Bagozzi",
         "comune": "Collio",
         "open_hours": {
-            "Friday": "09:00 - 17:00",
-            "Saturday": "09:00 - 17:00",
-            "Sunday": "09:00 - 17:00",
-            "Monday": "09:00 - 17:00",
-            "Tuesday": "09:00 - 17:00",
-            "Wednesday": "09:00 - 17:00",
-            "Thursday": "09:00 - 17:00"
+            "sunday": "09:00 - 17:00",
+            "monday": "09:00 - 17:00",
+            "tuesday": "09:00 - 17:00",
+            "wednesday": "09:00 - 17:00",
+            "thursday": "09:00 - 17:00",
+            "friday": "09:00 - 17:00",
+            "saturday": "09:00 - 17:00"
         },
         "phone_number": [
             "030927213"
@@ -533,13 +533,13 @@
         "address": "Via Sommavilla, 12",
         "comune": "Malcesine",
         "open_hours": {
-            "Friday": "07:30 - 22:00",
-            "Saturday": "07:30 - 22:00",
-            "Sunday": "07:30 - 22:00",
-            "Monday": "07:30 - 22:00",
-            "Tuesday": "07:30 - 22:00",
-            "Wednesday": "07:30 - 22:00",
-            "Thursday": "07:30 - 22:00"
+            "sunday": "07:30 - 22:00",
+            "monday": "07:30 - 22:00",
+            "tuesday": "07:30 - 22:00",
+            "wednesday": "07:30 - 22:00",
+            "thursday": "07:30 - 22:00",
+            "friday": "07:30 - 22:00",
+            "saturday": "07:30 - 22:00"
         },
         "phone_number": [
             "0456584136",

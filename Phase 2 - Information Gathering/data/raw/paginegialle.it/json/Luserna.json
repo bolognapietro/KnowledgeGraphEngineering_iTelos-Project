@@ -12,11 +12,11 @@
         "address": "Localit Francolini, 41",
         "comune": "Folgaria",
         "open_hours": {
-            "Friday": "09:00 - 13:00",
-            "Saturday": "09:00 - 13:00",
-            "Tuesday": "09:00 - 13:00",
-            "Wednesday": "09:00 - 13:00",
-            "Thursday": "09:00 - 13:00"
+            "tuesday": "09:00 - 13:00",
+            "wednesday": "09:00 - 13:00",
+            "thursday": "09:00 - 13:00",
+            "friday": "09:00 - 13:00",
+            "saturday": "09:00 - 13:00"
         },
         "phone_number": [
             "0464721926"
@@ -59,13 +59,13 @@
         "address": "Viale Lido",
         "comune": "Levico Terme",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
             "0461706892"
@@ -77,13 +77,13 @@
         "address": "Frazione Azzolini, 82",
         "comune": "Lavarone",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
             "0464783179"
@@ -95,13 +95,13 @@
         "address": "Localit Barco, 3",
         "comune": "Levico Terme",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
             "3396768993"
@@ -123,13 +123,13 @@
         "address": "Localit Lochere, 33",
         "comune": "Caldonazzo",
         "open_hours": {
-            "Friday": "08:00 - 12:00 / 14:00 - 20:00",
-            "Saturday": "08:00 - 12:00 / 14:00 - 20:00",
-            "Sunday": "08:00 - 12:00 / 14:00 - 20:00",
-            "Monday": "08:00 - 12:00 / 14:00 - 20:00",
-            "Tuesday": "08:00 - 12:00 / 14:00 - 20:00",
-            "Wednesday": "08:00 - 12:00 / 14:00 - 20:00",
-            "Thursday": "08:00 - 12:00 / 14:00 - 20:00"
+            "sunday": "08:00 - 12:00 / 14:00 - 20:00",
+            "monday": "08:00 - 12:00 / 14:00 - 20:00",
+            "tuesday": "08:00 - 12:00 / 14:00 - 20:00",
+            "wednesday": "08:00 - 12:00 / 14:00 - 20:00",
+            "thursday": "08:00 - 12:00 / 14:00 - 20:00",
+            "friday": "08:00 - 12:00 / 14:00 - 20:00",
+            "saturday": "08:00 - 12:00 / 14:00 - 20:00"
         },
         "phone_number": [
             "0461706186",
@@ -142,13 +142,13 @@
         "address": "Frazione Gionghi, 107",
         "comune": "Lavarone",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
             "0464724146"
@@ -160,13 +160,13 @@
         "address": "Localit Belvedere",
         "comune": "Levico Terme",
         "open_hours": {
-            "Friday": "08:00 - 23:00",
-            "Saturday": "08:00 - 23:00",
-            "Sunday": "08:00 - 23:00",
-            "Monday": "08:00 - 23:00",
-            "Tuesday": "08:00 - 23:00",
-            "Wednesday": "08:00 - 23:00",
-            "Thursday": "08:00 - 23:00"
+            "sunday": "08:00 - 23:00",
+            "monday": "08:00 - 23:00",
+            "tuesday": "08:00 - 23:00",
+            "wednesday": "08:00 - 23:00",
+            "thursday": "08:00 - 23:00",
+            "friday": "08:00 - 23:00",
+            "saturday": "08:00 - 23:00"
         },
         "phone_number": [
             "3394631152"
@@ -198,11 +198,11 @@
         "address": "Via Marconi, 9",
         "comune": "Caldonazzo",
         "open_hours": {
-            "Friday": "17:00 - 21:00",
-            "Saturday": "17:00 - 21:00",
-            "Tuesday": "17:00 - 21:00",
-            "Wednesday": "17:00 - 21:00",
-            "Thursday": "17:00 - 21:00"
+            "tuesday": "17:00 - 21:00",
+            "wednesday": "17:00 - 21:00",
+            "thursday": "17:00 - 21:00",
+            "friday": "17:00 - 21:00",
+            "saturday": "17:00 - 21:00"
         },
         "phone_number": [
             "0461718105"
@@ -244,12 +244,12 @@
         "address": "Piazza Tridente, 9",
         "comune": "Trento",
         "open_hours": {
-            "Friday": "08:30 - 21:00",
-            "Saturday": "08:30 - 21:00",
-            "Sunday": "08:30 - 19:00",
-            "Tuesday": "08:30 - 21:00",
-            "Wednesday": "08:30 - 21:00",
-            "Thursday": "08:30 - 21:00"
+            "sunday": "08:30 - 19:00",
+            "tuesday": "08:30 - 21:00",
+            "wednesday": "08:30 - 21:00",
+            "thursday": "08:30 - 21:00",
+            "friday": "08:30 - 21:00",
+            "saturday": "08:30 - 21:00"
         },
         "phone_number": [
             "393497682763"
@@ -271,17 +271,17 @@
         "address": "Piazzale degli Alpini, 2",
         "comune": "Roana",
         "open_hours": {
-            "Friday": "09:30 - 21:30",
-            "Saturday": "09:30 - 21:30",
-            "Sunday": "09:30 - 19:30",
-            "Monday": "09:30 - 19:30",
-            "Tuesday": "09:30 - 21:30",
-            "Wednesday": "09:30 - 21:30",
-            "Thursday": "09:30 - 21:30"
+            "sunday": "09:30 - 19:30",
+            "monday": "09:30 - 19:30",
+            "tuesday": "09:30 - 21:30",
+            "wednesday": "09:30 - 21:30",
+            "thursday": "09:30 - 21:30",
+            "friday": "09:30 - 21:30",
+            "saturday": "09:30 - 21:30"
         },
         "phone_number": [
-            "3888676170",
-            "3346879265"
+            "3346879265",
+            "3888676170"
         ],
         "website": null
     },
@@ -290,16 +290,16 @@
         "address": "Via del Garda, 44 bis",
         "comune": "Rovereto",
         "open_hours": {
-            "Friday": "08:00 - 22:00",
-            "Saturday": "08:00 - 22:00",
-            "Sunday": "09:30 - 17:00",
-            "Tuesday": "08:00 - 22:00",
-            "Wednesday": "08:00 - 22:00",
-            "Thursday": "08:00 - 22:00"
+            "sunday": "09:30 - 17:00",
+            "tuesday": "08:00 - 22:00",
+            "wednesday": "08:00 - 22:00",
+            "thursday": "08:00 - 22:00",
+            "friday": "08:00 - 22:00",
+            "saturday": "08:00 - 22:00"
         },
         "phone_number": [
-            "0464430908",
-            "3470891264"
+            "3470891264",
+            "0464430908"
         ],
         "website": null
     },
@@ -308,13 +308,13 @@
         "address": "Via Riboli, 8",
         "comune": "Schio",
         "open_hours": {
-            "Friday": "08:00 - 20:00",
-            "Saturday": "08:00 - 20:00",
-            "Sunday": "08:00 - 20:00",
-            "Monday": "08:00 - 20:00",
-            "Tuesday": "08:00 - 20:00",
-            "Wednesday": "08:00 - 20:00",
-            "Thursday": "08:00 - 20:00"
+            "sunday": "08:00 - 20:00",
+            "monday": "08:00 - 20:00",
+            "tuesday": "08:00 - 20:00",
+            "wednesday": "08:00 - 20:00",
+            "thursday": "08:00 - 20:00",
+            "friday": "08:00 - 20:00",
+            "saturday": "08:00 - 20:00"
         },
         "phone_number": [
             "0445524165"
@@ -417,8 +417,8 @@
         "comune": "Trento",
         "open_hours": {},
         "phone_number": [
-            "0461527402",
-            "0461525310"
+            "0461525310",
+            "0461527402"
         ],
         "website": null
     },
@@ -428,8 +428,8 @@
         "comune": "Trento",
         "open_hours": {},
         "phone_number": [
-            "0461916579",
-            "0461931035"
+            "0461931035",
+            "0461916579"
         ],
         "website": null
     },
@@ -439,9 +439,9 @@
         "comune": "Asiago",
         "open_hours": {},
         "phone_number": [
-            "0424463475",
+            "3494463801",
             "3491730849",
-            "3494463801"
+            "0424463475"
         ],
         "website": null
     },
@@ -475,10 +475,10 @@
         "comune": "Zan",
         "open_hours": {},
         "phone_number": [
-            "0445578136",
-            "3471859018",
             "0445364852",
-            "3397505855"
+            "3397505855",
+            "3471859018",
+            "0445578136"
         ],
         "website": null
     },
@@ -527,12 +527,12 @@
         "address": "Via Gentilotti Benedetto, 4",
         "comune": "Trento",
         "open_hours": {
-            "Friday": "10:00 - 22:00",
-            "Saturday": "08:00 - 22:00",
-            "Sunday": "10:00 - 16:00",
-            "Tuesday": "08:00 - 22:00",
-            "Wednesday": "10:00 - 22:00",
-            "Thursday": "08:00 - 22:00"
+            "sunday": "10:00 - 16:00",
+            "tuesday": "08:00 - 22:00",
+            "wednesday": "10:00 - 22:00",
+            "thursday": "08:00 - 22:00",
+            "friday": "10:00 - 22:00",
+            "saturday": "08:00 - 22:00"
         },
         "phone_number": [
             "0461910096"
@@ -544,13 +544,13 @@
         "address": "Localit Maso Grillo, 4",
         "comune": "Pergine Valsugana",
         "open_hours": {
-            "Friday": "08:30 - 21:00",
-            "Saturday": "08:30 - 21:00",
-            "Sunday": "08:30 - 21:00",
-            "Monday": "08:30 - 21:00",
-            "Tuesday": "08:30 - 21:00",
-            "Wednesday": "08:30 - 21:00",
-            "Thursday": "08:30 - 21:00"
+            "sunday": "08:30 - 21:00",
+            "monday": "08:30 - 21:00",
+            "tuesday": "08:30 - 21:00",
+            "wednesday": "08:30 - 21:00",
+            "thursday": "08:30 - 21:00",
+            "friday": "08:30 - 21:00",
+            "saturday": "08:30 - 21:00"
         },
         "phone_number": [
             "3474647351"
@@ -572,8 +572,8 @@
         "address": "Via Fersina, 2",
         "comune": "Trento",
         "open_hours": {
-            "Saturday": "15:15 - 21:00",
-            "Thursday": "15:15 - 21:00"
+            "thursday": "15:15 - 21:00",
+            "saturday": "15:15 - 21:00"
         },
         "phone_number": [
             "0461959812"
@@ -585,10 +585,10 @@
         "address": "Via Ponte Alto, 79",
         "comune": "Trento",
         "open_hours": {
-            "Friday": "08:30 - 17:00",
-            "Saturday": "08:30 - 12:30",
-            "Tuesday": "08:30 - 17:00",
-            "Thursday": "08:30 - 17:00"
+            "tuesday": "08:30 - 17:00",
+            "thursday": "08:30 - 17:00",
+            "friday": "08:30 - 17:00",
+            "saturday": "08:30 - 12:30"
         },
         "phone_number": [
             "0461992990"
@@ -600,13 +600,13 @@
         "address": "Via Lavisotto, 41",
         "comune": "Trento",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
             "0461959812"
@@ -638,13 +638,13 @@
         "address": "Localit Bedolpian",
         "comune": "Baselga di Pin",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
             "0461558634",
@@ -657,11 +657,11 @@
         "address": "Via Hubert Jedin",
         "comune": "Trento",
         "open_hours": {
-            "Friday": "08:30 - 12:30 / 14:30 - 17:00",
-            "Saturday": "08:30 - 12:30",
-            "Tuesday": "08:30 - 12:30 / 14:30 - 17:00",
-            "Wednesday": "08:30 - 12:30 / 14:30 - 17:00",
-            "Thursday": "08:30 - 12:30 / 14:30 - 17:00"
+            "tuesday": "08:30 - 12:30 / 14:30 - 17:00",
+            "wednesday": "08:30 - 12:30 / 14:30 - 17:00",
+            "thursday": "08:30 - 12:30 / 14:30 - 17:00",
+            "friday": "08:30 - 12:30 / 14:30 - 17:00",
+            "saturday": "08:30 - 12:30"
         },
         "phone_number": [
             "0461992990"
@@ -683,11 +683,11 @@
         "address": "Piazzale Camillo Rusconi, 5",
         "comune": "Trento",
         "open_hours": {
-            "Friday": "08:30 - 17:00",
-            "Saturday": "08:30 - 12:30",
-            "Tuesday": "08:30 - 12:30 / 14:30 - 17:00",
-            "Wednesday": "08:30 - 12:30 / 14:30 - 17:00",
-            "Thursday": "08:30 - 12:30 / 14:30 - 17:00"
+            "tuesday": "08:30 - 12:30 / 14:30 - 17:00",
+            "wednesday": "08:30 - 12:30 / 14:30 - 17:00",
+            "thursday": "08:30 - 12:30 / 14:30 - 17:00",
+            "friday": "08:30 - 17:00",
+            "saturday": "08:30 - 12:30"
         },
         "phone_number": [
             "0461959812"
@@ -709,13 +709,13 @@
         "address": "Via al Ponte, 1/A",
         "comune": "Pergine Valsugana",
         "open_hours": {
-            "Friday": "14:00 - 16:30",
-            "Saturday": "14:00 - 16:30",
-            "Sunday": "14:00 - 16:30",
-            "Monday": "14:00 - 16:30",
-            "Tuesday": "14:00 - 16:30",
-            "Wednesday": "14:00 - 16:30",
-            "Thursday": "14:00 - 16:00"
+            "sunday": "14:00 - 16:30",
+            "monday": "14:00 - 16:30",
+            "tuesday": "14:00 - 16:30",
+            "wednesday": "14:00 - 16:30",
+            "thursday": "14:00 - 16:00",
+            "friday": "14:00 - 16:30",
+            "saturday": "14:00 - 16:30"
         },
         "phone_number": [
             "0461534423"
@@ -763,18 +763,18 @@
         "address": "Via della Roggia, 45",
         "comune": "Rovereto",
         "open_hours": {
-            "Friday": "10:00 - 22:00",
-            "Saturday": "10:00 - 22:00",
-            "Sunday": "10:00 - 22:00",
-            "Monday": "10:00 - 22:00",
-            "Tuesday": "10:00 - 22:00",
-            "Wednesday": "10:00 - 22:00",
-            "Thursday": "10:00 - 22:00"
+            "sunday": "10:00 - 22:00",
+            "monday": "10:00 - 22:00",
+            "tuesday": "10:00 - 22:00",
+            "wednesday": "10:00 - 22:00",
+            "thursday": "10:00 - 22:00",
+            "friday": "10:00 - 22:00",
+            "saturday": "10:00 - 22:00"
         },
         "phone_number": [
-            "0464486113",
             "3665809997",
-            "0464421569"
+            "0464421569",
+            "0464486113"
         ],
         "website": null
     },
@@ -791,13 +791,13 @@
         "address": "Via dei Paludi, 22",
         "comune": "Baselga di Pin",
         "open_hours": {
-            "Friday": "09:00 - 12:00 / 14:00 - 19:00",
-            "Saturday": "09:00 - 12:00 / 14:00 - 19:00",
-            "Sunday": "09:00 - 12:00 / 14:00 - 19:00",
-            "Monday": "09:00 - 12:00 / 14:00 - 19:00",
-            "Tuesday": "09:00 - 12:00 / 14:00 - 19:00",
-            "Wednesday": "09:00 - 12:00 / 14:00 - 19:00",
-            "Thursday": "09:00 - 12:00 / 14:00 - 19:00"
+            "sunday": "09:00 - 12:00 / 14:00 - 19:00",
+            "monday": "09:00 - 12:00 / 14:00 - 19:00",
+            "tuesday": "09:00 - 12:00 / 14:00 - 19:00",
+            "wednesday": "09:00 - 12:00 / 14:00 - 19:00",
+            "thursday": "09:00 - 12:00 / 14:00 - 19:00",
+            "friday": "09:00 - 12:00 / 14:00 - 19:00",
+            "saturday": "09:00 - 12:00 / 14:00 - 19:00"
         },
         "phone_number": [
             "3470152778"
@@ -809,13 +809,13 @@
         "address": "Via Udine, 1",
         "comune": "Rovereto",
         "open_hours": {
-            "Friday": "09:00 - 20:30",
-            "Saturday": "09:00 - 20:30",
-            "Sunday": "09:00 - 19:30",
-            "Monday": "09:00 - 19:30",
-            "Tuesday": "09:00 - 20:30",
-            "Wednesday": "09:00 - 20:30",
-            "Thursday": "09:00 - 20:30"
+            "sunday": "09:00 - 19:30",
+            "monday": "09:00 - 19:30",
+            "tuesday": "09:00 - 20:30",
+            "wednesday": "09:00 - 20:30",
+            "thursday": "09:00 - 20:30",
+            "friday": "09:00 - 20:30",
+            "saturday": "09:00 - 20:30"
         },
         "phone_number": [
             "0464435440"
@@ -827,13 +827,13 @@
         "address": "Via Nazioni Unite, 21/B",
         "comune": "Folgaria",
         "open_hours": {
-            "Friday": "10:00 - 21:00",
-            "Saturday": "10:00 - 21:00",
-            "Sunday": "15:30 - 20:30",
-            "Monday": "15:30 - 20:30",
-            "Tuesday": "10:00 - 21:00",
-            "Wednesday": "10:00 - 21:00",
-            "Thursday": "10:00 - 21:00"
+            "sunday": "15:30 - 20:30",
+            "monday": "15:30 - 20:30",
+            "tuesday": "10:00 - 21:00",
+            "wednesday": "10:00 - 21:00",
+            "thursday": "10:00 - 21:00",
+            "friday": "10:00 - 21:00",
+            "saturday": "10:00 - 21:00"
         },
         "phone_number": [
             "0464720058"
@@ -845,13 +845,13 @@
         "address": "Via Marconi Guglielmo, 51",
         "comune": "Pergine Valsugana",
         "open_hours": {
-            "Friday": "07:00 - 22:00",
-            "Saturday": "06:00 - 22:00",
-            "Sunday": "08:00 - 20:00",
-            "Monday": "08:00 - 20:00",
-            "Tuesday": "06:00 - 22:00",
-            "Wednesday": "07:00 - 22:00",
-            "Thursday": "06:00 - 22:00"
+            "sunday": "08:00 - 20:00",
+            "monday": "08:00 - 20:00",
+            "tuesday": "06:00 - 22:00",
+            "wednesday": "07:00 - 22:00",
+            "thursday": "06:00 - 22:00",
+            "friday": "07:00 - 22:00",
+            "saturday": "06:00 - 22:00"
         },
         "phone_number": [
             "0461531773"
@@ -863,13 +863,13 @@
         "address": "Piazza del Duomo, 30",
         "comune": "Trento",
         "open_hours": {
-            "Friday": "06:30 - 21:30",
-            "Saturday": "06:30 - 21:30",
-            "Sunday": "06:30 - 21:30",
-            "Monday": "06:30 - 21:30",
-            "Tuesday": "06:30 - 21:30",
-            "Wednesday": "06:30 - 21:30",
-            "Thursday": "06:30 - 21:30"
+            "sunday": "06:30 - 21:30",
+            "monday": "06:30 - 21:30",
+            "tuesday": "06:30 - 21:30",
+            "wednesday": "06:30 - 21:30",
+            "thursday": "06:30 - 21:30",
+            "friday": "06:30 - 21:30",
+            "saturday": "06:30 - 21:30"
         },
         "phone_number": [
             "3398683083"
@@ -881,13 +881,13 @@
         "address": "Via Giuseppe Gozzer, 52",
         "comune": "Borgo Valsugana",
         "open_hours": {
-            "Friday": "09:00 - 21:00",
-            "Saturday": "09:00 - 21:00",
-            "Sunday": "09:00 - 21:00",
-            "Monday": "09:00 - 21:00",
-            "Tuesday": "09:00 - 21:00",
-            "Wednesday": "09:00 - 21:00",
-            "Thursday": "09:00 - 21:00"
+            "sunday": "09:00 - 21:00",
+            "monday": "09:00 - 21:00",
+            "tuesday": "09:00 - 21:00",
+            "wednesday": "09:00 - 21:00",
+            "thursday": "09:00 - 21:00",
+            "friday": "09:00 - 21:00",
+            "saturday": "09:00 - 21:00"
         },
         "phone_number": [
             "0461753836"
@@ -909,11 +909,11 @@
         "address": "Via del Capitel, 3",
         "comune": "Trento",
         "open_hours": {
-            "Friday": "08:30 - 12:30 / 14:30 - 17:00",
-            "Saturday": "08:30 - 12:30",
-            "Tuesday": "08:30 - 12:30 / 14:30 - 17:00",
-            "Wednesday": "08:30 - 12:30 / 14:30 - 17:00",
-            "Thursday": "08:30 - 12:30 / 14:30 - 17:00"
+            "tuesday": "08:30 - 12:30 / 14:30 - 17:00",
+            "wednesday": "08:30 - 12:30 / 14:30 - 17:00",
+            "thursday": "08:30 - 12:30 / 14:30 - 17:00",
+            "friday": "08:30 - 12:30 / 14:30 - 17:00",
+            "saturday": "08:30 - 12:30"
         },
         "phone_number": [
             "0461959812"
@@ -925,8 +925,8 @@
         "address": "Via Fogazzaro Antonio, 2",
         "comune": "Trento",
         "open_hours": {
-            "Sunday": "09:00 - 19:00",
-            "Monday": "09:00 - 13:00"
+            "sunday": "09:00 - 19:00",
+            "monday": "09:00 - 13:00"
         },
         "phone_number": [
             "0461924248"
@@ -948,13 +948,13 @@
         "address": "Via delle Regole, 101",
         "comune": "Trento",
         "open_hours": {
-            "Friday": "09:00 - 23:00",
-            "Saturday": "09:00 - 23:00",
-            "Sunday": "09:00 - 18:00",
-            "Monday": "09:00 - 13:00",
-            "Tuesday": "09:00 - 23:00",
-            "Wednesday": "09:00 - 23:00",
-            "Thursday": "09:00 - 23:00"
+            "sunday": "09:00 - 18:00",
+            "monday": "09:00 - 13:00",
+            "tuesday": "09:00 - 23:00",
+            "wednesday": "09:00 - 23:00",
+            "thursday": "09:00 - 23:00",
+            "friday": "09:00 - 23:00",
+            "saturday": "09:00 - 23:00"
         },
         "phone_number": [
             "0461944356"
@@ -966,12 +966,12 @@
         "address": "Via Morini, 26",
         "comune": "Calliano",
         "open_hours": {
-            "Friday": "14:00 - 15:00",
-            "Saturday": "14:00 - 15:00",
-            "Sunday": "14:00 - 15:00",
-            "Monday": "14:00 - 15:00",
-            "Wednesday": "14:00 - 15:00",
-            "Thursday": "14:00 - 15:00"
+            "sunday": "14:00 - 15:00",
+            "monday": "14:00 - 15:00",
+            "wednesday": "14:00 - 15:00",
+            "thursday": "14:00 - 15:00",
+            "friday": "14:00 - 15:00",
+            "saturday": "14:00 - 15:00"
         },
         "phone_number": [
             "0464834483"
@@ -983,13 +983,13 @@
         "address": "Localit Pianiza, 33",
         "comune": "Trento",
         "open_hours": {
-            "Friday": "09:00 - 19:00",
-            "Saturday": "09:00 - 19:00",
-            "Sunday": "09:00 - 19:00",
-            "Monday": "09:00 - 19:00",
-            "Tuesday": "09:00 - 19:00",
-            "Wednesday": "09:00 - 19:00",
-            "Thursday": "09:00 - 19:00"
+            "sunday": "09:00 - 19:00",
+            "monday": "09:00 - 19:00",
+            "tuesday": "09:00 - 19:00",
+            "wednesday": "09:00 - 19:00",
+            "thursday": "09:00 - 19:00",
+            "friday": "09:00 - 19:00",
+            "saturday": "09:00 - 19:00"
         },
         "phone_number": [
             "0461913143"
@@ -1001,13 +1001,13 @@
         "address": "Piazza Mercato, 12",
         "comune": "Borgo Valsugana",
         "open_hours": {
-            "Friday": "09:00 - 22:00",
-            "Saturday": "09:00 - 22:00",
-            "Sunday": "09:00 - 22:00",
-            "Monday": "09:00 - 22:00",
-            "Tuesday": "09:00 - 22:00",
-            "Wednesday": "09:00 - 22:00",
-            "Thursday": "09:00 - 22:00"
+            "sunday": "09:00 - 22:00",
+            "monday": "09:00 - 22:00",
+            "tuesday": "09:00 - 22:00",
+            "wednesday": "09:00 - 22:00",
+            "thursday": "09:00 - 22:00",
+            "friday": "09:00 - 22:00",
+            "saturday": "09:00 - 22:00"
         },
         "phone_number": [
             "0461753711"
@@ -1019,13 +1019,13 @@
         "address": "Via Pradiscola, 1",
         "comune": "Trento",
         "open_hours": {
-            "Friday": "09:00 - 23:00",
-            "Saturday": "09:00 - 23:00",
-            "Sunday": "09:00 - 23:00",
-            "Monday": "09:00 - 23:00",
-            "Tuesday": "09:00 - 23:00",
-            "Wednesday": "09:00 - 23:00",
-            "Thursday": "09:00 - 23:00"
+            "sunday": "09:00 - 23:00",
+            "monday": "09:00 - 23:00",
+            "tuesday": "09:00 - 23:00",
+            "wednesday": "09:00 - 23:00",
+            "thursday": "09:00 - 23:00",
+            "friday": "09:00 - 23:00",
+            "saturday": "09:00 - 23:00"
         },
         "phone_number": [
             "0461820040"
@@ -1037,12 +1037,12 @@
         "address": "Via San Pio X, 117",
         "comune": "Trento",
         "open_hours": {
-            "Friday": "09:00 - 23:00",
-            "Saturday": "09:00 - 23:00",
-            "Sunday": "09:00 - 23:00",
-            "Tuesday": "09:00 - 23:00",
-            "Wednesday": "09:00 - 23:00",
-            "Thursday": "09:00 - 23:00"
+            "sunday": "09:00 - 23:00",
+            "tuesday": "09:00 - 23:00",
+            "wednesday": "09:00 - 23:00",
+            "thursday": "09:00 - 23:00",
+            "friday": "09:00 - 23:00",
+            "saturday": "09:00 - 23:00"
         },
         "phone_number": [
             "0461925234"
@@ -1064,17 +1064,17 @@
         "address": "Via Lungo Leno Destro, 25",
         "comune": "Rovereto",
         "open_hours": {
-            "Friday": "07:30 - 22:00",
-            "Saturday": "07:30 - 22:00",
-            "Sunday": "07:30 - 22:00",
-            "Monday": "07:30 - 22:00",
-            "Tuesday": "07:30 - 22:00",
-            "Wednesday": "07:30 - 22:00",
-            "Thursday": "07:30 - 22:00"
+            "sunday": "07:30 - 22:00",
+            "monday": "07:30 - 22:00",
+            "tuesday": "07:30 - 22:00",
+            "wednesday": "07:30 - 22:00",
+            "thursday": "07:30 - 22:00",
+            "friday": "07:30 - 22:00",
+            "saturday": "07:30 - 22:00"
         },
         "phone_number": [
-            "0464431045",
-            "0464439377"
+            "0464439377",
+            "0464431045"
         ],
         "website": null
     },
@@ -1083,13 +1083,13 @@
         "address": "Via della Roggia, 43",
         "comune": "Rovereto",
         "open_hours": {
-            "Friday": "08:00 - 22:00",
-            "Saturday": "08:00 - 22:00",
-            "Sunday": "09:00 - 20:00",
-            "Monday": "09:00 - 20:00",
-            "Tuesday": "08:00 - 22:00",
-            "Wednesday": "08:00 - 22:00",
-            "Thursday": "08:00 - 22:00"
+            "sunday": "09:00 - 20:00",
+            "monday": "09:00 - 20:00",
+            "tuesday": "08:00 - 22:00",
+            "wednesday": "08:00 - 22:00",
+            "thursday": "08:00 - 22:00",
+            "friday": "08:00 - 22:00",
+            "saturday": "08:00 - 22:00"
         },
         "phone_number": [
             "0464431045"
@@ -1124,8 +1124,8 @@
         "open_hours": {},
         "phone_number": [
             "0445576116",
-            "0445824899",
-            "0445517759"
+            "0445517759",
+            "0445824899"
         ],
         "website": null
     },
@@ -1184,12 +1184,12 @@
         "address": "Via Garziere, 61",
         "comune": "Santorso",
         "open_hours": {
-            "Friday": "10:00 - 19:00",
-            "Saturday": "10:00 - 19:00",
-            "Sunday": "10:00 - 19:00",
-            "Monday": "10:00 - 19:00",
-            "Wednesday": "10:00 - 19:00",
-            "Thursday": "10:00 - 19:00"
+            "sunday": "10:00 - 19:00",
+            "monday": "10:00 - 19:00",
+            "wednesday": "10:00 - 19:00",
+            "thursday": "10:00 - 19:00",
+            "friday": "10:00 - 19:00",
+            "saturday": "10:00 - 19:00"
         },
         "phone_number": [
             "3425097984"
@@ -1211,12 +1211,12 @@
         "address": "Via dello Via dello Stadio, 17",
         "comune": "Baselga di Pin",
         "open_hours": {
-            "Friday": "09:00 - 12:30 / 14:00 - 16:30",
-            "Saturday": "09:00 - 12:30 / 14:00 - 16:30",
-            "Sunday": "09:00 - 12:30",
-            "Tuesday": "09:00 - 12:30 / 14:00 - 16:30",
-            "Wednesday": "09:00 - 12:30 / 14:00 - 16:30",
-            "Thursday": "09:00 - 12:30 / 14:00 - 16:30"
+            "sunday": "09:00 - 12:30",
+            "tuesday": "09:00 - 12:30 / 14:00 - 16:30",
+            "wednesday": "09:00 - 12:30 / 14:00 - 16:30",
+            "thursday": "09:00 - 12:30 / 14:00 - 16:30",
+            "friday": "09:00 - 12:30 / 14:00 - 16:30",
+            "saturday": "09:00 - 12:30 / 14:00 - 16:30"
         },
         "phone_number": [
             "0461554167"
@@ -1249,8 +1249,8 @@
         "comune": "Trento",
         "open_hours": {},
         "phone_number": [
-            "3917414107",
-            "0461262403"
+            "0461262403",
+            "3917414107"
         ],
         "website": null
     },
@@ -1259,13 +1259,13 @@
         "address": "Via Balista, 2",
         "comune": "Rovereto",
         "open_hours": {
-            "Friday": "08:00 - 22:00",
-            "Saturday": "08:00 - 22:00",
-            "Sunday": "08:00 - 22:00",
-            "Monday": "08:00 - 22:00",
-            "Tuesday": "08:00 - 22:00",
-            "Wednesday": "08:00 - 22:00",
-            "Thursday": "08:00 - 22:00"
+            "sunday": "08:00 - 22:00",
+            "monday": "08:00 - 22:00",
+            "tuesday": "08:00 - 22:00",
+            "wednesday": "08:00 - 22:00",
+            "thursday": "08:00 - 22:00",
+            "friday": "08:00 - 22:00",
+            "saturday": "08:00 - 22:00"
         },
         "phone_number": [
             "0464485511"
@@ -1277,12 +1277,12 @@
         "address": "Localit Acquaviva, 4",
         "comune": "Trento",
         "open_hours": {
-            "Friday": "10:00 - 22:00",
-            "Saturday": "10:00 - 22:00",
-            "Sunday": "10:00 - 17:00",
-            "Tuesday": "10:00 - 22:00",
-            "Wednesday": "10:00 - 22:00",
-            "Thursday": "10:00 - 22:00"
+            "sunday": "10:00 - 17:00",
+            "tuesday": "10:00 - 22:00",
+            "wednesday": "10:00 - 22:00",
+            "thursday": "10:00 - 22:00",
+            "friday": "10:00 - 22:00",
+            "saturday": "10:00 - 22:00"
         },
         "phone_number": [
             "3286165313"
@@ -1294,12 +1294,12 @@
         "address": "Via Galilei Galileo, 32",
         "comune": "Trento",
         "open_hours": {
-            "Friday": "07:00 - 22:30",
-            "Saturday": "07:00 - 22:30",
-            "Sunday": "10:00 - 20:00",
-            "Tuesday": "07:00 - 22:30",
-            "Wednesday": "07:00 - 22:30",
-            "Thursday": "07:00 - 22:30"
+            "sunday": "10:00 - 20:00",
+            "tuesday": "07:00 - 22:30",
+            "wednesday": "07:00 - 22:30",
+            "thursday": "07:00 - 22:30",
+            "friday": "07:00 - 22:30",
+            "saturday": "07:00 - 22:30"
         },
         "phone_number": [
             "3887278568",
@@ -1342,13 +1342,13 @@
         "address": "Via Filari Longhi, 2/A",
         "comune": "Trento",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
             "0461959812"
@@ -1360,13 +1360,13 @@
         "address": "Piazza della Stazione, 1",
         "comune": "Asiago",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
             "042464144"
@@ -1404,13 +1404,13 @@
         "address": "Viale Industria, 90",
         "comune": "Schio",
         "open_hours": {
-            "Friday": "09:00 - 12:00 / 16:00 - 22:00",
-            "Saturday": "09:00 - 12:00 / 16:00 - 22:00",
-            "Sunday": "09:00 - 12:00 / 16:00 - 22:00",
-            "Monday": "09:00 - 12:00 / 16:00 - 22:00",
-            "Tuesday": "09:00 - 12:00 / 16:00 - 22:00",
-            "Wednesday": "09:00 - 12:00 / 16:00 - 22:00",
-            "Thursday": "09:00 - 12:00 / 16:00 - 22:00"
+            "sunday": "09:00 - 12:00 / 16:00 - 22:00",
+            "monday": "09:00 - 12:00 / 16:00 - 22:00",
+            "tuesday": "09:00 - 12:00 / 16:00 - 22:00",
+            "wednesday": "09:00 - 12:00 / 16:00 - 22:00",
+            "thursday": "09:00 - 12:00 / 16:00 - 22:00",
+            "friday": "09:00 - 12:00 / 16:00 - 22:00",
+            "saturday": "09:00 - 12:00 / 16:00 - 22:00"
         },
         "phone_number": [
             "0445691111",
@@ -1434,11 +1434,11 @@
         "address": "Via Marconi Guglielmo, 14",
         "comune": "Schio",
         "open_hours": {
-            "Friday": "15:00 - 23:00",
-            "Saturday": "15:00 - 23:00",
-            "Tuesday": "15:00 - 23:00",
-            "Wednesday": "15:00 - 23:00",
-            "Thursday": "15:00 - 23:00"
+            "tuesday": "15:00 - 23:00",
+            "wednesday": "15:00 - 23:00",
+            "thursday": "15:00 - 23:00",
+            "friday": "15:00 - 23:00",
+            "saturday": "15:00 - 23:00"
         },
         "phone_number": [
             "0445521519"
@@ -1471,7 +1471,7 @@
         "address": "Frazione Canezza",
         "comune": "Pergine Valsugana",
         "open_hours": {
-            "Monday": "09:00 - 12:00 / 15:00 - 18:00"
+            "monday": "09:00 - 12:00 / 15:00 - 18:00"
         },
         "phone_number": [
             "3283636093"
@@ -1483,13 +1483,13 @@
         "address": "Via Maggiore",
         "comune": "Roana",
         "open_hours": {
-            "Friday": "09:30 - 21:30",
-            "Saturday": "09:30 - 21:30",
-            "Sunday": "09:30 - 19:30",
-            "Monday": "09:30 - 19:30",
-            "Tuesday": "09:30 - 21:30",
-            "Wednesday": "09:30 - 21:30",
-            "Thursday": "09:30 - 21:30"
+            "sunday": "09:30 - 19:30",
+            "monday": "09:30 - 19:30",
+            "tuesday": "09:30 - 21:30",
+            "wednesday": "09:30 - 21:30",
+            "thursday": "09:30 - 21:30",
+            "friday": "09:30 - 21:30",
+            "saturday": "09:30 - 21:30"
         },
         "phone_number": [
             "0424450154"
@@ -1602,13 +1602,13 @@
         "address": "Via Ticino, 10",
         "comune": "Schio",
         "open_hours": {
-            "Friday": "07:00 - 23:59",
-            "Saturday": "07:00 - 23:59",
-            "Sunday": "07:00 - 23:59",
-            "Monday": "07:00 - 23:59",
-            "Tuesday": "07:00 - 23:59",
-            "Wednesday": "07:00 - 23:59",
-            "Thursday": "07:00 - 23:59"
+            "sunday": "07:00 - 23:59",
+            "monday": "07:00 - 23:59",
+            "tuesday": "07:00 - 23:59",
+            "wednesday": "07:00 - 23:59",
+            "thursday": "07:00 - 23:59",
+            "friday": "07:00 - 23:59",
+            "saturday": "07:00 - 23:59"
         },
         "phone_number": [
             "0445225705",
@@ -1621,12 +1621,12 @@
         "address": "Via Chini Eusebio, 99/1",
         "comune": "Trento",
         "open_hours": {
-            "Friday": "09:00 - 21:00",
-            "Saturday": "09:00 - 21:00",
-            "Sunday": "09:00 - 12:30 / 14:30 - 18:00",
-            "Tuesday": "09:00 - 21:00",
-            "Wednesday": "09:00 - 21:00",
-            "Thursday": "09:00 - 21:00"
+            "sunday": "09:00 - 12:30 / 14:30 - 18:00",
+            "tuesday": "09:00 - 21:00",
+            "wednesday": "09:00 - 21:00",
+            "thursday": "09:00 - 21:00",
+            "friday": "09:00 - 21:00",
+            "saturday": "09:00 - 21:00"
         },
         "phone_number": [
             "0461924604",
@@ -1639,13 +1639,13 @@
         "address": "Localit Vela",
         "comune": "Trento",
         "open_hours": {
-            "Friday": "00:00 - 23:59",
-            "Saturday": "00:00 - 23:59",
-            "Sunday": "00:00 - 23:59",
-            "Monday": "00:00 - 23:59",
-            "Tuesday": "00:00 - 23:59",
-            "Wednesday": "00:00 - 23:59",
-            "Thursday": "00:00 - 23:59"
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
         },
         "phone_number": [
             "0461959812"
@@ -1657,13 +1657,13 @@
         "address": "Via Lago di Lugano, 5",
         "comune": "Schio",
         "open_hours": {
-            "Friday": "06:00 - 22:30",
-            "Saturday": "06:00 - 22:30",
-            "Sunday": "08:00 - 18:00",
-            "Monday": "08:00 - 14:00",
-            "Tuesday": "06:00 - 22:30",
-            "Wednesday": "06:00 - 22:30",
-            "Thursday": "06:00 - 22:30"
+            "sunday": "08:00 - 18:00",
+            "monday": "08:00 - 14:00",
+            "tuesday": "06:00 - 22:30",
+            "wednesday": "06:00 - 22:30",
+            "thursday": "06:00 - 22:30",
+            "friday": "06:00 - 22:30",
+            "saturday": "06:00 - 22:30"
         },
         "phone_number": [
             "0445576615"
