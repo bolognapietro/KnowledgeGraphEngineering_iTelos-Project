@@ -1,1 +1,640 @@
-[]
+[
+    {
+        "name": "Campo di Golf",
+        "address": "Via Ferme",
+        "comune": "Roncegno Terme",
+        "open_hours": {},
+        "phone_number": [
+            "0461773337"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Equitazione Alpina Spiado",
+        "address": "Localit Quarazza, 1",
+        "comune": "Pieve Tesino",
+        "open_hours": {},
+        "phone_number": [
+            "0461594572"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Polisportivo Borgo Valsugana",
+        "address": "Via Giuseppe Gozzer, 52",
+        "comune": "Borgo Valsugana",
+        "open_hours": {
+            "sunday": "09:00 - 21:00",
+            "monday": "09:00 - 21:00",
+            "tuesday": "09:00 - 21:00",
+            "wednesday": "09:00 - 21:00",
+            "thursday": "09:00 - 21:00",
+            "friday": "09:00 - 21:00",
+            "saturday": "09:00 - 21:00"
+        },
+        "phone_number": [
+            "0461753836"
+        ],
+        "website": null
+    },
+    {
+        "name": "Circolo Tennis Borgo Assoc.Sport.Dilettantistica",
+        "address": "Piazza Mercato, 12",
+        "comune": "Borgo Valsugana",
+        "open_hours": {
+            "sunday": "09:00 - 22:00",
+            "monday": "09:00 - 22:00",
+            "tuesday": "09:00 - 22:00",
+            "wednesday": "09:00 - 22:00",
+            "thursday": "09:00 - 22:00",
+            "friday": "09:00 - 22:00",
+            "saturday": "09:00 - 22:00"
+        },
+        "phone_number": [
+            "0461753711"
+        ],
+        "website": null
+    },
+    {
+        "name": "Golf Club Tesino",
+        "address": "Localit Coldan, 11",
+        "comune": "Pieve Tesino",
+        "open_hours": {
+            "sunday": "09:00 - 18:00",
+            "monday": "09:00 - 18:00",
+            "tuesday": "09:00 - 18:00",
+            "wednesday": "09:00 - 18:00",
+            "thursday": "09:00 - 18:00",
+            "friday": "09:00 - 18:00",
+            "saturday": "09:00 - 18:00"
+        },
+        "phone_number": [
+            "3505332726"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina Comunale",
+        "address": "Via Giuseppe Gozzer, 52",
+        "comune": "Borgo Valsugana",
+        "open_hours": {},
+        "phone_number": [
+            "0461241833",
+            "0461751227"
+        ],
+        "website": null
+    },
+    {
+        "name": "S.S.D. Rari Nantes Valsugana a R.L.",
+        "address": "Corso Ausugum, 22",
+        "comune": "Borgo Valsugana",
+        "open_hours": {},
+        "phone_number": [
+            "0461241833",
+            "0461751227"
+        ],
+        "website": null
+    },
+    {
+        "name": "S.S.D. Rari Nantes Valsugana a R.L.",
+        "address": "Via Trieste, 7",
+        "comune": "Roncegno Terme",
+        "open_hours": {},
+        "phone_number": [
+            "0461525178"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina Comunale di Roffo Angelo",
+        "address": "Piazzale degli Alpini, 2",
+        "comune": "Roana",
+        "open_hours": {
+            "sunday": "09:30 - 19:30",
+            "monday": "09:30 - 19:30",
+            "tuesday": "09:30 - 21:30",
+            "wednesday": "09:30 - 21:30",
+            "thursday": "09:30 - 21:30",
+            "friday": "09:30 - 21:30",
+            "saturday": "09:30 - 21:30"
+        },
+        "phone_number": [
+            "3346879265",
+            "3888676170"
+        ],
+        "website": null
+    },
+    {
+        "name": "Arcieri di Fiemme",
+        "address": "Localit Roda",
+        "comune": "Ziano di Fiemme",
+        "open_hours": {},
+        "phone_number": [
+            "3478579908"
+        ],
+        "website": null
+    },
+    {
+        "name": "Associazione Maestri Sci Asiago",
+        "address": "Via Stazione, 1",
+        "comune": "Asiago",
+        "open_hours": {},
+        "phone_number": [
+            "3405985746",
+            "3458887347"
+        ],
+        "website": null
+    },
+    {
+        "name": "Azienda Speciale per La Gestione degli Impianti Sportivi del Comune di Trento",
+        "address": "Piazza dalla Chiesa Carlo Alberto, 1",
+        "comune": "Levico Terme",
+        "open_hours": {},
+        "phone_number": [
+            "0461708312",
+            "0461708313"
+        ],
+        "website": null
+    },
+    {
+        "name": "Break Point Golf Club",
+        "address": "Localit Maso Grillo, 4",
+        "comune": "Pergine Valsugana",
+        "open_hours": {
+            "sunday": "08:30 - 21:00",
+            "monday": "08:30 - 21:00",
+            "tuesday": "08:30 - 21:00",
+            "wednesday": "08:30 - 21:00",
+            "thursday": "08:30 - 21:00",
+            "friday": "08:30 - 21:00",
+            "saturday": "08:30 - 21:00"
+        },
+        "phone_number": [
+            "3474647351"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo",
+        "address": "Via Latifondi",
+        "comune": "Valbrenta",
+        "open_hours": {},
+        "phone_number": [],
+        "website": null
+    },
+    {
+        "name": "Campo da calcio Bedolpian",
+        "address": "Localit Bedolpian",
+        "comune": "Baselga di Pin",
+        "open_hours": {
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "0461558634",
+            "3496989956"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Da Calcio Regolamentare Mezzano",
+        "address": "Via del Pian, 37",
+        "comune": "Mezzano",
+        "open_hours": {
+            "sunday": "09:00 - 19:00",
+            "tuesday": "09:00 - 19:00",
+            "wednesday": "09:00 - 19:00",
+            "thursday": "09:00 - 19:00",
+            "friday": "09:00 - 19:00",
+            "saturday": "09:00 - 19:00"
+        },
+        "phone_number": [
+            "0439678068",
+            "043962407"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo di pattinaggio",
+        "address": "Via Lago",
+        "comune": "Tesero",
+        "open_hours": {},
+        "phone_number": [
+            "0462814064",
+            "0462812358"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Ghiaccio di Pergine",
+        "address": "Via al Ponte, 1/A",
+        "comune": "Pergine Valsugana",
+        "open_hours": {
+            "sunday": "14:00 - 16:30",
+            "monday": "14:00 - 16:30",
+            "tuesday": "14:00 - 16:30",
+            "wednesday": "14:00 - 16:30",
+            "thursday": "14:00 - 16:00",
+            "friday": "14:00 - 16:30",
+            "saturday": "14:00 - 16:30"
+        },
+        "phone_number": [
+            "0461534423"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Sportivo Comunale",
+        "address": "Viale Lido",
+        "comune": "Levico Terme",
+        "open_hours": {
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "0461706892"
+        ],
+        "website": null
+    },
+    {
+        "name": "Campo Sportivo Moar",
+        "address": "Frazione Azzolini, 82",
+        "comune": "Lavarone",
+        "open_hours": {
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "0464783179"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Equitazione Airone",
+        "address": "Localit Barco, 3",
+        "comune": "Levico Terme",
+        "open_hours": {
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "3396768993"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Ippico",
+        "address": "Via dei Paludi, 22",
+        "comune": "Baselga di Pin",
+        "open_hours": {
+            "sunday": "09:00 - 12:00 / 14:00 - 19:00",
+            "monday": "09:00 - 12:00 / 14:00 - 19:00",
+            "tuesday": "09:00 - 12:00 / 14:00 - 19:00",
+            "wednesday": "09:00 - 12:00 / 14:00 - 19:00",
+            "thursday": "09:00 - 12:00 / 14:00 - 19:00",
+            "friday": "09:00 - 12:00 / 14:00 - 19:00",
+            "saturday": "09:00 - 12:00 / 14:00 - 19:00"
+        },
+        "phone_number": [
+            "3470152778"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Ippico Paoli",
+        "address": "Localit Lochere, 33",
+        "comune": "Caldonazzo",
+        "open_hours": {
+            "sunday": "08:00 - 12:00 / 14:00 - 20:00",
+            "monday": "08:00 - 12:00 / 14:00 - 20:00",
+            "tuesday": "08:00 - 12:00 / 14:00 - 20:00",
+            "wednesday": "08:00 - 12:00 / 14:00 - 20:00",
+            "thursday": "08:00 - 12:00 / 14:00 - 20:00",
+            "friday": "08:00 - 12:00 / 14:00 - 20:00",
+            "saturday": "08:00 - 12:00 / 14:00 - 20:00"
+        },
+        "phone_number": [
+            "3200829633",
+            "0461706186"
+        ],
+        "website": null
+    },
+    {
+        "name": "Centro Natatorio Pergine Valsugana",
+        "address": "Via Marconi Guglielmo, 51",
+        "comune": "Pergine Valsugana",
+        "open_hours": {
+            "sunday": "08:00 - 20:00",
+            "monday": "08:00 - 20:00",
+            "tuesday": "06:00 - 22:00",
+            "wednesday": "07:00 - 22:00",
+            "thursday": "06:00 - 22:00",
+            "friday": "07:00 - 22:00",
+            "saturday": "06:00 - 22:00"
+        },
+        "phone_number": [
+            "0461531773"
+        ],
+        "website": null
+    },
+    {
+        "name": "Circolo Tennis Cavalese Asd",
+        "address": "Localit Parco della Pieve, 1",
+        "comune": "Cavalese",
+        "open_hours": {
+            "sunday": "08:00 - 23:00",
+            "monday": "08:00 - 23:00",
+            "tuesday": "08:00 - 23:00",
+            "wednesday": "08:00 - 23:00",
+            "thursday": "08:00 - 23:00",
+            "friday": "08:00 - 23:00",
+            "saturday": "08:00 - 23:00"
+        },
+        "phone_number": [
+            "0462340003"
+        ],
+        "website": null
+    },
+    {
+        "name": "Circolo Tennis Pergine Assoc.Sport.Dilettantistica",
+        "address": "Viale Petri, 2",
+        "comune": "Pergine Valsugana",
+        "open_hours": {},
+        "phone_number": [
+            "0461532169"
+        ],
+        "website": null
+    },
+    {
+        "name": "Comune di Asiago",
+        "address": "Via Stazione, 1",
+        "comune": "Asiago",
+        "open_hours": {},
+        "phone_number": [
+            "042464144"
+        ],
+        "website": null
+    },
+    {
+        "name": "Dilettantistica Tennis Levico Terme",
+        "address": "Localit Belvedere",
+        "comune": "Levico Terme",
+        "open_hours": {
+            "sunday": "08:00 - 23:00",
+            "monday": "08:00 - 23:00",
+            "tuesday": "08:00 - 23:00",
+            "wednesday": "08:00 - 23:00",
+            "thursday": "08:00 - 23:00",
+            "friday": "08:00 - 23:00",
+            "saturday": "08:00 - 23:00"
+        },
+        "phone_number": [
+            "3394631152"
+        ],
+        "website": null
+    },
+    {
+        "name": "Golf Club Asiago",
+        "address": "Via Meltar, 2",
+        "comune": "Asiago",
+        "open_hours": {},
+        "phone_number": [
+            "0424462721"
+        ],
+        "website": null
+    },
+    {
+        "name": "Ice Rink Pin",
+        "address": "Via dello Via dello Stadio, 17",
+        "comune": "Baselga di Pin",
+        "open_hours": {
+            "sunday": "09:00 - 12:30",
+            "tuesday": "09:00 - 12:30 / 14:00 - 16:30",
+            "wednesday": "09:00 - 12:30 / 14:00 - 16:30",
+            "thursday": "09:00 - 12:30 / 14:00 - 16:30",
+            "friday": "09:00 - 12:30 / 14:00 - 16:30",
+            "saturday": "09:00 - 12:30 / 14:00 - 16:30"
+        },
+        "phone_number": [
+            "0461554167"
+        ],
+        "website": null
+    },
+    {
+        "name": "Ice Rink Pine'",
+        "address": "Via dello Stadio Fraz Miola 17",
+        "comune": "Baselga di Pin",
+        "open_hours": {},
+        "phone_number": [
+            "0461554167"
+        ],
+        "website": null
+    },
+    {
+        "name": "Ice Rink Pine' S.r.l.",
+        "address": "Frazione Miola, 17",
+        "comune": "Baselga di Pin",
+        "open_hours": {},
+        "phone_number": [
+            "0461557476"
+        ],
+        "website": null
+    },
+    {
+        "name": "Pala Odegar",
+        "address": "Piazza della Stazione, 1",
+        "comune": "Asiago",
+        "open_hours": {
+            "sunday": "00:00 - 23:59",
+            "monday": "00:00 - 23:59",
+            "tuesday": "00:00 - 23:59",
+            "wednesday": "00:00 - 23:59",
+            "thursday": "00:00 - 23:59",
+            "friday": "00:00 - 23:59",
+            "saturday": "00:00 - 23:59"
+        },
+        "phone_number": [
+            "042464144"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palaghiaccio di Cavalese",
+        "address": "Via Cermis",
+        "comune": "Cavalese",
+        "open_hours": {},
+        "phone_number": [
+            "0462231252",
+            "0462230407"
+        ],
+        "website": null
+    },
+    {
+        "name": "Palasport Gallio Calcio 5",
+        "address": "Via Roma, 1",
+        "comune": "Gallio",
+        "open_hours": {},
+        "phone_number": [],
+        "website": null
+    },
+    {
+        "name": "Palazzetto di Caldonazzo",
+        "address": "Via Marconi, 9",
+        "comune": "Caldonazzo",
+        "open_hours": {
+            "tuesday": "17:00 - 21:00",
+            "wednesday": "17:00 - 21:00",
+            "thursday": "17:00 - 21:00",
+            "friday": "17:00 - 21:00",
+            "saturday": "17:00 - 21:00"
+        },
+        "phone_number": [
+            "0461718105"
+        ],
+        "website": null
+    },
+    {
+        "name": "Panarotta S.r.l.",
+        "address": "Localita' Panarotta, 1",
+        "comune": "Levico Terme",
+        "open_hours": {},
+        "phone_number": [
+            "3470333532"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina Cavalese",
+        "address": "Via Fratelli Bronzetti, 60",
+        "comune": "Cavalese",
+        "open_hours": {
+            "sunday": "09:00 - 21:00 / 09:30 - 20:00",
+            "monday": "09:00 - 21:00 / 09:30 - 20:00",
+            "tuesday": "09:00 - 21:00 / 09:30 - 20:00",
+            "wednesday": "09:00 - 21:00 / 09:30 - 20:00",
+            "thursday": "09:00 - 21:00 / 09:30 - 20:00",
+            "friday": "09:00 - 21:00 / 09:30 - 20:00",
+            "saturday": "09:00 - 21:00 / 09:30 - 20:00"
+        },
+        "phone_number": [
+            "0462230407"
+        ],
+        "website": null
+    },
+    {
+        "name": "Piscina Comunale Cavalese",
+        "address": "Via Rossini, 3",
+        "comune": "Cavalese",
+        "open_hours": {
+            "sunday": "10:00 - 20:00",
+            "monday": "10:00 - 20:00",
+            "tuesday": "09:00 - 21:00",
+            "wednesday": "09:00 - 21:00",
+            "thursday": "09:00 - 21:00",
+            "friday": "09:00 - 21:00",
+            "saturday": "09:00 - 21:00"
+        },
+        "phone_number": [
+            "0462341810"
+        ],
+        "website": null
+    },
+    {
+        "name": "Pista Motocross",
+        "address": "Frazione Canezza",
+        "comune": "Pergine Valsugana",
+        "open_hours": {
+            "monday": "09:00 - 12:00 / 15:00 - 18:00"
+        },
+        "phone_number": [
+            "3283636093"
+        ],
+        "website": null
+    },
+    {
+        "name": "Rocco Angelo Gestioni Impianti Sportivi",
+        "address": "Via Maggiore",
+        "comune": "Roana",
+        "open_hours": {
+            "sunday": "09:30 - 19:30",
+            "monday": "09:30 - 19:30",
+            "tuesday": "09:30 - 21:30",
+            "wednesday": "09:30 - 21:30",
+            "thursday": "09:30 - 21:30",
+            "friday": "09:30 - 21:30",
+            "saturday": "09:30 - 21:30"
+        },
+        "phone_number": [
+            "0424450154"
+        ],
+        "website": null
+    },
+    {
+        "name": "Societa' per L'Amministrazione e La Gestione di Impianti Sportivi - S.A.G.I.S. S.r.l.",
+        "address": "Localita' Lagorai, 3",
+        "comune": "Cavalese",
+        "open_hours": {},
+        "phone_number": [
+            "0462341810"
+        ],
+        "website": null
+    },
+    {
+        "name": "S.S.D. Rari Nantes Valsugana a R.L.",
+        "address": "Piazza dalla Chiesa Carlo Alberto, 1",
+        "comune": "Levico Terme",
+        "open_hours": {},
+        "phone_number": [
+            "0461700373"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Club Asiago",
+        "address": "Via Verdi, 19",
+        "comune": "Asiago",
+        "open_hours": {},
+        "phone_number": [
+            "3662870953"
+        ],
+        "website": null
+    },
+    {
+        "name": "Tennis Club Fonzaso",
+        "address": "Via Zucco A., 7",
+        "comune": "Fonzaso",
+        "open_hours": {
+            "sunday": "08:00 - 23:59",
+            "monday": "08:00 - 23:59",
+            "tuesday": "08:00 - 23:59",
+            "wednesday": "08:00 - 23:59",
+            "thursday": "08:00 - 23:59",
+            "friday": "08:00 - 23:59",
+            "saturday": "08:00 - 23:59"
+        },
+        "phone_number": [
+            "04395132"
+        ],
+        "website": null
+    }
+]
