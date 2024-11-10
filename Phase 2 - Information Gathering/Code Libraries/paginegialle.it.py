@@ -12,7 +12,7 @@ ROOT: str = "../data/raw/paginegialle.it"
 ROOT_JSON = join(ROOT, "json")
 ROOT_CSV = join(ROOT, "csv")
 
-#shutil.rmtree(ROOT)
+shutil.rmtree(ROOT)
 
 makedirs(ROOT, exist_ok=True)
 makedirs(ROOT_JSON, exist_ok=True)
@@ -42,10 +42,10 @@ municipalities = [
     'Vermiglio', 'Vignola-Falesina', 'Villa Lagarina', "Ville d'Anaunia", 'Volano', 'Zambana', 'Ziano di Fiemme'
 ]
 
-for index, municipality in enumerate(municipalities):
+for index1, municipality in enumerate(municipalities):
 
     print(" "*100, end="\r")
-    print(f"[{index+1} / {len(municipalities)}] {municipality}", end="\r")
+    print(f"[{index1+1} / {len(municipalities)}] {municipality}", end="\r")
 
     if isfile(join(ROOT_JSON, f"{municipality}.json")) and isfile(join(ROOT_CSV, f"{municipality}.csv")):
         continue
@@ -104,10 +104,10 @@ for index, municipality in enumerate(municipalities):
 
         results = data.get("list", {}).get("out", {}).get("base", {}).get("results", [])
         
-        for index, result in enumerate(results):
+        for index2, result in enumerate(results):
 
             print(" "*100, end="\r")
-            print(f"[{index+1} / {len(municipalities)}] {municipality} {len(final_results_json) + index}", end="\r")
+            print(f"[{index1+1} / {len(municipalities)}] {municipality} {len(final_results_json) + index2}", end="\r")
 
             result_name = result.get("ds_insegna", "")
 
@@ -151,7 +151,7 @@ for index, municipality in enumerate(municipalities):
                 result_name,
                 result_address,
                 result_comune,
-                ", ".join([f"{key}: {value}" for key, value in result_time_formatted.items()]),
+                '"' + ', '.join([f'{key}: {value}' for key, value in result_time_formatted.items()]) + '"',
                 " ".join(result_phones),
                 result_website
             ])

@@ -89,9 +89,9 @@
         "comune": "Pinzolo",
         "open_hours": {},
         "phone_number": [
-            "0465443181",
             "0465440355",
-            "0465441650"
+            "0465441650",
+            "0465443181"
         ],
         "website": null
     },
@@ -322,8 +322,8 @@
             "saturday": "00:00 - 23:59"
         },
         "phone_number": [
-            "0463986266",
-            "0463986113"
+            "0463986113",
+            "0463986266"
         ],
         "website": null
     },
@@ -355,13 +355,13 @@
         "address": "Localit Promeghin",
         "comune": "San Lorenzo Dorsino",
         "open_hours": {
-            "sunday": "09:00 - 13:00 / 15:00 - 21:00",
             "monday": "09:00 - 13:00 / 15:00 - 21:00",
             "tuesday": "09:00 - 13:00 / 15:00 - 21:00",
             "wednesday": "09:00 - 13:00 / 15:00 - 21:00",
             "thursday": "09:00 - 13:00 / 15:00 - 21:00",
             "friday": "09:00 - 13:00 / 15:00 - 21:00",
-            "saturday": "09:00 - 13:00 / 15:00 - 21:00"
+            "saturday": "09:00 - 13:00 / 15:00 - 21:00",
+            "sunday": "09:00 - 13:00 / 15:00 - 21:00"
         },
         "phone_number": [
             "0465730082"
@@ -374,8 +374,8 @@
         "comune": "Arco",
         "open_hours": {},
         "phone_number": [
-            "0464516830",
-            "0464517000"
+            "0464517000",
+            "0464516830"
         ],
         "website": null
     },
@@ -414,13 +414,13 @@
         "address": "Via Zeledria, 8",
         "comune": "Pinzolo",
         "open_hours": {
-            "sunday": "08:00 - 19:00",
             "monday": "08:00 - 19:00",
             "tuesday": "08:00 - 19:00",
             "wednesday": "08:00 - 19:00",
             "thursday": "08:00 - 19:00",
             "friday": "08:00 - 19:00",
-            "saturday": "08:00 - 19:00"
+            "saturday": "08:00 - 19:00",
+            "sunday": "08:00 - 19:00"
         },
         "phone_number": [
             "0465443222"

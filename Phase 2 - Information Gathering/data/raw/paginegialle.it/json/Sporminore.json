@@ -48,12 +48,12 @@
         "address": "Via Priori, 16",
         "comune": "Andalo",
         "open_hours": {
-            "sunday": "09:00 - 12:00 / 14:00 - 18:00",
             "monday": "09:00 - 12:00 / 14:00 - 18:00",
             "wednesday": "09:00 - 12:00 / 14:00 - 18:00",
             "thursday": "09:00 - 12:00 / 14:00 - 18:00",
             "friday": "09:00 - 12:00 / 14:00 - 18:00",
-            "saturday": "09:00 - 12:00 / 14:00 - 18:00"
+            "saturday": "09:00 - 12:00 / 14:00 - 18:00",
+            "sunday": "09:00 - 12:00 / 14:00 - 18:00"
         },
         "phone_number": [
             "0461585900"
@@ -76,12 +76,12 @@
         "address": "Via Quattro Ville, 3",
         "comune": "Ville d'Anaunia",
         "open_hours": {
-            "sunday": "09:00 - 12:00",
             "tuesday": "09:00 - 12:00",
             "wednesday": "09:00 - 12:00",
             "thursday": "09:00 - 12:00",
             "friday": "09:00 - 12:00",
-            "saturday": "09:00 - 12:00"
+            "saturday": "09:00 - 12:00",
+            "sunday": "09:00 - 12:00"
         },
         "phone_number": [
             "3388986749"
@@ -109,13 +109,13 @@
         "address": "Piazza Righi, 5",
         "comune": "Pinzolo",
         "open_hours": {
-            "sunday": "08:00 - 12:30 / 15:00 - 20:00",
             "monday": "08:00 - 12:30 / 15:00 - 20:00",
             "tuesday": "08:00 - 12:30 / 15:00 - 20:00",
             "wednesday": "08:00 - 12:30 / 15:00 - 20:00",
             "thursday": "08:00 - 12:30 / 15:00 - 20:00",
             "friday": "08:00 - 12:30 / 15:00 - 20:00",
-            "saturday": "08:00 - 12:30 / 15:00 - 20:00"
+            "saturday": "08:00 - 12:30 / 15:00 - 20:00",
+            "sunday": "08:00 - 12:30 / 15:00 - 20:00"
         },
         "phone_number": [
             "0465442080"
@@ -127,12 +127,12 @@
         "address": "Piazza Tridente, 9",
         "comune": "Trento",
         "open_hours": {
-            "sunday": "08:30 - 19:00",
             "tuesday": "08:30 - 21:00",
             "wednesday": "08:30 - 21:00",
             "thursday": "08:30 - 21:00",
             "friday": "08:30 - 21:00",
-            "saturday": "08:30 - 21:00"
+            "saturday": "08:30 - 21:00",
+            "sunday": "08:30 - 19:00"
         },
         "phone_number": [
             "393497682763"
@@ -162,9 +162,9 @@
         "comune": "Pinzolo",
         "open_hours": {},
         "phone_number": [
-            "0465443181",
             "0465440355",
-            "0465441650"
+            "0465441650",
+            "0465443181"
         ],
         "website": null
     },
@@ -183,13 +183,13 @@
         "address": "Via Gole, 412",
         "comune": "Dimaro Folgarida",
         "open_hours": {
-            "sunday": "09:00 - 19:00",
             "monday": "09:00 - 19:00",
             "tuesday": "09:00 - 19:00",
             "wednesday": "09:00 - 19:00",
             "thursday": "09:00 - 19:00",
             "friday": "09:00 - 19:00",
-            "saturday": "09:00 - 19:00"
+            "saturday": "09:00 - 19:00",
+            "sunday": "09:00 - 19:00"
         },
         "phone_number": [
             "3402175873",
@@ -202,13 +202,13 @@
         "address": "Via Unterveger Giambattista, 104",
         "comune": "Trento",
         "open_hours": {
-            "sunday": "05:00 - 20:00",
             "monday": "05:00 - 20:00",
             "tuesday": "05:00 - 23:00",
             "wednesday": "05:00 - 23:00",
             "thursday": "05:00 - 23:00",
             "friday": "05:00 - 23:00",
-            "saturday": "05:00 - 23:00"
+            "saturday": "05:00 - 23:00",
+            "sunday": "05:00 - 20:00"
         },
         "phone_number": [
             "0461821284"
@@ -323,8 +323,8 @@
         "comune": "Trento",
         "open_hours": {},
         "phone_number": [
-            "0461931035",
-            "0461916579"
+            "0461916579",
+            "0461931035"
         ],
         "website": null
     },
@@ -689,9 +689,9 @@
         "address": "Localit Lago Santo",
         "comune": "Cembra Lisignago",
         "open_hours": {
-            "sunday": "11:00 - 03:00",
             "monday": "11:00 - 23:59",
-            "saturday": "18:00 - 03:00"
+            "saturday": "18:00 - 03:00",
+            "sunday": "11:00 - 03:00"
         },
         "phone_number": [
             "0461683518"
@@ -714,13 +714,13 @@
         "address": "Via dei Paludi, 22",
         "comune": "Baselga di Pin",
         "open_hours": {
-            "sunday": "09:00 - 12:00 / 14:00 - 19:00",
             "monday": "09:00 - 12:00 / 14:00 - 19:00",
             "tuesday": "09:00 - 12:00 / 14:00 - 19:00",
             "wednesday": "09:00 - 12:00 / 14:00 - 19:00",
             "thursday": "09:00 - 12:00 / 14:00 - 19:00",
             "friday": "09:00 - 12:00 / 14:00 - 19:00",
-            "saturday": "09:00 - 12:00 / 14:00 - 19:00"
+            "saturday": "09:00 - 12:00 / 14:00 - 19:00",
+            "sunday": "09:00 - 12:00 / 14:00 - 19:00"
         },
         "phone_number": [
             "3470152778"
@@ -742,13 +742,13 @@
         "address": "Piazza del Duomo, 30",
         "comune": "Trento",
         "open_hours": {
-            "sunday": "06:30 - 21:30",
             "monday": "06:30 - 21:30",
             "tuesday": "06:30 - 21:30",
             "wednesday": "06:30 - 21:30",
             "thursday": "06:30 - 21:30",
             "friday": "06:30 - 21:30",
-            "saturday": "06:30 - 21:30"
+            "saturday": "06:30 - 21:30",
+            "sunday": "06:30 - 21:30"
         },
         "phone_number": [
             "3398683083"
@@ -760,13 +760,13 @@
         "address": "Via del Pressenach, 1",
         "comune": "Mezzana",
         "open_hours": {
-            "sunday": "09:00 - 22:00",
             "monday": "09:00 - 22:00",
             "tuesday": "09:00 - 22:00",
             "wednesday": "09:00 - 22:00",
             "thursday": "09:00 - 22:00",
             "friday": "09:00 - 22:00",
-            "saturday": "09:00 - 22:00"
+            "saturday": "09:00 - 22:00",
+            "sunday": "09:00 - 22:00"
         },
         "phone_number": [
             "0463757551"
@@ -778,13 +778,13 @@
         "address": "Via 12 Settembre, 6",
         "comune": "Trento",
         "open_hours": {
-            "sunday": "08:00 - 20:00",
             "monday": "08:00 - 20:00",
             "tuesday": "08:00 - 20:00",
             "wednesday": "08:00 - 20:00",
             "thursday": "08:00 - 20:00",
             "friday": "08:00 - 20:00",
-            "saturday": "08:00 - 20:00"
+            "saturday": "08:00 - 20:00",
+            "sunday": "08:00 - 20:00"
         },
         "phone_number": [
             "0461866471"
@@ -822,8 +822,8 @@
         "address": "Via Fogazzaro Antonio, 2",
         "comune": "Trento",
         "open_hours": {
-            "sunday": "09:00 - 19:00",
-            "monday": "09:00 - 13:00"
+            "monday": "09:00 - 13:00",
+            "sunday": "09:00 - 19:00"
         },
         "phone_number": [
             "0461924248"
@@ -855,13 +855,13 @@
         "address": "Via IV Novembre, 23/4",
         "comune": "Trento",
         "open_hours": {
-            "sunday": "09:00 - 21:00",
             "monday": "09:00 - 21:00",
             "tuesday": "09:00 - 21:00",
             "wednesday": "09:00 - 21:00",
             "thursday": "09:00 - 21:00",
             "friday": "09:00 - 21:00",
-            "saturday": "09:00 - 21:00"
+            "saturday": "09:00 - 21:00",
+            "sunday": "09:00 - 21:00"
         },
         "phone_number": [
             "0461959812"
@@ -873,13 +873,13 @@
         "address": "Via Pradiscola, 1",
         "comune": "Trento",
         "open_hours": {
-            "sunday": "09:00 - 23:00",
             "monday": "09:00 - 23:00",
             "tuesday": "09:00 - 23:00",
             "wednesday": "09:00 - 23:00",
             "thursday": "09:00 - 23:00",
             "friday": "09:00 - 23:00",
-            "saturday": "09:00 - 23:00"
+            "saturday": "09:00 - 23:00",
+            "sunday": "09:00 - 23:00"
         },
         "phone_number": [
             "0461820040"
@@ -891,12 +891,12 @@
         "address": "Via San Pio X, 117",
         "comune": "Trento",
         "open_hours": {
-            "sunday": "09:00 - 23:00",
             "tuesday": "09:00 - 23:00",
             "wednesday": "09:00 - 23:00",
             "thursday": "09:00 - 23:00",
             "friday": "09:00 - 23:00",
-            "saturday": "09:00 - 23:00"
+            "saturday": "09:00 - 23:00",
+            "sunday": "09:00 - 23:00"
         },
         "phone_number": [
             "0461925234"
@@ -918,13 +918,13 @@
         "address": "Localita' Centro Sportivo Verde, 1",
         "comune": "Sarnonico",
         "open_hours": {
-            "sunday": "08:30 - 19:30",
             "monday": "08:30 - 19:30",
             "tuesday": "08:30 - 19:30",
             "wednesday": "08:30 - 19:30",
             "thursday": "08:30 - 19:30",
             "friday": "08:30 - 19:30",
-            "saturday": "08:30 - 19:30"
+            "saturday": "08:30 - 19:30",
+            "sunday": "08:30 - 19:30"
         },
         "phone_number": [
             "0463832698"
@@ -937,9 +937,9 @@
         "comune": "Trento",
         "open_hours": {},
         "phone_number": [
-            "3295459087",
+            "0438837210",
             "043882778",
-            "0438837210"
+            "3295459087"
         ],
         "website": null
     },
@@ -949,8 +949,8 @@
         "comune": "Mal",
         "open_hours": {},
         "phone_number": [
-            "0463903033",
-            "3924860806"
+            "3924860806",
+            "0463903033"
         ],
         "website": null
     },
@@ -959,13 +959,13 @@
         "address": "Via Cima Tosa, 15",
         "comune": "Pinzolo",
         "open_hours": {
-            "sunday": "08:00 - 18:00",
             "monday": "08:00 - 18:00",
             "tuesday": "08:00 - 18:00",
             "wednesday": "08:00 - 18:00",
             "thursday": "08:00 - 18:00",
             "friday": "08:00 - 18:00",
-            "saturday": "08:00 - 18:00"
+            "saturday": "08:00 - 18:00",
+            "sunday": "08:00 - 18:00"
         },
         "phone_number": [
             "0465440622"
@@ -988,11 +988,11 @@
         "comune": "Ora",
         "open_hours": {},
         "phone_number": [
-            "047181243",
-            "0471814243",
             "0471802872",
-            "0471810272",
-            "0471810025"
+            "0471810025",
+            "0471814243",
+            "047181243",
+            "0471810272"
         ],
         "website": null
     },
@@ -1107,8 +1107,8 @@
             "saturday": "08:00 - 20:00"
         },
         "phone_number": [
-            "3395026924",
-            "0463830077"
+            "0463830077",
+            "3395026924"
         ],
         "website": null
     },
@@ -1164,8 +1164,8 @@
             "saturday": "00:00 - 23:59"
         },
         "phone_number": [
-            "0463986266",
-            "0463986113"
+            "0463986113",
+            "0463986266"
         ],
         "website": null
     },
@@ -1273,9 +1273,9 @@
         "comune": "Egna",
         "open_hours": {},
         "phone_number": [
+            "0471820900",
             "0471813614",
-            "0471813613",
-            "0471820900"
+            "0471813613"
         ],
         "website": null
     },
@@ -1285,12 +1285,12 @@
         "comune": "Egna",
         "open_hours": {},
         "phone_number": [
-            "3382285799",
-            "0471813613",
-            "0471813614",
             "0471813625",
             "0471820900",
-            "0471823224"
+            "0471813613",
+            "0471823224",
+            "0471813614",
+            "3382285799"
         ],
         "website": null
     },
@@ -1300,9 +1300,9 @@
         "comune": "Trento",
         "open_hours": {},
         "phone_number": [
-            "0461416164",
             "0461961625",
-            "0461910464"
+            "0461910464",
+            "0461416164"
         ],
         "website": null
     },
@@ -1312,11 +1312,11 @@
         "comune": "Trento",
         "open_hours": {},
         "phone_number": [
-            "0461961625",
-            "0461416163",
-            "0461416164",
+            "0461416162",
             "0461910464",
-            "0461416162"
+            "0461961625",
+            "0461416164",
+            "0461416163"
         ],
         "website": null
     },
@@ -1478,8 +1478,8 @@
         "comune": "Trento",
         "open_hours": {},
         "phone_number": [
-            "0461959799",
             "0461992888",
+            "0461959799",
             "0461992990"
         ],
         "website": null

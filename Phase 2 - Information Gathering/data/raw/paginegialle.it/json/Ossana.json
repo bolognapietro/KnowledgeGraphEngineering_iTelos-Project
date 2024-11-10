@@ -20,13 +20,13 @@
         "address": "Piazza Righi, 5",
         "comune": "Pinzolo",
         "open_hours": {
-            "sunday": "08:00 - 12:30 / 15:00 - 20:00",
             "monday": "08:00 - 12:30 / 15:00 - 20:00",
             "tuesday": "08:00 - 12:30 / 15:00 - 20:00",
             "wednesday": "08:00 - 12:30 / 15:00 - 20:00",
             "thursday": "08:00 - 12:30 / 15:00 - 20:00",
             "friday": "08:00 - 12:30 / 15:00 - 20:00",
-            "saturday": "08:00 - 12:30 / 15:00 - 20:00"
+            "saturday": "08:00 - 12:30 / 15:00 - 20:00",
+            "sunday": "08:00 - 12:30 / 15:00 - 20:00"
         },
         "phone_number": [
             "0465442080"
@@ -39,9 +39,9 @@
         "comune": "Pinzolo",
         "open_hours": {},
         "phone_number": [
-            "0465443181",
             "0465440355",
-            "0465441650"
+            "0465441650",
+            "0465443181"
         ],
         "website": null
     },
@@ -50,13 +50,13 @@
         "address": "Via Gole, 412",
         "comune": "Dimaro Folgarida",
         "open_hours": {
-            "sunday": "09:00 - 19:00",
             "monday": "09:00 - 19:00",
             "tuesday": "09:00 - 19:00",
             "wednesday": "09:00 - 19:00",
             "thursday": "09:00 - 19:00",
             "friday": "09:00 - 19:00",
-            "saturday": "09:00 - 19:00"
+            "saturday": "09:00 - 19:00",
+            "sunday": "09:00 - 19:00"
         },
         "phone_number": [
             "3402175873",
@@ -69,13 +69,13 @@
         "address": "Strada Provinciale degli Ortioi, 1",
         "comune": "Mezzana",
         "open_hours": {
-            "sunday": "08:00 - 23:00",
             "monday": "08:00 - 23:00",
             "tuesday": "08:00 - 23:00",
             "wednesday": "08:00 - 23:00",
             "thursday": "08:00 - 23:00",
             "friday": "08:00 - 23:00",
-            "saturday": "08:00 - 23:00"
+            "saturday": "08:00 - 23:00",
+            "sunday": "08:00 - 23:00"
         },
         "phone_number": [
             "0463757451"
@@ -98,13 +98,13 @@
         "address": "Via del Pressenach, 1",
         "comune": "Mezzana",
         "open_hours": {
-            "sunday": "09:00 - 22:00",
             "monday": "09:00 - 22:00",
             "tuesday": "09:00 - 22:00",
             "wednesday": "09:00 - 22:00",
             "thursday": "09:00 - 22:00",
             "friday": "09:00 - 22:00",
-            "saturday": "09:00 - 22:00"
+            "saturday": "09:00 - 22:00",
+            "sunday": "09:00 - 22:00"
         },
         "phone_number": [
             "0463757551"
@@ -116,13 +116,13 @@
         "address": "Viale San Camillo",
         "comune": "Peio",
         "open_hours": {
-            "sunday": "00:00 - 23:59",
             "monday": "00:00 - 23:59",
             "tuesday": "00:00 - 23:59",
             "wednesday": "00:00 - 23:59",
             "thursday": "00:00 - 23:59",
             "friday": "00:00 - 23:59",
-            "saturday": "00:00 - 23:59"
+            "saturday": "00:00 - 23:59",
+            "sunday": "00:00 - 23:59"
         },
         "phone_number": [
             "0463753100"
@@ -134,13 +134,13 @@
         "address": "Via Cima Tosa, 15",
         "comune": "Pinzolo",
         "open_hours": {
-            "sunday": "08:00 - 18:00",
             "monday": "08:00 - 18:00",
             "tuesday": "08:00 - 18:00",
             "wednesday": "08:00 - 18:00",
             "thursday": "08:00 - 18:00",
             "friday": "08:00 - 18:00",
-            "saturday": "08:00 - 18:00"
+            "saturday": "08:00 - 18:00",
+            "sunday": "08:00 - 18:00"
         },
         "phone_number": [
             "0465440622"
@@ -162,17 +162,17 @@
         "address": "Strada del Roccolo, 24",
         "comune": "Dimaro Folgarida",
         "open_hours": {
-            "sunday": "00:00 - 23:59",
             "monday": "00:00 - 23:59",
             "tuesday": "00:00 - 23:59",
             "wednesday": "00:00 - 23:59",
             "thursday": "00:00 - 23:59",
             "friday": "00:00 - 23:59",
-            "saturday": "00:00 - 23:59"
+            "saturday": "00:00 - 23:59",
+            "sunday": "00:00 - 23:59"
         },
         "phone_number": [
-            "0463986266",
-            "0463986113"
+            "0463986113",
+            "0463986266"
         ],
         "website": null
     },
@@ -181,13 +181,13 @@
         "address": "Via Brescia, 88",
         "comune": "Dimaro Folgarida",
         "open_hours": {
-            "sunday": "09:00 - 12:00 / 15:00 - 19:00",
             "monday": "09:00 - 12:00 / 15:00 - 19:00",
             "tuesday": "09:00 - 12:00 / 15:00 - 19:00",
             "wednesday": "09:00 - 12:00 / 15:00 - 19:00",
             "thursday": "09:00 - 12:00 / 15:00 - 19:00",
             "friday": "09:00 - 12:00 / 15:00 - 19:00",
-            "saturday": "09:00 - 12:00 / 15:00 - 19:00"
+            "saturday": "09:00 - 12:00 / 15:00 - 19:00",
+            "sunday": "09:00 - 12:00 / 15:00 - 19:00"
         },
         "phone_number": [
             "0463970004"
@@ -209,13 +209,13 @@
         "address": "Via Zeledria, 8",
         "comune": "Pinzolo",
         "open_hours": {
-            "sunday": "08:00 - 19:00",
             "monday": "08:00 - 19:00",
             "tuesday": "08:00 - 19:00",
             "wednesday": "08:00 - 19:00",
             "thursday": "08:00 - 19:00",
             "friday": "08:00 - 19:00",
-            "saturday": "08:00 - 19:00"
+            "saturday": "08:00 - 19:00",
+            "sunday": "08:00 - 19:00"
         },
         "phone_number": [
             "0465443222"
@@ -274,8 +274,8 @@
         "comune": "Mal",
         "open_hours": {},
         "phone_number": [
-            "0463903033",
-            "3924860806"
+            "3924860806",
+            "0463903033"
         ],
         "website": null
     },
@@ -294,13 +294,13 @@
         "address": "Via alla Croce, 1",
         "comune": "Mal",
         "open_hours": {
-            "sunday": "10:00 - 21:00",
             "monday": "10:00 - 21:00",
             "tuesday": "10:00 - 21:00",
             "wednesday": "15:00 - 19:30",
             "thursday": "15:00 - 19:30",
             "friday": "15:00 - 19:30",
-            "saturday": "15:00 - 19:30"
+            "saturday": "15:00 - 19:30",
+            "sunday": "10:00 - 21:00"
         },
         "phone_number": [
             "0463902545"

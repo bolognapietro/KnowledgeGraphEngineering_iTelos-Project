@@ -14,13 +14,13 @@
         "address": "Via del Piz, 7",
         "comune": "Canazei",
         "open_hours": {
-            "sunday": "10:00 - 20:00",
             "monday": "10:00 - 20:00",
             "tuesday": "10:00 - 20:00",
             "wednesday": "10:00 - 20:00",
             "thursday": "10:00 - 22:00",
             "friday": "10:00 - 20:00",
-            "saturday": "10:00 - 20:00"
+            "saturday": "10:00 - 20:00",
+            "sunday": "10:00 - 20:00"
         },
         "phone_number": [
             "0462601348"
@@ -33,8 +33,8 @@
         "comune": "Nova Levante",
         "open_hours": {},
         "phone_number": [
-            "04711888167",
-            "3664648302"
+            "3664648302",
+            "04711888167"
         ],
         "website": null
     },
@@ -44,8 +44,8 @@
         "comune": "Campitello di Fassa",
         "open_hours": {},
         "phone_number": [
-            "0462750472",
-            "3385222653"
+            "3385222653",
+            "0462750472"
         ],
         "website": null
     },
@@ -64,13 +64,13 @@
         "address": "Localit Navalge",
         "comune": "Moena",
         "open_hours": {
-            "sunday": "10:00 - 12:00 / 14:00 - 18:00",
             "monday": "10:00 - 12:00 / 14:00 - 18:00",
             "tuesday": "10:00 - 12:00 / 14:00 - 18:00",
             "wednesday": "10:00 - 12:00 / 14:00 - 18:00",
             "thursday": "10:00 - 12:00 / 14:00 - 18:00",
             "friday": "10:00 - 12:00 / 14:00 - 18:00",
-            "saturday": "10:00 - 12:00 / 14:00 - 18:00"
+            "saturday": "10:00 - 12:00 / 14:00 - 18:00",
+            "sunday": "10:00 - 12:00 / 14:00 - 18:00"
         },
         "phone_number": [
             "0462574013"
@@ -82,13 +82,13 @@
         "address": "Via Dolomiti, 33",
         "comune": "Campitello di Fassa",
         "open_hours": {
-            "sunday": "09:00 - 12:00 / 13:00 - 18:00",
             "monday": "09:00 - 12:00 / 13:00 - 18:00",
             "tuesday": "09:00 - 12:00 / 13:00 - 18:00",
             "wednesday": "09:00 - 12:00 / 13:00 - 18:00",
             "thursday": "09:00 - 12:00 / 13:00 - 18:00",
             "friday": "09:00 - 12:00 / 13:00 - 18:00",
-            "saturday": "09:00 - 12:00 / 13:00 - 18:00"
+            "saturday": "09:00 - 12:00 / 13:00 - 18:00",
+            "sunday": "09:00 - 12:00 / 13:00 - 18:00"
         },
         "phone_number": [
             "3356063499"
@@ -110,13 +110,13 @@
         "address": "Via Rezia, 10",
         "comune": "Ortisei",
         "open_hours": {
-            "sunday": "08:00 - 19:00",
             "monday": "08:00 - 19:00",
             "tuesday": "08:00 - 19:00",
             "wednesday": "08:00 - 19:00",
             "thursday": "08:00 - 19:00",
             "friday": "08:00 - 19:00",
-            "saturday": "08:00 - 19:00"
+            "saturday": "08:00 - 19:00",
+            "sunday": "08:00 - 19:00"
         },
         "phone_number": [
             "0471786258"
@@ -148,13 +148,13 @@
         "address": "Via Georg Strasse, 25",
         "comune": "Tires",
         "open_hours": {
-            "sunday": "00:00 - 23:59",
             "monday": "00:00 - 23:59",
             "tuesday": "00:00 - 23:59",
             "wednesday": "00:00 - 23:59",
             "thursday": "00:00 - 23:59",
             "friday": "00:00 - 23:59",
-            "saturday": "00:00 - 23:59"
+            "saturday": "00:00 - 23:59",
+            "sunday": "00:00 - 23:59"
         },
         "phone_number": [
             "3491404634"
@@ -218,8 +218,8 @@
         "comune": "Tesero",
         "open_hours": {},
         "phone_number": [
-            "0462814649",
-            "3343535108"
+            "3343535108",
+            "0462814649"
         ],
         "website": null
     },
@@ -240,10 +240,10 @@
         "comune": "Falcade",
         "open_hours": {},
         "phone_number": [
-            "3485355474",
-            "3407027975",
+            "0437599616",
             "3285476476",
-            "0437599616"
+            "3485355474",
+            "3407027975"
         ],
         "website": null
     },
@@ -262,13 +262,13 @@
         "address": "Via Planac, 9",
         "comune": "Corvara in Badia",
         "open_hours": {
-            "sunday": "09:00 - 18:00",
             "monday": "09:00 - 18:00",
             "tuesday": "09:00 - 18:00",
             "wednesday": "09:00 - 18:00",
             "thursday": "09:00 - 18:00",
             "friday": "09:00 - 18:00",
-            "saturday": "09:00 - 18:00"
+            "saturday": "09:00 - 18:00",
+            "sunday": "09:00 - 18:00"
         },
         "phone_number": [
             "0471836655"
@@ -280,13 +280,13 @@
         "address": "Via San Vigilio, 20",
         "comune": "Castelrotto",
         "open_hours": {
-            "sunday": "08:00 - 18:00",
             "monday": "08:00 - 18:00",
             "tuesday": "08:00 - 18:00",
             "wednesday": "08:00 - 18:00",
             "thursday": "08:00 - 18:00",
             "friday": "08:00 - 18:00",
-            "saturday": "08:00 - 18:00"
+            "saturday": "08:00 - 18:00",
+            "sunday": "08:00 - 18:00"
         },
         "phone_number": [
             "0471708708"
@@ -370,9 +370,9 @@
         "comune": "Nova Ponente",
         "open_hours": {},
         "phone_number": [
-            "0471615511",
             "0471615627",
-            "0471615122"
+            "0471615122",
+            "0471615511"
         ],
         "website": null
     },
@@ -382,8 +382,8 @@
         "comune": "Nova Ponente",
         "open_hours": {},
         "phone_number": [
-            "0471618084",
-            "04711969950"
+            "04711969950",
+            "0471618084"
         ],
         "website": null
     },
@@ -393,8 +393,8 @@
         "comune": "Nova Ponente",
         "open_hours": {},
         "phone_number": [
-            "0471618084",
-            "04711969950"
+            "04711969950",
+            "0471618084"
         ],
         "website": null
     },

@@ -43,8 +43,8 @@
         "comune": "Nova Levante",
         "open_hours": {},
         "phone_number": [
-            "04711888167",
-            "3664648302"
+            "3664648302",
+            "04711888167"
         ],
         "website": null
     },
@@ -54,8 +54,8 @@
         "comune": "Campitello di Fassa",
         "open_hours": {},
         "phone_number": [
-            "0462750472",
-            "3385222653"
+            "3385222653",
+            "0462750472"
         ],
         "website": null
     },
@@ -83,9 +83,9 @@
         "comune": "Nova Ponente",
         "open_hours": {},
         "phone_number": [
-            "0471615511",
             "0471615627",
-            "0471615122"
+            "0471615122",
+            "0471615511"
         ],
         "website": null
     },
@@ -228,8 +228,8 @@
         "comune": "Tesero",
         "open_hours": {},
         "phone_number": [
-            "0462814649",
-            "3343535108"
+            "3343535108",
+            "0462814649"
         ],
         "website": null
     },
@@ -250,10 +250,10 @@
         "comune": "Falcade",
         "open_hours": {},
         "phone_number": [
-            "3485355474",
-            "3407027975",
+            "0437599616",
             "3285476476",
-            "0437599616"
+            "3485355474",
+            "3407027975"
         ],
         "website": null
     },
@@ -477,8 +477,8 @@
         "comune": "Nova Ponente",
         "open_hours": {},
         "phone_number": [
-            "0471618084",
-            "04711969950"
+            "04711969950",
+            "0471618084"
         ],
         "website": null
     },
@@ -488,8 +488,8 @@
         "comune": "Nova Ponente",
         "open_hours": {},
         "phone_number": [
-            "0471618084",
-            "04711969950"
+            "04711969950",
+            "0471618084"
         ],
         "website": null
     }

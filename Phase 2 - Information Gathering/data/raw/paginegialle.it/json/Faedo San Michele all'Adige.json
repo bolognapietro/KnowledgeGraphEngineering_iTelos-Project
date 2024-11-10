@@ -138,9 +138,9 @@
         "comune": "Trento",
         "open_hours": {},
         "phone_number": [
-            "3295459087",
+            "0438837210",
             "043882778",
-            "0438837210"
+            "3295459087"
         ],
         "website": null
     },
@@ -187,11 +187,11 @@
         "comune": "Trento",
         "open_hours": {},
         "phone_number": [
-            "0461961625",
-            "0461416163",
-            "0461416164",
+            "0461416162",
             "0461910464",
-            "0461416162"
+            "0461961625",
+            "0461416164",
+            "0461416163"
         ],
         "website": null
     },
@@ -231,8 +231,8 @@
         "comune": "Trento",
         "open_hours": {},
         "phone_number": [
-            "0461959799",
             "0461992888",
+            "0461959799",
             "0461992990"
         ],
         "website": null
@@ -395,8 +395,8 @@
         "comune": "Trento",
         "open_hours": {},
         "phone_number": [
-            "0461931035",
-            "0461916579"
+            "0461916579",
+            "0461931035"
         ],
         "website": null
     },
@@ -755,8 +755,8 @@
             "saturday": "08:00 - 12:00 / 14:00 - 20:00"
         },
         "phone_number": [
-            "3200829633",
-            "0461706186"
+            "0461706186",
+            "3200829633"
         ],
         "website": null
     },
@@ -969,13 +969,13 @@
         "address": "Localit Belvedere",
         "comune": "Levico Terme",
         "open_hours": {
-            "sunday": "08:00 - 23:00",
             "monday": "08:00 - 23:00",
             "tuesday": "08:00 - 23:00",
             "wednesday": "08:00 - 23:00",
             "thursday": "08:00 - 23:00",
             "friday": "08:00 - 23:00",
-            "saturday": "08:00 - 23:00"
+            "saturday": "08:00 - 23:00",
+            "sunday": "08:00 - 23:00"
         },
         "phone_number": [
             "3394631152"
@@ -987,13 +987,13 @@
         "address": "Localita' Centro Sportivo Verde, 1",
         "comune": "Sarnonico",
         "open_hours": {
-            "sunday": "08:30 - 19:30",
             "monday": "08:30 - 19:30",
             "tuesday": "08:30 - 19:30",
             "wednesday": "08:30 - 19:30",
             "thursday": "08:30 - 19:30",
             "friday": "08:30 - 19:30",
-            "saturday": "08:30 - 19:30"
+            "saturday": "08:30 - 19:30",
+            "sunday": "08:30 - 19:30"
         },
         "phone_number": [
             "0463832698"
@@ -1016,11 +1016,11 @@
         "comune": "Ora",
         "open_hours": {},
         "phone_number": [
-            "047181243",
-            "0471814243",
             "0471802872",
-            "0471810272",
-            "0471810025"
+            "0471810025",
+            "0471814243",
+            "047181243",
+            "0471810272"
         ],
         "website": null
     },
@@ -1040,12 +1040,12 @@
         "address": "Localit Acquaviva, 4",
         "comune": "Trento",
         "open_hours": {
-            "sunday": "10:00 - 17:00",
             "tuesday": "10:00 - 22:00",
             "wednesday": "10:00 - 22:00",
             "thursday": "10:00 - 22:00",
             "friday": "10:00 - 22:00",
-            "saturday": "10:00 - 22:00"
+            "saturday": "10:00 - 22:00",
+            "sunday": "10:00 - 17:00"
         },
         "phone_number": [
             "3286165313"
@@ -1057,12 +1057,12 @@
         "address": "Via Galilei Galileo, 32",
         "comune": "Trento",
         "open_hours": {
-            "sunday": "10:00 - 20:00",
             "tuesday": "07:00 - 22:30",
             "wednesday": "07:00 - 22:30",
             "thursday": "07:00 - 22:30",
             "friday": "07:00 - 22:30",
-            "saturday": "07:00 - 22:30"
+            "saturday": "07:00 - 22:30",
+            "sunday": "10:00 - 20:00"
         },
         "phone_number": [
             "0461230797",
@@ -1106,17 +1106,17 @@
         "address": "Via Roen",
         "comune": "Amblar-Don",
         "open_hours": {
-            "sunday": "08:00 - 20:00",
             "monday": "08:00 - 20:00",
             "tuesday": "08:00 - 20:00",
             "wednesday": "08:00 - 20:00",
             "thursday": "08:00 - 20:00",
             "friday": "08:00 - 20:00",
-            "saturday": "08:00 - 20:00"
+            "saturday": "08:00 - 20:00",
+            "sunday": "08:00 - 20:00"
         },
         "phone_number": [
-            "3395026924",
-            "0463830077"
+            "0463830077",
+            "3395026924"
         ],
         "website": null
     },
@@ -1125,13 +1125,13 @@
         "address": "Via Filari Longhi, 2/A",
         "comune": "Trento",
         "open_hours": {
-            "sunday": "00:00 - 23:59",
             "monday": "00:00 - 23:59",
             "tuesday": "00:00 - 23:59",
             "wednesday": "00:00 - 23:59",
             "thursday": "00:00 - 23:59",
             "friday": "00:00 - 23:59",
-            "saturday": "00:00 - 23:59"
+            "saturday": "00:00 - 23:59",
+            "sunday": "00:00 - 23:59"
         },
         "phone_number": [
             "0461959812"
@@ -1202,13 +1202,13 @@
         "address": "Localit Promeghin",
         "comune": "San Lorenzo Dorsino",
         "open_hours": {
-            "sunday": "09:00 - 13:00 / 15:00 - 21:00",
             "monday": "09:00 - 13:00 / 15:00 - 21:00",
             "tuesday": "09:00 - 13:00 / 15:00 - 21:00",
             "wednesday": "09:00 - 13:00 / 15:00 - 21:00",
             "thursday": "09:00 - 13:00 / 15:00 - 21:00",
             "friday": "09:00 - 13:00 / 15:00 - 21:00",
-            "saturday": "09:00 - 13:00 / 15:00 - 21:00"
+            "saturday": "09:00 - 13:00 / 15:00 - 21:00",
+            "sunday": "09:00 - 13:00 / 15:00 - 21:00"
         },
         "phone_number": [
             "0465730082"
@@ -1276,9 +1276,9 @@
         "comune": "Egna",
         "open_hours": {},
         "phone_number": [
+            "0471820900",
             "0471813614",
-            "0471813613",
-            "0471820900"
+            "0471813613"
         ],
         "website": null
     },
@@ -1288,12 +1288,12 @@
         "comune": "Egna",
         "open_hours": {},
         "phone_number": [
-            "3382285799",
-            "0471813613",
-            "0471813614",
             "0471813625",
             "0471820900",
-            "0471823224"
+            "0471813613",
+            "0471823224",
+            "0471813614",
+            "3382285799"
         ],
         "website": null
     },
@@ -1313,9 +1313,9 @@
         "comune": "Trento",
         "open_hours": {},
         "phone_number": [
-            "0461416164",
             "0461961625",
-            "0461910464"
+            "0461910464",
+            "0461416164"
         ],
         "website": null
     },

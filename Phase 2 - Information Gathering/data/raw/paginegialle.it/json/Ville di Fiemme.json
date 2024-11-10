@@ -14,13 +14,13 @@
         "address": "Localit Parco della Pieve, 1",
         "comune": "Cavalese",
         "open_hours": {
-            "sunday": "08:00 - 23:00",
             "monday": "08:00 - 23:00",
             "tuesday": "08:00 - 23:00",
             "wednesday": "08:00 - 23:00",
             "thursday": "08:00 - 23:00",
             "friday": "08:00 - 23:00",
-            "saturday": "08:00 - 23:00"
+            "saturday": "08:00 - 23:00",
+            "sunday": "08:00 - 23:00"
         },
         "phone_number": [
             "0462340003"
@@ -43,13 +43,13 @@
         "address": "Via Fratelli Bronzetti, 60",
         "comune": "Cavalese",
         "open_hours": {
-            "sunday": "09:00 - 21:00 / 09:30 - 20:00",
             "monday": "09:00 - 21:00 / 09:30 - 20:00",
             "tuesday": "09:00 - 21:00 / 09:30 - 20:00",
             "wednesday": "09:00 - 21:00 / 09:30 - 20:00",
             "thursday": "09:00 - 21:00 / 09:30 - 20:00",
             "friday": "09:00 - 21:00 / 09:30 - 20:00",
-            "saturday": "09:00 - 21:00 / 09:30 - 20:00"
+            "saturday": "09:00 - 21:00 / 09:30 - 20:00",
+            "sunday": "09:00 - 21:00 / 09:30 - 20:00"
         },
         "phone_number": [
             "0462230407"
@@ -61,13 +61,13 @@
         "address": "Via Rossini, 3",
         "comune": "Cavalese",
         "open_hours": {
-            "sunday": "10:00 - 20:00",
             "monday": "10:00 - 20:00",
             "tuesday": "09:00 - 21:00",
             "wednesday": "09:00 - 21:00",
             "thursday": "09:00 - 21:00",
             "friday": "09:00 - 21:00",
-            "saturday": "09:00 - 21:00"
+            "saturday": "09:00 - 21:00",
+            "sunday": "10:00 - 20:00"
         },
         "phone_number": [
             "0462341810"
@@ -111,8 +111,8 @@
         "comune": "Tesero",
         "open_hours": {},
         "phone_number": [
-            "0462814649",
-            "3343535108"
+            "3343535108",
+            "0462814649"
         ],
         "website": null
     },
@@ -152,13 +152,13 @@
         "address": "Via Parma, 8",
         "comune": "Bolzano",
         "open_hours": {
-            "sunday": "07:00 - 21:00",
             "monday": "07:00 - 21:00",
             "tuesday": "07:00 - 23:00",
             "wednesday": "07:00 - 23:00",
             "thursday": "07:00 - 23:00",
             "friday": "07:00 - 23:00",
-            "saturday": "07:00 - 23:00"
+            "saturday": "07:00 - 23:00",
+            "sunday": "07:00 - 21:00"
         },
         "phone_number": [
             "3926048829"
@@ -180,12 +180,12 @@
         "address": "Via Resia, 84",
         "comune": "Bolzano",
         "open_hours": {
-            "sunday": "09:30 - 12:30 / 14:00 - 18:00",
             "tuesday": "08:30 - 21:30",
             "wednesday": "10:00 - 21:30",
             "thursday": "08:30 - 21:30",
             "friday": "10:00 - 21:30",
-            "saturday": "08:30 - 21:30"
+            "saturday": "08:30 - 21:30",
+            "sunday": "09:30 - 12:30 / 14:00 - 18:00"
         },
         "phone_number": [
             "0471914230"
@@ -209,9 +209,9 @@
         "comune": "Bolzano",
         "open_hours": {},
         "phone_number": [
+            "3461028816",
             "3488843134",
-            "3336889299",
-            "3461028816"
+            "3336889299"
         ],
         "website": null
     },
@@ -246,13 +246,13 @@
         "address": "Via Georg Strasse, 25",
         "comune": "Tires",
         "open_hours": {
-            "sunday": "00:00 - 23:59",
             "monday": "00:00 - 23:59",
             "tuesday": "00:00 - 23:59",
             "wednesday": "00:00 - 23:59",
             "thursday": "00:00 - 23:59",
             "friday": "00:00 - 23:59",
-            "saturday": "00:00 - 23:59"
+            "saturday": "00:00 - 23:59",
+            "sunday": "00:00 - 23:59"
         },
         "phone_number": [
             "3491404634"
@@ -284,12 +284,12 @@
         "address": "Via della Visitazione, 38",
         "comune": "Bolzano",
         "open_hours": {
-            "sunday": "09:30 - 13:00 / 15:00 - 17:00",
             "tuesday": "09:30 - 21:30",
             "wednesday": "09:30 - 21:30",
             "thursday": "09:30 - 21:30",
             "friday": "09:30 - 21:30",
-            "saturday": "09:30 - 21:30"
+            "saturday": "09:30 - 21:30",
+            "sunday": "09:30 - 13:00 / 15:00 - 17:00"
         },
         "phone_number": [
             "0471200511"
@@ -311,13 +311,13 @@
         "address": "Localit Bedolpian",
         "comune": "Baselga di Pin",
         "open_hours": {
-            "sunday": "00:00 - 23:59",
             "monday": "00:00 - 23:59",
             "tuesday": "00:00 - 23:59",
             "wednesday": "00:00 - 23:59",
             "thursday": "00:00 - 23:59",
             "friday": "00:00 - 23:59",
-            "saturday": "00:00 - 23:59"
+            "saturday": "00:00 - 23:59",
+            "sunday": "00:00 - 23:59"
         },
         "phone_number": [
             "0461558634",
@@ -379,8 +379,8 @@
             "saturday": "00:00 - 23:59"
         },
         "phone_number": [
-            "335252614",
-            "0471251926"
+            "0471251926",
+            "335252614"
         ],
         "website": null
     },
@@ -448,8 +448,8 @@
             "saturday": "08:00 - 22:00"
         },
         "phone_number": [
-            "3312700579",
-            "0471449915"
+            "0471449915",
+            "3312700579"
         ],
         "website": null
     },
@@ -578,8 +578,8 @@
         "comune": "Nova Levante",
         "open_hours": {},
         "phone_number": [
-            "04711888167",
-            "3664648302"
+            "3664648302",
+            "04711888167"
         ],
         "website": null
     },
@@ -589,11 +589,11 @@
         "comune": "Ora",
         "open_hours": {},
         "phone_number": [
-            "047181243",
-            "0471814243",
             "0471802872",
-            "0471810272",
-            "0471810025"
+            "0471810025",
+            "0471814243",
+            "047181243",
+            "0471810272"
         ],
         "website": null
     },
@@ -711,8 +711,8 @@
             "saturday": "08:00 - 20:00"
         },
         "phone_number": [
-            "3395026924",
-            "0463830077"
+            "0463830077",
+            "3395026924"
         ],
         "website": null
     },
@@ -739,8 +739,8 @@
             "saturday": "08:00 - 20:00"
         },
         "phone_number": [
-            "0471913968",
-            "0471914813"
+            "0471914813",
+            "0471913968"
         ],
         "website": null
     },
@@ -758,8 +758,8 @@
             "saturday": "08:00 - 23:00"
         },
         "phone_number": [
-            "0471500777",
-            "0471997451"
+            "0471997451",
+            "0471500777"
         ],
         "website": null
     },
@@ -858,9 +858,9 @@
         "comune": "Egna",
         "open_hours": {},
         "phone_number": [
+            "0471820900",
             "0471813614",
-            "0471813613",
-            "0471820900"
+            "0471813613"
         ],
         "website": null
     },
@@ -870,12 +870,12 @@
         "comune": "Egna",
         "open_hours": {},
         "phone_number": [
-            "3382285799",
-            "0471813613",
-            "0471813614",
             "0471813625",
             "0471820900",
-            "0471823224"
+            "0471813613",
+            "0471823224",
+            "0471813614",
+            "3382285799"
         ],
         "website": null
     },
@@ -897,8 +897,8 @@
         "open_hours": {},
         "phone_number": [
             "0471663158",
-            "0471631610",
-            "0471631611"
+            "0471631611",
+            "0471631610"
         ],
         "website": null
     },
@@ -970,11 +970,11 @@
         "comune": "Bolzano",
         "open_hours": {},
         "phone_number": [
-            "0471550605",
+            "0471550534",
             "0471550524",
-            "0471200061",
             "0471550522",
-            "0471550534"
+            "0471550605",
+            "0471200061"
         ],
         "website": null
     },
@@ -1001,9 +1001,9 @@
         "comune": "Bronzolo",
         "open_hours": {},
         "phone_number": [
+            "3474479818",
             "0471967351",
-            "3317351051",
-            "3474479818"
+            "3317351051"
         ],
         "website": null
     },
@@ -1049,8 +1049,8 @@
             "saturday": "09:00 - 22:00"
         },
         "phone_number": [
-            "0471664657",
-            "3387629002"
+            "3387629002",
+            "0471664657"
         ],
         "website": null
     },
@@ -1108,9 +1108,9 @@
         "comune": "Nova Ponente",
         "open_hours": {},
         "phone_number": [
-            "0471615511",
             "0471615627",
-            "0471615122"
+            "0471615122",
+            "0471615511"
         ],
         "website": null
     },
@@ -1140,8 +1140,8 @@
         "comune": "Nova Ponente",
         "open_hours": {},
         "phone_number": [
-            "0471618084",
-            "04711969950"
+            "04711969950",
+            "0471618084"
         ],
         "website": null
     },
@@ -1151,8 +1151,8 @@
         "comune": "Nova Ponente",
         "open_hours": {},
         "phone_number": [
-            "0471618084",
-            "04711969950"
+            "04711969950",
+            "0471618084"
         ],
         "website": null
     }

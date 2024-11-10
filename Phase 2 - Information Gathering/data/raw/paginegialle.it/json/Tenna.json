@@ -15,13 +15,13 @@
         "address": "Viale Lido",
         "comune": "Levico Terme",
         "open_hours": {
-            "sunday": "00:00 - 23:59",
             "monday": "00:00 - 23:59",
             "tuesday": "00:00 - 23:59",
             "wednesday": "00:00 - 23:59",
             "thursday": "00:00 - 23:59",
             "friday": "00:00 - 23:59",
-            "saturday": "00:00 - 23:59"
+            "saturday": "00:00 - 23:59",
+            "sunday": "00:00 - 23:59"
         },
         "phone_number": [
             "0461706892"
@@ -33,13 +33,13 @@
         "address": "Localit Belvedere",
         "comune": "Levico Terme",
         "open_hours": {
-            "sunday": "08:00 - 23:00",
             "monday": "08:00 - 23:00",
             "tuesday": "08:00 - 23:00",
             "wednesday": "08:00 - 23:00",
             "thursday": "08:00 - 23:00",
             "friday": "08:00 - 23:00",
-            "saturday": "08:00 - 23:00"
+            "saturday": "08:00 - 23:00",
+            "sunday": "08:00 - 23:00"
         },
         "phone_number": [
             "3394631152"
@@ -97,13 +97,13 @@
         "address": "Localit Maso Grillo, 4",
         "comune": "Pergine Valsugana",
         "open_hours": {
-            "sunday": "08:30 - 21:00",
             "monday": "08:30 - 21:00",
             "tuesday": "08:30 - 21:00",
             "wednesday": "08:30 - 21:00",
             "thursday": "08:30 - 21:00",
             "friday": "08:30 - 21:00",
-            "saturday": "08:30 - 21:00"
+            "saturday": "08:30 - 21:00",
+            "sunday": "08:30 - 21:00"
         },
         "phone_number": [
             "3474647351"
@@ -128,13 +128,13 @@
         "address": "Via al Ponte, 1/A",
         "comune": "Pergine Valsugana",
         "open_hours": {
-            "sunday": "14:00 - 16:30",
             "monday": "14:00 - 16:30",
             "tuesday": "14:00 - 16:30",
             "wednesday": "14:00 - 16:30",
             "thursday": "14:00 - 16:00",
             "friday": "14:00 - 16:30",
-            "saturday": "14:00 - 16:30"
+            "saturday": "14:00 - 16:30",
+            "sunday": "14:00 - 16:30"
         },
         "phone_number": [
             "0461534423"
@@ -146,13 +146,13 @@
         "address": "Frazione Azzolini, 82",
         "comune": "Lavarone",
         "open_hours": {
-            "sunday": "00:00 - 23:59",
             "monday": "00:00 - 23:59",
             "tuesday": "00:00 - 23:59",
             "wednesday": "00:00 - 23:59",
             "thursday": "00:00 - 23:59",
             "friday": "00:00 - 23:59",
-            "saturday": "00:00 - 23:59"
+            "saturday": "00:00 - 23:59",
+            "sunday": "00:00 - 23:59"
         },
         "phone_number": [
             "0464783179"
@@ -172,13 +172,13 @@
         "address": "Localit Barco, 3",
         "comune": "Levico Terme",
         "open_hours": {
-            "sunday": "00:00 - 23:59",
             "monday": "00:00 - 23:59",
             "tuesday": "00:00 - 23:59",
             "wednesday": "00:00 - 23:59",
             "thursday": "00:00 - 23:59",
             "friday": "00:00 - 23:59",
-            "saturday": "00:00 - 23:59"
+            "saturday": "00:00 - 23:59",
+            "sunday": "00:00 - 23:59"
         },
         "phone_number": [
             "3396768993"
@@ -200,17 +200,17 @@
         "address": "Localit Lochere, 33",
         "comune": "Caldonazzo",
         "open_hours": {
-            "sunday": "08:00 - 12:00 / 14:00 - 20:00",
             "monday": "08:00 - 12:00 / 14:00 - 20:00",
             "tuesday": "08:00 - 12:00 / 14:00 - 20:00",
             "wednesday": "08:00 - 12:00 / 14:00 - 20:00",
             "thursday": "08:00 - 12:00 / 14:00 - 20:00",
             "friday": "08:00 - 12:00 / 14:00 - 20:00",
-            "saturday": "08:00 - 12:00 / 14:00 - 20:00"
+            "saturday": "08:00 - 12:00 / 14:00 - 20:00",
+            "sunday": "08:00 - 12:00 / 14:00 - 20:00"
         },
         "phone_number": [
-            "3200829633",
-            "0461706186"
+            "0461706186",
+            "3200829633"
         ],
         "website": null
     },
@@ -219,13 +219,13 @@
         "address": "Via Marconi Guglielmo, 51",
         "comune": "Pergine Valsugana",
         "open_hours": {
-            "sunday": "08:00 - 20:00",
             "monday": "08:00 - 20:00",
             "tuesday": "06:00 - 22:00",
             "wednesday": "07:00 - 22:00",
             "thursday": "06:00 - 22:00",
             "friday": "07:00 - 22:00",
-            "saturday": "06:00 - 22:00"
+            "saturday": "06:00 - 22:00",
+            "sunday": "08:00 - 20:00"
         },
         "phone_number": [
             "0461531773"
@@ -257,13 +257,13 @@
         "address": "Via delle Regole, 101",
         "comune": "Trento",
         "open_hours": {
-            "sunday": "09:00 - 18:00",
             "monday": "09:00 - 13:00",
             "tuesday": "09:00 - 23:00",
             "wednesday": "09:00 - 23:00",
             "thursday": "09:00 - 23:00",
             "friday": "09:00 - 23:00",
-            "saturday": "09:00 - 23:00"
+            "saturday": "09:00 - 23:00",
+            "sunday": "09:00 - 18:00"
         },
         "phone_number": [
             "0461944356"
@@ -275,13 +275,13 @@
         "address": "Localit Pianiza, 33",
         "comune": "Trento",
         "open_hours": {
-            "sunday": "09:00 - 19:00",
             "monday": "09:00 - 19:00",
             "tuesday": "09:00 - 19:00",
             "wednesday": "09:00 - 19:00",
             "thursday": "09:00 - 19:00",
             "friday": "09:00 - 19:00",
-            "saturday": "09:00 - 19:00"
+            "saturday": "09:00 - 19:00",
+            "sunday": "09:00 - 19:00"
         },
         "phone_number": [
             "0461913143"
@@ -293,13 +293,13 @@
         "address": "Frazione Gionghi, 107",
         "comune": "Lavarone",
         "open_hours": {
-            "sunday": "00:00 - 23:59",
             "monday": "00:00 - 23:59",
             "tuesday": "00:00 - 23:59",
             "wednesday": "00:00 - 23:59",
             "thursday": "00:00 - 23:59",
             "friday": "00:00 - 23:59",
-            "saturday": "00:00 - 23:59"
+            "saturday": "00:00 - 23:59",
+            "sunday": "00:00 - 23:59"
         },
         "phone_number": [
             "0464724146"
@@ -555,8 +555,8 @@
         "comune": "Trento",
         "open_hours": {},
         "phone_number": [
-            "0461931035",
-            "0461916579"
+            "0461916579",
+            "0461931035"
         ],
         "website": null
     },
@@ -588,9 +588,9 @@
         "comune": "Rovereto",
         "open_hours": {},
         "phone_number": [
-            "3497721742",
-            "3517595860",
             "0464666600",
+            "3517595860",
+            "3497721742",
             "0464942281"
         ],
         "website": null
@@ -892,9 +892,9 @@
             "saturday": "10:00 - 22:00"
         },
         "phone_number": [
-            "0464486113",
+            "3665809997",
             "0464421569",
-            "3665809997"
+            "0464486113"
         ],
         "website": null
     },
@@ -1161,8 +1161,8 @@
             "saturday": "07:30 - 22:00"
         },
         "phone_number": [
-            "0464439377",
-            "0464431045"
+            "0464431045",
+            "0464439377"
         ],
         "website": null
     },
@@ -1200,9 +1200,9 @@
         "comune": "Trento",
         "open_hours": {},
         "phone_number": [
-            "3295459087",
+            "0438837210",
             "043882778",
-            "0438837210"
+            "3295459087"
         ],
         "website": null
     },
@@ -1399,8 +1399,8 @@
         "comune": "Rovereto",
         "open_hours": {},
         "phone_number": [
-            "0464413377",
-            "0464438055"
+            "0464438055",
+            "0464413377"
         ],
         "website": null
     },
@@ -1449,9 +1449,9 @@
         "comune": "Trento",
         "open_hours": {},
         "phone_number": [
-            "0461416164",
             "0461961625",
-            "0461910464"
+            "0461910464",
+            "0461416164"
         ],
         "website": null
     },
@@ -1461,11 +1461,11 @@
         "comune": "Trento",
         "open_hours": {},
         "phone_number": [
-            "0461961625",
-            "0461416163",
-            "0461416164",
+            "0461416162",
             "0461910464",
-            "0461416162"
+            "0461961625",
+            "0461416164",
+            "0461416163"
         ],
         "website": null
     },
@@ -1590,8 +1590,8 @@
         "comune": "Trento",
         "open_hours": {},
         "phone_number": [
-            "0461959799",
             "0461992888",
+            "0461959799",
             "0461992990"
         ],
         "website": null
