@@ -3,7 +3,7 @@ import csv
 
 def datitrentino():
     input_folder = 'Phase 2 - Information Gathering/data/raw/dati.trentino.it/csv'
-    output_file = 'Phase 2 - Information Gathering/data/cleaned/dati.trentino.it/fixed_csv'
+    output_file = 'Phase 2 - Information Gathering/data/cleaned/dati.trentino.it/other_csv'
     
     for filename in sorted(os.listdir(input_folder)):
         if filename.endswith('.csv'):

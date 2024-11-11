@@ -51,7 +51,12 @@ with open(log_file, 'w') as log:
                 # Save the cleaned DataFrame to a new CSV file
                 df_clean.to_csv(output_file, index=False)
 
-                print(f"Cleaning successful! Cleaned file saved as: {output_file}")
+                # Check if the output file is empty and delete it if it is
+                if df_clean.empty:
+                    os.remove(output_file)
+                    print(f"Output file {output_file} is empty and has been deleted.")
+                else:
+                    print(f"Cleaning successful! Cleaned file saved as: {output_file}")
 
             except Exception as e:
                 log.write(f"Error occurred while processing {filename}: {e}\n")
