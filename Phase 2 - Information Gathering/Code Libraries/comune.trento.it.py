@@ -3,9 +3,8 @@ from bs4 import BeautifulSoup
 from time import sleep
 import re
 import json
-from os.path import isfile, join, dirname
+from os.path import exists, join, dirname
 from os import makedirs, chdir
-import io
 import pandas as pd
 import shutil
 
@@ -15,7 +14,8 @@ ROOT: str = "../data/raw/comune.trento.it"
 ROOT_JSON = join(ROOT, "json")
 ROOT_CSV = join(ROOT, "csv")
 
-#shutil.rmtree(ROOT)
+if exists(ROOT):
+    shutil.rmtree(ROOT)
 
 makedirs(ROOT, exist_ok=True)
 makedirs(ROOT_JSON, exist_ok=True)

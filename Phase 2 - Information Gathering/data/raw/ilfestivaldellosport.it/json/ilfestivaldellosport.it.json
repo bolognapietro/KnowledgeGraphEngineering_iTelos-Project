@@ -1,0 +1,1492 @@
+{
+    "Alpinismo": {
+        "value": "23",
+        "events": [
+            {
+                "name": "LIBRI DI SPORT: LA VETTA DELLA VITA\nLibri di sport",
+                "location": {
+                    "name": "Palazzo Geremia",
+                    "address": "Via Rodolfo Belenzani, 20 Trento, TN"
+                },
+                "date": "2024-10-10 17:00:00",
+                "guests": [
+                    "Matteo Della Bordella"
+                ]
+            },
+            {
+                "name": "GAZZA CAF",
+                "location": {
+                    "name": "Palazzo Benvenuti",
+                    "address": "Via Rodolfo Belenzani, 12"
+                },
+                "date": "2024-10-11 09:30:00",
+                "guests": [
+                    "Davide Magnini"
+                ]
+            },
+            {
+                "name": "ANDREA LANFRI: SENZA LIMITI",
+                "location": {
+                    "name": "Piazza Santa Maria Maggiore",
+                    "address": "Piazza Santa Maria Maggiore - 38122 Trento"
+                },
+                "date": "2024-10-11 15:00:00",
+                "guests": [
+                    "Andrea Lanfri"
+                ]
+            },
+            {
+                "name": "CATHERINE DESTIVELLE: UNA VITA IN VERTICALE",
+                "location": {
+                    "name": "Palazzo della Regione",
+                    "address": "https://www.regione.taa.it/"
+                },
+                "date": "2024-10-12 10:00:00",
+                "guests": [
+                    "Catherine Destivelle"
+                ]
+            },
+            {
+                "name": "DENIS URUBKO: COLPEVOLE D'ALPINISMO",
+                "location": {
+                    "name": "Sala Depero",
+                    "address": "Piazza Dante 15, 38122 Trento"
+                },
+                "date": "2024-10-12 12:30:00",
+                "guests": [
+                    "Denis Urubko"
+                ]
+            }
+        ]
+    },
+    "Apnea": {
+        "value": "15",
+        "events": [
+            {
+                "name": "VALENTINA CAFOLLA: APNEA GLACIALE",
+                "location": {
+                    "name": "Palazzo Geremia",
+                    "address": "Via Rodolfo Belenzani, 20 Trento, TN"
+                },
+                "date": "2024-10-12 18:00:00",
+                "guests": [
+                    "Valentina Cafolla"
+                ]
+            }
+        ]
+    },
+    "Arrampicata": {
+        "value": "25",
+        "events": [
+            {
+                "name": "MATTEO ZURLONI: SPEED(Y) GONZALES",
+                "location": {
+                    "name": "Piazza Santa Maria Maggiore",
+                    "address": "Piazza Santa Maria Maggiore - 38122 Trento"
+                },
+                "date": "2024-10-10 15:00:00",
+                "guests": [
+                    "Matteo Zurloni"
+                ]
+            },
+            {
+                "name": "ALESSANDRO COLOMBO: TAGLIATO PER VIVERE",
+                "location": {
+                    "name": "Piazza Santa Maria Maggiore",
+                    "address": "Piazza Santa Maria Maggiore - 38122 Trento"
+                },
+                "date": "2024-10-12 15:00:00",
+                "guests": [
+                    "Alessandro Colombo"
+                ]
+            }
+        ]
+    },
+    "Arti Marziali": {
+        "value": "24",
+        "events": [
+            {
+                "name": "ALICE BELLANDI: PARIGI, MON AMOUR",
+                "location": {
+                    "name": "Filarmonica",
+                    "address": "Via Giuseppe Verdi, 30, 38122 Trento TN"
+                },
+                "date": "2024-10-10 15:30:00",
+                "guests": [
+                    "Alice Bellandi"
+                ]
+            },
+            {
+                "name": "GIOCHI DI SQUADRA",
+                "location": {
+                    "name": "Sala Depero",
+                    "address": "Piazza Dante 15, 38122 Trento"
+                },
+                "date": "2024-10-12 10:30:00",
+                "guests": [
+                    "Simone Alessio",
+                    "Monica Contrafatto",
+                    "Mattia Furlani"
+                ]
+            }
+        ]
+    },
+    "Atletica": {
+        "value": "8",
+        "events": [
+            {
+                "name": "GAZZA CAF",
+                "location": {
+                    "name": "Palazzo Benvenuti",
+                    "address": "Via Rodolfo Belenzani, 12"
+                },
+                "date": "2024-10-10 09:30:00",
+                "guests": [
+                    "Yeman Crippa",
+                    "Christian Merli"
+                ]
+            },
+            {
+                "name": "DALLE OLIMPIADI ALLA MARATONA 42.195 METRI DI EMOZIONI E SOLIDARIET",
+                "location": {
+                    "name": "Filarmonica",
+                    "address": "Via Giuseppe Verdi, 30, 38122 Trento TN"
+                },
+                "date": "2024-10-11 11:00:00",
+                "guests": [
+                    "Stefano Baldini",
+                    "Paolo Bellino",
+                    "Stefano Mei",
+                    "Chiara Nizzola",
+                    "Claudia Rocchi"
+                ]
+            },
+            {
+                "name": "GANESHAMOORTHY, LEGNANTE E TAPIA LANCI DORO",
+                "location": {
+                    "name": "Palazzo della Regione",
+                    "address": "https://www.regione.taa.it/"
+                },
+                "date": "2024-10-11 12:00:00",
+                "guests": [
+                    "Rigivan Ganeshamoorphy",
+                    "Assunta Legnante",
+                    "Oney Tapia"
+                ]
+            },
+            {
+                "name": "BATTOCLETTI E DORIO: NATE PER CORRERE",
+                "location": {
+                    "name": "Filarmonica",
+                    "address": "Via Giuseppe Verdi, 30, 38122 Trento TN"
+                },
+                "date": "2024-10-11 14:00:00",
+                "guests": [
+                    "Nadia Battocletti",
+                    "Gabriella Dorio"
+                ]
+            },
+            {
+                "name": "CARL LEWIS: IL FIGLIO DEL VENTO",
+                "location": {
+                    "name": "Auditorium Santa Chiara",
+                    "address": "Via S. Croce, 67 - 38122 Trento"
+                },
+                "date": "2024-10-11 21:00:00",
+                "guests": [
+                    "Carl Lewis"
+                ]
+            },
+            {
+                "name": "GIOCHI DI SQUADRA",
+                "location": {
+                    "name": "Sala Depero",
+                    "address": "Piazza Dante 15, 38122 Trento"
+                },
+                "date": "2024-10-12 10:30:00",
+                "guests": [
+                    "Simone Alessio",
+                    "Monica Contrafatto",
+                    "Mattia Furlani"
+                ]
+            },
+            {
+                "name": "MATTIA FURLANI: SALTO NEL FUTURO",
+                "location": {
+                    "name": "Filarmonica",
+                    "address": "Via Giuseppe Verdi, 30, 38122 Trento TN"
+                },
+                "date": "2024-10-12 12:30:00",
+                "guests": [
+                    "Mattia Furlani"
+                ]
+            },
+            {
+                "name": "SIMONELLI E OTTOZ: OLTRE L'OSTACOLO",
+                "location": {
+                    "name": "Palazzo della Regione",
+                    "address": "https://www.regione.taa.it/"
+                },
+                "date": "2024-10-12 19:00:00",
+                "guests": [
+                    "Eddy Ottoz",
+                    "Lorenzo Simonelli"
+                ]
+            },
+            {
+                "name": "BEBE VIO GRANDIS PARIS, JE TAIME!",
+                "location": {
+                    "name": "Teatro Sociale",
+                    "address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN"
+                },
+                "date": "2024-10-13 10:00:00",
+                "guests": [
+                    "Vittoria Bianco",
+                    "Giuliana Chiara Filippi",
+                    "Alessandro Sbuelz",
+                    "Elisa Spediacci",
+                    "Bebe Vio Grandis"
+                ]
+            },
+            {
+                "name": "DIAZ E DONATO: TRIPLO SOGNO",
+                "location": {
+                    "name": "Sala Depero",
+                    "address": "Piazza Dante 15, 38122 Trento"
+                },
+                "date": "2024-10-13 11:30:00",
+                "guests": [
+                    "Andy Diaz",
+                    "Fabrizio Donato"
+                ]
+            },
+            {
+                "name": "CAIRONI, CONTRAFATTO E SABATINI: FRECCE TRICOLORI",
+                "location": {
+                    "name": "Palazzo della Regione",
+                    "address": "https://www.regione.taa.it/"
+                },
+                "date": "2024-10-13 12:30:00",
+                "guests": [
+                    "Martina Caironi",
+                    "Monica Contrafatto",
+                    "Ambra Sabatini"
+                ]
+            },
+            {
+                "name": "CROUSER E FABBRI A PESO DORO",
+                "location": {
+                    "name": "Sala Depero",
+                    "address": "Piazza Dante 15, 38122 Trento"
+                },
+                "date": "2024-10-13 15:30:00",
+                "guests": [
+                    "Ryan Crouser",
+                    "Leonardo Fabbri"
+                ]
+            }
+        ]
+    },
+    "Automobilismo": {
+        "value": "17",
+        "events": [
+            {
+                "name": "LIBRI DI SPORT: F1 BACKSTAGE\nLibri di sport",
+                "location": {
+                    "name": "Palazzo Geremia",
+                    "address": "Via Rodolfo Belenzani, 20 Trento, TN"
+                },
+                "date": "2024-10-10 15:00:00",
+                "guests": [
+                    "Riccardo Patrese"
+                ]
+            },
+            {
+                "name": "VASSEUR E LECLERC: ROSSO FERRARI",
+                "location": {
+                    "name": "Auditorium Santa Chiara",
+                    "address": "Via S. Croce, 67 - 38122 Trento"
+                },
+                "date": "2024-10-10 16:45:00",
+                "guests": [
+                    "Charles Leclerc",
+                    "Fr\u00e9d\u00e9ric Vasseur"
+                ]
+            },
+            {
+                "name": "KIMI ANTONELLI: CI VEDIAMO IN FORMULA 1",
+                "location": {
+                    "name": "Sala Depero",
+                    "address": "Piazza Dante 15, 38122 Trento"
+                },
+                "date": "2024-10-11 14:00:00",
+                "guests": [
+                    "Kimi Antonelli"
+                ]
+            },
+            {
+                "name": "STEFANO DOMENICALI: MISTER FORMULA 1",
+                "location": {
+                    "name": "Filarmonica",
+                    "address": "Via Giuseppe Verdi, 30, 38122 Trento TN"
+                },
+                "date": "2024-10-11 18:00:00",
+                "guests": [
+                    "Stefano Domenicali"
+                ]
+            },
+            {
+                "name": "BIAGGI E SOMASCHINI: POTENZA E CONTROLLO",
+                "location": {
+                    "name": "Palazzo della Regione",
+                    "address": "https://www.regione.taa.it/"
+                },
+                "date": "2024-10-12 14:00:00",
+                "guests": [
+                    "Max Biaggi",
+                    "Rachele Somaschini"
+                ]
+            },
+            {
+                "name": "MOTORSPORT ACADEMY, I SEGRETI DELLAERODINAMICA",
+                "location": {
+                    "name": "Piazza Dante Beta Officina Motori",
+                    "address": "Piazza Dante"
+                },
+                "date": "2024-10-12 16:30:00",
+                "guests": [
+                    "Carlo Da Rold"
+                ]
+            },
+            {
+                "name": "MOTORSPORT ACADEMY, IL FUTURO DELLE DUE RUOTE",
+                "location": {
+                    "name": "Piazza Dante Beta Officina Motori",
+                    "address": "Piazza Dante"
+                },
+                "date": "2024-10-13 15:30:00",
+                "guests": [
+                    "Carlo Da Rold"
+                ]
+            }
+        ]
+    },
+    "Baseball": {
+        "value": "29",
+        "events": [
+            {
+                "name": "LITALIA NEL MITO DELLA MLB",
+                "location": {
+                    "name": "Palazzo Geremia",
+                    "address": "Via Rodolfo Belenzani, 20 Trento, TN"
+                },
+                "date": "2024-10-11 19:30:00",
+                "guests": [
+                    "Sameul Aldegheri",
+                    "Faso",
+                    "Mike Piazza"
+                ]
+            }
+        ]
+    },
+    "Basket": {
+        "value": "9",
+        "events": [
+            {
+                "name": "VOLONTARI PER SPORT",
+                "location": {
+                    "name": "Sala Depero",
+                    "address": "Piazza Dante 15, 38122 Trento"
+                },
+                "date": "2024-10-11 10:00:00",
+                "guests": [
+                    "Bruno Cerella",
+                    "Franco Ianeselli",
+                    "Clemente Russo"
+                ]
+            },
+            {
+                "name": "LIBRI DI SPORT: L'ABC DEL BASKET\nLibri di sport",
+                "location": {
+                    "name": "Piazza del Duomo",
+                    "address": "Piazza Del Duomo  - 38122 Trento"
+                },
+                "date": "2024-10-11 10:30:00",
+                "guests": [
+                    "Dan Peterson"
+                ]
+            },
+            {
+                "name": "UNALTRA PARTITA COMUNIT IN CAMPO",
+                "location": {
+                    "name": "Piazza Fiera",
+                    "address": "Piazza di Fiera, 38122 Trento TN"
+                },
+                "date": "2024-10-11 17:00:00",
+                "guests": [
+                    "Toto Forray",
+                    "Massimo Komatz",
+                    "Luigi Longhi"
+                ]
+            },
+            {
+                "name": "MENEGHIN, SCOLA E GANDINI: IL BASKET CHE CI LEGA",
+                "location": {
+                    "name": "Palazzo della Regione",
+                    "address": "https://www.regione.taa.it/"
+                },
+                "date": "2024-10-11 19:00:00",
+                "guests": [
+                    "Umberto Gandini",
+                    "Dino Meneghin",
+                    "Luis Scola"
+                ]
+            },
+            {
+                "name": "FESTIVAL LEGENDS BASKET 3X3",
+                "location": {
+                    "name": "Piazza Fiera",
+                    "address": "Piazza di Fiera, 38122 Trento TN"
+                },
+                "date": "2024-10-12 10:30:00",
+                "guests": [
+                    "Marcella Filippi",
+                    "Giacomo Galanda",
+                    "Denis Marconato",
+                    "Michele Mian",
+                    "Kathrin Ress",
+                    "Rodolfo Rombaldoni"
+                ]
+            },
+            {
+                "name": "DEJAN BODIROGA: IL MIO BASKET TOTALE",
+                "location": {
+                    "name": "Palazzo della Regione",
+                    "address": "https://www.regione.taa.it/"
+                },
+                "date": "2024-10-12 12:00:00",
+                "guests": [
+                    "Dejan Bodiroga"
+                ]
+            },
+            {
+                "name": "AQUILA BASKET TRENTO MEET&GREET",
+                "location": {
+                    "name": "Piazza Fiera",
+                    "address": "Piazza di Fiera, 38122 Trento TN"
+                },
+                "date": "2024-10-12 16:30:00",
+                "guests": []
+            },
+            {
+                "name": "GIANMARCO POZZECCO: TIRO LIBERO",
+                "location": {
+                    "name": "Filarmonica",
+                    "address": "Via Giuseppe Verdi, 30, 38122 Trento TN"
+                },
+                "date": "2024-10-12 18:00:00",
+                "guests": [
+                    "Gianmarco Pozzecco"
+                ]
+            },
+            {
+                "name": "BEBE VIO GRANDIS PARIS, JE TAIME!",
+                "location": {
+                    "name": "Teatro Sociale",
+                    "address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN"
+                },
+                "date": "2024-10-13 10:00:00",
+                "guests": [
+                    "Vittoria Bianco",
+                    "Giuliana Chiara Filippi",
+                    "Alessandro Sbuelz",
+                    "Elisa Spediacci",
+                    "Bebe Vio Grandis"
+                ]
+            },
+            {
+                "name": "GIOCA CON NOI: ALBATROSS E UNIPOL BRIANTEA84 CANT",
+                "location": {
+                    "name": "Piazza Fiera",
+                    "address": "Piazza di Fiera, 38122 Trento TN"
+                },
+                "date": "2024-10-13 11:30:00",
+                "guests": []
+            },
+            {
+                "name": "ANDRE IGUODALA: MONSIEUR NBA",
+                "location": {
+                    "name": "Auditorium Santa Chiara",
+                    "address": "Via S. Croce, 67 - 38122 Trento"
+                },
+                "date": "2024-10-13 12:30:00",
+                "guests": [
+                    "Andre Iguodala"
+                ]
+            }
+        ]
+    },
+    "Biathlon": {
+        "value": "36",
+        "events": []
+    },
+    "Bocce": {
+        "value": "33",
+        "events": []
+    },
+    "Calcio": {
+        "value": "2",
+        "events": [
+            {
+                "name": "LIBRI DI SPORT: LA MIA VITA DA NUMERO 10\nLibri di sport",
+                "location": {
+                    "name": "Palazzo Geremia",
+                    "address": "Via Rodolfo Belenzani, 20 Trento, TN"
+                },
+                "date": "2024-10-10 16:00:00",
+                "guests": [
+                    "Evaristo Beccalossi",
+                    "Eleonora Rossi"
+                ]
+            },
+            {
+                "name": "CESC FBREGAS IL GENIO SPAGNOLO",
+                "location": {
+                    "name": "Filarmonica",
+                    "address": "Via Giuseppe Verdi, 30, 38122 Trento TN"
+                },
+                "date": "2024-10-10 17:30:00",
+                "guests": [
+                    "Cesc F\u00e0bregas"
+                ]
+            },
+            {
+                "name": "ZONA CESARINI ITALIA-BELGIO NATIONS LEAGUE",
+                "location": {
+                    "name": "Piazza Cesare Battisti",
+                    "address": "Piazza Cesare Battisti - 38122 Trento"
+                },
+                "date": "2024-10-10 20:30:00",
+                "guests": []
+            },
+            {
+                "name": "FOOTBALL BUSINESS FORUM KICK-OFF",
+                "location": {
+                    "name": "Teatro Sociale",
+                    "address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN"
+                },
+                "date": "2024-10-11 11:00:00",
+                "guests": [
+                    "Alessandro Barnaba",
+                    "Urbano Cairo",
+                    "Stefano Caselli",
+                    "Leonardo Nascimento de Araujo",
+                    "Javier Tebas",
+                    "Edwin Van Der Sar",
+                    "Andr\u00e9 Villas-Boas"
+                ]
+            },
+            {
+                "name": "CAIRO, FENUCCI, LOTITO, MAROTTA, PERCASSI, SCARONI E SUWARSO GLI STATI GENERALI DEL CALCIO ITALIANO",
+                "location": {
+                    "name": "Teatro Sociale",
+                    "address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN"
+                },
+                "date": "2024-10-11 14:30:00",
+                "guests": [
+                    "Urbano Cairo",
+                    "Claudio Fenucci",
+                    "Claudio Lotito",
+                    "Beppe Marotta",
+                    "Luca Percassi",
+                    "Paolo Scaroni",
+                    "Mirwan Suwarso"
+                ]
+            },
+            {
+                "name": "LIBRI DI SPORT: L'ARTE DI PARARE. TROVARE IL CORAGGIO PER FRONTEGGIARE I TIRI DELLA VITA\nLibri di sport",
+                "location": {
+                    "name": "Piazza del Duomo",
+                    "address": "Piazza Del Duomo  - 38122 Trento"
+                },
+                "date": "2024-10-11 15:00:00",
+                "guests": [
+                    "Stefano Tacconi"
+                ]
+            },
+            {
+                "name": "LIBRI DI SPORT: TRA LA CHAMPIONS E LA LIBERT\nLibri di sport",
+                "location": {
+                    "name": "Piazza del Duomo",
+                    "address": "Piazza Del Duomo  - 38122 Trento"
+                },
+                "date": "2024-10-11 16:00:00",
+                "guests": [
+                    "Michele Padovano"
+                ]
+            },
+            {
+                "name": "PIERLUIGI COLLINA IL BSMT PASSA DAL FESTIVAL DELLO SPORT",
+                "location": {
+                    "name": "Teatro Sociale",
+                    "address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN"
+                },
+                "date": "2024-10-11 17:30:00",
+                "guests": [
+                    "Pierluigi Collina",
+                    "Gianluca Gazzoli"
+                ]
+            },
+            {
+                "name": "IL MILAN DEGLI INVINCIBILI",
+                "location": {
+                    "name": "Auditorium Santa Chiara",
+                    "address": "Via S. Croce, 67 - 38122 Trento"
+                },
+                "date": "2024-10-11 18:00:00",
+                "guests": [
+                    "Demetrio Albertini",
+                    "Zvonimir Boban",
+                    "Fabio Capello",
+                    "Alessandro Costacurta",
+                    "Marcel Desailly",
+                    "Roberto Donadoni",
+                    "Filippo Galli",
+                    "Adriano Galliani",
+                    "Mario Ielpo",
+                    "Stefano Nava",
+                    "Florin R\u0103ducioiu",
+                    "Sebastiano Rossi",
+                    "Mauro Tassotti"
+                ]
+            },
+            {
+                "name": "GIAN PIERO GASPERINI: LA DEA IN PARADISO",
+                "location": {
+                    "name": "Teatro Sociale",
+                    "address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN"
+                },
+                "date": "2024-10-11 20:00:00",
+                "guests": [
+                    "Cristina Bombassei",
+                    "Gian Piero Gasperini"
+                ]
+            },
+            {
+                "name": "LIBRI DI SPORT: STORIA DEL MONDO IN 12 PARTITE DI CALCIO\nLibri di sport",
+                "location": {
+                    "name": "Piazza del Duomo",
+                    "address": "Piazza Del Duomo  - 38122 Trento"
+                },
+                "date": "2024-10-12 10:00:00",
+                "guests": [
+                    "Stefano Bizzotto"
+                ]
+            },
+            {
+                "name": "CAFU: IL PENDOLINO",
+                "location": {
+                    "name": "Teatro Sociale",
+                    "address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN"
+                },
+                "date": "2024-10-12 14:00:00",
+                "guests": [
+                    "Cafu"
+                ]
+            },
+            {
+                "name": "DIEGO DELLA VALLE: L'ELEGANZA DELLA VITTORIA",
+                "location": {
+                    "name": "Filarmonica",
+                    "address": "Via Giuseppe Verdi, 30, 38122 Trento TN"
+                },
+                "date": "2024-10-12 14:30:00",
+                "guests": [
+                    "Diego Della Valle"
+                ]
+            },
+            {
+                "name": "DANIELE ORSATO: PROFESSIONE ARBITRO",
+                "location": {
+                    "name": "Sala Depero",
+                    "address": "Piazza Dante 15, 38122 Trento"
+                },
+                "date": "2024-10-12 15:30:00",
+                "guests": [
+                    "Daniele Orsato"
+                ]
+            },
+            {
+                "name": "FRANCESCO FARIOLI: IL MIO CALCIO EUROPEO",
+                "location": {
+                    "name": "Palazzo della Regione",
+                    "address": "https://www.regione.taa.it/"
+                },
+                "date": "2024-10-12 16:30:00",
+                "guests": [
+                    "Francesco Farioli"
+                ]
+            },
+            {
+                "name": "LIBRI DI SPORT: LUCA VIALLI\nLibri di sport",
+                "location": {
+                    "name": "Piazza del Duomo",
+                    "address": "Piazza Del Duomo  - 38122 Trento"
+                },
+                "date": "2024-10-12 17:30:00",
+                "guests": [
+                    "Luca Dal Monte",
+                    "Nino Vialli"
+                ]
+            }
+        ]
+    },
+    "Canottaggio": {
+        "value": "37",
+        "events": [
+            {
+                "name": "REMI DARGENTO",
+                "location": {
+                    "name": "Palazzo della Regione",
+                    "address": "https://www.regione.taa.it/"
+                },
+                "date": "2024-10-13 14:30:00",
+                "guests": [
+                    "Luca Chiumento",
+                    "Giacomo Gentili",
+                    "Stefano Oppo",
+                    "Andrea Panizza",
+                    "Luca Rambaldi",
+                    "Gabriel Soares"
+                ]
+            }
+        ]
+    },
+    "Ciclismo": {
+        "value": "18",
+        "events": [
+            {
+                "name": "ROGER DE VLAEMINCK: IL FENOMENO DELLE CLASSICHE",
+                "location": {
+                    "name": "Sala Depero",
+                    "address": "Piazza Dante 15, 38122 Trento"
+                },
+                "date": "2024-10-10 18:45:00",
+                "guests": [
+                    "Roger De Vlaeminck"
+                ]
+            },
+            {
+                "name": "BUGNO, CHIAPPUCCI E INDURAIN: QUANDO ERAVAMO RE",
+                "location": {
+                    "name": "Auditorium Santa Chiara",
+                    "address": "Via S. Croce, 67 - 38122 Trento"
+                },
+                "date": "2024-10-10 20:00:00",
+                "guests": [
+                    "Gianni Bugno",
+                    "Claudio Chiappucci",
+                    "Miguel Indurain"
+                ]
+            },
+            {
+                "name": "CONSONNI E VIVIANI: UN ARGENTO CHE VALE ORO",
+                "location": {
+                    "name": "Palazzo della Regione",
+                    "address": "https://www.regione.taa.it/"
+                },
+                "date": "2024-10-11 13:30:00",
+                "guests": [
+                    "Simone Consonni",
+                    "Elia Viviani"
+                ]
+            },
+            {
+                "name": "FRANCESCO MOSER: L'UOMO DEI RECORD",
+                "location": {
+                    "name": "Auditorium Santa Chiara",
+                    "address": "Via S. Croce, 67 - 38122 Trento"
+                },
+                "date": "2024-10-11 15:00:00",
+                "guests": [
+                    "Francesco Moser"
+                ]
+            },
+            {
+                "name": "GIRO-E: UNESPERIENZA SOSTENIBILE",
+                "location": {
+                    "name": "Palazzo Geremia",
+                    "address": "Via Rodolfo Belenzani, 20 Trento, TN"
+                },
+                "date": "2024-10-11 18:00:00",
+                "guests": [
+                    "Kristian Ghedina",
+                    "Leonardo Ghiraldini",
+                    "Rachele Sangiuliano",
+                    "Valerio Vermiglio"
+                ]
+            },
+            {
+                "name": "TADEJ POGAAR: NATO PER VINCERE",
+                "location": {
+                    "name": "Auditorium Santa Chiara",
+                    "address": "Via S. Croce, 67 - 38122 Trento"
+                },
+                "date": "2024-10-13 16:00:00",
+                "guests": [
+                    "Tadej Poga\u010dar"
+                ]
+            }
+        ]
+    },
+    "Ginnastica artistica": {
+        "value": "14",
+        "events": [
+            {
+                "name": "LA MAGIA DELLE FATE",
+                "location": {
+                    "name": "Auditorium Santa Chiara",
+                    "address": "Via S. Croce, 67 - 38122 Trento"
+                },
+                "date": "2024-10-11 10:30:00",
+                "guests": [
+                    "Angela Andreoli",
+                    "Alice D'Amato",
+                    "Manila Esposito",
+                    "Vanessa Ferrari",
+                    "Elisa Iorio",
+                    "Giorgia Villa"
+                ]
+            }
+        ]
+    },
+    "Golf": {
+        "value": "22",
+        "events": []
+    },
+    "Motociclismo": {
+        "value": "20",
+        "events": [
+            {
+                "name": "MORBIDELLI E CAMPINOTI: MOTOGP MADE  IN ITALY",
+                "location": {
+                    "name": "Filarmonica",
+                    "address": "Via Giuseppe Verdi, 30, 38122 Trento TN"
+                },
+                "date": "2024-10-11 16:00:00",
+                "guests": [
+                    "Mario Almondo",
+                    "Paolo Campinoti",
+                    "Franco Morbidelli"
+                ]
+            },
+            {
+                "name": "GIACOMO AGOSTINI: NUMERO UNO",
+                "location": {
+                    "name": "Filarmonica",
+                    "address": "Via Giuseppe Verdi, 30, 38122 Trento TN"
+                },
+                "date": "2024-10-12 10:30:00",
+                "guests": [
+                    "Giacomo Agostini"
+                ]
+            },
+            {
+                "name": "BIAGGI E SOMASCHINI: POTENZA E CONTROLLO",
+                "location": {
+                    "name": "Palazzo della Regione",
+                    "address": "https://www.regione.taa.it/"
+                },
+                "date": "2024-10-12 14:00:00",
+                "guests": [
+                    "Max Biaggi",
+                    "Rachele Somaschini"
+                ]
+            },
+            {
+                "name": "MOTORSPORT ACADEMY, I SEGRETI DELLAERODINAMICA",
+                "location": {
+                    "name": "Piazza Dante Beta Officina Motori",
+                    "address": "Piazza Dante"
+                },
+                "date": "2024-10-12 16:30:00",
+                "guests": [
+                    "Carlo Da Rold"
+                ]
+            },
+            {
+                "name": "JORGE LORENZO: SENZA FRENI",
+                "location": {
+                    "name": "Teatro Sociale",
+                    "address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN"
+                },
+                "date": "2024-10-12 20:00:00",
+                "guests": [
+                    "Jorge Lorenzo"
+                ]
+            },
+            {
+                "name": "MOTORSPORT ACADEMY, IL FUTURO DELLE DUE RUOTE",
+                "location": {
+                    "name": "Piazza Dante Beta Officina Motori",
+                    "address": "Piazza Dante"
+                },
+                "date": "2024-10-13 15:30:00",
+                "guests": [
+                    "Carlo Da Rold"
+                ]
+            }
+        ]
+    },
+    "Nuoto": {
+        "value": "6",
+        "events": [
+            {
+                "name": "NUOTIAMO NELLORO",
+                "location": {
+                    "name": "Palazzo della Regione",
+                    "address": "https://www.regione.taa.it/"
+                },
+                "date": "2024-10-10 15:00:00",
+                "guests": [
+                    "Simone Barlaam",
+                    "Giulia Ghiretti",
+                    "Carlotta Gigli",
+                    "Luca Pancalli",
+                    "Stefano Raimondi",
+                    "Giulia Terzi"
+                ]
+            },
+            {
+                "name": "GREGORIO PALTRINIERI: NATO PER NUOTARE",
+                "location": {
+                    "name": "Teatro Sociale",
+                    "address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN"
+                },
+                "date": "2024-10-10 21:00:00",
+                "guests": [
+                    "Gregorio Paltrinieri"
+                ]
+            },
+            {
+                "name": "THOMAS CECCON: SOGNI D'ORO",
+                "location": {
+                    "name": "Auditorium Santa Chiara",
+                    "address": "Via S. Croce, 67 - 38122 Trento"
+                },
+                "date": "2024-10-12 11:30:00",
+                "guests": [
+                    "Thomas Ceccon"
+                ]
+            },
+            {
+                "name": "BEBE VIO GRANDIS PARIS, JE TAIME!",
+                "location": {
+                    "name": "Teatro Sociale",
+                    "address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN"
+                },
+                "date": "2024-10-13 10:00:00",
+                "guests": [
+                    "Vittoria Bianco",
+                    "Giuliana Chiara Filippi",
+                    "Alessandro Sbuelz",
+                    "Elisa Spediacci",
+                    "Bebe Vio Grandis"
+                ]
+            },
+            {
+                "name": "LIBRI DI SPORT: UNA VITA PRESA A BRACCIATE\nLibri di sport",
+                "location": {
+                    "name": "Piazza del Duomo",
+                    "address": "Piazza Del Duomo  - 38122 Trento"
+                },
+                "date": "2024-10-13 17:00:00",
+                "guests": [
+                    "Paolo Chiarino"
+                ]
+            }
+        ]
+    },
+    "Padel": {
+        "value": "7",
+        "events": [
+            {
+                "name": "LIBRI DI SPORT: ALLA SCOPERTA DEL PADEL\nLibri di sport",
+                "location": {
+                    "name": "Piazza del Duomo",
+                    "address": "Piazza Del Duomo  - 38122 Trento"
+                },
+                "date": "2024-10-12 11:00:00",
+                "guests": [
+                    "Gustavo Spector"
+                ]
+            },
+            {
+                "name": "FESTIVAL LEGENDS PADEL CUP",
+                "location": {
+                    "name": "Piazza Fiera",
+                    "address": "Piazza di Fiera, 38122 Trento TN"
+                },
+                "date": "2024-10-12 14:00:00",
+                "guests": [
+                    "Lucas Biglia",
+                    "Cristian Brocchi",
+                    "German Denis",
+                    "Nelson Dida",
+                    "Roberto Donadoni",
+                    "Christian Panucci"
+                ]
+            },
+            {
+                "name": "BREMBO PADEL EXPERIENCE",
+                "location": {
+                    "name": "Piazza Fiera",
+                    "address": "Piazza di Fiera, 38122 Trento TN"
+                },
+                "date": "2024-10-13 10:00:00",
+                "guests": [
+                    "Nelson Dida",
+                    "Christian Panucci"
+                ]
+            }
+        ]
+    },
+    "Pattinaggio": {
+        "value": "26",
+        "events": []
+    },
+    "Pugilato": {
+        "value": "44",
+        "events": [
+            {
+                "name": "VOLONTARI PER SPORT",
+                "location": {
+                    "name": "Sala Depero",
+                    "address": "Piazza Dante 15, 38122 Trento"
+                },
+                "date": "2024-10-11 10:00:00",
+                "guests": [
+                    "Bruno Cerella",
+                    "Franco Ianeselli",
+                    "Clemente Russo"
+                ]
+            }
+        ]
+    },
+    "Ritmica": {
+        "value": "31",
+        "events": [
+            {
+                "name": "IL VOLO DELLE FARFALLE",
+                "location": {
+                    "name": "Teatro Sociale",
+                    "address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN"
+                },
+                "date": "2024-10-12 10:00:00",
+                "guests": [
+                    "Martina Centofanti",
+                    "Agnese Duranti",
+                    "Alessia Maurelli",
+                    "Daniela Mogurean",
+                    "Laura Paris",
+                    "Alessia Russo"
+                ]
+            },
+            {
+                "name": "SOFIA RAFFAELI: IL RITMO DI UNA STELLA",
+                "location": {
+                    "name": "Teatro Sociale",
+                    "address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN"
+                },
+                "date": "2024-10-13 19:00:00",
+                "guests": [
+                    "Sofia Raffaeli"
+                ]
+            }
+        ]
+    },
+    "Rugby": {
+        "value": "35",
+        "events": [
+            {
+                "name": "CAPUOZZO, LAMARO, MENONCELLO E QUESADA: SEI NAZIONI E UN SOGNO",
+                "location": {
+                    "name": "Filarmonica",
+                    "address": "Via Giuseppe Verdi, 30, 38122 Trento TN"
+                },
+                "date": "2024-10-13 17:00:00",
+                "guests": [
+                    "Ange Capuozzo",
+                    "Michele Lamaro",
+                    "Tommaso Menoncello",
+                    "Gonzalo Quesada"
+                ]
+            }
+        ]
+    },
+    "Scherma": {
+        "value": "13",
+        "events": [
+            {
+                "name": "QUATTRO SPADE E UN FIORETTO",
+                "location": {
+                    "name": "Palazzo della Regione",
+                    "address": "https://www.regione.taa.it/"
+                },
+                "date": "2024-10-10 17:00:00",
+                "guests": [
+                    "Rossella Fiamingo",
+                    "Filippo Macchi",
+                    "Mara Navarria",
+                    "Giulia Rizzi",
+                    "Alberta Santuccio"
+                ]
+            },
+            {
+                "name": "BEBE VIO GRANDIS PARIS, JE TAIME!",
+                "location": {
+                    "name": "Teatro Sociale",
+                    "address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN"
+                },
+                "date": "2024-10-13 10:00:00",
+                "guests": [
+                    "Vittoria Bianco",
+                    "Giuliana Chiara Filippi",
+                    "Alessandro Sbuelz",
+                    "Elisa Spediacci",
+                    "Bebe Vio Grandis"
+                ]
+            },
+            {
+                "name": "TOMMASO MARINI: DIETRO LA MASCHERA",
+                "location": {
+                    "name": "Palazzo della Regione",
+                    "address": "https://www.regione.taa.it/"
+                },
+                "date": "2024-10-13 16:30:00",
+                "guests": [
+                    "Tommaso Marini"
+                ]
+            }
+        ]
+    },
+    "Sci": {
+        "value": "3",
+        "events": [
+            {
+                "name": "GHEDINA E PICCININI: DA PECHINO A TRENTO",
+                "location": {
+                    "name": "Sala Depero",
+                    "address": "Piazza Dante 15, 38122 Trento"
+                },
+                "date": "2024-10-11 16:00:00",
+                "guests": [
+                    "Kristian Ghedina",
+                    "Francesca Piccinini"
+                ]
+            },
+            {
+                "name": "GROS E THOENI: LA VALANGA SIAMO NOI",
+                "location": {
+                    "name": "Sala Depero",
+                    "address": "Piazza Dante 15, 38122 Trento"
+                },
+                "date": "2024-10-11 19:00:00",
+                "guests": [
+                    "Piero Gros",
+                    "Gustavo Thoeni"
+                ]
+            },
+            {
+                "name": "TUTTI I CAMPIONI DELLA NEVE",
+                "location": {
+                    "name": "Piazza del Duomo  e via Verdi",
+                    "address": "Piazza Del Duomo  - 38122 Trento"
+                },
+                "date": "2024-10-12 11:30:00",
+                "guests": [
+                    "Marta Bassino",
+                    "Maurizio Bormolini",
+                    "Guglielmo Bosca",
+                    "Federica Brignone",
+                    "Mattia Casse",
+                    "Elena Curtoni",
+                    "Francesco De Fabiani",
+                    "Alba De Silvestro",
+                    "Nicol Delago",
+                    "Simone Deromedis",
+                    "Dominick Fischnaller",
+                    "Tommaso Giacomel",
+                    "Sofia Goggia",
+                    "Aaron March",
+                    "Valentina Margaglio",
+                    "Michela Moioli",
+                    "Marion Oberhofer",
+                    "Dominik Paris",
+                    "Federico Pellegrino",
+                    "Laura Pirovano",
+                    "Florian Schieder",
+                    "Alex Vinatzer",
+                    "Omar Visintin",
+                    "Lisa Vittozzi",
+                    "Andrea Voetter",
+                    "Dorothea Wierer"
+                ]
+            },
+            {
+                "name": "BRIGNONE E PASOTTI: CIAK, SI SCIA!",
+                "location": {
+                    "name": "Auditorium Santa Chiara",
+                    "address": "Via S. Croce, 67 - 38122 Trento"
+                },
+                "date": "2024-10-12 15:30:00",
+                "guests": [
+                    "Federica Brignone",
+                    "Giorgio Pasotti"
+                ]
+            },
+            {
+                "name": "LIBRI DI SPORT: UNA RAGAZZA DI MONTAGNA\nLibri di sport",
+                "location": {
+                    "name": "Piazza del Duomo",
+                    "address": "Piazza Del Duomo  - 38122 Trento"
+                },
+                "date": "2024-10-12 16:45:00",
+                "guests": [
+                    "Deborah Compagnoni"
+                ]
+            },
+            {
+                "name": "MARC GIRARDELLI: IL GIGANTE",
+                "location": {
+                    "name": "Sala Depero",
+                    "address": "Piazza Dante 15, 38122 Trento"
+                },
+                "date": "2024-10-12 19:00:00",
+                "guests": [
+                    "Marc Girardelli"
+                ]
+            }
+        ]
+    },
+    "Skeleton": {
+        "value": "40",
+        "events": []
+    },
+    "Slacklining": {
+        "value": "43",
+        "events": [
+            {
+                "name": "SLACKLINE SOPRA TRENTO",
+                "location": {
+                    "name": "Piazza del Duomo",
+                    "address": "Piazza Del Duomo  - 38122 Trento"
+                },
+                "date": "2024-10-13 14:00:00",
+                "guests": [
+                    "Jaan Roose"
+                ]
+            }
+        ]
+    },
+    "Slittino": {
+        "value": "39",
+        "events": []
+    },
+    "Snowboard": {
+        "value": "27",
+        "events": []
+    },
+    "Surf": {
+        "value": "32",
+        "events": []
+    },
+    "Tennis": {
+        "value": "1",
+        "events": [
+            {
+                "name": "FENOMENO ITALTENNIS",
+                "location": {
+                    "name": "Sala Depero",
+                    "address": "Piazza Dante 15, 38122 Trento"
+                },
+                "date": "2024-10-10 12:00:00",
+                "guests": [
+                    "Sara Errani",
+                    "Tathiana Garbin",
+                    "Lorenzo Musetti",
+                    "Jasmine Paolini",
+                    "Filippo Volandri"
+                ]
+            },
+            {
+                "name": "IVAN LJIUBICIC: IL MAESTRO",
+                "location": {
+                    "name": "Palazzo della Regione",
+                    "address": "https://www.regione.taa.it/"
+                },
+                "date": "2024-10-13 10:30:00",
+                "guests": [
+                    "Ivan Ljubicic"
+                ]
+            }
+        ]
+    },
+    "Tiro a segno": {
+        "value": "41",
+        "events": []
+    },
+    "Tiro a volo": {
+        "value": "38",
+        "events": [
+            {
+                "name": "BACOSI, ROSSETTI, MONNA E NILO MALDINI: COLPO VINCENTE",
+                "location": {
+                    "name": "Palazzo della Regione",
+                    "address": "https://www.regione.taa.it/"
+                },
+                "date": "2024-10-10 12:00:00",
+                "guests": [
+                    "Diana Bacosi",
+                    "Paolo Monna",
+                    "Federico Nilo Maldini",
+                    "Gabriele Rossetti"
+                ]
+            }
+        ]
+    },
+    "Tuffi": {
+        "value": "10",
+        "events": []
+    },
+    "Vela": {
+        "value": "30",
+        "events": [
+            {
+                "name": "BECCARIA E MURA: I NOSTRI OCEANI",
+                "location": {
+                    "name": "Palazzo della Regione",
+                    "address": "https://www.regione.taa.it/"
+                },
+                "date": "2024-10-11 10:30:00",
+                "guests": [
+                    "Ambrogio Beccaria",
+                    "Andrea Mura"
+                ]
+            },
+            {
+                "name": "LIBRI DI SPORT: OLTRE I LIMITI. DIECI ANNI IN OCEANO CON MASERATI\nLibri di sport",
+                "location": {
+                    "name": "Piazza del Duomo",
+                    "address": "Piazza Del Duomo  - 38122 Trento"
+                },
+                "date": "2024-10-11 14:00:00",
+                "guests": [
+                    "Giovanni Soldini"
+                ]
+            }
+        ]
+    },
+    "Volley": {
+        "value": "4",
+        "events": [
+            {
+                "name": "MAURIZIA CACCIATORI: LE PI FORTI SIAMO NOI",
+                "location": {
+                    "name": "Teatro Sociale",
+                    "address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN"
+                },
+                "date": "2024-10-10 10:00:00",
+                "guests": [
+                    "Maurizia Cacciatori",
+                    "Alessandra Campedelli"
+                ]
+            },
+            {
+                "name": "PROSECCO DOC IMOCO CONEGLIANO LA SQUADRA DEI SOGNI",
+                "location": {
+                    "name": "Auditorium Santa Chiara",
+                    "address": "Via S. Croce, 67 - 38122 Trento"
+                },
+                "date": "2024-10-10 11:30:00",
+                "guests": [
+                    "Monica De Gennaro",
+                    "Sarah Fahr",
+                    "Piero Gaberlotto",
+                    "Gabi Guimares",
+                    "Isabelle Haak",
+                    "Marina Lubian",
+                    "Daniele Santarelli"
+                ]
+            },
+            {
+                "name": "GHEDINA E PICCININI: DA PECHINO A TRENTO",
+                "location": {
+                    "name": "Sala Depero",
+                    "address": "Piazza Dante 15, 38122 Trento"
+                },
+                "date": "2024-10-11 16:00:00",
+                "guests": [
+                    "Kristian Ghedina",
+                    "Francesca Piccinini"
+                ]
+            },
+            {
+                "name": "ALESSANDRO MICHIELETTO MEET&GREET",
+                "location": {
+                    "name": "Piazza Fiera",
+                    "address": "Piazza di Fiera, 38122 Trento TN"
+                },
+                "date": "2024-10-12 11:30:00",
+                "guests": [
+                    "Alessandro Michieletto"
+                ]
+            },
+            {
+                "name": "JULIO VELASCO: IL MIO GIOCO, IL MIO MONDO",
+                "location": {
+                    "name": "Teatro Sociale",
+                    "address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN"
+                },
+                "date": "2024-10-12 17:00:00",
+                "guests": [
+                    "Julio Velasco"
+                ]
+            },
+            {
+                "name": "SIR SUSA VIM PERUGIA: I BLOCKDEVILS",
+                "location": {
+                    "name": "Auditorium Santa Chiara",
+                    "address": "Via S. Croce, 67 - 38122 Trento"
+                },
+                "date": "2024-10-13 10:00:00",
+                "guests": [
+                    "Max Colaci",
+                    "Simone Giannelli",
+                    "Yuki Ishikawa",
+                    "Angelo Lorenzetti",
+                    "Oleh Plotnytsky",
+                    "Roberto Russo",
+                    "Gino Sirci"
+                ]
+            }
+        ]
+    },
+    "Windsurf": {
+        "value": "42",
+        "events": [
+            {
+                "name": "MAGGETTI E SENSINI: VIA COL VENTO",
+                "location": {
+                    "name": "Sala Depero",
+                    "address": "Piazza Dante 15, 38122 Trento"
+                },
+                "date": "2024-10-13 17:30:00",
+                "guests": [
+                    "Marta Maggetti",
+                    "Alessandra Sensini"
+                ]
+            }
+        ]
+    }
+}

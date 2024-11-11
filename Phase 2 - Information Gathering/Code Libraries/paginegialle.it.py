@@ -1,6 +1,6 @@
 import requests
 import re
-from os.path import isfile, join, dirname
+from os.path import isfile, join, dirname, exists
 from os import makedirs, chdir
 import shutil
 import json
@@ -12,7 +12,8 @@ ROOT: str = "../data/raw/paginegialle.it"
 ROOT_JSON = join(ROOT, "json")
 ROOT_CSV = join(ROOT, "csv")
 
-shutil.rmtree(ROOT)
+if exists(ROOT):
+    shutil.rmtree(ROOT)
 
 makedirs(ROOT, exist_ok=True)
 makedirs(ROOT_JSON, exist_ok=True)
