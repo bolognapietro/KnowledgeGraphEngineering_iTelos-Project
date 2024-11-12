@@ -1,6 +1,5 @@
-remoteId,published,modified,Titolo,Eventuale sottotitolo,Tipo di evento,Identificativo dell'evento,Date ed orari dell'evento,Descrizione breve,Argomenti,Descrizione completa,Galleria immagini,Video,Iniziativa di cui fa parte,Destinatari,Informazioni sui destinatari,Luogo dell'evento,lat,lon,address,Presenti all'evento,E' gratuito,Informazioni sui costi,Offerta,Locandina,Allegati,Punti di contatto,Contatti,Ulteriori informazioni,Organizzatori,Informazioni sugli organizzatori,Patrocinio,Sponsor,Persone o organizzazioni che hanno composto un'opera eseguita durante l’evento,Chi presenta,Servizio di traduzione curato da,Lingue usate all'evento,Numero massimo di posti,Tempo di lettura,Parole chiave,Valutazione dell'evento,Appuntamenti,Recensione,Indicato per
-d191336ced516b69df9ebd088121e03b,2024-04-09T15:13:11+02:00,2024-04-09T15:13:11+02:00,Südtirol - Trentino Junior Cup,,Evento sportivo,,,Gare di arrampicata Speed,"Tempo libero
-Sport","Programma
+Titolo,Tipo di evento,Date ed orari dell'evento,Descrizione breve,Descrizione completa,Luogo dell'evento,lat,lon,address,Presenti all'evento,Organizzatori,Informazioni sugli organizzatori
+Südtirol - Trentino Junior Cup,Evento sportivo,,Gare di arrampicata Speed,"Programma
 
 
 Sabato 20 aprile: dalle 14.00 alle 19.00 gare di arrampicata Speed; dalle 14.00 alle 18.00 prova di arrampicata gratuita per tutti con istruttori e guide.
@@ -8,12 +7,10 @@ Sabato 20 aprile: dalle 14.00 alle 19.00 gare di arrampicata Speed; dalle 14.00 
 Domenica 21 aprile: dalle 10.00 alle 16.00 gare di arrampicata Speed; dalle 14.00 alle 18.00 prova di arrampicata gratuita per tutti con istruttori e guide.
 
 
-Prove gratuite di arrampicata con istruttori e guide alpine per bambini e adulti.Panini e bibite a tutte le ore. DJ set durante tutto l'evento.",Junior Cup,,,"Adulti,Famiglie,Giovani,Bambini",,Centro d'alpinismo Lagorai,,,,,,,,https://www.comune.castel-ivano.tn.it/content/download/3825/46756/1/juniorcup.jpg,,Unione sportiva Villagnedo,,,,,,,,,,Italiano,0.0,2,,,,,
-9cff35d656981a631682a4220d595e1e,2024-05-22T09:22:58+02:00,2024-05-27T11:56:31+02:00,Revolution Fest,,"Evento sociale,Sagra",,,Torna la tradizionale festa campestre di Agnedo.,Tempo libero,"Torna la tradizionale festa campestre di Agnedo, organizzata da US Castel Ivano, Gruppo ANA di Villa Agnedo e Ivano Fracena e Corpo dei Vigili del fuoco volontari di Villa Agnedo: due giorni di festa il 31 maggio e il primo giugno nel centro sportivo di Agnedo.",Revolution Fest 2024,,,"Famiglie,Adulti,Anziani,Bambini,Giovani",,Campo da calcio Agnedo,,,,,,,,https://www.comune.castel-ivano.tn.it/content/download/3985/49766/2/revolutionfest.jpg,,Contatti Unione Sportiva Castel Ivano ASD,,,Unione sportiva Castel Ivano ASD,,,,,,,Italiano,0.0,2,,,,,
-b7b6c94fa54405f5d59886c3727043c7,2024-05-27T09:21:46+02:00,2024-05-27T09:32:34+02:00,Ortigaralefre in festa,,"Evento sociale,Evento sportivo",,,ASD Ortigaralefre in festa presso il centro sportivo di Agnedo.,"Tempo libero
-Sport",L'ASD Ortigraralefre organizza ORTIGARALEFRE IN FESTA. Appuntamento al centro sportivo di Agnedo domenica 2 giugno.Alle 9.30 Inizio torneo Pulcini Straudi.Alle 17.00 Lotteria.Fornito stand gastronomico. ,Ortigaralefre in festa,,,"Bambini,Famiglie,Giovani",,Campo da calcio Agnedo,,,,,,,,https://www.comune.castel-ivano.tn.it/content/download/4038/50726/2/ortigaralefreinfesta.jpg,,Contatti Campo da calcio Agnedo,,,ASD Ortigaralefre,,,,,,,Italiano,0.0,2,,,,,
-2e970baab9ae7e083c600e9cbdb567a7,2024-05-31T10:38:27+02:00,2024-05-31T11:17:16+02:00,Corso di arrampicata,,Evento sportivo,,,L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).,"Tempo libero
-Sport","L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).Il corso, di cinque lezioni, ha lo scopo di fornire le nozioni introduttive dell'arrampicata, far conoscere questo sport e apprendere le tecniche di sicurezza con le guide alpine.Il corso si tiene nelle giornate di giovedì 12, 20, 27 giugno, 4 e 11 luglio 2024 nei seguenti orari:
+Prove gratuite di arrampicata con istruttori e guide alpine per bambini e adulti.Panini e bibite a tutte le ore. DJ set durante tutto l'evento.",Centro d'alpinismo Lagorai,,,,,,
+Revolution Fest,"Evento sociale,Sagra",,Torna la tradizionale festa campestre di Agnedo.,"Torna la tradizionale festa campestre di Agnedo, organizzata da US Castel Ivano, Gruppo ANA di Villa Agnedo e Ivano Fracena e Corpo dei Vigili del fuoco volontari di Villa Agnedo: due giorni di festa il 31 maggio e il primo giugno nel centro sportivo di Agnedo.",Campo da calcio Agnedo,,,,,Unione sportiva Castel Ivano ASD,
+Ortigaralefre in festa,"Evento sociale,Evento sportivo",,ASD Ortigaralefre in festa presso il centro sportivo di Agnedo.,L'ASD Ortigraralefre organizza ORTIGARALEFRE IN FESTA. Appuntamento al centro sportivo di Agnedo domenica 2 giugno.Alle 9.30 Inizio torneo Pulcini Straudi.Alle 17.00 Lotteria.Fornito stand gastronomico. ,Campo da calcio Agnedo,,,,,ASD Ortigaralefre,
+Corso di arrampicata,Evento sportivo,,L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).,"L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).Il corso, di cinque lezioni, ha lo scopo di fornire le nozioni introduttive dell'arrampicata, far conoscere questo sport e apprendere le tecniche di sicurezza con le guide alpine.Il corso si tiene nelle giornate di giovedì 12, 20, 27 giugno, 4 e 11 luglio 2024 nei seguenti orari:
 
 
 corso bimbi (7-10 anni) dalle 16 alle 17.30;
@@ -35,21 +32,8 @@ corso adulti - 190,00 Euro.
 
 Inclusi nel prezzo la t-shirt CDA Lagorai, tessera FASI annuale e noleggio attrezzatura.Per iscriversi è obbligatorio un certificato medico di buona salute o agonistico.
 Iscrizioni (entro il 10 giugno) e info:
-cdalagorai@gmail.com3450873581I corsi sono tenuti da guide alpine e/o istruttori FASI.Le lezioni saltate non vengono rimborsate.Le lezioni annullate per causa di forza maggiore verranno recuperate.I corsi si terranno con un numero minimo di cinque iscritti.",Corso arrampicata 2024,,,"Adulti,Bambini,Giovani",,Centro d'alpinismo Lagorai,,,,,,"Prezzi:
-
-
-corso bimbi - 160,00 Euro;
-
-corso ragazzi - 160,00 Euro;
-
-corso adulti - 190,00 Euro.
-
-
-",,https://www.comune.castel-ivano.tn.it/content/download/4065/51198/2/corsoarrampicata.jpg,,Unione sportiva Villagnedo,,"
-Iscrizioni (entro il 10 giugno) e info:
-cdalagorai@gmail.com3450873581",Unione sportiva Villagnedo ASD,,,,,,,Italiano,0.0,2,,,,,
-24b32f6be9039713f0e5cdeb3ecf7660,2024-05-31T10:40:02+02:00,2024-05-31T11:18:06+02:00,Corso di arrampicata,,Evento sportivo,,,L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).,"Tempo libero
-Sport","L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).Il corso, di cinque lezioni, ha lo scopo di fornire le nozioni introduttive dell'arrampicata, far conoscere questo sport e apprendere le tecniche di sicurezza con le guide alpine.Il corso si tiene nelle giornate di giovedì 12, 20, 27 giugno, 4 e 11 luglio 2024 nei seguenti orari:
+cdalagorai@gmail.com3450873581I corsi sono tenuti da guide alpine e/o istruttori FASI.Le lezioni saltate non vengono rimborsate.Le lezioni annullate per causa di forza maggiore verranno recuperate.I corsi si terranno con un numero minimo di cinque iscritti.",Centro d'alpinismo Lagorai,,,,,Unione sportiva Villagnedo ASD,
+Corso di arrampicata,Evento sportivo,,L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).,"L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).Il corso, di cinque lezioni, ha lo scopo di fornire le nozioni introduttive dell'arrampicata, far conoscere questo sport e apprendere le tecniche di sicurezza con le guide alpine.Il corso si tiene nelle giornate di giovedì 12, 20, 27 giugno, 4 e 11 luglio 2024 nei seguenti orari:
 
 
 corso bimbi (7-10 anni) dalle 16 alle 17.30;
@@ -71,21 +55,8 @@ corso adulti - 190,00 Euro.
 
 Inclusi nel prezzo la t-shirt CDA Lagorai, tessera FASI annuale e noleggio attrezzatura.Per iscriversi è obbligatorio un certificato medico di buona salute o agonistico.
 Iscrizioni (entro il 10 giugno) e info:
-cdalagorai@gmail.com3450873581I corsi sono tenuti da guide alpine e/o istruttori FASI.Le lezioni saltate non vengono rimborsate.Le lezioni annullate per causa di forza maggiore verranno recuperate.I corsi si terranno con un numero minimo di cinque iscritti.",Corso arrampicata 2024,,,"Adulti,Bambini,Giovani",,Centro d'alpinismo Lagorai,,,,,,"Prezzi:
-
-
-corso bimbi - 160,00 Euro;
-
-corso ragazzi - 160,00 Euro;
-
-corso adulti - 190,00 Euro.
-
-
-",,https://www.comune.castel-ivano.tn.it/content/download/4066/51234/2/corsoarrampicata.jpg,,Unione sportiva Villagnedo,,"
-Iscrizioni (entro il 10 giugno) e info:
-cdalagorai@gmail.com3450873581",Unione sportiva Villagnedo ASD,,,,,,,Italiano,0.0,2,,,,,
-6ec393f6fbe72e78bdaf99bff519e1c9,2024-05-31T10:41:20+02:00,2024-05-31T11:19:33+02:00,Corso di arrampicata,,Evento sportivo,,,L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).,"Tempo libero
-Sport","L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).Il corso, di cinque lezioni, ha lo scopo di fornire le nozioni introduttive dell'arrampicata, far conoscere questo sport e apprendere le tecniche di sicurezza con le guide alpine.Il corso si tiene nelle giornate di giovedì 12, 20, 27 giugno, 4 e 11 luglio 2024 nei seguenti orari:
+cdalagorai@gmail.com3450873581I corsi sono tenuti da guide alpine e/o istruttori FASI.Le lezioni saltate non vengono rimborsate.Le lezioni annullate per causa di forza maggiore verranno recuperate.I corsi si terranno con un numero minimo di cinque iscritti.",Centro d'alpinismo Lagorai,,,,,Unione sportiva Villagnedo ASD,
+Corso di arrampicata,Evento sportivo,,L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).,"L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).Il corso, di cinque lezioni, ha lo scopo di fornire le nozioni introduttive dell'arrampicata, far conoscere questo sport e apprendere le tecniche di sicurezza con le guide alpine.Il corso si tiene nelle giornate di giovedì 12, 20, 27 giugno, 4 e 11 luglio 2024 nei seguenti orari:
 
 
 corso bimbi (7-10 anni) dalle 16 alle 17.30;
@@ -107,21 +78,8 @@ corso adulti - 190,00 Euro.
 
 Inclusi nel prezzo la t-shirt CDA Lagorai, tessera FASI annuale e noleggio attrezzatura.Per iscriversi è obbligatorio un certificato medico di buona salute o agonistico.
 Iscrizioni (entro il 10 giugno) e info:
-cdalagorai@gmail.com3450873581I corsi sono tenuti da guide alpine e/o istruttori FASI.Le lezioni saltate non vengono rimborsate.Le lezioni annullate per causa di forza maggiore verranno recuperate.I corsi si terranno con un numero minimo di cinque iscritti.",Corso arrampicata 2024,,,"Adulti,Bambini,Giovani",,Centro d'alpinismo Lagorai,,,,,,"Prezzi:
-
-
-corso bimbi - 160,00 Euro;
-
-corso ragazzi - 160,00 Euro;
-
-corso adulti - 190,00 Euro.
-
-
-",,https://www.comune.castel-ivano.tn.it/content/download/4067/51270/2/corsoarrampicata.jpg,,Unione sportiva Villagnedo,,"
-Iscrizioni (entro il 10 giugno) e info:
-cdalagorai@gmail.com3450873581",Unione sportiva Villagnedo ASD,,,,,,,Italiano,0.0,2,,,,,
-627b421551ecfa1453a207dd9c750745,2024-05-31T10:35:33+02:00,2024-05-31T11:15:31+02:00,Corso di arrampicata,,Evento sportivo,,,L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).,"Tempo libero
-Sport","L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).Il corso, di cinque lezioni, ha lo scopo di fornire le nozioni introduttive dell'arrampicata, far conoscere questo sport e apprendere le tecniche di sicurezza con le guide alpine.Il corso si tiene nelle giornate di giovedì 12, 20, 27 giugno, 4 e 11 luglio 2024 nei seguenti orari:
+cdalagorai@gmail.com3450873581I corsi sono tenuti da guide alpine e/o istruttori FASI.Le lezioni saltate non vengono rimborsate.Le lezioni annullate per causa di forza maggiore verranno recuperate.I corsi si terranno con un numero minimo di cinque iscritti.",Centro d'alpinismo Lagorai,,,,,Unione sportiva Villagnedo ASD,
+Corso di arrampicata,Evento sportivo,,L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).,"L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).Il corso, di cinque lezioni, ha lo scopo di fornire le nozioni introduttive dell'arrampicata, far conoscere questo sport e apprendere le tecniche di sicurezza con le guide alpine.Il corso si tiene nelle giornate di giovedì 12, 20, 27 giugno, 4 e 11 luglio 2024 nei seguenti orari:
 
 
 corso bimbi (7-10 anni) dalle 16 alle 17.30;
@@ -143,21 +101,8 @@ corso adulti - 190,00 Euro.
 
 Inclusi nel prezzo la t-shirt CDA Lagorai, tessera FASI annuale e noleggio attrezzatura.Per iscriversi è obbligatorio un certificato medico di buona salute o agonistico.
 Iscrizioni (entro il 10 giugno) e info:
-cdalagorai@gmail.com3450873581I corsi sono tenuti da guide alpine e/o istruttori FASI.Le lezioni saltate non vengono rimborsate.Le lezioni annullate per causa di forza maggiore verranno recuperate.I corsi si terranno con un numero minimo di cinque iscritti.",Corso arrampicata 2024,,,"Adulti,Bambini,Giovani",,Centro d'alpinismo Lagorai,,,,,,"Prezzi:
-
-
-corso bimbi - 160,00 Euro;
-
-corso ragazzi - 160,00 Euro;
-
-corso adulti - 190,00 Euro.
-
-
-",,https://www.comune.castel-ivano.tn.it/content/download/4062/51117/2/corsoarrampicata.jpg,,Unione sportiva Villagnedo,,"
-Iscrizioni (entro il 10 giugno) e info:
-cdalagorai@gmail.com3450873581",Unione sportiva Villagnedo ASD,,,,,,,Italiano,0.0,2,,,,,
-4a35fdc0a0e3508e21927dabda6b5063,2024-05-31T10:36:36+02:00,2024-05-31T11:16:25+02:00,Corso di arrampicata,,Evento sportivo,,,L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).,"Tempo libero
-Sport","L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).Il corso, di cinque lezioni, ha lo scopo di fornire le nozioni introduttive dell'arrampicata, far conoscere questo sport e apprendere le tecniche di sicurezza con le guide alpine.Il corso si tiene nelle giornate di giovedì 12, 20, 27 giugno, 4 e 11 luglio 2024 nei seguenti orari:
+cdalagorai@gmail.com3450873581I corsi sono tenuti da guide alpine e/o istruttori FASI.Le lezioni saltate non vengono rimborsate.Le lezioni annullate per causa di forza maggiore verranno recuperate.I corsi si terranno con un numero minimo di cinque iscritti.",Centro d'alpinismo Lagorai,,,,,Unione sportiva Villagnedo ASD,
+Corso di arrampicata,Evento sportivo,,L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).,"L'US Villagnedo organizza un corso base di arrampicata presso il Centro d'alpinismo Lagorai di Agnedo (centro sportivo).Il corso, di cinque lezioni, ha lo scopo di fornire le nozioni introduttive dell'arrampicata, far conoscere questo sport e apprendere le tecniche di sicurezza con le guide alpine.Il corso si tiene nelle giornate di giovedì 12, 20, 27 giugno, 4 e 11 luglio 2024 nei seguenti orari:
 
 
 corso bimbi (7-10 anni) dalle 16 alle 17.30;
@@ -179,22 +124,9 @@ corso adulti - 190,00 Euro.
 
 Inclusi nel prezzo la t-shirt CDA Lagorai, tessera FASI annuale e noleggio attrezzatura.Per iscriversi è obbligatorio un certificato medico di buona salute o agonistico.
 Iscrizioni (entro il 10 giugno) e info:
-cdalagorai@gmail.com3450873581I corsi sono tenuti da guide alpine e/o istruttori FASI.Le lezioni saltate non vengono rimborsate.Le lezioni annullate per causa di forza maggiore verranno recuperate.I corsi si terranno con un numero minimo di cinque iscritti.",Corso arrampicata 2024,,,"Adulti,Bambini,Giovani",,Centro d'alpinismo Lagorai,,,,,,"Prezzi:
-
-
-corso bimbi - 160,00 Euro;
-
-corso ragazzi - 160,00 Euro;
-
-corso adulti - 190,00 Euro.
-
-
-",,https://www.comune.castel-ivano.tn.it/content/download/4064/51162/2/corsoarrampicata.jpg,,Unione sportiva Villagnedo,,"
-Iscrizioni (entro il 10 giugno) e info:
-cdalagorai@gmail.com3450873581",Unione sportiva Villagnedo ASD,,,,,,,Italiano,0.0,2,,,,,
-120eab27d119260255d85355949439e8,2024-06-11T17:39:08+02:00,2024-06-11T17:39:53+02:00,L'arte de l'ombrìa. Canti diVersi,,Evento culturale,,,"Il secondo appuntamento della rassegna L'ARTE DEL'OMBRIA del Gruppo teatrale Tarantâs gira attorno al canto in rima improvvisata dei POETI A BRACCIO, un gruppo informale composto da Giampiero Giamogante, Dante Valentini, Donato De Acutis, provenienti dall’alta valle del Velino in provincia di Rieti, e al canto a cappella proposto dal gruppo SINTAGMA di Feltre.",Tempo libero,"Il secondo appuntamento della rassegna L'ARTE DEL'OMBRIA del Gruppo teatrale Tarantâs gira attorno al canto in rima improvvisata dei POETI A BRACCIO, un gruppo informale composto da Giampiero Giamogante, Dante Valentini, Donato De Acutis, provenienti dall’alta valle del Velino in provincia di Rieti, e al canto a cappella proposto dal gruppo SINTAGMA di Feltre.Il canto a braccio, o canto in ottava rima, è un’arte antica appartenete alla tradizione dei pastori abruzzesi e molto diffusa nella zona dell'Alta Sabina, tra l’Aquila e Rieti, dove ancora si pratica specialmente in occasioni festose.La sua origine risale a tempi antichi quando i pastori, pur nella loro semplicità, conoscevano a memoria i versi dei poemi classici come L’Orlando Furioso e spesso si dilettavano a recitarli in compagnia.È una forma cantata e improvvisata nella quale due poeti si sfidano oppure discutono su un argomento. Lo schema metrico è quello dell'ottava classica.Il poeta che risponde ha l'obbligo di riprendere la rima del precedente così da garantire l'estemporaneità del canto.Il gruppo vocale Sintagma nasce nel 2006 da una passione comune dei fondatori, che intendono esplorare diversi generi musicali dove le varie parti dei brani vengono eseguite da solisti e non da sezioni corali, arrangiando “a cappella” anche brani solitamente eseguiti con accompagnamento strumentale.Il desiderio di sperimentare cose nuove e la passione per la musica ha portato i Sintagma ad intraprendere un cammino che li porta ad avere un repertorio vario, composto da canti popolari d’autore, regionali italiani e stranieri, spiritual e gospel, spaziando nel pop italiano ed internazionale, arrangiamenti jazz, barbershop, canti alpini.La partecipazione al concerto è ad offerta libera e consapevole.Due sono gli eventi collaterali previsti:Una piccola mostra personale di GIANFRANCO TOMIO, eclettico e sensibile amante delle montagne del Lagorai sotto ogni aspetto, unisce da sempre la passione per l’arrampicata e la speleologia a una particolare vena artistica di pittore e musicista. Già autore di una guida di arrampicata dei gruppi di Cima d’Asta e Rava, dove ha aperto e ripetuto moltissimi itinerari, collabora da anni con l’Oasi Valtrigona del WWF (l’unica Oasi Alpina d’Europa) per la quale ha curato i disegni naturalistici di diverse pubblicazioni ed effettuato alcune mostre all’aperto dei suoi acquarelli. Suoi sono inoltre molti disegni pubblicati sulla Guida dei Monti d’Italia - Lagorai Cima d’Asta e su altre guide della zona. È membro del GISM.Una passeggiata guidata lungo il percorso n. 10 della Strada del castagno a cura dell'ECOMUSEO DELLA VALSUGANA e si PAOLO PATERNO, agricoltore biodinamico e appassionato cultore della storia e della coltivazione del castagno.La partecipazione è libera e gratuita. Il ritrovo è alle ore 15.15 al parcheggio del Parco Urbano di Spera in via Santa Apollonia.In caso di pioggia la passeggiata verrà annullata.",Ombria2,,,"Adulti,Anziani,Bambini,Famiglie,Giovani",,Campo da calcetto Spera,,,,,,La partecipazione al concerto è a offerta libera e consapevole.,,https://www.comune.castel-ivano.tn.it/content/download/4098/51832/2/OMBRIA2.jpg,,Contatto Ecomuseo della Valsugana,,,,,,,,,,Italiano,0.0,2,,,,,
-40cd62f7c35892f537839193ea15a926,2024-06-15T09:49:37+02:00,2024-06-15T09:50:47+02:00,Festa di inizio estate,,Evento sociale,,,"Festa di inizio estate al Centro d'alpinismo Lagorai, a cura dell'US Villagnedo.","Tempo libero
-Sport","PROGRAMMA:
+cdalagorai@gmail.com3450873581I corsi sono tenuti da guide alpine e/o istruttori FASI.Le lezioni saltate non vengono rimborsate.Le lezioni annullate per causa di forza maggiore verranno recuperate.I corsi si terranno con un numero minimo di cinque iscritti.",Centro d'alpinismo Lagorai,,,,,Unione sportiva Villagnedo ASD,
+L'arte de l'ombrìa. Canti diVersi,Evento culturale,,"Il secondo appuntamento della rassegna L'ARTE DEL'OMBRIA del Gruppo teatrale Tarantâs gira attorno al canto in rima improvvisata dei POETI A BRACCIO, un gruppo informale composto da Giampiero Giamogante, Dante Valentini, Donato De Acutis, provenienti dall’alta valle del Velino in provincia di Rieti, e al canto a cappella proposto dal gruppo SINTAGMA di Feltre.","Il secondo appuntamento della rassegna L'ARTE DEL'OMBRIA del Gruppo teatrale Tarantâs gira attorno al canto in rima improvvisata dei POETI A BRACCIO, un gruppo informale composto da Giampiero Giamogante, Dante Valentini, Donato De Acutis, provenienti dall’alta valle del Velino in provincia di Rieti, e al canto a cappella proposto dal gruppo SINTAGMA di Feltre.Il canto a braccio, o canto in ottava rima, è un’arte antica appartenete alla tradizione dei pastori abruzzesi e molto diffusa nella zona dell'Alta Sabina, tra l’Aquila e Rieti, dove ancora si pratica specialmente in occasioni festose.La sua origine risale a tempi antichi quando i pastori, pur nella loro semplicità, conoscevano a memoria i versi dei poemi classici come L’Orlando Furioso e spesso si dilettavano a recitarli in compagnia.È una forma cantata e improvvisata nella quale due poeti si sfidano oppure discutono su un argomento. Lo schema metrico è quello dell'ottava classica.Il poeta che risponde ha l'obbligo di riprendere la rima del precedente così da garantire l'estemporaneità del canto.Il gruppo vocale Sintagma nasce nel 2006 da una passione comune dei fondatori, che intendono esplorare diversi generi musicali dove le varie parti dei brani vengono eseguite da solisti e non da sezioni corali, arrangiando “a cappella” anche brani solitamente eseguiti con accompagnamento strumentale.Il desiderio di sperimentare cose nuove e la passione per la musica ha portato i Sintagma ad intraprendere un cammino che li porta ad avere un repertorio vario, composto da canti popolari d’autore, regionali italiani e stranieri, spiritual e gospel, spaziando nel pop italiano ed internazionale, arrangiamenti jazz, barbershop, canti alpini.La partecipazione al concerto è ad offerta libera e consapevole.Due sono gli eventi collaterali previsti:Una piccola mostra personale di GIANFRANCO TOMIO, eclettico e sensibile amante delle montagne del Lagorai sotto ogni aspetto, unisce da sempre la passione per l’arrampicata e la speleologia a una particolare vena artistica di pittore e musicista. Già autore di una guida di arrampicata dei gruppi di Cima d’Asta e Rava, dove ha aperto e ripetuto moltissimi itinerari, collabora da anni con l’Oasi Valtrigona del WWF (l’unica Oasi Alpina d’Europa) per la quale ha curato i disegni naturalistici di diverse pubblicazioni ed effettuato alcune mostre all’aperto dei suoi acquarelli. Suoi sono inoltre molti disegni pubblicati sulla Guida dei Monti d’Italia - Lagorai Cima d’Asta e su altre guide della zona. È membro del GISM.Una passeggiata guidata lungo il percorso n. 10 della Strada del castagno a cura dell'ECOMUSEO DELLA VALSUGANA e si PAOLO PATERNO, agricoltore biodinamico e appassionato cultore della storia e della coltivazione del castagno.La partecipazione è libera e gratuita. Il ritrovo è alle ore 15.15 al parcheggio del Parco Urbano di Spera in via Santa Apollonia.In caso di pioggia la passeggiata verrà annullata.",Campo da calcetto Spera,,,,,,
+Festa di inizio estate,Evento sociale,,"Festa di inizio estate al Centro d'alpinismo Lagorai, a cura dell'US Villagnedo.","PROGRAMMA:
 
 
 Ore 13.00 - 18.00 - Apertura palestra a soci e tesserati FASI, ingresso gratuito
@@ -206,9 +138,8 @@ Ore 20.00 - Estrazione della lotteria.
 Ore 21.00 - 24.00 - Musica e festa.
 
 
-Panini e bevande durante tutto l'evento.",Festa di inizio estate,,,"Giovani,Adulti,Bambini",,Centro d'alpinismo Lagorai,,,,,,,,https://www.comune.castel-ivano.tn.it/content/download/4129/52798/2/festainizioestate.jpg,,Unione sportiva Villagnedo,,,Unione sportiva Villagnedo ASD,,,,,,,Italiano,0.0,2,,,,,
-9e6f798d83976b82160988f1d5261d78,2024-05-02T08:42:45+02:00,2024-07-30T10:31:05+02:00,Meet sport 2023,,Evento sportivo,,,"Dopo il grandissimo successo dello scorso anno torna il progetto MeetSport - Lo sport oltre lo sport promosso da A.s.d. Ortigaralefre in collaborazione con Comune di Ospedaletto, Comune di Grigno, Comune Castel Ivano e Comune Samone!","Tempo libero
-Sport","Dopo il grandissimo successo dello scorso anno torna il progetto MeetSport - Lo sport oltre lo sport promosso da A.s.d. Ortigaralefre in collaborazione con Comune di Ospedaletto, Comune di Grigno, Comune Castel Ivano e Comune Samone!Ricco calendario di attività multisport per trascorrere sane giornate all’aria aperta all’insegna del divertimento per giovani 10-14 anni (nati e nate dal 01/01/2010 al 31/12/2014) e residenti nei comuni aderenti all'iniziativa.
+Panini e bevande durante tutto l'evento.",Centro d'alpinismo Lagorai,,,,,Unione sportiva Villagnedo ASD,
+Meet sport 2023,Evento sportivo,,"Dopo il grandissimo successo dello scorso anno torna il progetto MeetSport - Lo sport oltre lo sport promosso da A.s.d. Ortigaralefre in collaborazione con Comune di Ospedaletto, Comune di Grigno, Comune Castel Ivano e Comune Samone!","Dopo il grandissimo successo dello scorso anno torna il progetto MeetSport - Lo sport oltre lo sport promosso da A.s.d. Ortigaralefre in collaborazione con Comune di Ospedaletto, Comune di Grigno, Comune Castel Ivano e Comune Samone!Ricco calendario di attività multisport per trascorrere sane giornate all’aria aperta all’insegna del divertimento per giovani 10-14 anni (nati e nate dal 01/01/2010 al 31/12/2014) e residenti nei comuni aderenti all'iniziativa.
 Escursione in bicicletta, canyoning e arrampicata, giornata all’Acropark a Cinte Tesino, rafting sul fiume Brenta, mini corso di roller!Apertura delle iscrizioni (max 20 partecipanti a uscita in ordine cronologico di arrivo): lunedì 13 maggio 2024 alle 8.00 inviando la modulistica scaricabile nel sito www.ortigaralefre.it all'indirizzo mail meet.sport2023@gmail.com.Cosa aspetti? Unisciti a noi per un’estate a tutto sport!
 Maggiori informazioni:
-www.ortigaralefre.itmeet.sport2023@gmail.com",Meetsport2024,,,"Bambini,Giovani",,Campo da calcio Agnedo,,,,,,Info su www.ortigaralefre.it,,https://www.comune.castel-ivano.tn.it/content/download/3886/47828/2/meetsport.jpg,,Contatti Campo da calcio Agnedo,,,,,,,,,,Italiano,20.0,2,,,,,
+www.ortigaralefre.itmeet.sport2023@gmail.com",Campo da calcio Agnedo,,,,,,

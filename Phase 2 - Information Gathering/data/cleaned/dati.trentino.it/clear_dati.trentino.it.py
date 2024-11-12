@@ -71,14 +71,14 @@ def row_len(name):
             print(f"Len row {i}: {len(row)}")
 
 
-datitrentino_2024()
-fix()
+# datitrentino_2024()
+# fix()
 
-for filename in sorted(os.listdir("Phase 2 - Information Gathering/data/cleaned/dati.trentino.it/csv")):
-    if filename.endswith(".csv"):
-        name = filename.replace(".csv", "")
-        print(f"Processing {name}")
-        fix_row_problem(name=name)
+# for filename in sorted(os.listdir("Phase 2 - Information Gathering/data/cleaned/dati.trentino.it/csv")):
+#     if filename.endswith(".csv"):
+#         name = filename.replace(".csv", "")
+#         print(f"Processing {name}")
+#         fix_row_problem(name=name)
 
 sports = ['Acrobatica', 'Aikido', 'Alpinismo', 'Arrampicata', 'Artistic swimming', 'Atletica', 'Badminton', 'Baseball', 'Softball', 'Beach volley', 'Boogie-woogie', 'Calcio', 'Calcio gaelico', 'Canoismo', 'Canottaggio', 'Capoeira escolar', 'Ciclismo', 'Ciclismo su pista', 'Ciclismo su strada', 'Ciclocross', 'Corsa d’orientamento', 'Curling', 'Danza', 'Danza standard/latine', 'Donut Hockey', 'Flag football', 'FooBaSKILL', 'Frisbee', 'Futnet', 'Futsal', 'Ginnastica', 'Ginnastica agli attrezzi', 'Ginnastica artistica', 'Ginnastica e danza', 'Ginnastica ritmica', 'Giochi di rinvio', 'Giochi nazionali', 'Golf', 'Hockey inline', 'Hockey su ghiaccio', 'Hockey su prato', 'Hornuss', 'Immersione libera', 'Inline-Skating', 'Intercrosse', 'Ju-Jitsu', 'Judo', 'Karate', 'Kin-Ball', 'Light contact boxing', 'Lotta', 'Lotta svizzera', 'Madball', 'Minigolf', 'Mountainbike', 'Netzball', 'Nordic Walking', 'Nuoto', 'Nuoto di salvataggio', 'Pallacanestro', 'Pallacesto', 'Pallamano', 'Pallanuoto', 'Pallapugno', 'Pallavolo', 'Parkour', 'Pattinaggio artistico', 'Pilates', 'Poull Ball', 'Racchette da neve', 'Rafroball', 'Rhönrad', 'Rock’n’roll', 'Roundnet', 'Rugby', 'Running', 'Salto con gli sci', 'Scherma', 'Sci', 'Sci di fondo', 'Sci-escursionismo', 'Skateboard/Waveboard', 'Slackline', 'Smolball', 'Snowboard', 'Sport degli adulti', 'Sport di campo/trekking', 'Sport equestri', 'Sport freestyle', 'Sport in carrozzella', 'Sport scolastico', 'Sprint/Staffetta', 'Squash', 'Stand up paddle', 'Street racket', 'Tchoukball', 'Tennis', 'Tennis da tavolo', 'Tiro sportivo', 'Touchrugby', 'Trail running', 'Trampolino', 'Triathlon', 'Tuffi', 'Unihockey', 'Vela', 'Volteggio', 'Yoga']
 sport_events = []
@@ -87,10 +87,28 @@ input_folder = 'Phase 2 - Information Gathering/data/cleaned/dati.trentino.it/cs
 
 filenames = [os.path.join(input_folder, filename) for filename in sorted(os.listdir('Phase 2 - Information Gathering/data/cleaned/dati.trentino.it/csv'))]
 
+columns = [
+    'Titolo', #name
+    'Tipo di evento', 
+    "Date ed orari dell'evento", 
+    'Descrizione breve',
+    'Descrizione completa', 
+    "Luogo dell'evento", 
+    'lat', 
+    'lon', 
+    'address', 
+    "Presenti all'evento",
+    'Organizzatori', 
+    'Informazioni sugli organizzatori'
+]
+
 for filename in filenames:
     
     df = pd.read_csv(filename)
     df = df.map(lambda x: None if pd.isna(x) else x)
+
+    columns_map = [df.columns.tolist().index(column) for column in columns if column in df.columns]
+    columns_filtered = [column for column in columns if column in df.columns]
 
     filtered_rows = []
 
@@ -103,12 +121,13 @@ for filename in filenames:
 
             if len(re.findall(r'\b' + re.escape(sport.lower()) + r'\b', row_str)):
                 sport_events.append([sport, row.tolist()])
-                filtered_rows.append(row.tolist())
+
+                filtered_rows.append([row.tolist()[index] for index in columns_map])
                 break
     
     if not len(filtered_rows):
         os.remove(filename)
         continue
 
-    df = pd.DataFrame(data=filtered_rows, columns=df.columns)
+    df = pd.DataFrame(data=filtered_rows, columns=columns_filtered)
     df.to_csv(filename, index=False, sep=",")
