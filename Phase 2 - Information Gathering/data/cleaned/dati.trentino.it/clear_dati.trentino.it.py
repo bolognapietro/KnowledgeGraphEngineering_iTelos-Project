@@ -30,7 +30,6 @@ def datitrentino_2024():
 # From the data of 2024, it removes the "&quot" from the csv files and then removes the files that are empty
 def fix():
     input_path = "Phase 2 - Information Gathering/data/cleaned/dati.trentino.it/csv"
-    output_path = "Phase 2 - Information Gathering/data/cleaned/dati.trentino.it/csv"
 
     for filename in sorted(os.listdir(input_path)):
         if filename.endswith(".csv"):
@@ -38,14 +37,13 @@ def fix():
             with open(file_path, 'r') as file:
                 lines = file.readlines()
             
-            with open(os.path.join(output_path, filename), 'w') as file:
+            with open(os.path.join(input_path, filename), 'w') as file:
                 for line in lines:
                     file.write(line.replace('&quot', ''))
 
 # Fixes the row problem in the csv file 
 def fix_row_problem(name):
     input_file = f"Phase 2 - Information Gathering/data/cleaned/dati.trentino.it/csv/{name}.csv"
-    output_file = f"Phase 2 - Information Gathering/data/cleaned/dati.trentino.it/fixed_csv/{name}.csv"
     
     with open(input_file, 'r') as file:
         reader = csv.reader(file)
@@ -53,7 +51,7 @@ def fix_row_problem(name):
         header = rows[0]
         header_len = len(header)
         
-    with open(output_file, 'w', newline='') as file:
+    with open(input_file, 'w', newline='') as file:
         writer = csv.writer(file)
         for row in rows:
             if len(row) != header_len and "lon" in header:
@@ -63,8 +61,8 @@ def fix_row_problem(name):
             writer.writerow(row)
 
 # Prints the length of each row in the csv file
-def row_len(name, type = "fixed_csv"):
-    input_file = f"Phase 2 - Information Gathering/data/cleaned/dati.trentino.it/{type}/{name}.csv"
+def row_len(name):
+    input_file = f"Phase 2 - Information Gathering/data/cleaned/dati.trentino.it/csv/{name}.csv"
     
     with open(input_file, 'r') as file:
         reader = csv.reader(file)
