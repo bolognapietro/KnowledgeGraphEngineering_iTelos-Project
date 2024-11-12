@@ -17,7 +17,9 @@ def copy_files(src_dir, dest_dir):
         if os.path.isfile(file_path) and filename.endswith('.csv'):
             with open(file_path, mode='r', encoding='utf-8') as file:
                 content = file.read()
+            content = content.replace(',', '++')
             content = content.replace(';', ',')
+            content = content.replace('++', ';')
             with open(file_path, mode='w', encoding='utf-8') as file:
                 file.write(content)
 
