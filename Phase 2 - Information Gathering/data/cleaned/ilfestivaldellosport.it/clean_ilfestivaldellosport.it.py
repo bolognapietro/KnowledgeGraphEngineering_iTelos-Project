@@ -68,3 +68,32 @@ rename_headers(output_path)
 
 # Edit guest column
 edit_guest(output_path)
+
+def split_location(directory):
+    for filename in os.listdir(directory):
+        file_path = os.path.join(directory, filename)
+        if os.path.isfile(file_path) and filename.endswith('.csv'):
+            with open(file_path, mode='r', encoding='utf-8') as file:
+                reader = csv.reader(file)
+                headers = next(reader)
+                rows = list(reader)
+                
+            location_index = headers.index('location') if 'location' in headers else None
+            if location_index is not None:
+                headers.extend(['address', 'municipality'])
+                for row in rows:
+                    location = eval(row[location_index])
+                    address = f"{location['name']}, {location['address'].split(',')[0]}"
+                    municipality = location['address'].split(',')[-1].strip()
+                    row.extend([address, municipality])
+                headers.remove('location')
+                for row in rows:
+                    row.pop(location_index)
+                    
+            with open(file_path, mode='w', encoding='utf-8', newline='') as file:
+                writer = csv.writer(file)
+                writer.writerow(headers)
+                writer.writerows(rows)
+
+# Split location column into address and municipality
+split_location(output_path)
