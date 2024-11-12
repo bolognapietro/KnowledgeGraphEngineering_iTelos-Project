@@ -1,9 +1,5 @@
-Titolo,Tipo di evento,Date ed orari dell'evento,Descrizione breve,Descrizione completa,Luogo dell'evento,lat,lon,address,Presenti all'evento,Organizzatori,Informazioni sugli organizzatori
-Ginnastica della Mente,Evento culturale,,"Ginnastica della Mente
-Stimolazione cognitiva e socializzazione di gruppo.Dott.ssa Giulia Castelletti","
-Ginnastica della MenteStimolazione cognitiva e socializzazione di gruppo.
-INIZIO ATTIVITA’
-LUNEDI’ 29/01/24 ore 15:00Sala al 1° piano, Via Marconi",,,,,,,
-8° edizione Sport e Sapori ,"Evento sportivo,Raduno di comunità",,"L'Associazione Pro loco Sabbionara, con il patrocinio del Comune di Avio, organizza l'ottava edizione della manifestazione Sport &amp; Sapori, dal 23 al 26 maggio, al Parco giochi di viale al Parco a Sabbionara.","L'evento si terrà presso il parco giochi di viale al Parco a Sabbionara, dal 23 al 26 maggio.Qui il link alla pagina Facebook dell'Associazione: PROloco Sabbionara | Avio | FacebookAll'interno della manifestazione si terrà la gara promozionale di atletica ;Corri, salta, lancia;, organizzata dall'Associazione Junior sport.Locandina in allegato.",,,,,,,
-Giochiamo ad Avio 2024,Evento sportivo,,"L'Amministrazione comunale anche quest'anno organizza la manifestazione ;Giochiamo ad Avio; giunta alla sua IX edizione persabato 14 settembre dalle ore 15.00 alle ore 18.00presso il parco giochi di SabbionaraI bambini potranno provare i seguenti sport:calcio, minibasket, atletica, pallavolo, calcio a 5, tamburello, pugilato, bicicletta, danza, judo, tennis, freccette.Seguirà merenda per tutti a cura del gruppo Donne Rurali di Sabbionara.In caso di maltempo l'evento si svolgerà il sabato successivo.Si ringrazia anche l'ass.zione AVIS Ala Avio che sarà presente all'evento.",In allegato pubblichiamo il volantino completo.,Parco giochi San Bernardino,,,,,,
-Corso di teatro danza inclusivo per bambini/e e ragazzi/e,Corso,,Corso di teatro danza inclusivo per bambini/e e ragazzi/e organizzato dal Collettivo Clochart A.P.S. con il sostengo dell'Amministrazione comunale.,"Tutti i lunedì a partire dal 07 ottobre, dalle 16.30 alle 18.30 al Teatro di Avio.per info: 333-9456604  info@collettivoclochart.it",Teatro parrocchiale di Avio,0.0,0.0,,,,
+name,startData,endDate,location,lat,lon,organization,guests
+Ginnastica della Mente,29/1/24 15.00,,"Sala al 1° piano, Via Marconi",,,,
+8° edizione Sport e Sapori ,23/5/24,26/5/24,Parco giochi di viale al Parco a Sabbionara,,,Associazione Pro loco Sabbionara,
+Giochiamo ad Avio 2024,14/9/24 15.00,14/9/24 19.00,Parco giochi di Sabbionara,,,Amministrazione comunale,
+Corso di teatro danza inclusivo per bambini/e e ragazzi/e,07/10/24 16.30,,Teatro di Avio,,,"Collettivo Clochart A.P.S., Amministrazione comunale",
