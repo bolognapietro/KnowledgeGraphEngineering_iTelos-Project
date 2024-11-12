@@ -1,2 +1,2 @@
-Titolo,Tipo di evento,Date ed orari dell'evento,Descrizione breve,Descrizione completa,Luogo dell'evento,lat,lon,address,Presenti all'evento,Organizzatori,Informazioni sugli organizzatori
-Tennis Camp - Estate 2024,Evento sportivo,,"Dolomytennis presenta Tennis Camp 2024. Settimane intensive per bambini e ragazzi dai 6 ai 16 anni, dal lunedì al venerdì' dalle ore 08.30 alle ore 12.30, incluso nella quota : merenda e tesseramento.","Dolomytennis presenta Tennis Camp 2024.Settimane intensive per bambini e ragazzi dai 6 ai 16 anni.Dal Lunedì al venerdì dalla ore 08.30 alle ore 12.30, incluso nella quota : merenda e tesseramento",Campi da tennis,,,,,,
+name,startData,endDate,location,lat,lon,organization,guests
+Tennis Camp - Estate 2024,,,"Borgo Chiese, Dolomytennis",,,Dolomytennis,
