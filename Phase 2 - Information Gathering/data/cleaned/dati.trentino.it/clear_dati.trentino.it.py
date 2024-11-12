@@ -1,6 +1,7 @@
 import os
 import csv
 import pandas as pd
+import re
 
 # Takes raw data from raw/dati.trentino.it and cleans it by removing rows that do not contain the year 2024
 def datitrentino_2024():
@@ -9,11 +10,11 @@ def datitrentino_2024():
     
     for filename in sorted(os.listdir(input_folder)):
         if filename.endswith('.csv'):
-            with open(os.path.join(input_folder, filename), 'r') as infile:
+            with open(os.path.join(input_folder, filename), 'r', encoding="utf-8") as infile:
                 reader = csv.reader(infile, delimiter=';')
                 header = next(reader)
                 output_path = os.path.join(output_file, filename)
-                with open(output_path, 'w', newline='') as outfile:
+                with open(output_path, 'w', newline='', encoding="utf-8") as outfile:
                     writer = csv.writer(outfile)
                     header_written = False
                     if not header_written:
@@ -34,10 +35,10 @@ def fix():
     for filename in sorted(os.listdir(input_path)):
         if filename.endswith(".csv"):
             file_path = os.path.join(input_path, filename)
-            with open(file_path, 'r') as file:
+            with open(file_path, 'r', encoding="utf-8") as file:
                 lines = file.readlines()
             
-            with open(os.path.join(input_path, filename), 'w') as file:
+            with open(os.path.join(input_path, filename), 'w', encoding="utf-8") as file:
                 for line in lines:
                     file.write(line.replace('&quot', ''))
 
@@ -45,13 +46,13 @@ def fix():
 def fix_row_problem(name):
     input_file = f"Phase 2 - Information Gathering/data/cleaned/dati.trentino.it/csv/{name}.csv"
     
-    with open(input_file, 'r') as file:
+    with open(input_file, 'r', encoding="utf-8") as file:
         reader = csv.reader(file)
         rows = list(reader)
         header = rows[0]
         header_len = len(header)
         
-    with open(input_file, 'w', newline='') as file:
+    with open(input_file, 'w', newline='', encoding="utf-8") as file:
         writer = csv.writer(file)
         for row in rows:
             if len(row) != header_len and "lon" in header:
@@ -78,3 +79,34 @@ for filename in sorted(os.listdir("Phase 2 - Information Gathering/data/cleaned/
         name = filename.replace(".csv", "")
         print(f"Processing {name}")
         fix_row_problem(name=name)
+
+sports = ['Acrobatica', 'Aikido', 'Alpinismo', 'Arrampicata', 'Artistic swimming', 'Atletica', 'Badminton', 'Baseball', 'Softball', 'Beach volley', 'Boogie-woogie', 'Calcio', 'Calcio gaelico', 'Canoismo', 'Canottaggio', 'Capoeira escolar', 'Ciclismo', 'Ciclismo su pista', 'Ciclismo su strada', 'Ciclocross', 'Corsa d’orientamento', 'Curling', 'Danza', 'Danza standard/latine', 'Donut Hockey', 'Flag football', 'FooBaSKILL', 'Frisbee', 'Futnet', 'Futsal', 'Ginnastica', 'Ginnastica agli attrezzi', 'Ginnastica artistica', 'Ginnastica e danza', 'Ginnastica ritmica', 'Giochi di rinvio', 'Giochi nazionali', 'Golf', 'Hockey inline', 'Hockey su ghiaccio', 'Hockey su prato', 'Hornuss', 'Immersione libera', 'Inline-Skating', 'Intercrosse', 'Ju-Jitsu', 'Judo', 'Karate', 'Kin-Ball', 'Light contact boxing', 'Lotta', 'Lotta svizzera', 'Madball', 'Minigolf', 'Mountainbike', 'Netzball', 'Nordic Walking', 'Nuoto', 'Nuoto di salvataggio', 'Pallacanestro', 'Pallacesto', 'Pallamano', 'Pallanuoto', 'Pallapugno', 'Pallavolo', 'Parkour', 'Pattinaggio artistico', 'Pilates', 'Poull Ball', 'Racchette da neve', 'Rafroball', 'Rhönrad', 'Rock’n’roll', 'Roundnet', 'Rugby', 'Running', 'Salto con gli sci', 'Scherma', 'Sci', 'Sci di fondo', 'Sci-escursionismo', 'Skateboard/Waveboard', 'Slackline', 'Smolball', 'Snowboard', 'Sport degli adulti', 'Sport di campo/trekking', 'Sport equestri', 'Sport freestyle', 'Sport in carrozzella', 'Sport scolastico', 'Sprint/Staffetta', 'Squash', 'Stand up paddle', 'Street racket', 'Tchoukball', 'Tennis', 'Tennis da tavolo', 'Tiro sportivo', 'Touchrugby', 'Trail running', 'Trampolino', 'Triathlon', 'Tuffi', 'Unihockey', 'Vela', 'Volteggio', 'Yoga']
+sport_events = []
+
+input_folder = 'Phase 2 - Information Gathering/data/cleaned/dati.trentino.it/csv'
+
+filenames = [os.path.join(input_folder, filename) for filename in sorted(os.listdir('Phase 2 - Information Gathering/data/cleaned/dati.trentino.it/csv'))]
+
+for filename in filenames:
+    
+    df = pd.read_csv(filename)
+    df = df.map(lambda x: None if pd.isna(x) else x)
+
+    filtered_rows = []
+
+    for index, row in df.iterrows():
+
+        row_str = " ".join(str(field) for field in row if field)
+        row_str = row_str.lower()
+
+        for sport in sports:
+
+            if len(re.findall(r'\b' + re.escape(sport.lower()) + r'\b', row_str)):
+                sport_events.append([sport, row.tolist()])
+                filtered_rows.append(row.tolist())
+                break
+    
+    df = pd.DataFrame(data=filtered_rows, columns=df.columns)
+    df.to_csv(filename, index=False, sep=",")
+
+sport_events
