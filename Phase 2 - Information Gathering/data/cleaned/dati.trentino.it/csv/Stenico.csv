@@ -1,3 +1,2 @@
-Titolo,Tipo di evento,Date ed orari dell'evento,Descrizione breve,Descrizione completa,Luogo dell'evento,lat,lon,address,Presenti all'evento,Organizzatori,Informazioni sugli organizzatori
-San Vigilio,Festa patronale / Festa dei santi,,"Festa patronale in onore di San Vigilio,  con tantissimi appuntamenti: musica, proposte per bambini e .... piatti tipici !","La Pro Loco di Stenico organizza la tradizionale sagra di San Viglio nel weekend 22-23 giugno. Per tutta la manifestazione bar, panini e patatine fritte !
-Sabato 22 giugno: calcio acquatico + beach volleyDomenica 23 giugno: santa Messa - inaugurazione piazze G.Prati e lungo via Garibaldi e apertura al pubblico nuova sede del Gruppo Alpini di Stenico",Chiesa di San Vigilio,,,,,,
+name,startData,endDate,location,lat,lon,organization,guests
+Sagra di San Vigilio - calcio acquatico + beach volley,22/6/24,,Chiesa di San Vigilio,,,Pro Loco Stenico,
