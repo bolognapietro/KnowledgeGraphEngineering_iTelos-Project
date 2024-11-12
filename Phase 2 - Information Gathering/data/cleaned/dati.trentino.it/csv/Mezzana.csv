@@ -1,2 +1,3 @@
-Titolo,Tipo di evento,Date ed orari dell'evento,Descrizione breve,Descrizione completa,Luogo dell'evento,lat,lon,address,Presenti all'evento,Organizzatori,Informazioni sugli organizzatori
-Ritiro precampionato S.P.A.L. CALCIO,Evento sportivo,,Anche quest'anno Mezzana ha l'onore di ospitare il ritiro di preparazione precampionato della squadra sportiva professionistica S.P.A.L. CALCIO.,"Gli allenamenti e le partite amichevoli si svolgeranno presso le strutture sportive presenti presso il Centro sportivo e Palazzetto dello Sport di Mezzana.Programma:ALLENAMENTI:mattina: dalle 9.30 alle 11.30pomeriggio: dalle 16.30 alle 18.30Partite amichevoli:S.P.A.L. - TNT MONTE PELLER in programma giovedì 18 luglio, con calcio d'inizio ore 18:00 c/o Centro Sportivo di Mezzana (gratuita)S.P.A.L. - ROTALIANA in programma giovedì 25 luglio, con calcio d'inizio ore 18:30 c/o Centro Sportivo di Mezzana (gratuita)",Palazzetto dello sport,,,,,,
+name,startData,endDate,location,lat,lon,organization,guests
+S.P.A.L. - TNT MONTE PELLER,18/7/19 18:00,,Centro Sportivo di Mezzana,,,S.P.A.L. CALCIO,
+S.P.A.L. - ROTALIANA,25/7/19 18:30,,Centro Sportivo di Mezzana,,,S.P.A.L. CALCIO,
