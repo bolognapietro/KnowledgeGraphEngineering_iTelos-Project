@@ -106,7 +106,9 @@ for filename in filenames:
                 filtered_rows.append(row.tolist())
                 break
     
+    if not len(filtered_rows):
+        os.remove(filename)
+        continue
+
     df = pd.DataFrame(data=filtered_rows, columns=df.columns)
     df.to_csv(filename, index=False, sep=",")
-
-sport_events
