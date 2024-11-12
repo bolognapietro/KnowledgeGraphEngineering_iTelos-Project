@@ -1,2 +1,2 @@
-Titolo,Tipo di evento,Date ed orari dell'evento,Descrizione breve,Descrizione completa,Luogo dell'evento,lat,lon,address,Presenti all'evento,Organizzatori,Informazioni sugli organizzatori
-FIERA DI SANTA MARIA MADDALENA,Fiera / Salone,,Tradizionale fiera in occasione della festa patronale presso il parcheggio situato in Via Roen a monte del Centro Sportivo Tennis Halle,Tradizionale fiera in occasione della festa patronale presso il parcheggio situato in Via Roen a monte del Centro Sportivo Tennis Halle,"PARCHEGGIO ""CENTRO SPORTIVO ALTANAUNIA""",,,,,,
+name,startData,endDate,location,lat,lon,organization,guests
+FIERA DI SANTA MARIA MADDALENA,,,"PARCHEGGIO ""CENTRO SPORTIVO ALTANAUNIA""",,,,
