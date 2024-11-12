@@ -1,0 +1,118 @@
+sport,name,location,startDate,guests
+Alpinismo,"LIBRI DI SPORT: LA VETTA DELLA VITA
+Libri di sport","{'name': 'Palazzo Geremia', 'address': 'Via Rodolfo Belenzani, 20 Trento, TN'}",2024-10-10 17:00:00,Matteo Della Bordella
+Alpinismo,GAZZA CAF,"{'name': 'Palazzo Benvenuti', 'address': 'Via Rodolfo Belenzani, 12'}",2024-10-11 09:30:00,Davide Magnini
+Alpinismo,ANDREA LANFRI: SENZA LIMITI,"{'name': 'Piazza Santa Maria Maggiore', 'address': 'Piazza Santa Maria Maggiore - 38122 Trento'}",2024-10-11 15:00:00,Andrea Lanfri
+Alpinismo,CATHERINE DESTIVELLE: UNA VITA IN VERTICALE,"{'name': 'Palazzo della Regione', 'address': 'https://www.regione.taa.it/'}",2024-10-12 10:00:00,Catherine Destivelle
+Alpinismo,DENIS URUBKO: COLPEVOLE D'ALPINISMO,"{'name': 'Sala Depero', 'address': 'Piazza Dante 15, 38122 Trento'}",2024-10-12 12:30:00,Denis Urubko
+Apnea,VALENTINA CAFOLLA: APNEA GLACIALE,"{'name': 'Palazzo Geremia', 'address': 'Via Rodolfo Belenzani, 20 Trento, TN'}",2024-10-12 18:00:00,Valentina Cafolla
+Arrampicata,MATTEO ZURLONI: SPEED(Y) GONZALES,"{'name': 'Piazza Santa Maria Maggiore', 'address': 'Piazza Santa Maria Maggiore - 38122 Trento'}",2024-10-10 15:00:00,Matteo Zurloni
+Arrampicata,ALESSANDRO COLOMBO: TAGLIATO PER VIVERE,"{'name': 'Piazza Santa Maria Maggiore', 'address': 'Piazza Santa Maria Maggiore - 38122 Trento'}",2024-10-12 15:00:00,Alessandro Colombo
+Arti Marziali,"ALICE BELLANDI: PARIGI, MON AMOUR","{'name': 'Filarmonica', 'address': 'Via Giuseppe Verdi, 30, 38122 Trento TN'}",2024-10-10 15:30:00,Alice Bellandi
+Arti Marziali,GIOCHI DI SQUADRA,"{'name': 'Sala Depero', 'address': 'Piazza Dante 15, 38122 Trento'}",2024-10-12 10:30:00,"Simone Alessio, Monica Contrafatto, Mattia Furlani"
+Atletica,GAZZA CAF,"{'name': 'Palazzo Benvenuti', 'address': 'Via Rodolfo Belenzani, 12'}",2024-10-10 09:30:00,"Yeman Crippa, Christian Merli"
+Atletica,DALLE OLIMPIADI ALLA MARATONA 42.195 METRI DI EMOZIONI E SOLIDARIET,"{'name': 'Filarmonica', 'address': 'Via Giuseppe Verdi, 30, 38122 Trento TN'}",2024-10-11 11:00:00,"Stefano Baldini, Paolo Bellino, Stefano Mei, Chiara Nizzola, Claudia Rocchi"
+Atletica,"GANESHAMOORTHY, LEGNANTE E TAPIA LANCI DORO","{'name': 'Palazzo della Regione', 'address': 'https://www.regione.taa.it/'}",2024-10-11 12:00:00,"Rigivan Ganeshamoorphy, Assunta Legnante, Oney Tapia"
+Atletica,BATTOCLETTI E DORIO: NATE PER CORRERE,"{'name': 'Filarmonica', 'address': 'Via Giuseppe Verdi, 30, 38122 Trento TN'}",2024-10-11 14:00:00,"Nadia Battocletti, Gabriella Dorio"
+Atletica,CARL LEWIS: IL FIGLIO DEL VENTO,"{'name': 'Auditorium Santa Chiara', 'address': 'Via S. Croce, 67 - 38122 Trento'}",2024-10-11 21:00:00,Carl Lewis
+Atletica,GIOCHI DI SQUADRA,"{'name': 'Sala Depero', 'address': 'Piazza Dante 15, 38122 Trento'}",2024-10-12 10:30:00,"Simone Alessio, Monica Contrafatto, Mattia Furlani"
+Atletica,MATTIA FURLANI: SALTO NEL FUTURO,"{'name': 'Filarmonica', 'address': 'Via Giuseppe Verdi, 30, 38122 Trento TN'}",2024-10-12 12:30:00,Mattia Furlani
+Atletica,SIMONELLI E OTTOZ: OLTRE L'OSTACOLO,"{'name': 'Palazzo della Regione', 'address': 'https://www.regione.taa.it/'}",2024-10-12 19:00:00,"Eddy Ottoz, Lorenzo Simonelli"
+Atletica,"BEBE VIO GRANDIS PARIS, JE TAIME!","{'name': 'Teatro Sociale', 'address': 'Via Paolo Oss-Mazzurana, 19, 38122 Trento TN'}",2024-10-13 10:00:00,"Vittoria Bianco, Giuliana Chiara Filippi, Alessandro Sbuelz, Elisa Spediacci, Bebe Vio Grandis"
+Atletica,DIAZ E DONATO: TRIPLO SOGNO,"{'name': 'Sala Depero', 'address': 'Piazza Dante 15, 38122 Trento'}",2024-10-13 11:30:00,"Andy Diaz, Fabrizio Donato"
+Atletica,"CAIRONI, CONTRAFATTO E SABATINI: FRECCE TRICOLORI","{'name': 'Palazzo della Regione', 'address': 'https://www.regione.taa.it/'}",2024-10-13 12:30:00,"Martina Caironi, Monica Contrafatto, Ambra Sabatini"
+Atletica,CROUSER E FABBRI A PESO DORO,"{'name': 'Sala Depero', 'address': 'Piazza Dante 15, 38122 Trento'}",2024-10-13 15:30:00,"Ryan Crouser, Leonardo Fabbri"
+Automobilismo,"LIBRI DI SPORT: F1 BACKSTAGE
+Libri di sport","{'name': 'Palazzo Geremia', 'address': 'Via Rodolfo Belenzani, 20 Trento, TN'}",2024-10-10 15:00:00,Riccardo Patrese
+Automobilismo,VASSEUR E LECLERC: ROSSO FERRARI,"{'name': 'Auditorium Santa Chiara', 'address': 'Via S. Croce, 67 - 38122 Trento'}",2024-10-10 16:45:00,"Charles Leclerc, Frédéric Vasseur"
+Automobilismo,KIMI ANTONELLI: CI VEDIAMO IN FORMULA 1,"{'name': 'Sala Depero', 'address': 'Piazza Dante 15, 38122 Trento'}",2024-10-11 14:00:00,Kimi Antonelli
+Automobilismo,STEFANO DOMENICALI: MISTER FORMULA 1,"{'name': 'Filarmonica', 'address': 'Via Giuseppe Verdi, 30, 38122 Trento TN'}",2024-10-11 18:00:00,Stefano Domenicali
+Automobilismo,BIAGGI E SOMASCHINI: POTENZA E CONTROLLO,"{'name': 'Palazzo della Regione', 'address': 'https://www.regione.taa.it/'}",2024-10-12 14:00:00,"Max Biaggi, Rachele Somaschini"
+Automobilismo,"MOTORSPORT ACADEMY, I SEGRETI DELLAERODINAMICA","{'name': 'Piazza Dante Beta Officina Motori', 'address': 'Piazza Dante'}",2024-10-12 16:30:00,Carlo Da Rold
+Automobilismo,"MOTORSPORT ACADEMY, IL FUTURO DELLE DUE RUOTE","{'name': 'Piazza Dante Beta Officina Motori', 'address': 'Piazza Dante'}",2024-10-13 15:30:00,Carlo Da Rold
+Baseball,LITALIA NEL MITO DELLA MLB,"{'name': 'Palazzo Geremia', 'address': 'Via Rodolfo Belenzani, 20 Trento, TN'}",2024-10-11 19:30:00,"Sameul Aldegheri, Faso, Mike Piazza"
+Basket,VOLONTARI PER SPORT,"{'name': 'Sala Depero', 'address': 'Piazza Dante 15, 38122 Trento'}",2024-10-11 10:00:00,"Bruno Cerella, Franco Ianeselli, Clemente Russo"
+Basket,"LIBRI DI SPORT: L'ABC DEL BASKET
+Libri di sport","{'name': 'Piazza del Duomo', 'address': 'Piazza Del Duomo  - 38122 Trento'}",2024-10-11 10:30:00,Dan Peterson
+Basket,UNALTRA PARTITA COMUNIT IN CAMPO,"{'name': 'Piazza Fiera', 'address': 'Piazza di Fiera, 38122 Trento TN'}",2024-10-11 17:00:00,"Toto Forray, Massimo Komatz, Luigi Longhi"
+Basket,"MENEGHIN, SCOLA E GANDINI: IL BASKET CHE CI LEGA","{'name': 'Palazzo della Regione', 'address': 'https://www.regione.taa.it/'}",2024-10-11 19:00:00,"Umberto Gandini, Dino Meneghin, Luis Scola"
+Basket,FESTIVAL LEGENDS BASKET 3X3,"{'name': 'Piazza Fiera', 'address': 'Piazza di Fiera, 38122 Trento TN'}",2024-10-12 10:30:00,"Marcella Filippi, Giacomo Galanda, Denis Marconato, Michele Mian, Kathrin Ress, Rodolfo Rombaldoni"
+Basket,DEJAN BODIROGA: IL MIO BASKET TOTALE,"{'name': 'Palazzo della Regione', 'address': 'https://www.regione.taa.it/'}",2024-10-12 12:00:00,Dejan Bodiroga
+Basket,AQUILA BASKET TRENTO MEET&GREET,"{'name': 'Piazza Fiera', 'address': 'Piazza di Fiera, 38122 Trento TN'}",2024-10-12 16:30:00,
+Basket,GIANMARCO POZZECCO: TIRO LIBERO,"{'name': 'Filarmonica', 'address': 'Via Giuseppe Verdi, 30, 38122 Trento TN'}",2024-10-12 18:00:00,Gianmarco Pozzecco
+Basket,"BEBE VIO GRANDIS PARIS, JE TAIME!","{'name': 'Teatro Sociale', 'address': 'Via Paolo Oss-Mazzurana, 19, 38122 Trento TN'}",2024-10-13 10:00:00,"Vittoria Bianco, Giuliana Chiara Filippi, Alessandro Sbuelz, Elisa Spediacci, Bebe Vio Grandis"
+Basket,GIOCA CON NOI: ALBATROSS E UNIPOL BRIANTEA84 CANT,"{'name': 'Piazza Fiera', 'address': 'Piazza di Fiera, 38122 Trento TN'}",2024-10-13 11:30:00,
+Basket,ANDRE IGUODALA: MONSIEUR NBA,"{'name': 'Auditorium Santa Chiara', 'address': 'Via S. Croce, 67 - 38122 Trento'}",2024-10-13 12:30:00,Andre Iguodala
+Calcio,"LIBRI DI SPORT: LA MIA VITA DA NUMERO 10
+Libri di sport","{'name': 'Palazzo Geremia', 'address': 'Via Rodolfo Belenzani, 20 Trento, TN'}",2024-10-10 16:00:00,"Evaristo Beccalossi, Eleonora Rossi"
+Calcio,CESC FBREGAS IL GENIO SPAGNOLO,"{'name': 'Filarmonica', 'address': 'Via Giuseppe Verdi, 30, 38122 Trento TN'}",2024-10-10 17:30:00,Cesc Fàbregas
+Calcio,ZONA CESARINI ITALIA-BELGIO NATIONS LEAGUE,"{'name': 'Piazza Cesare Battisti', 'address': 'Piazza Cesare Battisti - 38122 Trento'}",2024-10-10 20:30:00,
+Calcio,FOOTBALL BUSINESS FORUM KICK-OFF,"{'name': 'Teatro Sociale', 'address': 'Via Paolo Oss-Mazzurana, 19, 38122 Trento TN'}",2024-10-11 11:00:00,"Alessandro Barnaba, Urbano Cairo, Stefano Caselli, Leonardo Nascimento de Araujo, Javier Tebas, Edwin Van Der Sar, André Villas-Boas"
+Calcio,"CAIRO, FENUCCI, LOTITO, MAROTTA, PERCASSI, SCARONI E SUWARSO GLI STATI GENERALI DEL CALCIO ITALIANO","{'name': 'Teatro Sociale', 'address': 'Via Paolo Oss-Mazzurana, 19, 38122 Trento TN'}",2024-10-11 14:30:00,"Urbano Cairo, Claudio Fenucci, Claudio Lotito, Beppe Marotta, Luca Percassi, Paolo Scaroni, Mirwan Suwarso"
+Calcio,"LIBRI DI SPORT: L'ARTE DI PARARE. TROVARE IL CORAGGIO PER FRONTEGGIARE I TIRI DELLA VITA
+Libri di sport","{'name': 'Piazza del Duomo', 'address': 'Piazza Del Duomo  - 38122 Trento'}",2024-10-11 15:00:00,Stefano Tacconi
+Calcio,"LIBRI DI SPORT: TRA LA CHAMPIONS E LA LIBERT
+Libri di sport","{'name': 'Piazza del Duomo', 'address': 'Piazza Del Duomo  - 38122 Trento'}",2024-10-11 16:00:00,Michele Padovano
+Calcio,PIERLUIGI COLLINA IL BSMT PASSA DAL FESTIVAL DELLO SPORT,"{'name': 'Teatro Sociale', 'address': 'Via Paolo Oss-Mazzurana, 19, 38122 Trento TN'}",2024-10-11 17:30:00,"Pierluigi Collina, Gianluca Gazzoli"
+Calcio,IL MILAN DEGLI INVINCIBILI,"{'name': 'Auditorium Santa Chiara', 'address': 'Via S. Croce, 67 - 38122 Trento'}",2024-10-11 18:00:00,"Demetrio Albertini, Zvonimir Boban, Fabio Capello, Alessandro Costacurta, Marcel Desailly, Roberto Donadoni, Filippo Galli, Adriano Galliani, Mario Ielpo, Stefano Nava, Florin Răducioiu, Sebastiano Rossi, Mauro Tassotti"
+Calcio,GIAN PIERO GASPERINI: LA DEA IN PARADISO,"{'name': 'Teatro Sociale', 'address': 'Via Paolo Oss-Mazzurana, 19, 38122 Trento TN'}",2024-10-11 20:00:00,"Cristina Bombassei, Gian Piero Gasperini"
+Calcio,"LIBRI DI SPORT: STORIA DEL MONDO IN 12 PARTITE DI CALCIO
+Libri di sport","{'name': 'Piazza del Duomo', 'address': 'Piazza Del Duomo  - 38122 Trento'}",2024-10-12 10:00:00,Stefano Bizzotto
+Calcio,CAFU: IL PENDOLINO,"{'name': 'Teatro Sociale', 'address': 'Via Paolo Oss-Mazzurana, 19, 38122 Trento TN'}",2024-10-12 14:00:00,Cafu
+Calcio,DIEGO DELLA VALLE: L'ELEGANZA DELLA VITTORIA,"{'name': 'Filarmonica', 'address': 'Via Giuseppe Verdi, 30, 38122 Trento TN'}",2024-10-12 14:30:00,Diego Della Valle
+Calcio,DANIELE ORSATO: PROFESSIONE ARBITRO,"{'name': 'Sala Depero', 'address': 'Piazza Dante 15, 38122 Trento'}",2024-10-12 15:30:00,Daniele Orsato
+Calcio,FRANCESCO FARIOLI: IL MIO CALCIO EUROPEO,"{'name': 'Palazzo della Regione', 'address': 'https://www.regione.taa.it/'}",2024-10-12 16:30:00,Francesco Farioli
+Calcio,"LIBRI DI SPORT: LUCA VIALLI
+Libri di sport","{'name': 'Piazza del Duomo', 'address': 'Piazza Del Duomo  - 38122 Trento'}",2024-10-12 17:30:00,"Luca Dal Monte, Nino Vialli"
+Canottaggio,REMI DARGENTO,"{'name': 'Palazzo della Regione', 'address': 'https://www.regione.taa.it/'}",2024-10-13 14:30:00,"Luca Chiumento, Giacomo Gentili, Stefano Oppo, Andrea Panizza, Luca Rambaldi, Gabriel Soares"
+Ciclismo,ROGER DE VLAEMINCK: IL FENOMENO DELLE CLASSICHE,"{'name': 'Sala Depero', 'address': 'Piazza Dante 15, 38122 Trento'}",2024-10-10 18:45:00,Roger De Vlaeminck
+Ciclismo,"BUGNO, CHIAPPUCCI E INDURAIN: QUANDO ERAVAMO RE","{'name': 'Auditorium Santa Chiara', 'address': 'Via S. Croce, 67 - 38122 Trento'}",2024-10-10 20:00:00,"Gianni Bugno, Claudio Chiappucci, Miguel Indurain"
+Ciclismo,CONSONNI E VIVIANI: UN ARGENTO CHE VALE ORO,"{'name': 'Palazzo della Regione', 'address': 'https://www.regione.taa.it/'}",2024-10-11 13:30:00,"Simone Consonni, Elia Viviani"
+Ciclismo,FRANCESCO MOSER: L'UOMO DEI RECORD,"{'name': 'Auditorium Santa Chiara', 'address': 'Via S. Croce, 67 - 38122 Trento'}",2024-10-11 15:00:00,Francesco Moser
+Ciclismo,GIRO-E: UNESPERIENZA SOSTENIBILE,"{'name': 'Palazzo Geremia', 'address': 'Via Rodolfo Belenzani, 20 Trento, TN'}",2024-10-11 18:00:00,"Kristian Ghedina, Leonardo Ghiraldini, Rachele Sangiuliano, Valerio Vermiglio"
+Ciclismo,TADEJ POGAAR: NATO PER VINCERE,"{'name': 'Auditorium Santa Chiara', 'address': 'Via S. Croce, 67 - 38122 Trento'}",2024-10-13 16:00:00,Tadej Pogačar
+Ginnastica artistica,LA MAGIA DELLE FATE,"{'name': 'Auditorium Santa Chiara', 'address': 'Via S. Croce, 67 - 38122 Trento'}",2024-10-11 10:30:00,"Angela Andreoli, ""Alice DAmato"", Manila Esposito, Vanessa Ferrari, Elisa Iorio, Giorgia Villa"
+Motociclismo,MORBIDELLI E CAMPINOTI: MOTOGP MADE  IN ITALY,"{'name': 'Filarmonica', 'address': 'Via Giuseppe Verdi, 30, 38122 Trento TN'}",2024-10-11 16:00:00,"Mario Almondo, Paolo Campinoti, Franco Morbidelli"
+Motociclismo,GIACOMO AGOSTINI: NUMERO UNO,"{'name': 'Filarmonica', 'address': 'Via Giuseppe Verdi, 30, 38122 Trento TN'}",2024-10-12 10:30:00,Giacomo Agostini
+Motociclismo,BIAGGI E SOMASCHINI: POTENZA E CONTROLLO,"{'name': 'Palazzo della Regione', 'address': 'https://www.regione.taa.it/'}",2024-10-12 14:00:00,"Max Biaggi, Rachele Somaschini"
+Motociclismo,"MOTORSPORT ACADEMY, I SEGRETI DELLAERODINAMICA","{'name': 'Piazza Dante Beta Officina Motori', 'address': 'Piazza Dante'}",2024-10-12 16:30:00,Carlo Da Rold
+Motociclismo,JORGE LORENZO: SENZA FRENI,"{'name': 'Teatro Sociale', 'address': 'Via Paolo Oss-Mazzurana, 19, 38122 Trento TN'}",2024-10-12 20:00:00,Jorge Lorenzo
+Motociclismo,"MOTORSPORT ACADEMY, IL FUTURO DELLE DUE RUOTE","{'name': 'Piazza Dante Beta Officina Motori', 'address': 'Piazza Dante'}",2024-10-13 15:30:00,Carlo Da Rold
+Nuoto,NUOTIAMO NELLORO,"{'name': 'Palazzo della Regione', 'address': 'https://www.regione.taa.it/'}",2024-10-10 15:00:00,"Simone Barlaam, Giulia Ghiretti, Carlotta Gigli, Luca Pancalli, Stefano Raimondi, Giulia Terzi"
+Nuoto,GREGORIO PALTRINIERI: NATO PER NUOTARE,"{'name': 'Teatro Sociale', 'address': 'Via Paolo Oss-Mazzurana, 19, 38122 Trento TN'}",2024-10-10 21:00:00,Gregorio Paltrinieri
+Nuoto,THOMAS CECCON: SOGNI D'ORO,"{'name': 'Auditorium Santa Chiara', 'address': 'Via S. Croce, 67 - 38122 Trento'}",2024-10-12 11:30:00,Thomas Ceccon
+Nuoto,"BEBE VIO GRANDIS PARIS, JE TAIME!","{'name': 'Teatro Sociale', 'address': 'Via Paolo Oss-Mazzurana, 19, 38122 Trento TN'}",2024-10-13 10:00:00,"Vittoria Bianco, Giuliana Chiara Filippi, Alessandro Sbuelz, Elisa Spediacci, Bebe Vio Grandis"
+Nuoto,"LIBRI DI SPORT: UNA VITA PRESA A BRACCIATE
+Libri di sport","{'name': 'Piazza del Duomo', 'address': 'Piazza Del Duomo  - 38122 Trento'}",2024-10-13 17:00:00,Paolo Chiarino
+Padel,"LIBRI DI SPORT: ALLA SCOPERTA DEL PADEL
+Libri di sport","{'name': 'Piazza del Duomo', 'address': 'Piazza Del Duomo  - 38122 Trento'}",2024-10-12 11:00:00,Gustavo Spector
+Padel,FESTIVAL LEGENDS PADEL CUP,"{'name': 'Piazza Fiera', 'address': 'Piazza di Fiera, 38122 Trento TN'}",2024-10-12 14:00:00,"Lucas Biglia, Cristian Brocchi, German Denis, Nelson Dida, Roberto Donadoni, Christian Panucci"
+Padel,BREMBO PADEL EXPERIENCE,"{'name': 'Piazza Fiera', 'address': 'Piazza di Fiera, 38122 Trento TN'}",2024-10-13 10:00:00,"Nelson Dida, Christian Panucci"
+Pugilato,VOLONTARI PER SPORT,"{'name': 'Sala Depero', 'address': 'Piazza Dante 15, 38122 Trento'}",2024-10-11 10:00:00,"Bruno Cerella, Franco Ianeselli, Clemente Russo"
+Ritmica,IL VOLO DELLE FARFALLE,"{'name': 'Teatro Sociale', 'address': 'Via Paolo Oss-Mazzurana, 19, 38122 Trento TN'}",2024-10-12 10:00:00,"Martina Centofanti, Agnese Duranti, Alessia Maurelli, Daniela Mogurean, Laura Paris, Alessia Russo"
+Ritmica,SOFIA RAFFAELI: IL RITMO DI UNA STELLA,"{'name': 'Teatro Sociale', 'address': 'Via Paolo Oss-Mazzurana, 19, 38122 Trento TN'}",2024-10-13 19:00:00,Sofia Raffaeli
+Rugby,"CAPUOZZO, LAMARO, MENONCELLO E QUESADA: SEI NAZIONI E UN SOGNO","{'name': 'Filarmonica', 'address': 'Via Giuseppe Verdi, 30, 38122 Trento TN'}",2024-10-13 17:00:00,"Ange Capuozzo, Michele Lamaro, Tommaso Menoncello, Gonzalo Quesada"
+Scherma,QUATTRO SPADE E UN FIORETTO,"{'name': 'Palazzo della Regione', 'address': 'https://www.regione.taa.it/'}",2024-10-10 17:00:00,"Rossella Fiamingo, Filippo Macchi, Mara Navarria, Giulia Rizzi, Alberta Santuccio"
+Scherma,"BEBE VIO GRANDIS PARIS, JE TAIME!","{'name': 'Teatro Sociale', 'address': 'Via Paolo Oss-Mazzurana, 19, 38122 Trento TN'}",2024-10-13 10:00:00,"Vittoria Bianco, Giuliana Chiara Filippi, Alessandro Sbuelz, Elisa Spediacci, Bebe Vio Grandis"
+Scherma,TOMMASO MARINI: DIETRO LA MASCHERA,"{'name': 'Palazzo della Regione', 'address': 'https://www.regione.taa.it/'}",2024-10-13 16:30:00,Tommaso Marini
+Sci,GHEDINA E PICCININI: DA PECHINO A TRENTO,"{'name': 'Sala Depero', 'address': 'Piazza Dante 15, 38122 Trento'}",2024-10-11 16:00:00,"Kristian Ghedina, Francesca Piccinini"
+Sci,GROS E THOENI: LA VALANGA SIAMO NOI,"{'name': 'Sala Depero', 'address': 'Piazza Dante 15, 38122 Trento'}",2024-10-11 19:00:00,"Piero Gros, Gustavo Thoeni"
+Sci,TUTTI I CAMPIONI DELLA NEVE,"{'name': 'Piazza del Duomo  e via Verdi', 'address': 'Piazza Del Duomo  - 38122 Trento'}",2024-10-12 11:30:00,"Marta Bassino, Maurizio Bormolini, Guglielmo Bosca, Federica Brignone, Mattia Casse, Elena Curtoni, Francesco De Fabiani, Alba De Silvestro, Nicol Delago, Simone Deromedis, Dominick Fischnaller, Tommaso Giacomel, Sofia Goggia, Aaron March, Valentina Margaglio, Michela Moioli, Marion Oberhofer, Dominik Paris, Federico Pellegrino, Laura Pirovano, Florian Schieder, Alex Vinatzer, Omar Visintin, Lisa Vittozzi, Andrea Voetter, Dorothea Wierer"
+Sci,"BRIGNONE E PASOTTI: CIAK, SI SCIA!","{'name': 'Auditorium Santa Chiara', 'address': 'Via S. Croce, 67 - 38122 Trento'}",2024-10-12 15:30:00,"Federica Brignone, Giorgio Pasotti"
+Sci,"LIBRI DI SPORT: UNA RAGAZZA DI MONTAGNA
+Libri di sport","{'name': 'Piazza del Duomo', 'address': 'Piazza Del Duomo  - 38122 Trento'}",2024-10-12 16:45:00,Deborah Compagnoni
+Sci,MARC GIRARDELLI: IL GIGANTE,"{'name': 'Sala Depero', 'address': 'Piazza Dante 15, 38122 Trento'}",2024-10-12 19:00:00,Marc Girardelli
+Slacklining,SLACKLINE SOPRA TRENTO,"{'name': 'Piazza del Duomo', 'address': 'Piazza Del Duomo  - 38122 Trento'}",2024-10-13 14:00:00,Jaan Roose
+Tennis,FENOMENO ITALTENNIS,"{'name': 'Sala Depero', 'address': 'Piazza Dante 15, 38122 Trento'}",2024-10-10 12:00:00,"Sara Errani, Tathiana Garbin, Lorenzo Musetti, Jasmine Paolini, Filippo Volandri"
+Tennis,IVAN LJIUBICIC: IL MAESTRO,"{'name': 'Palazzo della Regione', 'address': 'https://www.regione.taa.it/'}",2024-10-13 10:30:00,Ivan Ljubicic
+Tiro a volo,"BACOSI, ROSSETTI, MONNA E NILO MALDINI: COLPO VINCENTE","{'name': 'Palazzo della Regione', 'address': 'https://www.regione.taa.it/'}",2024-10-10 12:00:00,"Diana Bacosi, Paolo Monna, Federico Nilo Maldini, Gabriele Rossetti"
+Vela,BECCARIA E MURA: I NOSTRI OCEANI,"{'name': 'Palazzo della Regione', 'address': 'https://www.regione.taa.it/'}",2024-10-11 10:30:00,"Ambrogio Beccaria, Andrea Mura"
+Vela,"LIBRI DI SPORT: OLTRE I LIMITI. DIECI ANNI IN OCEANO CON MASERATI
+Libri di sport","{'name': 'Piazza del Duomo', 'address': 'Piazza Del Duomo  - 38122 Trento'}",2024-10-11 14:00:00,Giovanni Soldini
+Volley,MAURIZIA CACCIATORI: LE PI FORTI SIAMO NOI,"{'name': 'Teatro Sociale', 'address': 'Via Paolo Oss-Mazzurana, 19, 38122 Trento TN'}",2024-10-10 10:00:00,"Maurizia Cacciatori, Alessandra Campedelli"
+Volley,PROSECCO DOC IMOCO CONEGLIANO LA SQUADRA DEI SOGNI,"{'name': 'Auditorium Santa Chiara', 'address': 'Via S. Croce, 67 - 38122 Trento'}",2024-10-10 11:30:00,"Monica De Gennaro, Sarah Fahr, Piero Gaberlotto, Gabi Guimares, Isabelle Haak, Marina Lubian, Daniele Santarelli"
+Volley,GHEDINA E PICCININI: DA PECHINO A TRENTO,"{'name': 'Sala Depero', 'address': 'Piazza Dante 15, 38122 Trento'}",2024-10-11 16:00:00,"Kristian Ghedina, Francesca Piccinini"
+Volley,ALESSANDRO MICHIELETTO MEET&GREET,"{'name': 'Piazza Fiera', 'address': 'Piazza di Fiera, 38122 Trento TN'}",2024-10-12 11:30:00,Alessandro Michieletto
+Volley,"JULIO VELASCO: IL MIO GIOCO, IL MIO MONDO","{'name': 'Teatro Sociale', 'address': 'Via Paolo Oss-Mazzurana, 19, 38122 Trento TN'}",2024-10-12 17:00:00,Julio Velasco
+Volley,SIR SUSA VIM PERUGIA: I BLOCKDEVILS,"{'name': 'Auditorium Santa Chiara', 'address': 'Via S. Croce, 67 - 38122 Trento'}",2024-10-13 10:00:00,"Max Colaci, Simone Giannelli, Yuki Ishikawa, Angelo Lorenzetti, Oleh Plotnytsky, Roberto Russo, Gino Sirci"
+Windsurf,MAGGETTI E SENSINI: VIA COL VENTO,"{'name': 'Sala Depero', 'address': 'Piazza Dante 15, 38122 Trento'}",2024-10-13 17:30:00,"Marta Maggetti, Alessandra Sensini"
