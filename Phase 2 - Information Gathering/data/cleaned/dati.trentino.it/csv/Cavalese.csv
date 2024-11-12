@@ -1,3 +1,3 @@
-Titolo,Tipo di evento,Date ed orari dell'evento,Descrizione breve,Descrizione completa,Luogo dell'evento,lat,lon,address,Presenti all'evento,Organizzatori,Informazioni sugli organizzatori
-Dolomiti Sky Jazz,Manifestazione artistica,,Cavalese ospita Sugarpie &amp; The Candymen all'interno del Dolomiti Sky Jazz.,"Il Dolomiti Ski Jazz porta nelle Valli di Fiemme e si Fassa il jazz e il funk con numerosi concerti nei rifugi e sulle piste da sci, nei teatri, nei locali e per le vie dei paesi.Cavalese ospita Sugarpie &amp; The Candymen alla Baita Tonda Cermis.",,,,,,,
-Dolomiti Sky Jazz,Manifestazione artistica,,"Cavalese ospita ;Viva/De André;, una storia di amicizia e musica all'interno del Dolomiti Sky Jazz.","Il Dolomiti Ski Jazz porta nelle Valli di Fiemme e si Fassa il jazz e il funk con numerosi concerti nei rifugi e sulle piste da sci, nei teatri, nei locali e per le vie dei paesi.Cavalese ospita ;Viva/De André;, una storia di amicizia e musica al Palafiemme.",,,,,,,
+name,startData,endDate,location,lat,lon,organization,guests
+Dolomiti Sky Jazz,,,Baita Tonda Cermis,,,,
+Dolomiti Sky Jazz,,,Baita Tonda Cermis,,,,
