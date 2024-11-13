@@ -1,1 +1,5 @@
 id, givenName, familyName, birthDate, occupation
+1,Luca,Rossi,15/03/1989,worker
+2,Anna,Bianchi,21/05/2003,student
+3,Matteo,Ferrari,08/09/1982,worker
+4,Camilla,Esposito,30/11/2000,student
