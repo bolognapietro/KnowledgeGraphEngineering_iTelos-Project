@@ -38,8 +38,8 @@ id,name
 37,national games
 38,golf
 39,inline hockey
-150,ice hockey
-150,field hockey
+40,ice hockey
+41,field hockey
 42,hornuss
 43,freediving
 44,inline skating
@@ -75,7 +75,7 @@ id,name
 74,roundnet
 75,rugby
 76,running
-150,ski jumping
+77,ski jumping
 78,fencing
 79,skiing
 80,cross country skiing
@@ -96,7 +96,7 @@ id,name
 95,street racket
 96,tchoukball
 97,tennis
-150,table tennis
+98,table tennis
 99,shooting sports
 100,touch rugby
 101,trail running
@@ -107,46 +107,47 @@ id,name
 106,sailing
 107,vaulting
 108,yoga
-150,equestrian
-154,boules
+109,equestrian
+110,boules
 111,hockey
-154,skateboard
-150,rugby league
-142,football
-150,free flying
-150,ice skating
-150,roller skating
-140,bowls
-138,motocross
-152,beachvolleyball
-144,tamburello
-123, athletics
-124,mtb
-125,bmx
-127,skating
-146,archery
-150,paddle tennis
-140,motor
-150,nordic ski
-150,model aerodrome
-150,team handball
-150,rugby union
-152,shooting
-150,beach volley
-139,basket
-152,chess
-146,padel
-142,karting
-150,five a side
-144,paintball
-150,climbing adventure
-146,canoe
-147,rafting
-148,boxing
-150,ultralight flying
-150,water sports
-151,windsurfing
-152,ski
-153,wakeboarding
-154,motorcycling
-155,martial arts
+112,skateboard
+113,rugby league
+114,football
+115,free flying
+116,ice skating
+117,roller skating
+118,bowls
+119,motocross
+120,beachvolleyball
+121,tamburello
+122,athletics
+123,mtb
+124,bmx
+125,skating
+126,archery
+127,paddle tennis
+128,motor
+129,nordic ski
+130,model aerodrome
+131,team handball
+132,rugby union
+133,shooting
+134,beach volley
+135,basket
+136,chess
+137,padel
+138,karting
+139,five a side
+140,paintball
+141,climbing adventure
+142,canoe
+143,rafting
+144,boxing
+145,ultralight flying
+146,water sports
+147,windsurfing
+148,ski
+149,wakeboarding
+150,motorcycling
+151,martial arts
+152,slacklining
