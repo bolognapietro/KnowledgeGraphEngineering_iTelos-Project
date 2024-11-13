@@ -30,7 +30,7 @@ def is_valid_url(url):
     return re.match(pattern, url) is not None
 
 def get_address(lat, lon):
-    geolocator = Nominatim(user_agent="geoapiExercises")
+    geolocator = Nominatim(user_agent="test")
     location = geolocator.reverse((lat, lon), exactly_one=True)
     return location.address if location else None
 
@@ -53,10 +53,13 @@ facilities_ids = {}
 
 data = []
 
+tennis = []
+
 # #overpass
 for overpass_file in overpass_files:
 
     df = pd.read_csv(join(overpass, overpass_file))
+    df = df.where(pd.notna(df), None)
 
     for index, row in df.iterrows():
 
@@ -93,7 +96,7 @@ for overpass_file in overpass_files:
 
         facility_id = facilities_ids[legalName]
 
-        location = None
+        location = "; ".join(item.strip() for item in get_address(row[1], row[2]).split(",")[:2])
 
         data.append([
             facility_id,
@@ -106,12 +109,38 @@ for overpass_file in overpass_files:
             location
         ])
 
+        # tennis
+        if 97 in sports:
+            lit = row[8]
+            covered = row[9]
+            surface = row[10]
+
+            tennis_entry = []
+
+            for value in [lit, covered, surface]:
+
+                if value is None:
+                    tennis_entry.append(value)
+                    continue
+
+                value = str(value).lower()
+                value = re.sub(r'[^a-zA-Z]', ' ', value)
+
+                tennis_entry.append(value)
+
+            tennis_entry = tennis_entry[::-1]
+            tennis_entry.extend(data[-1].copy()[::-1])
+            tennis_entry = tennis_entry[::-1]
+
+            tennis.append(tennis_entry)
+
 #paginegialle
 known_sports = list(sports_map.keys())
 
 for paginegialle_file in paginegialle_files:
     
     df = pd.read_csv(join(paginegialle, paginegialle_file))
+    df = df.where(pd.notna(df), None)
 
     for index, row in df.iterrows():
 
@@ -123,7 +152,7 @@ for paginegialle_file in paginegialle_files:
         email = row[5]
         url = None
         sports = [] # to be filled
-        location = None # to be filled
+        location = row[1]
 
         if legalName not in facilities_ids:
             facilities_ids[legalName] = len(facilities_ids.keys()) + 1
@@ -158,7 +187,7 @@ for comune_trento_file in comune_trento_files:
         email = row[2] if is_valid_email(row[2]) else None
         url = row[4] if is_valid_url(row[4]) else None
         sports = [] # to be filled
-        location = None # to be filled
+        location = row[1]
 
         if legalName not in facilities_ids:
             facilities_ids[legalName] = len(facilities_ids.keys()) + 1
@@ -192,3 +221,5 @@ for sport, sport_id in sports_map.items():
 df = pd.DataFrame(data=data, columns=["id", "name"])
 df = df.drop_duplicates(subset="name")
 df.to_csv("../data/standardized/sport/Sport.csv", index=False, sep=",")
+
+tennis
