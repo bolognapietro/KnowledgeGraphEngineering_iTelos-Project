@@ -1,109 +1,154 @@
-id, name
-1,Acrobatics
-2,Aikido
-3,Mountaineering
-4,Climbing
-5,Artistic Swimming
-6,Athletics
-7,Badminton
-8,Baseball
-9,Softball
-10,Beach Volleyball
-11,Boogie-Woogie
-12,Soccer
-13,Gaelic Football
-14,Canoeing
-15,Rowing
-16,Capoeira
-17,Cycling
-18,Track Cycling
-19,Road Cycling
-20,Cyclocross
-21,Orienteering
-22,Curling
-23,Dance
-24,Standard/Latin Dance
-25,Donut Hockey
-26,Flag Football
-27,FooBaSKILL
-28,Frisbee
-29,Futnet
-30,Futsal
-31,Gymnastics
-32,Apparatus Gymnastics
-33,Artistic Gymnastics
-34,Gymnastics and Dance
-35,Rhythmic Gymnastics
-36,Return Games
-37,National Games
-38,Golf
-39,Inline Hockey
-40,Ice Hockey
-41,Field Hockey
-42,Hornuss
-43,Freediving
-44,Inline Skating
-45,Intercrosse
-46,Ju-Jitsu
-47,Judo
-48,Karate
-49,Kin-Ball
-50,Light Contact Boxing
-51,Wrestling
-52,Swiss Wrestling
-53,Madball
-54,Minigolf
-55,Mountain Biking
-56,Netzball
-57,Nordic Walking
-58,Swimming
-59,Lifesaving Swimming
-60,Basketball
-61,Streetball
-62,Handball
-63,Water Polo
-64,Pallapugno
-65,Volleyball
-66,Parkour
-67,Figure Skating
-68,Pilates
-69,Poull Ball
-70,Snowshoeing
-71,Rafroball
-72,Rhönrad
-73,Rock’n’Roll
-74,Roundnet
-75,Rugby
-76,Running
-77,Ski Jumping
-78,Fencing
-79,Skiing
-80,Cross-Country Skiing
-81,Ski Touring
-82,Skateboarding/Waveboarding
-83,Slackline
-84,Smolball
-85,Snowboarding
-86,Adult Sports
-87,Field Sports/Trekking
-88,Equestrian Sports
-89,Freestyle Sports
-90,Wheelchair Sports
-91,School Sports
-92,Sprint/Relay
-93,Squash
-94,Stand-Up Paddle
-95,Street Racket
-96,Tchoukball
-97,Tennis
-98,Table Tennis
-99,Shooting Sports
-100,Touch Rugby
-101,Trail Running
-102,Trampoline
-103,Triathlon
-104,Diving
-105,Floorball
-106,Sailing
-107,Vaulting
-108,Yoga
+id,name
+1,acrobatics
+2,aikido
+3,mountaineering
+4,climbing
+5,artistic swimming
+6,athletics
+7,badminton
+8,baseball
+9,softball
+10,beach volleyball
+11,boogie-woogie
+12,soccer
+13,gaelic football
+14,canoeing
+15,rowing
+16,capoeira
+17,cycling
+18,track cycling
+19,road cycling
+20,cyclocross
+21,orienteering
+22,curling
+23,dance
+24,standard/latin dance
+25,donut hockey
+26,flag football
+27,foobaskill
+28,frisbee
+29,futnet
+30,futsal
+31,gymnastics
+32,apparatus gymnastics
+33,artistic gymnastics
+34,gymnastics and dance
+35,rhythmic gymnastics
+36,return games
+37,national games
+38,golf
+39,inline hockey
+40,ice hockey
+41,field hockey
+42,hornuss
+43,freediving
+44,inline skating
+45,intercrosse
+46,ju-jitsu
+47,judo
+48,karate
+49,kin-ball
+50,light contact boxing
+51,wrestling
+52,swiss wrestling
+53,madball
+54,minigolf
+55,mountain biking
+56,netzball
+57,nordic walking
+58,swimming
+59,lifesaving swimming
+60,basketball
+61,streetball
+62,handball
+63,water polo
+64,pallapugno
+65,volleyball
+66,parkour
+67,figure skating
+68,pilates
+69,poull ball
+70,snowshoeing
+71,rafroball
+72,rhönrad
+73,rock’n’roll
+74,roundnet
+75,rugby
+76,running
+77,ski jumping
+78,fencing
+79,skiing
+80,cross-country skiing
+81,ski touring
+82,skateboarding/waveboarding
+83,slackline
+84,smolball
+85,snowboarding
+86,adult sports
+87,field sports/trekking
+88,equestrian sports
+89,freestyle sports
+90,wheelchair sports
+91,school sports
+92,sprint/relay
+93,squash
+94,stand-up paddle
+95,street racket
+96,tchoukball
+97,tennis
+98,table tennis
+99,shooting sports
+100,touch rugby
+101,trail running
+102,trampoline
+103,triathlon
+104,diving
+105,floorball
+106,sailing
+107,vaulting
+108,yoga
+150,Equestrian
+154,Boules
+111,Hockey
+154,Skateboard
+154,Table_tennis
+135,Rugby_league
+142,Football
+152,Free_flying
+117,Ice_skating
+144,Roller_skating
+140,Bowls
+138,Motocross
+152,Beachvolleyball
+144,Tamburello
+123, athletics
+124,Mtb
+125,Bmx
+126,Field_hockey
+127,Skating
+146,Archery
+129,Paddle_tennis
+140,Motor
+131,Nordic_ski
+138,Model_aerodrome
+135,Team_handball
+134,Rugby_union
+152,Shooting
+136,Ice_hockey
+137,Beach_volley
+141,Ski_jumping
+139,Basket
+152,Chess
+146,Padel
+142,Karting
+143,Five-a-side
+144,Paintball
+154,Climbing_adventure
+146,Canoe
+147,Rafting
+148,Boxing
+149,Ultralight_flying
+150,Water_sports
+151,Windsurfing
+152,Ski
+153,Wakeboarding
