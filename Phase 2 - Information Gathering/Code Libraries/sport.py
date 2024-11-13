@@ -71,14 +71,17 @@ for overpass_file in overpass_files:
         sports = []
 
         for sport in row[7].split(";"):
-
+            
+            sport = sport.lower()
+            sport = re.sub(r'[^a-zA-Z]', ' ', sport)
+            
             if sport == "multi":
                 continue
 
             sport_id = sports_map.get(sport)
 
             if sport_id is None:
-                sports_map[sport.capitalize()] = len(sports_map.keys()) + 1
+                sports_map[sport] = len(sports_map.keys()) + 1
 
             sports.append(sport_id)
         
@@ -187,4 +190,5 @@ for sport, sport_id in sports_map.items():
     data.append([sport_id, sport])
 
 df = pd.DataFrame(data=data, columns=["id", "name"])
+df = df.drop_duplicates(subset="name")
 df.to_csv("../data/standardized/sport/Sport.csv", index=False, sep=",")

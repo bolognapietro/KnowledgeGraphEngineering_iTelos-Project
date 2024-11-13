@@ -38,8 +38,8 @@ id,name
 37,national games
 38,golf
 39,inline hockey
-40,ice hockey
-41,field hockey
+150,ice hockey
+150,field hockey
 42,hornuss
 43,freediving
 44,inline skating
@@ -75,7 +75,7 @@ id,name
 74,roundnet
 75,rugby
 76,running
-77,ski jumping
+150,ski jumping
 78,fencing
 79,skiing
 80,cross country skiing
@@ -96,7 +96,7 @@ id,name
 95,street racket
 96,tchoukball
 97,tennis
-98,table tennis
+150,table tennis
 99,shooting sports
 100,touch rugby
 101,trail running
@@ -111,12 +111,11 @@ id,name
 154,boules
 111,hockey
 154,skateboard
-154,table tennis
-135,rugby league
+150,rugby league
 142,football
-152,free flying
-117,ice skating
-144,roller skating
+150,free flying
+150,ice skating
+150,roller skating
 140,bowls
 138,motocross
 152,beachvolleyball
@@ -124,30 +123,27 @@ id,name
 123, athletics
 124,mtb
 125,bmx
-126,field hockey
 127,skating
 146,archery
-129,paddle tennis
+150,paddle tennis
 140,motor
-131,nordic ski
-138,model aerodrome
-135,team handball
-134,rugby union
+150,nordic ski
+150,model aerodrome
+150,team handball
+150,rugby union
 152,shooting
-136,ice hockey
-137,beach volley
-141,ski jumping
+150,beach volley
 139,basket
 152,chess
 146,padel
 142,karting
-143,five a side
+150,five a side
 144,paintball
-154,climbing adventure
+150,climbing adventure
 146,canoe
 147,rafting
 148,boxing
-149,ultralight flying
+150,ultralight flying
 150,water sports
 151,windsurfing
 152,ski
