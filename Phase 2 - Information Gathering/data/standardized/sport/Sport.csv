@@ -9,7 +9,7 @@ id,name
 8,baseball
 9,softball
 10,beach volleyball
-11,boogie-woogie
+11,boogie woogie
 12,soccer
 13,gaelic football
 14,canoeing
@@ -22,7 +22,7 @@ id,name
 21,orienteering
 22,curling
 23,dance
-24,standard/latin dance
+24,standard latin dance
 25,donut hockey
 26,flag football
 27,foobaskill
@@ -44,10 +44,10 @@ id,name
 43,freediving
 44,inline skating
 45,intercrosse
-46,ju-jitsu
+46,ju jitsu
 47,judo
 48,karate
-49,kin-ball
+49,kin ball
 50,light contact boxing
 51,wrestling
 52,swiss wrestling
@@ -70,29 +70,29 @@ id,name
 69,poull ball
 70,snowshoeing
 71,rafroball
-72,rhönrad
-73,rock’n’roll
+72,rh nrad
+73,rock n roll
 74,roundnet
 75,rugby
 76,running
 77,ski jumping
 78,fencing
 79,skiing
-80,cross-country skiing
+80,cross country skiing
 81,ski touring
-82,skateboarding/waveboarding
+82,skateboarding waveboarding
 83,slackline
 84,smolball
 85,snowboarding
 86,adult sports
-87,field sports/trekking
+87,field sports trekking
 88,equestrian sports
 89,freestyle sports
 90,wheelchair sports
 91,school sports
-92,sprint/relay
+92,sprint relay
 93,squash
-94,stand-up paddle
+94,stand up paddle
 95,street racket
 96,tchoukball
 97,tennis
@@ -107,48 +107,48 @@ id,name
 106,sailing
 107,vaulting
 108,yoga
-150,Equestrian
-154,Boules
-111,Hockey
-154,Skateboard
-154,Table_tennis
-135,Rugby_league
-142,Football
-152,Free_flying
-117,Ice_skating
-144,Roller_skating
-140,Bowls
-138,Motocross
-152,Beachvolleyball
-144,Tamburello
+150,equestrian
+154,boules
+111,hockey
+154,skateboard
+154,table tennis
+135,rugby league
+142,football
+152,free flying
+117,ice skating
+144,roller skating
+140,bowls
+138,motocross
+152,beachvolleyball
+144,tamburello
 123, athletics
-124,Mtb
-125,Bmx
-126,Field_hockey
-127,Skating
-146,Archery
-129,Paddle_tennis
-140,Motor
-131,Nordic_ski
-138,Model_aerodrome
-135,Team_handball
-134,Rugby_union
-152,Shooting
-136,Ice_hockey
-137,Beach_volley
-141,Ski_jumping
-139,Basket
-152,Chess
-146,Padel
-142,Karting
-143,Five-a-side
-144,Paintball
-154,Climbing_adventure
-146,Canoe
-147,Rafting
-148,Boxing
-149,Ultralight_flying
-150,Water_sports
-151,Windsurfing
-152,Ski
-153,Wakeboarding
+124,mtb
+125,bmx
+126,field hockey
+127,skating
+146,archery
+129,paddle tennis
+140,motor
+131,nordic ski
+138,model aerodrome
+135,team handball
+134,rugby union
+152,shooting
+136,ice hockey
+137,beach volley
+141,ski jumping
+139,basket
+152,chess
+146,padel
+142,karting
+143,five a side
+144,paintball
+154,climbing adventure
+146,canoe
+147,rafting
+148,boxing
+149,ultralight flying
+150,water sports
+151,windsurfing
+152,ski
+153,wakeboarding

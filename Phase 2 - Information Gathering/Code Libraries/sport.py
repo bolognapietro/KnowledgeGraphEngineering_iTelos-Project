@@ -181,6 +181,9 @@ df.to_csv("../data/standardized/sport/SportFacility.csv", index=False, sep=",")
 data = []
 
 for sport, sport_id in sports_map.items():
+    sport = sport.lower()
+    sport = re.sub(r'[^a-zA-Z]', ' ', sport)
+
     data.append([sport_id, sport])
 
 df = pd.DataFrame(data=data, columns=["id", "name"])
