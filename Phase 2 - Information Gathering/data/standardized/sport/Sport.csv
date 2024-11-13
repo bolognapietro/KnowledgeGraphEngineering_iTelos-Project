@@ -1,109 +1,109 @@
 id, name
-Acrobatics,1
-Aikido,2
-Mountaineering,3
-Climbing,4
-Artistic Swimming,5
-Athletics,6
-Badminton,7
-Baseball,8
-Softball,9
-Beach Volleyball,10
-Boogie-Woogie,11
-Soccer,12
-Gaelic Football,13
-Canoeing,14
-Rowing,15
-Capoeira,16
-Cycling,17
-Track Cycling,18
-Road Cycling,19
-Cyclocross,20
-Orienteering,21
-Curling,22
-Dance,23
-Standard/Latin Dance,24
-Donut Hockey,25
-Flag Football,26
-FooBaSKILL,27
-Frisbee,28
-Futnet,29
-Futsal,30
-Gymnastics,31
-Apparatus Gymnastics,32
-Artistic Gymnastics,33
-Gymnastics and Dance,34
-Rhythmic Gymnastics,35
-Return Games,36
-National Games,37
-Golf,38
-Inline Hockey,39
-Ice Hockey,40
-Field Hockey,41
-Hornuss,42
-Freediving,43
-Inline Skating,44
-Intercrosse,45
-Ju-Jitsu,46
-Judo,47
-Karate,48
-Kin-Ball,49
-Light Contact Boxing,50
-Wrestling,51
-Swiss Wrestling,52
-Madball,53
-Minigolf,54
-Mountain Biking,55
-Netzball,56
-Nordic Walking,57
-Swimming,58
-Lifesaving Swimming,59
-Basketball,60
-Streetball,61
-Handball,62
-Water Polo,63
-Pallapugno,64
-Volleyball,65
-Parkour,66
-Figure Skating,67
-Pilates,68
-Poull Ball,69
-Snowshoeing,70
-Rafroball,71
-Rhönrad,72
-Rock’n’Roll,73
-Roundnet,74
-Rugby,75
-Running,76
-Ski Jumping,77
-Fencing,78
-Skiing,79
-Cross-Country Skiing,80
-Ski Touring,81
-Skateboarding/Waveboarding,82
-Slackline,83
-Smolball,84
-Snowboarding,85
-Adult Sports,86
-Field Sports/Trekking,87
-Equestrian Sports,88
-Freestyle Sports,89
-Wheelchair Sports,90
-School Sports,91
-Sprint/Relay,92
-Squash,93
-Stand-Up Paddle,94
-Street Racket,95
-Tchoukball,96
-Tennis,97
-Table Tennis,98
-Shooting Sports,99
-Touch Rugby,100
-Trail Running,101
-Trampoline,102
-Triathlon,103
-Diving,104
-Floorball,105
-Sailing,106
-Vaulting,107
-Yoga,108
+1,Acrobatics
+2,Aikido
+3,Mountaineering
+4,Climbing
+5,Artistic Swimming
+6,Athletics
+7,Badminton
+8,Baseball
+9,Softball
+10,Beach Volleyball
+11,Boogie-Woogie
+12,Soccer
+13,Gaelic Football
+14,Canoeing
+15,Rowing
+16,Capoeira
+17,Cycling
+18,Track Cycling
+19,Road Cycling
+20,Cyclocross
+21,Orienteering
+22,Curling
+23,Dance
+24,Standard/Latin Dance
+25,Donut Hockey
+26,Flag Football
+27,FooBaSKILL
+28,Frisbee
+29,Futnet
+30,Futsal
+31,Gymnastics
+32,Apparatus Gymnastics
+33,Artistic Gymnastics
+34,Gymnastics and Dance
+35,Rhythmic Gymnastics
+36,Return Games
+37,National Games
+38,Golf
+39,Inline Hockey
+40,Ice Hockey
+41,Field Hockey
+42,Hornuss
+43,Freediving
+44,Inline Skating
+45,Intercrosse
+46,Ju-Jitsu
+47,Judo
+48,Karate
+49,Kin-Ball
+50,Light Contact Boxing
+51,Wrestling
+52,Swiss Wrestling
+53,Madball
+54,Minigolf
+55,Mountain Biking
+56,Netzball
+57,Nordic Walking
+58,Swimming
+59,Lifesaving Swimming
+60,Basketball
+61,Streetball
+62,Handball
+63,Water Polo
+64,Pallapugno
+65,Volleyball
+66,Parkour
+67,Figure Skating
+68,Pilates
+69,Poull Ball
+70,Snowshoeing
+71,Rafroball
+72,Rhönrad
+73,Rock’n’Roll
+74,Roundnet
+75,Rugby
+76,Running
+77,Ski Jumping
+78,Fencing
+79,Skiing
+80,Cross-Country Skiing
+81,Ski Touring
+82,Skateboarding/Waveboarding
+83,Slackline
+84,Smolball
+85,Snowboarding
+86,Adult Sports
+87,Field Sports/Trekking
+88,Equestrian Sports
+89,Freestyle Sports
+90,Wheelchair Sports
+91,School Sports
+92,Sprint/Relay
+93,Squash
+94,Stand-Up Paddle
+95,Street Racket
+96,Tchoukball
+97,Tennis
+98,Table Tennis
+99,Shooting Sports
+100,Touch Rugby
+101,Trail Running
+102,Trampoline
+103,Triathlon
+104,Diving
+105,Floorball
+106,Sailing
+107,Vaulting
+108,Yoga
