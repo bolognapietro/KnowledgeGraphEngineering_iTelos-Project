@@ -1,3 +1,3 @@
-Titolo,Descrizione breve,lat,lon,address
-Trofeo del Borgo - XV edizione,"Torneo di Calcio Giovanile riservato alla categoria Under 15 (per quest'anno gli anni interessati sono 2009/2010).Gli incontri si disputeranno nelle giornate di Sabato e Domenica 08 e 9 giugno 2024 sui campi di Borgo Valsugana, Telve, Villa Agnedo e Grigno.",46.05069,11.46869,Borgo Valsugana Via Gozzer 52
-COLONIA ESTIVA SUMMER CMP,"Colonia estiva sportiva Summer Camp, tennis e golf c/o il centro sportivo di Roncegno",46.045969,11.422242,Via Ferme 38050 Roncegno Terme
+name,startDate,endDate,location,lat,lon,organization,guests
+Trofeo del Borgo - XV edizione,08/06/24,09/06/24,Borgo Valsugana Via Gozzer 52,46.05069,11.46869,,
+COLONIA ESTIVA SUMMER CMP,,,Via Ferme 38050 Roncegno Terme,46.045969,11.422242,Circolo Tennis Borgo e il Golf Club Roncegno,
