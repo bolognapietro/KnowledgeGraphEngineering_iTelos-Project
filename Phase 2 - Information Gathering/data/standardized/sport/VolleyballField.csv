@@ -1,1 +1,28 @@
-id, name, surface, lit
+id,name,surface,lit
+1,Palestra Romarzollo,,
+2,Centro Sportivo Trento Nord,,
+3,Centro sportivo Vela,,
+4,PalaBocchi,,
+5,,true,sand
+6,,true,
+7,,false,sand
+8,,,
+9,,,asphalt
+10,,,sand
+11,Palestra Comunale,,
+12,,false,artificial turf
+13,Centro Polifunzionale,,
+14,,true,clay
+15,Cortile Grumes,,
+16,,,artificial turf
+17,,true,paving stones
+18,,false,sett
+19,Campo da Pallavolo,false,asphalt
+20,,,grass
+21,,true,artificial turf
+22,,false,grass
+23,Campo da beach,,sand
+24,,false,asphalt
+25,,,concrete
+26,Campo polivalente,,acrylic
+27,Palazzetto dello sport Sanbàpolis,,

@@ -1,1 +1,57 @@
-id, name, surface, lit, covered
+id,name,surface,lit,covered
+1,Circolo Tennis Lungo Leno,,,
+2,,,,
+3,Ata Cesare Battisti,,,
+4,,,true,
+5,,true,,asphalt
+6,Circolo Tennis Arco,,,
+7,Campo Polifunzionale,true,,artificial turf
+8,,true,,sand
+9,Circolo Tennis Trento,true,,clay
+10,Circolo Tennis Torbole,true,,grass
+11,,true,,artificial turf
+12,Tennis,,,
+13,Rene,,,
+14,,true,,clay
+15,,,,fine gravel
+16,Polsa Tennis Camp,,,
+17,Circolo Tennis Villa Lagarina,,,
+18,Campo da tennis,,,
+19,Campo da Tamburello,,,
+20,Circolo Tennis Ledro,,,
+21,,,,asphalt
+22,Campo da Tennis,,,artificial turf
+23,Rech-Hof Tennis,,,grass
+24,,false,,artificial turf
+25,,false,,clay
+26,Circolo Tennis,,,
+27,,,,grass
+28,,true,,compacted
+29,,,,artificial turf
+30,,true,,tartan
+31,,false,,asphalt
+32,Campo tennis,,,
+33,Campo da Tennis,,,
+34,Campo da Tennis sintetico,,,
+35,,,,concrete
+36,,,,tartan
+37,,,,clay
+38,Campo da tennis,,,paved
+39,,false,,concrete
+40,,true,,paved
+41,,true,,
+42,centrale,,,
+43,campo da tennis,true,,artificial turf
+44,,false,,
+45,,false,,ground
+46,Sporting Center,,,
+47,,,false,
+48,"Circolo Tennis ""Umberto Grillo"" Le Arcade",,,
+49,,true,,concrete
+50,Circolo Tennis Baldresca,,,
+51,Circolo tennis Baldresca,,,
+52,,true,,grass
+53,,false,,grass
+54,Moda Sport,,,
+55,AC Fassa,,,
+56,Centro Sportivo santa Cristina,,,
