@@ -4,7 +4,7 @@ id,name
 3,mountaineering
 4,climbing
 5,artistic swimming
-122,athletics
+6,athletics
 7,badminton
 8,baseball
 9,softball
@@ -120,34 +120,33 @@ id,name
 119,motocross
 120,beachvolleyball
 121,tamburello
-123,mtb
-124,bmx
-125,skating
-126,archery
-127,paddle tennis
-128,motor
-129,nordic ski
-130,model aerodrome
-131,team handball
-132,rugby union
-133,shooting
-134,beach volley
-135,basket
-136,chess
-137,padel
-138,karting
-139,five a side
-140,paintball
-141,climbing adventure
-142,canoe
-143,rafting
-144,boxing
-145,ultralight flying
-146,water sports
-147,windsurfing
-148,ski
-149,wakeboarding
-150,motorcycling
-151,martial arts
-152,slacklining
-152, athletics
+122,mtb
+123,bmx
+124,skating
+125,archery
+126,paddle tennis
+127,motor
+128,nordic ski
+129,model aerodrome
+130,team handball
+131,rugby union
+132,shooting
+133,beach volley
+134,basket
+135,chess
+136,padel
+137,karting
+138,five a side
+139,paintball
+140,climbing adventure
+141,canoe
+142,rafting
+143,boxing
+144,ultralight flying
+145,water sports
+146,windsurfing
+147,ski
+148,wakeboarding
+149,motorcycling
+150,martial arts
+151,slacklining
