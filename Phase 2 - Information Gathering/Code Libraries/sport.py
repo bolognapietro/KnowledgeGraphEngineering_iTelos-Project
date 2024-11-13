@@ -39,6 +39,9 @@ chdir(dirname(__file__))
 df = pd.read_csv(join("../data/standardized/sport", "Sport.csv"))
 sports_map = {row.tolist()[1].lower(): row.tolist()[0] for _, row in df.iterrows()}
 
+df = pd.read_csv(join("../data/standardized/location", "Location.csv"))
+locations_map = {row.tolist()[1].lower(): row.tolist()[0] for _, row in df.iterrows()}
+
 overpass = "../data/cleaned/overpass-turbo.eu/csv"
 comune_trento = "../data/cleaned/comune.trento.it/csv"
 paginegialle = "../data/cleaned/paginegialle.it/csv"
@@ -62,7 +65,8 @@ for overpass_file in overpass_files:
     df = df.where(pd.notna(df), None)
 
     for index, row in df.iterrows():
-
+        print(f" "*100, end="\r")
+        print(f"{index+1} / {len(df)}", end="\r")
         row = row.tolist()
 
         legalName = row[0]
@@ -96,8 +100,9 @@ for overpass_file in overpass_files:
 
         facility_id = facilities_ids[legalName]
 
-        location = "; ".join(item.strip() for item in get_address(row[1], row[2]).split(",")[:2])
-
+        location = "; ".join(item.strip().lower() for item in get_address(row[1], row[2]).split(",")[:2])
+        location = locations_map.get(location)
+        
         data.append([
             facility_id,
             legalName,
@@ -143,6 +148,8 @@ for paginegialle_file in paginegialle_files:
     df = df.where(pd.notna(df), None)
 
     for index, row in df.iterrows():
+        print(f" "*100, end="\r")
+        print(f"{index+1} / {len(df)}", end="\r")
 
         row = row.tolist()
         
@@ -153,6 +160,7 @@ for paginegialle_file in paginegialle_files:
         url = None
         sports = [] # to be filled
         location = row[1]
+        location = locations_map.get(location)
 
         if legalName not in facilities_ids:
             facilities_ids[legalName] = len(facilities_ids.keys()) + 1
@@ -176,6 +184,8 @@ for comune_trento_file in comune_trento_files:
     df = df.where(pd.notna(df), None)
 
     for index, row in df.iterrows():
+        print(f" "*100, end="\r")
+        print(f"{index+1} / {len(df)}", end="\r")
 
         row = row.tolist()
         
@@ -188,6 +198,7 @@ for comune_trento_file in comune_trento_files:
         url = row[4] if is_valid_url(row[4]) else None
         sports = [] # to be filled
         location = row[1]
+        location = locations_map.get(location)
 
         if legalName not in facilities_ids:
             facilities_ids[legalName] = len(facilities_ids.keys()) + 1
@@ -221,5 +232,3 @@ for sport, sport_id in sports_map.items():
 df = pd.DataFrame(data=data, columns=["id", "name"])
 df = df.drop_duplicates(subset="name")
 df.to_csv("../data/standardized/sport/Sport.csv", index=False, sep=",")
-
-tennis
