@@ -171,3 +171,22 @@ Website: https://wiki.openstreetmap.org/
         </tr>
     </tbody>
 </table>
+
+## <img src="https://pbs.twimg.com/profile_images/1096321296026226688/zKYgpJtn_400x400.png" width="30" style="position: relative; top: 8px; margin-right: 8px;" /> KGE (custom)
+
+<table>
+    <thead>
+        <tr>
+            <th>ConceptID</th>
+            <th>Word-en</th>
+            <th>Gloss-en</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>KGE24-Sport Facilities & Sport Events-8001</td>
+            <td>guest</td>
+            <td>Represents a guest or participant involved in a sports event.</td>
+        </tr>
+    </tbody>
+</table>
