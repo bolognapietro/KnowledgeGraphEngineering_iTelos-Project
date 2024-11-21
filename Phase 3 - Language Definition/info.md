@@ -120,7 +120,7 @@ Website: https://ukc.datascientia.eu
 </table>
 
 
-## <img src="https://schema.org/docs/favicon.ico" width="30" style="position: relative; top: 6px; margin-right: 8px;" /> Schema.org
+## <img src="https://schema.org/docs/favicon.ico" width="30" style="position: relative; top: 8px; margin-right: 8px;" /> Schema.org
 
 Website: https://schema.org
 
@@ -151,7 +151,7 @@ Website: https://schema.org
     </tbody>
 </table>
 
-## <img src="https://wiki.openstreetmap.org/osm_logo_wiki.png" width="30" style="position: relative; top: 6px; margin-right: 8px;" /> OpenStreetMap Wiki
+## <img src="https://wiki.openstreetmap.org/osm_logo_wiki.png" width="30" style="position: relative; top: 8px; margin-right: 8px;" /> OpenStreetMap Wiki
 
 Website: https://wiki.openstreetmap.org/
 
