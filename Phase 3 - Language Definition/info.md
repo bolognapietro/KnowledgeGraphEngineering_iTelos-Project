@@ -184,7 +184,7 @@ Website: https://wiki.openstreetmap.org/
     </thead>
     <tbody>
         <tr>
-            <td>KGE24-Sport Facilities & Sport Events-8001</td>
+            <td>KGE24-SportFacilities&SportEvents-8001</td>
             <td>guest</td>
             <td>Represents a guest or participant involved in a sports event.</td>
         </tr>
