@@ -1,27 +1,27 @@
-Concept Label	Description
-sport_UKC-2593	An active diversion requiring physical exertion and competition.
-event_UKC-56	Something that happens at a given place and time.
-organization_UKC-43416	The persons (or committees or departments etc.) who make up a body for the purpose of administering something.
-location_UKC-695	The persons (or committees or departments etc.) who make up a body for the purpose of administering something.
-user_UKC-53492	A person who makes use of a thing; someone who uses or employs something.
-guest_KGE24-SportFacilities&SportEvents-8001	Represents a guest or participant involved in a sports event.
-placed_UKC-85982	Situated in a particular spot or position.
-organise_UKC-104711	Create (as an entity).
-appear_UKC-101132	Character on stage or appear in a play, etc.
-play_UKC-97761	Participate in games or sport.
-attend_UKC-105477	Be present at (meetings, church services, university), etc.
-basedOn_UKC-92536	Being derived from (often followed by 'on' or 'upon').
-have_UKC-103527	Have or possess, either in a concrete or an abstract sense.
-identification_UKC-36247	Evidence of identity; something that identifies a person or thing (full form of 'id').
-given_name_UKC-33531	The name that precedes the surname.
-family_name_UKC-33528	The name used to identify the members of a family (as distinguished from each member's given name).
-birthDate_schema.org-birthDate	Date of birth.
-occupation_UKC-2910	The principal activity in your life that you do to earn money.
-name_UKC-2	A language unit by which a person or thing is known.
-startDate_schema.org-startDate	The start date and time of the item.
-endDate_schema.org-endDate	The end date and time of the item.
-address_UKC-45004	The place where a person or organization can be found or communicated with.
-municipality_UKC-45537	An urban district having corporate status and powers of self-government.
-surface_OSM-surface	Describes the surface of a feature.
-lit_UKC-75466	Provided with artificial light.
-covered_UKC-83504	Overlaid or spread or topped with or enclosed within something; sometimes used as a combining form.
+ConceptID	Word-en	Gloss-en
+UKC-2593	sport	An active diversion requiring physical exertion and competition.
+UKC-56	event	Something that happens at a given place and time.
+UKC-43416	organization	The persons (or committees or departments etc.) who make up a body for the purpose of administering something.
+UKC-695	location	A determination of the place where something is.
+UKC-53492	user	A person who makes use of a thing; someone who uses or employs something.
+KGE24-SportFacilities&SportEvents-8001	guest	Represents a guest or participant involved in a sports event.
+UKC-85982	placed	Situated in a particular spot or position.
+UKC-104711	organise	Create (as an entity).
+UKC-101132	appear	Character on stage or appear in a play, etc.
+UKC-97761	play	Participate in games or sport.
+UKC-105477	attend	Be present at (meetings, church services, university), etc.
+UKC-92536	basedOn	Being derived from (often followed by 'on' or 'upon').
+UKC-103527	have	Have or possess, either in a concrete or an abstract sense.
+UKC-36247	identification	Evidence of identity; something that identifies a person or thing (full form of 'id').
+name_UKC-33531	given	The name that precedes the surname.
+name_UKC-33528	family	The name used to identify the members of a family (as distinguished from each member's given name).
+schema.org-birthDate	birthDate	Date of birth.
+UKC-2910	occupation	The principal activity in your life that you do to earn money.
+UKC-2	name	A language unit by which a person or thing is known.
+schema.org-startDate	startDate	The start date and time of the item.
+schema.org-endDate	endDate	The end date and time of the item.
+UKC-45004	address	The place where a person or organization can be found or communicated with.
+UKC-45537	municipality	An urban district having corporate status and powers of self-government.
+OSM-surface	surface	Describes the surface of a feature.
+UKC-75466	lit	Provided with artificial light.
+UKC-83504	covered	Overlaid or spread or topped with or enclosed within something; sometimes used as a combining form.
