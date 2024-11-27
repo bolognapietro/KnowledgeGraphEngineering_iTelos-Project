@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mouez/ontologies/2024/10/untitled-ontology-2/"
+     xml:base="http://www.semanticweb.org/mouez/ontologies/2024/10/untitled-ontology-2/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:etype="http://knowdive.disi.unitn.it/etype#">
+    <owl:Ontology rdf:about="http://knowdive.disi.unitn.it/etype#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#isEtype -->
+
+    <owl:AnnotationProperty rdf:about="http://knowdive.disi.unitn.it/etype#isEtype"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_appear_UKC-101132 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_appear_UKC-101132">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&amp;SportEvents-8001"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Event_UKC-56"/>
+        <rdfs:comment xml:lang="en">Character on stage or appear in a play, etc.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_attend_UKC-105477 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_attend_UKC-105477">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#User_UKC-53492"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Event_UKC-56"/>
+        <rdfs:comment xml:lang="en">Be present at (meetings, church services, university), etc.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_basedOn_UKC-92536 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_basedOn_UKC-92536">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Event_UKC-56"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Sport_UKC-2593"/>
+        <rdfs:comment xml:lang="en">Being derived from (often followed by ’on’ or ’upon’).</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_have_UKC-103527 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_have_UKC-103527">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Facility_UKC-17619"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Sport_UKC-2593"/>
+        <rdfs:comment xml:lang="en">Have or possess, either in a concrete or an abstract sense.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_organise_UKC-104711 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_organise_UKC-104711">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Organization_UKC-43416"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Event_UKC-56"/>
+        <rdfs:comment xml:lang="en">Create (as an entity).</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_placed_UKC-85982 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_placed_UKC-85982">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Event_UKC-56"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Facility_UKC-17619"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Location_UKC-695"/>
+        <rdfs:comment xml:lang="en">Situated in a particular spot or position.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_play_UKC-97761 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_play_UKC-97761">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#User_UKC-53492"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Sport_UKC-2593"/>
+        <rdfs:comment xml:lang="en">Participate in games or sport.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_address_UKC-45004 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_address_UKC-45004">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Location_UKC-695"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The place where a person or organization can be found or communicated with.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_birthDate_schema.org-birthDate -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_birthDate_schema.org-birthDate">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#User_UKC-53492"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:comment xml:lang="en">Date of birth.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_covered_UKC-83504 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_covered_UKC-83504">
+        <rdfs:comment xml:lang="en">Overlaid or spread or topped with or enclosed within something; sometimes used as a combining form.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_endDate_schema.org-endDate -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_endDate_schema.org-endDate">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Event_UKC-56"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:comment xml:lang="en">The end date and time of the item.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_family_name_UKC-33528 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_family_name_UKC-33528">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#User_UKC-53492"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&amp;SportEvents-8001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The name used to identify the members of a family (as distinguished from each member’s given name).</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_given_name_UKC-33531 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_given_name_UKC-33531">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#User_UKC-53492"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&amp;SportEvents-8001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The name that precedes the surname.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_identification_UKC-36247 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_identification_UKC-36247">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Event_UKC-56"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Facility_UKC-17619"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Organization_UKC-43416"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Sport_UKC-2593"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#User_UKC-53492"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&amp;SportEvents-8001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment xml:lang="en">Evidence of identity; something that identifies a person or thing (full form of ”id”).</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_lit_UKC-75466 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_lit_UKC-75466">
+        <rdfs:comment xml:lang="en">Provided with artificial light.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_municipality_UKC-45537 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_municipality_UKC-45537">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Location_UKC-695"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">An urban district having corporate status and powers of self-government.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_name_UKC-2 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_name_UKC-2">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Event_UKC-56"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Sport_UKC-2593"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>A language unit by which a person or thing is known.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_occupation_UKC-2910 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_occupation_UKC-2910">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#User_UKC-53492"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The principal activity in your life that you do to earn money.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_startDate_schema.org-startDate -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_startDate_schema.org-startDate">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Event_UKC-56"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:comment xml:lang="en">The start date and time of the item.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_surface_OSM-surface -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_surface_OSM-surface">
+        <rdfs:comment xml:lang="en">Describes the surface of a feature.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Entity_GID_1 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Event_UKC-56 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Event_UKC-56">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en">Something that happens at a given place and time.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Facility_UKC-17619 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Facility_UKC-17619">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en">A building or place that provides a particular service or is used for a particular industry.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Location_UKC-695 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Location_UKC-695">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en">The persons (or committees or departments etc.) who make up a body for the purpose of administering something.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Organization_UKC-43416 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Organization_UKC-43416">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en">The persons (or committees or departments etc.) who make up a
+body for the purpose of administering something.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Sport_UKC-2593 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Sport_UKC-2593">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en">An active diversion requiring physical exertion and competition.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#User_UKC-53492 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#User_UKC-53492">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en">A person who makes use of a thing; someone who uses or employs something.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&amp;SportEvents-8001 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&amp;SportEvents-8001">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+        <rdfs:comment xml:lang="en">Represents a guest or participant involved in a sports event.</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
