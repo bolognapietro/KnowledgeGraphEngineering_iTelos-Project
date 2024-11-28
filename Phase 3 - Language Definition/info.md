@@ -185,8 +185,23 @@ Website: https://wiki.openstreetmap.org/
     <tbody>
         <tr>
             <td>KGE24-SportFacilities&SportEvents-8001</td>
-            <td>guest</td>
+            <td>Guest</td>
             <td>Represents a guest or participant involved in a sports event.</td>
+        </tr>
+        <tr>
+            <td>KGE24-SportFacilities&SportEvents-8002</td>
+            <td>PadelCourt</td>
+            <td>A court dedicated to padel, a racquet sport.</td>
+        </tr>
+        <tr>
+            <td>KGE24-SportFacilities&SportEvents-8003</td>
+            <td>TennisCourt</td>
+            <td>A court dedicated to tennis.</td>
+        </tr>
+        <tr>
+            <td>KGE24-SportFacilities&SportEvents-8004</td>
+            <td>VolleyballField</td>
+            <td>A field dedicated to volleyball.</td>
         </tr>
     </tbody>
 </table>
