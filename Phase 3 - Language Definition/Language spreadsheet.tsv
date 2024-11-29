@@ -4,10 +4,10 @@ UKC-56	event	Something that happens at a given place and time.
 UKC-43416	organization	The persons (or committees or departments etc.) who make up a body for the purpose of administering something.
 UKC-695	location	A determination of the place where something is.
 UKC-53492	user	A person who makes use of a thing; someone who uses or employs something.
-KGE24-SportFacilities&SportEvents-8001	Guest	Represents a guest or participant involved in a sports event.
-KGE24-SportFacilities&SportEvents-8002	PadelCourt	A court dedicated to padel, a racquet sport.
-KGE24-SportFacilities&SportEvents-8003	TennisCourt	A court dedicated to tennis.
-KGE24-SportFacilities&SportEvents-8004	VolleyballField	A field dedicated to volleyball.
+KGE24-SportFacilities&SportEvents-8001	guest	Represents a guest or participant involved in a sports event.
+KGE24-SportFacilities&SportEvents-8002	padelCourt	A court dedicated to padel, a racquet sport.
+KGE24-SportFacilities&SportEvents-8003	tennisCourt	A court dedicated to tennis.
+KGE24-SportFacilities&SportEvents-8004	volleyballField	A field dedicated to volleyball.
 UKC-85982	placed	Situated in a particular spot or position.
 UKC-104711	organise	Create (as an entity).
 UKC-101132	appear	Character on stage or appear in a play, etc.
