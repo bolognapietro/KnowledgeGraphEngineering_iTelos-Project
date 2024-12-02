@@ -293,16 +293,10 @@
     
 
 
-    <!-- http://knowdive.disi.unitn.it/etype#Entity_GID_1 -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
-    
-
-
     <!-- http://knowdive.disi.unitn.it/etype#Event_UKC-56 -->
 
     <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Event_UKC-56">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
         <rdfs:comment xml:lang="en">Something that happens at a given place and time.</rdfs:comment>
     </owl:Class>
@@ -312,7 +306,7 @@
     <!-- http://knowdive.disi.unitn.it/etype#Facility_UKC-17619 -->
 
     <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Facility_UKC-17619">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
         <rdfs:comment xml:lang="en">A building or place that provides a particular service or is used for a particular industry.</rdfs:comment>
     </owl:Class>
@@ -322,7 +316,7 @@
     <!-- http://knowdive.disi.unitn.it/etype#Location_UKC-695 -->
 
     <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Location_UKC-695">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
         <rdfs:comment xml:lang="en">The persons (or committees or departments etc.) who make up a body for the purpose of administering something.</rdfs:comment>
     </owl:Class>
@@ -332,7 +326,7 @@
     <!-- http://knowdive.disi.unitn.it/etype#Organization_UKC-43416 -->
 
     <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Organization_UKC-43416">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
         <rdfs:comment xml:lang="en">The persons (or committees or departments etc.) who make up a
 body for the purpose of administering something.</rdfs:comment>
@@ -343,7 +337,7 @@ body for the purpose of administering something.</rdfs:comment>
     <!-- http://knowdive.disi.unitn.it/etype#Sport_UKC-2593 -->
 
     <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Sport_UKC-2593">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
         <rdfs:comment xml:lang="en">An active diversion requiring physical exertion and competition.</rdfs:comment>
     </owl:Class>
@@ -353,7 +347,7 @@ body for the purpose of administering something.</rdfs:comment>
     <!-- http://knowdive.disi.unitn.it/etype#User_UKC-53492 -->
 
     <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#User_UKC-53492">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
         <rdfs:comment xml:lang="en">A person who makes use of a thing; someone who uses or employs something.</rdfs:comment>
     </owl:Class>
@@ -363,7 +357,7 @@ body for the purpose of administering something.</rdfs:comment>
     <!-- http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&amp;SportEvents-8001 -->
 
     <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&amp;SportEvents-8001">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
         <rdfs:comment xml:lang="en">Represents a guest or participant involved in a sports event.</rdfs:comment>
     </owl:Class>
@@ -373,7 +367,7 @@ body for the purpose of administering something.</rdfs:comment>
     <!-- http://knowdive.disi.unitn.it/etype#PadelCourt_KGE24-SportFacilities&amp;SportEvents-8002 -->
 
     <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#PadelCourt_KGE24-SportFacilities&amp;SportEvents-8002">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
         <rdfs:comment xml:lang="en">A court dedicated to padel, a racquet sport.</rdfs:comment>
     </owl:Class>
@@ -383,7 +377,7 @@ body for the purpose of administering something.</rdfs:comment>
     <!-- http://knowdive.disi.unitn.it/etype#TennisCourt_KGE24-SportFacilities&amp;SportEvents-8003 -->
 
     <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#TennisCourt_KGE24-SportFacilities&amp;SportEvents-8003">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
         <rdfs:comment xml:lang="en">A court dedicated to tennis.</rdfs:comment>
     </owl:Class>
@@ -393,7 +387,7 @@ body for the purpose of administering something.</rdfs:comment>
     <!-- http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&amp;SportEvents-8004 -->
 
     <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&amp;SportEvents-8004">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Entity_GID_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
         <rdfs:comment xml:lang="en">A field dedicated to volleyball.</rdfs:comment>
     </owl:Class>
