@@ -1,0 +1,96 @@
+\documentclass{knowdive}
+\usepackage{color,soul}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{textcomp}
+\usepackage{lscape}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{hyperref}
+\usepackage{rotating}
+\usepackage{tabularx}
+\graphicspath{ {images/} }
+
+\usepackage{titlesec}
+\titleformat{\section}{\LARGE\bfseries}{\thesection}{1em}{}
+
+\newcommand{\mycomment}[1]{}
+
+\lstset{%
+    basicstyle=\normalsize\ttfamily,
+    morecomment=[l][\color{gray}]{//},
+}
+
+\usepackage{array, makecell}
+%\hypersetup{
+	%pdfauthor={Author1, \and Author2},
+	%pdftitle={Collectives.State of the Art},
+       %pdfkeywords = {},
+      %pdfsubject={}
+      %}
+%\usepackage{hyperref}
+
+\newcolumntype{M}[1]{>{\arraybackslash}m{#1}}
+\graphicspath{ {images/} }
+\usepackage{comment}
+
+\title{KGE 2024 Project\\\vspace{0.2cm}Sport Facilities \& Events in Trentino}
+
+\author{Christian Sassi, Pietro Bologna, Mouez Khelifi}
+
+\revisionhistory{
+    \revision{0.1}{October 16, 2024}{Christian Sassi, Pietro Bologna}{Document created}
+    \revision{1.1}{October 25, 2024}{Christian Sassi, Pietro Bologna}{Purpose definition phase}
+    \revision{1.2}{October 29, 2024}{Christian Sassi, Pietro Bologna}{Revision of purpose definition phase}
+    \revision{1.3}{November 6, 2024}{Christian Sassi, Pietro Bologna, Mouez Khelifi}{Correction to ER model and PF Sheet}
+    \revision{2.1}{November 7, 2024}{Christian Sassi, Pietro Bologna, Mouez Khelifi}{Information Gathering phase}
+    \revision{2.2}{November 9, 2024}{Christian Sassi, Pietro Bologna, Mouez Khelifi}{Dataset collection}
+    \revision{2.3}{November 13, 2024}{Christian Sassi, Pietro Bologna, Mouez Khelifi}{Revision of information gathering phase}  
+    \revision{3.1}{November 20, 2024}{Christian Sassi, Pietro Bologna, Mouez Khelifi}{Language Definition phase}
+    \revision{3.2}{November 21, 2024}{Christian Sassi, Pietro Bologna, Mouez Khelifi}{Revision of language definition phase}  
+    \revision{4.1}{November 21, 2024}{Christian Sassi, Pietro Bologna, Mouez Khelifi}{Knowledge Definition phase}
+}
+\newpage
+
+\fancypagestyle{plain}{
+  \fancyhf{}% Clear header/footer
+  %\fancyhead[R]{\includegraphics[width=1.0\linewidth,height=5pt]{Knowdive_color_bar}}% Right header
+  \fancyfoot[L]{\includegraphics[width=1.0\linewidth,height=45pt]{Knowdive_color_bar}}% Left footer
+  \fancyfoot[C]{Page \thepage\  / \pageref{LastPage}}
+}
+
+\pagestyle{plain}
+%\makeglossaries
+%input{glossaries}
+\begin{document}
+
+\maketitle
+\begin{sloppypar}
+
+\large
+\begin{spacing}{1.05}
+%\gls{latex}
+%\gls{batex}
+%\gls{eType}
+%\printglossary
+
+\input{section/0-introduction}
+\input{section/1-PD}
+\input{section/2-IG}
+\input{section/3-LD}
+\input{section/4-KD}
+%\input{section/5-ED}
+%\input{section/6-evaluation}
+%\input{section/7-metadataDefinition}
+%\input{section/8-openIssues}
+
+\end{spacing}
+\end{sloppypar}
+\end{document} 

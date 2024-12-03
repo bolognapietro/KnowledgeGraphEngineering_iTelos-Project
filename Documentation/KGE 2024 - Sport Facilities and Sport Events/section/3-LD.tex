@@ -1,0 +1,95 @@
+\section{Language Definition}
+\noindent In the Language Definition phase, the focus is on adapting the language, i.e. word and concepts, required to accurately represent the information and relationships within our Knowledge Graph (KG). This phase builds upon the outputs of previous phases, such as the Purpose Formalization Sheet, Entity-Relationship (ER) Model, and the resource set. It aims to create a purpose-specific language that connects the project's goals with the data's conceptual representation.
+\vspace{0.4cm}
+
+\noindent The objective is to ensure that the concepts used are aligned with the project’s goals and effectively represent the data’s entity types (ETypes), attributes, and relationships. This is achieved by leveraging existing ontologies and vocabularies to identify standardized definitions. A cascade approach is applied in this process: first, each concept is checked for its presence in the \href{https://ukc.datascientia.eu/concept}{\textbf{Universal Knowledge Core (UKC)}}. If the concept is not found in the UKC or does not align with the project’s requirements, alternative sources such as \href{https://schema.org}{\textbf{schema.org}} and \href{https://wiki.openstreetmap.org/wiki/Map_features}{\textbf{OpenStreetMap wiki}} are consulted. If the concept remains undefined, a new ConceptID is created, following a structured format such as \texttt{KGE24-SportFacilities\&SportEvents-8XXX}. In this phase, it is important to note that it was not possible to create fully automated scripts to extract these language definitions. This is because each word had to be carefully reviewed from both a grammatical and semantic perspective to ensure it aligns with the project's characteristics. For example, if we take the entity "\textit{Guest}", the UKC provides us with the same word but with a meaning that differs from the one given in this project. Alternatively, when looking at "\textit{celebrity}" in UKC, the meaning partially reflects that of "\textit{Guest}" (in the project's context), but the word itself does not align. This is also a particular case, as it is not possible to find a perfect semantic and grammatical match in any resource. The definition of "\textit{Guest}" is a custom language definition uniquely created for this project.
+\vspace{0.4cm}
+
+\noindent To establish a structured and coherent language definition, we organize the information into three distinct tables:
+\begin{itemize}
+    \item Table \ref{tab:table1}: Dedicated to Entity Types (ETypes).
+    \item Table \ref{tab:table2}: Focused on relationships.
+    \item Table \ref{tab:table3}: Covering attributes.
+\end{itemize}
+
+\noindent In conclusion, by the end of this phase, all entities, relationships, and attributes in the KG will adhere to the newly formalized vocabulary. This guarantees consistency and clarity in how information is represented.
+
+\vspace{-7pt}
+\begin{table}[H]
+    \centering
+    \renewcommand{\arraystretch}{1.5} % Adjust row height for better vertical centering
+    \begin{tabularx}{\textwidth}{|M{3cm}|M{3cm}|X|}
+        \hline
+        \textbf{ConceptID} & \textbf{Word-en} & \textbf{Gloss-en} \\ \hline
+        UKC-2593 & sport & An active diversion requiring physical exertion and competition.\\ \hline
+        UKC-17619 & facility & A building or place that provides a particular service or is used for a particular industry.\\ \hline
+        UKC-56 & event & Something that happens at a given place and time.\\ \hline
+        UKC-43416 & organization & The persons (or committees or departments etc.) who make up a body for the purpose of administering something.\\ \hline
+        UKC-695 & location & The persons (or committees or departments etc.) who make up a body for the purpose of administering something.\\ \hline
+        UKC-53492 & user & A person who makes use of a thing; someone who uses or employs something.\\ \hline
+        KGE24-SportFacilities\linebreak\&SportEvents-8001 & Guest & Represents a guest or participant involved in a sports event.\\ \hline
+        KGE24-SportFacilities\linebreak\&SportEvents-8002 & PadelCourt & A court dedicated to padel, a racquet sport.\\ \hline
+        KGE24-SportFacilities\linebreak\&SportEvents-8003 & TennisCourt & A court dedicated to tennis.\\ \hline
+        KGE24-SportFacilities\linebreak\&SportEvents-8004 & VolleyballField & A field dedicated to volleyball.\\ \hline
+    \end{tabularx}
+    \caption{EType concept labels and descriptions.}
+    \label{tab:table1}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \renewcommand{\arraystretch}{1.5} % Adjust row height for better vertical centering
+    \begin{tabularx}{\textwidth}{|M{3cm}|M{3cm}|X|}
+        \hline
+        \textbf{ConceptID} & \textbf{Word-en} & \textbf{Gloss-en}.\\ \hline
+        UKC-85982 & placed & Situated in a particular spot or position.\\ \hline
+        UKC-104711  & organise & Create (as an entity).\\ \hline
+        UKC-101132 & appear  & Character on stage or appear in a play, etc.\\ \hline
+        UKC-97761  & play & Participate in games or sport.\\ \hline
+        UKC-105477 & attend & Be present at (meetings, church services, university), etc.\\ \hline
+        UKC-92536  & basedOn & Being derived from (often followed by 'on' or 'upon').\\ \hline
+        UKC-103527  & have & Have or possess, either in a concrete or an abstract sense.\\ \hline
+    \end{tabularx}
+    \caption{Relationships concept labels and descriptions.}
+    \label{tab:table2}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \renewcommand{\arraystretch}{1.5} % Adjust row height for better vertical centering
+    \begin{tabularx}{\textwidth}{|M{3cm}|M{3cm}|X|}
+        \hline
+        \textbf{ConceptID} & \textbf{Word-en} & \textbf{Gloss-en}.\\ \hline
+        UKC-36247 & identification & Evidence of identity; something that identifies a person or thing (full form of "\textit{id}").\\ \hline
+        UKC-33531 & given\_name & The name that precedes the surname.\\ \hline
+        UKC-33528 & family\_name & The name used to identify the members of a family (as distinguished from each member's given name).\\ \hline
+        schema.org-birthDate & birthDate & Date of birth.\\ \hline
+        schema.org-hasOccupation & hasOccupation & The person's occupation.\\ \hline
+        UKC-2 & name & A language unit by which a person or thing is known.\\ \hline
+        schema.org-startDate & startDate & The start date and time of the item.\\ \hline
+        schema.org-endDate & endDate & The end date and time of the item.\\ \hline
+        UKC-45004 & address & The place where a person or organization can be found or communicated with.\\ \hline
+        UKC-45537 & municipality & An urban district having corporate status and powers of self-government.\\ \hline
+        OSM-surface & surface & Describes the surface of a feature.\\ \hline
+        UKC-75466 & lit & Provided with artificial light.\\ \hline
+        UKC-83504 & covered & Overlaid or spread or topped with or enclosed within something; sometimes used as a combining form.\\ \hline
+    \end{tabularx}
+    \caption{Data properties concept labels and descriptions.}
+    \label{tab:table3}
+\end{table}
+
+
+%-------------------------------------------------------------------------------------
+\mycomment{    
+    This section is dedicated to the description of the Language Definition phase. Like in the previous section, it aims to describe the different sub activities performed by all the team members, as well as the phase outcomes produced.\\
+    
+    
+    \noindent Language Definition sub activities:
+    \begin{itemize}
+        \item Concept identification
+        \item Dataset filtering
+    \end{itemize}
+    
+    
+    \noindent The report of the work done during this phase of the methodology, has to includes also the description of the  different choices made, with their strong and weak points. In other words the report should provide to the reader, a clear description of the reasoning conducted by all the different team members.
+}

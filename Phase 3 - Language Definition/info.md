@@ -32,11 +32,6 @@ Website: https://ukc.datascientia.eu
             <td>An active diversion requiring physical exertion and competition.</td>
         </tr>
         <tr>
-            <td><a href="https://ukc.datascientia.eu/api/ukc/concepts?conceptId=2910">UKC-2910</a></td>
-            <td>occupation</td>
-            <td>The principal activity in your life that you do to earn money.</td>
-        </tr>
-        <tr>
             <td><a href="https://ukc.datascientia.eu/api/ukc/concepts?conceptId=33528">UKC-33528</a></td>
             <td>family_name</td>
             <td>The name used to identify the members of a family.</td>
@@ -147,6 +142,11 @@ Website: https://schema.org
             <td><a href="https://schema.org/startDate">schema.org-startDate</a></td>
             <td>startDate</td>
             <td>The start date and time of the item.</td>
+        </tr>
+        <tr>
+            <td><a href="https://schema.org/hasOccupation">schema.org-hasOccupation</a></td>
+            <td>hasOccupation</td>
+            <td>The person's occupation.</td>
         </tr>
     </tbody>
 </table>

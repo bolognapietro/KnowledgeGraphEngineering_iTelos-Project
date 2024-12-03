@@ -19,7 +19,7 @@ UKC-36247	identification	Evidence of identity; something that identifies a perso
 name_UKC-33531	given	The name that precedes the surname.
 name_UKC-33528	family	The name used to identify the members of a family (as distinguished from each member's given name).
 schema.org-birthDate	birthDate	Date of birth.
-UKC-2910	occupation	The principal activity in your life that you do to earn money.
+schema.org-hasOccupation	hasOccupation	The person's occupation.
 UKC-2	name	A language unit by which a person or thing is known.
 schema.org-startDate	startDate	The start date and time of the item.
 schema.org-endDate	endDate	The end date and time of the item.
