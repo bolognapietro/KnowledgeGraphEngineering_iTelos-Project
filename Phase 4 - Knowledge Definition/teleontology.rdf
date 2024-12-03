@@ -350,14 +350,6 @@ body for the purpose of administering something.</rdfs:comment>
     
 
 
-    <!-- http://knowdive.disi.unitn.it/etype#Person -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Person">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
     <!-- http://knowdive.disi.unitn.it/etype#Sport_UKC-2593 -->
 
     <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Sport_UKC-2593">
@@ -371,7 +363,7 @@ body for the purpose of administering something.</rdfs:comment>
     <!-- http://knowdive.disi.unitn.it/etype#User_UKC-53492 -->
 
     <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#User_UKC-53492">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Person"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/Person"/>
         <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
         <rdfs:comment xml:lang="en">A person who makes use of a thing; someone who uses or employs something.</rdfs:comment>
     </owl:Class>

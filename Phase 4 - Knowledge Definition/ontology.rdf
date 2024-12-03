@@ -30,12 +30,6 @@
     <!-- http://www.semanticweb.org/sassi/ontologies/2024/11/untitled-ontology-8#Location -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sassi/ontologies/2024/11/untitled-ontology-8#Location"/>
-    
-
-
-    <!-- http://www.semanticweb.org/sassi/ontologies/2024/11/untitled-ontology-8#Person -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/sassi/ontologies/2024/11/untitled-ontology-8#Person"/>
 </rdf:RDF>
 
 
