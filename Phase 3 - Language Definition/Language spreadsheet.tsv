@@ -1,30 +1,30 @@
 ConceptID	Word-en	Gloss-en
-UKC-2593	sport	An active diversion requiring physical exertion and competition.
-UKC-56	event	Something that happens at a given place and time.
-UKC-43416	organization	The persons (or committees or departments etc.) who make up a body for the purpose of administering something.
-UKC-695	location	A determination of the place where something is.
-UKC-53492	user	A person who makes use of a thing; someone who uses or employs something.
-KGE24-SportFacilities&SportEvents-8001	guest	Represents a guest or participant involved in a sports event.
-KGE24-SportFacilities&SportEvents-8002	padelCourt	A court dedicated to padel, a racquet sport.
-KGE24-SportFacilities&SportEvents-8003	tennisCourt	A court dedicated to tennis.
-KGE24-SportFacilities&SportEvents-8004	volleyballField	A field dedicated to volleyball.
-UKC-85982	placed	Situated in a particular spot or position.
-UKC-104711	organise	Create (as an entity).
+UKC-45004	address	The place where a person or organization can be found or communicated with.
 UKC-101132	appear	Character on stage or appear in a play, etc.
-UKC-97761	play	Participate in games or sport.
 UKC-105477	attend	Be present at (meetings, church services, university), etc.
 UKC-92536	basedOn	Being derived from (often followed by 'on' or 'upon').
+schema.org-birthDate	birthDate	Date of birth.
+UKC-83504	covered	Overlaid or spread or topped with or enclosed within something; sometimes used as a combining form.
+schema.org-endDate	endDate	The end date and time of the item.
+UKC-56	event	Something that happens at a given place and time.
+name_UKC-33528	family	The name used to identify the members of a family (as distinguished from each member's given name).
+name_UKC-33531	given	The name that precedes the surname.
+KGE24-SportFacilities&SportEvents-8001	guest	Represents a guest or participant involved in a sports event.
+schema.org-hasOccupation	hasOccupation	The person's occupation.
 UKC-103527	have	Have or possess, either in a concrete or an abstract sense.
 UKC-36247	identification	Evidence of identity; something that identifies a person or thing (full form of 'id').
-name_UKC-33531	given	The name that precedes the surname.
-name_UKC-33528	family	The name used to identify the members of a family (as distinguished from each member's given name).
-schema.org-birthDate	birthDate	Date of birth.
-schema.org-hasOccupation	hasOccupation	The person's occupation.
-UKC-2	name	A language unit by which a person or thing is known.
-schema.org-startDate	startDate	The start date and time of the item.
-schema.org-endDate	endDate	The end date and time of the item.
-UKC-45004	address	The place where a person or organization can be found or communicated with.
-UKC-45537	municipality	An urban district having corporate status and powers of self-government.
-OSM-surface	surface	Describes the surface of a feature.
 UKC-75466	lit	Provided with artificial light.
-UKC-83504	covered	Overlaid or spread or topped with or enclosed within something; sometimes used as a combining form.
+UKC-695	location	A determination of the place where something is.
+UKC-45537	municipality	An urban district having corporate status and powers of self-government.
+UKC-2	name	A language unit by which a person or thing is known.
+UKC-104711	organise	Create (as an entity).
+UKC-43416	organization	The persons (or committees or departments etc.) who make up a body for the purpose of administering something.
+KGE24-SportFacilities&SportEvents-8002	padelCourt	A court dedicated to padel, a racquet sport.
+UKC-85982	placed	Situated in a particular spot or position.
+UKC-97761	play	Participate in games or sport.
+UKC-2593	sport	An active diversion requiring physical exertion and competition.
+schema.org-startDate	startDate	The start date and time of the item.
+OSM-surface	surface	Describes the surface of a feature.
+KGE24-SportFacilities&SportEvents-8003	tennisCourt	A court dedicated to tennis.
+UKC-53492	user	A person who makes use of a thing; someone who uses or employs something.
+KGE24-SportFacilities&SportEvents-8004	volleyballField	A field dedicated to volleyball.

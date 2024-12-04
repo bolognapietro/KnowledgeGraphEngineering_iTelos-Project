@@ -12,9 +12,24 @@ Website: https://ukc.datascientia.eu
     </thead>
     <tbody>
         <tr>
-            <td><a href="https://ukc.datascientia.eu/api/ukc/concepts?conceptId=2">UKC-2</a></td>
-            <td>name</td>
-            <td>A language unit by which a person or thing is known.</td>
+            <td><a href="https://ukc.datascientia.eu/api/ukc/concepts?conceptId=33531">UKC-33531</a></td>
+            <td>given_name</td>
+            <td>The name that precedes the surname.</td>
+        </tr>
+        <tr>
+            <td><a href="https://ukc.datascientia.eu/api/ukc/concepts?conceptId=33528">UKC-33528</a></td>
+            <td>family_name</td>
+            <td>The name used to identify the members of a family.</td>
+        </tr>
+        <tr>
+            <td><a href="https://ukc.datascientia.eu/api/ukc/concepts?conceptId=45004">UKC-45004</a></td>
+            <td>address</td>
+            <td>The place where a person or organization can be found or communicated with.</td>
+        </tr>
+        <tr>
+            <td><a href="https://ukc.datascientia.eu/api/ukc/concepts?conceptId=2593">UKC-2593</a></td>
+            <td>sport</td>
+            <td>An active diversion requiring physical exertion and competition.</td>
         </tr>
         <tr>
             <td><a href="https://ukc.datascientia.eu/api/ukc/concepts?conceptId=56">UKC-56</a></td>
@@ -27,21 +42,6 @@ Website: https://ukc.datascientia.eu
             <td>The persons (or committees or departments etc.) who make up a body for administering something.</td>
         </tr>
         <tr>
-            <td><a href="https://ukc.datascientia.eu/api/ukc/concepts?conceptId=2593">UKC-2593</a></td>
-            <td>sport</td>
-            <td>An active diversion requiring physical exertion and competition.</td>
-        </tr>
-        <tr>
-            <td><a href="https://ukc.datascientia.eu/api/ukc/concepts?conceptId=33528">UKC-33528</a></td>
-            <td>family_name</td>
-            <td>The name used to identify the members of a family.</td>
-        </tr>
-        <tr>
-            <td><a href="https://ukc.datascientia.eu/api/ukc/concepts?conceptId=33531">UKC-33531</a></td>
-            <td>given_name</td>
-            <td>The name that precedes the surname.</td>
-        </tr>
-        <tr>
             <td><a href="https://ukc.datascientia.eu/api/ukc/concepts?conceptId=36247">UKC-36247</a></td>
             <td>identification</td>
             <td>Evidence of identity; something that identifies a person or thing (full form of "id").</td>
@@ -50,21 +50,6 @@ Website: https://ukc.datascientia.eu
             <td><a href="https://ukc.datascientia.eu/api/ukc/concepts?conceptId=43416">UKC-43416</a></td>
             <td>organization</td>
             <td>The persons (or committees or departments etc.) who make up a body for administering something.</td>
-        </tr>
-        <tr>
-            <td><a href="https://ukc.datascientia.eu/api/ukc/concepts?conceptId=45004">UKC-45004</a></td>
-            <td>address</td>
-            <td>The place where a person or organization can be found or communicated with.</td>
-        </tr>
-        <tr>
-            <td><a href="https://ukc.datascientia.eu/api/ukc/concepts?conceptId=45537">UKC-45537</a></td>
-            <td>municipality</td>
-            <td>An urban district having corporate status and powers of self-government.</td>
-        </tr>
-        <tr>
-            <td><a href="https://ukc.datascientia.eu/api/ukc/concepts?conceptId=53492">UKC-53492</a></td>
-            <td>user</td>
-            <td>A person who makes use of a thing; someone who uses or employs something.</td>
         </tr>
         <tr>
             <td><a href="https://ukc.datascientia.eu/api/ukc/concepts?conceptId=75466">UKC-75466</a></td>
@@ -113,7 +98,6 @@ Website: https://ukc.datascientia.eu
         </tr>
     </tbody>
 </table>
-
 
 ## <img src="https://schema.org/docs/favicon.ico" width="30" style="position: relative; top: 8px; margin-right: 8px;" /> Schema.org
 
