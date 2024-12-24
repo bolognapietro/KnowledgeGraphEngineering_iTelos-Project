@@ -1,0 +1,939 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix etype: <http://knowdive.disi.unitn.it/etype#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1ifrvcfj1x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "Event.csv" ;
+	km-dev:modelPublicationTime "1735031930466"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"startDate\"}],[{\"columnName\":\"id\"}],[{\"columnName\":\"location\"}],[{\"columnName\":\"organization\"}],[{\"columnName\":\"endDate\"}],[{\"columnName\":\"name\"}],[{\"columnName\":\"sports\"}],[{\"columnName\":\"guests\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"startDate\"}],[{\"columnName\":\"id\"}],[{\"columnName\":\"location\"}],[{\"columnName\":\"organization\"}],[{\"columnName\":\"endDate\"}],[{\"columnName\":\"name\"}],[{\"columnName\":\"sports\"}],[{\"columnName\":\"guests\"}]]" ;
+	km-dev:hasModelLabel "Event.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Event_UKC-56\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Event_UKC-561\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#identification_UKC-36247\",
+                    \"DomainLabel\": \"etype:Event_UKC-561 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Event_UKC-56\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Event_UKC-561\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#name_UKC-2\",
+                    \"DomainLabel\": \"etype:Event_UKC-561\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"startDate\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Event_UKC-56\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Event_UKC-561\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#startDate_schema.org-startDate\",
+                    \"DomainLabel\": \"etype:Event_UKC-561\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"startDate\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"startDate\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"endDate\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Event_UKC-56\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Event_UKC-561\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#endDate_schema.org-endDate\",
+                    \"DomainLabel\": \"etype:Event_UKC-561\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"endDate\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"endDate\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"sports\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Sport_UKC-2593\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Sport_UKC-25931\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#identification_UKC-36247\",
+                    \"DomainLabel\": \"etype:Sport_UKC-25931 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"sports\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"sports\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"location\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Location_UKC-695\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Location_UKC-6951\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#identification_UKC-36247\",
+                    \"DomainLabel\": \"etype:Location_UKC-6951 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"location\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"location\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"organization\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Organization_UKC-43416\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Organization_UKC-434161\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#identification_UKC-36247\",
+                    \"DomainLabel\": \"etype:Organization_UKC-434161 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"organization\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"organization\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"guests\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&SportEvents-8001\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&SportEvents-80011\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#identification_UKC-36247\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&SportEvents-8001/SportEvents-80011 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"guests\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"guests\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Sport_UKC-25931\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#basedOn_UKC-92536\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Sport_UKC-2593\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Event_UKC-561\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Event_UKC-56\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Location_UKC-6951\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#placed_UKC-85982\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Location_UKC-695\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Event_UKC-561\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Event_UKC-56\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Organization_UKC-434161\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#organise_UKC-104711\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Organization_UKC-43416\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Event_UKC-561\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Event_UKC-56\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&SportEvents-80011\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#appear_UKC-101132\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&SportEvents-8001\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&SportEvents-80011\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&SportEvents-8001\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_6b894d4a-e79e-46de-80b8-574d036cdc8d a rr:TriplesMap .
+
+_:node1ifrvcfj1x1 km-dev:hasTriplesMap km-dev:TriplesMap_6b894d4a-e79e-46de-80b8-574d036cdc8d .
+
+km-dev:TriplesMap_6b894d4a-e79e-46de-80b8-574d036cdc8d km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x2 rr:tableName "Event.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasLogicalTable _:node1ifrvcfj1x2 .
+
+km-dev:TriplesMap_6b894d4a-e79e-46de-80b8-574d036cdc8d rr:logicalTable _:node1ifrvcfj1x2 ;
+	rr:subjectMap _:node1ifrvcfj1x3 .
+
+_:node1ifrvcfj1x1 km-dev:hasSubjectMap _:node1ifrvcfj1x3 .
+
+_:node1ifrvcfj1x3 km-dev:isPartOfMapping _:node1ifrvcfj1x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Event_UKC-561" ;
+	rr:class etype:Event_UKC-56 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Event_UKC-561" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_2bfe2733-ce1f-4f48-ae7a-f92f7401f4d6 rr:predicate etype:identification_UKC-36247 .
+
+_:node1ifrvcfj1x4 rr:column "id" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasObjectMap _:node1ifrvcfj1x4 .
+
+km-dev:PredicateObjectMap_2bfe2733-ce1f-4f48-ae7a-f92f7401f4d6 rr:objectMap _:node1ifrvcfj1x4 .
+
+km-dev:TriplesMap_6b894d4a-e79e-46de-80b8-574d036cdc8d rr:predicateObjectMap km-dev:PredicateObjectMap_2bfe2733-ce1f-4f48-ae7a-f92f7401f4d6 .
+
+km-dev:PredicateObjectMap_2bfe2733-ce1f-4f48-ae7a-f92f7401f4d6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2bfe2733-ce1f-4f48-ae7a-f92f7401f4d6 .
+
+km-dev:PredicateObjectMap_3d549b97-b7f0-450a-833f-e745a867da4f rr:predicate etype:name_UKC-2 .
+
+_:node1ifrvcfj1x5 rr:column "name" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasObjectMap _:node1ifrvcfj1x5 .
+
+km-dev:PredicateObjectMap_3d549b97-b7f0-450a-833f-e745a867da4f rr:objectMap _:node1ifrvcfj1x5 .
+
+km-dev:TriplesMap_6b894d4a-e79e-46de-80b8-574d036cdc8d rr:predicateObjectMap km-dev:PredicateObjectMap_3d549b97-b7f0-450a-833f-e745a867da4f .
+
+km-dev:PredicateObjectMap_3d549b97-b7f0-450a-833f-e745a867da4f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3d549b97-b7f0-450a-833f-e745a867da4f .
+
+km-dev:PredicateObjectMap_c3684ea7-9271-4952-92af-2aed7d749227 rr:predicate <http://knowdive.disi.unitn.it/etype#startDate_schema.org-startDate> .
+
+_:node1ifrvcfj1x6 rr:column "startDate" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasObjectMap _:node1ifrvcfj1x6 .
+
+km-dev:PredicateObjectMap_c3684ea7-9271-4952-92af-2aed7d749227 rr:objectMap _:node1ifrvcfj1x6 .
+
+km-dev:TriplesMap_6b894d4a-e79e-46de-80b8-574d036cdc8d rr:predicateObjectMap km-dev:PredicateObjectMap_c3684ea7-9271-4952-92af-2aed7d749227 .
+
+km-dev:PredicateObjectMap_c3684ea7-9271-4952-92af-2aed7d749227 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c3684ea7-9271-4952-92af-2aed7d749227 .
+
+km-dev:PredicateObjectMap_2dd46f6d-ad6e-4ae0-a87e-d6229800154c rr:predicate <http://knowdive.disi.unitn.it/etype#endDate_schema.org-endDate> .
+
+_:node1ifrvcfj1x7 rr:column "endDate" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasObjectMap _:node1ifrvcfj1x7 .
+
+km-dev:PredicateObjectMap_2dd46f6d-ad6e-4ae0-a87e-d6229800154c rr:objectMap _:node1ifrvcfj1x7 .
+
+km-dev:TriplesMap_6b894d4a-e79e-46de-80b8-574d036cdc8d rr:predicateObjectMap km-dev:PredicateObjectMap_2dd46f6d-ad6e-4ae0-a87e-d6229800154c .
+
+km-dev:PredicateObjectMap_2dd46f6d-ad6e-4ae0-a87e-d6229800154c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2dd46f6d-ad6e-4ae0-a87e-d6229800154c .
+
+km-dev:PredicateObjectMap_444a0ba2-2014-41a9-9c8f-5f01cc604801 rr:predicate etype:basedOn_UKC-92536 .
+
+km-dev:RefObjectMap_0cf1afd2-2456-43e2-a8a1-10060c54a5be a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_b6ebac65-a8c1-459a-83ff-d8b7909b610f ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasObjectMap km-dev:RefObjectMap_0cf1afd2-2456-43e2-a8a1-10060c54a5be .
+
+km-dev:PredicateObjectMap_444a0ba2-2014-41a9-9c8f-5f01cc604801 rr:objectMap km-dev:RefObjectMap_0cf1afd2-2456-43e2-a8a1-10060c54a5be .
+
+km-dev:TriplesMap_6b894d4a-e79e-46de-80b8-574d036cdc8d rr:predicateObjectMap km-dev:PredicateObjectMap_444a0ba2-2014-41a9-9c8f-5f01cc604801 .
+
+km-dev:PredicateObjectMap_444a0ba2-2014-41a9-9c8f-5f01cc604801 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_444a0ba2-2014-41a9-9c8f-5f01cc604801 .
+
+km-dev:PredicateObjectMap_25973431-5f03-4379-be7d-f92b9581d5a0 rr:predicate etype:placed_UKC-85982 .
+
+km-dev:RefObjectMap_4b21e3f1-9457-4845-b660-9ed4f07235f6 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_0848fe2c-483e-4972-a5c5-5e84b1304ba4 ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasObjectMap km-dev:RefObjectMap_4b21e3f1-9457-4845-b660-9ed4f07235f6 .
+
+km-dev:PredicateObjectMap_25973431-5f03-4379-be7d-f92b9581d5a0 rr:objectMap km-dev:RefObjectMap_4b21e3f1-9457-4845-b660-9ed4f07235f6 .
+
+km-dev:TriplesMap_6b894d4a-e79e-46de-80b8-574d036cdc8d rr:predicateObjectMap km-dev:PredicateObjectMap_25973431-5f03-4379-be7d-f92b9581d5a0 .
+
+km-dev:PredicateObjectMap_25973431-5f03-4379-be7d-f92b9581d5a0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_25973431-5f03-4379-be7d-f92b9581d5a0 .
+
+km-dev:PredicateObjectMap_cc643e2f-ea7a-47ca-adbd-63ead387b58a rr:predicate etype:organise_UKC-104711 .
+
+km-dev:RefObjectMap_2e6acad6-4501-4964-a32f-c7f3a405ffba a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_47f746c1-b327-4420-ac8d-b4784a765e37 ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasObjectMap km-dev:RefObjectMap_2e6acad6-4501-4964-a32f-c7f3a405ffba .
+
+km-dev:PredicateObjectMap_cc643e2f-ea7a-47ca-adbd-63ead387b58a rr:objectMap km-dev:RefObjectMap_2e6acad6-4501-4964-a32f-c7f3a405ffba .
+
+km-dev:TriplesMap_6b894d4a-e79e-46de-80b8-574d036cdc8d rr:predicateObjectMap km-dev:PredicateObjectMap_cc643e2f-ea7a-47ca-adbd-63ead387b58a .
+
+km-dev:PredicateObjectMap_cc643e2f-ea7a-47ca-adbd-63ead387b58a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_cc643e2f-ea7a-47ca-adbd-63ead387b58a .
+
+km-dev:TriplesMap_b6ebac65-a8c1-459a-83ff-d8b7909b610f a rr:TriplesMap .
+
+_:node1ifrvcfj1x1 km-dev:hasTriplesMap km-dev:TriplesMap_b6ebac65-a8c1-459a-83ff-d8b7909b610f .
+
+km-dev:TriplesMap_b6ebac65-a8c1-459a-83ff-d8b7909b610f km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x8 rr:tableName "Event.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasLogicalTable _:node1ifrvcfj1x8 .
+
+km-dev:TriplesMap_b6ebac65-a8c1-459a-83ff-d8b7909b610f rr:logicalTable _:node1ifrvcfj1x8 ;
+	rr:subjectMap _:node1ifrvcfj1x9 .
+
+_:node1ifrvcfj1x1 km-dev:hasSubjectMap _:node1ifrvcfj1x9 .
+
+_:node1ifrvcfj1x9 km-dev:isPartOfMapping _:node1ifrvcfj1x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Sport_UKC-25931" ;
+	rr:class etype:Sport_UKC-2593 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Sport_UKC-25931" .
+
+km-dev:PredicateObjectMap_3d30bedc-0603-4aa7-9444-2664830b866e rr:predicate etype:identification_UKC-36247 .
+
+_:node1ifrvcfj1x10 rr:column "sports" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasObjectMap _:node1ifrvcfj1x10 .
+
+km-dev:PredicateObjectMap_3d30bedc-0603-4aa7-9444-2664830b866e rr:objectMap _:node1ifrvcfj1x10 .
+
+km-dev:TriplesMap_b6ebac65-a8c1-459a-83ff-d8b7909b610f rr:predicateObjectMap km-dev:PredicateObjectMap_3d30bedc-0603-4aa7-9444-2664830b866e .
+
+km-dev:PredicateObjectMap_3d30bedc-0603-4aa7-9444-2664830b866e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3d30bedc-0603-4aa7-9444-2664830b866e .
+
+km-dev:TriplesMap_0848fe2c-483e-4972-a5c5-5e84b1304ba4 a rr:TriplesMap .
+
+_:node1ifrvcfj1x1 km-dev:hasTriplesMap km-dev:TriplesMap_0848fe2c-483e-4972-a5c5-5e84b1304ba4 .
+
+km-dev:TriplesMap_0848fe2c-483e-4972-a5c5-5e84b1304ba4 km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x11 rr:tableName "Event.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasLogicalTable _:node1ifrvcfj1x11 .
+
+km-dev:TriplesMap_0848fe2c-483e-4972-a5c5-5e84b1304ba4 rr:logicalTable _:node1ifrvcfj1x11 ;
+	rr:subjectMap _:node1ifrvcfj1x12 .
+
+_:node1ifrvcfj1x1 km-dev:hasSubjectMap _:node1ifrvcfj1x12 .
+
+_:node1ifrvcfj1x12 km-dev:isPartOfMapping _:node1ifrvcfj1x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Location_UKC-6951" ;
+	rr:class etype:Location_UKC-695 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Location_UKC-6951" .
+
+km-dev:PredicateObjectMap_eca379e0-9f6d-47df-aecc-a9e8c984cecf rr:predicate etype:identification_UKC-36247 .
+
+_:node1ifrvcfj1x13 rr:column "location" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasObjectMap _:node1ifrvcfj1x13 .
+
+km-dev:PredicateObjectMap_eca379e0-9f6d-47df-aecc-a9e8c984cecf rr:objectMap _:node1ifrvcfj1x13 .
+
+km-dev:TriplesMap_0848fe2c-483e-4972-a5c5-5e84b1304ba4 rr:predicateObjectMap km-dev:PredicateObjectMap_eca379e0-9f6d-47df-aecc-a9e8c984cecf .
+
+km-dev:PredicateObjectMap_eca379e0-9f6d-47df-aecc-a9e8c984cecf a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_eca379e0-9f6d-47df-aecc-a9e8c984cecf .
+
+km-dev:TriplesMap_47f746c1-b327-4420-ac8d-b4784a765e37 a rr:TriplesMap .
+
+_:node1ifrvcfj1x1 km-dev:hasTriplesMap km-dev:TriplesMap_47f746c1-b327-4420-ac8d-b4784a765e37 .
+
+km-dev:TriplesMap_47f746c1-b327-4420-ac8d-b4784a765e37 km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x14 rr:tableName "Event.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasLogicalTable _:node1ifrvcfj1x14 .
+
+km-dev:TriplesMap_47f746c1-b327-4420-ac8d-b4784a765e37 rr:logicalTable _:node1ifrvcfj1x14 ;
+	rr:subjectMap _:node1ifrvcfj1x15 .
+
+_:node1ifrvcfj1x1 km-dev:hasSubjectMap _:node1ifrvcfj1x15 .
+
+_:node1ifrvcfj1x15 km-dev:isPartOfMapping _:node1ifrvcfj1x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Organization_UKC-434161" ;
+	rr:class etype:Organization_UKC-43416 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Organization_UKC-434161" .
+
+km-dev:PredicateObjectMap_d69bf631-5a75-4541-8587-6556bb4b85ae rr:predicate etype:identification_UKC-36247 .
+
+_:node1ifrvcfj1x16 rr:column "organization" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasObjectMap _:node1ifrvcfj1x16 .
+
+km-dev:PredicateObjectMap_d69bf631-5a75-4541-8587-6556bb4b85ae rr:objectMap _:node1ifrvcfj1x16 .
+
+km-dev:TriplesMap_47f746c1-b327-4420-ac8d-b4784a765e37 rr:predicateObjectMap km-dev:PredicateObjectMap_d69bf631-5a75-4541-8587-6556bb4b85ae .
+
+km-dev:PredicateObjectMap_d69bf631-5a75-4541-8587-6556bb4b85ae a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d69bf631-5a75-4541-8587-6556bb4b85ae .
+
+km-dev:TriplesMap_20706e68-4554-4e87-9127-311694de499a a rr:TriplesMap .
+
+_:node1ifrvcfj1x1 km-dev:hasTriplesMap km-dev:TriplesMap_20706e68-4554-4e87-9127-311694de499a .
+
+km-dev:TriplesMap_20706e68-4554-4e87-9127-311694de499a km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x17 rr:tableName "Event.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasLogicalTable _:node1ifrvcfj1x17 .
+
+km-dev:TriplesMap_20706e68-4554-4e87-9127-311694de499a rr:logicalTable _:node1ifrvcfj1x17 ;
+	rr:subjectMap _:node1ifrvcfj1x18 .
+
+_:node1ifrvcfj1x1 km-dev:hasSubjectMap _:node1ifrvcfj1x18 .
+
+_:node1ifrvcfj1x18 km-dev:isPartOfMapping _:node1ifrvcfj1x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&SportEvents-80011" ;
+	rr:class <http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&SportEvents-8001> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "SportEvents-80011" .
+
+km-dev:PredicateObjectMap_d2de7f30-e59a-4a24-9202-8314fc30de21 rr:predicate etype:identification_UKC-36247 .
+
+_:node1ifrvcfj1x19 rr:column "guests" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasObjectMap _:node1ifrvcfj1x19 .
+
+km-dev:PredicateObjectMap_d2de7f30-e59a-4a24-9202-8314fc30de21 rr:objectMap _:node1ifrvcfj1x19 .
+
+km-dev:TriplesMap_20706e68-4554-4e87-9127-311694de499a rr:predicateObjectMap km-dev:PredicateObjectMap_d2de7f30-e59a-4a24-9202-8314fc30de21 .
+
+km-dev:PredicateObjectMap_d2de7f30-e59a-4a24-9202-8314fc30de21 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d2de7f30-e59a-4a24-9202-8314fc30de21 .
+
+km-dev:PredicateObjectMap_28f2f143-4380-4325-bba2-604e63af30a1 rr:predicate etype:appear_UKC-101132 .
+
+km-dev:RefObjectMap_a904dfe8-3799-4562-80b4-109a77bf40cf a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_20706e68-4554-4e87-9127-311694de499a ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasObjectMap km-dev:RefObjectMap_a904dfe8-3799-4562-80b4-109a77bf40cf .
+
+km-dev:PredicateObjectMap_28f2f143-4380-4325-bba2-604e63af30a1 rr:objectMap km-dev:RefObjectMap_a904dfe8-3799-4562-80b4-109a77bf40cf .
+
+km-dev:TriplesMap_20706e68-4554-4e87-9127-311694de499a rr:predicateObjectMap km-dev:PredicateObjectMap_28f2f143-4380-4325-bba2-604e63af30a1 .
+
+km-dev:PredicateObjectMap_28f2f143-4380-4325-bba2-604e63af30a1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrvcfj1x1 .
+
+_:node1ifrvcfj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_28f2f143-4380-4325-bba2-604e63af30a1 .

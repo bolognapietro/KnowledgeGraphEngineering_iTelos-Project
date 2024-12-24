@@ -1,0 +1,418 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix etype: <http://knowdive.disi.unitn.it/etype#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1ifrunlkcx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "EndUser.csv" ;
+	km-dev:modelPublicationTime "1735031248525"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\" givenName\"}],[{\"columnName\":\"id\"}],[{\"columnName\":\" birthDate\"}],[{\"columnName\":\" familyName\"}],[{\"columnName\":\" hasOccupation\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\" givenName\"}],[{\"columnName\":\"id\"}],[{\"columnName\":\" birthDate\"}],[{\"columnName\":\" familyName\"}],[{\"columnName\":\" hasOccupation\"}]]" ;
+	km-dev:hasModelLabel "EndUser.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#User_UKC-53492\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#User_UKC-534921\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#identification_UKC-36247\",
+                    \"DomainLabel\": \"etype:User_UKC-534921 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \" givenName\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#User_UKC-53492\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#User_UKC-534921\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#given_name_UKC-33531\",
+                    \"DomainLabel\": \"etype:User_UKC-534921\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\" givenName\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\" givenName\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \" familyName\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#User_UKC-53492\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#User_UKC-534921\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#family_name_UKC-33528\",
+                    \"DomainLabel\": \"etype:User_UKC-534921\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\" familyName\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\" familyName\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \" birthDate\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#User_UKC-53492\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#User_UKC-534921\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#birthDate_schema.org-birthDate\",
+                    \"DomainLabel\": \"etype:User_UKC-534921\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\" birthDate\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\" birthDate\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \" hasOccupation\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#User_UKC-53492\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#User_UKC-534921\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#hasOccupation_schema.org-hasOccupation\",
+                    \"DomainLabel\": \"etype:User_UKC-534921\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\" hasOccupation\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\" hasOccupation\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_ccd0cd0c-2e75-467c-a392-90f0fadd8c9e a rr:TriplesMap .
+
+_:node1ifrunlkcx1 km-dev:hasTriplesMap km-dev:TriplesMap_ccd0cd0c-2e75-467c-a392-90f0fadd8c9e .
+
+km-dev:TriplesMap_ccd0cd0c-2e75-467c-a392-90f0fadd8c9e km-dev:isPartOfMapping _:node1ifrunlkcx1 .
+
+_:node1ifrunlkcx2 rr:tableName "EndUser.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ifrunlkcx1 .
+
+_:node1ifrunlkcx1 km-dev:hasLogicalTable _:node1ifrunlkcx2 .
+
+km-dev:TriplesMap_ccd0cd0c-2e75-467c-a392-90f0fadd8c9e rr:logicalTable _:node1ifrunlkcx2 ;
+	rr:subjectMap _:node1ifrunlkcx3 .
+
+_:node1ifrunlkcx1 km-dev:hasSubjectMap _:node1ifrunlkcx3 .
+
+_:node1ifrunlkcx3 km-dev:isPartOfMapping _:node1ifrunlkcx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#User_UKC-534921" ;
+	rr:class etype:User_UKC-53492 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:User_UKC-534921" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_9e5d328c-da15-4cff-bb38-26a206326f90 rr:predicate etype:identification_UKC-36247 .
+
+_:node1ifrunlkcx4 rr:column "id" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrunlkcx1 .
+
+_:node1ifrunlkcx1 km-dev:hasObjectMap _:node1ifrunlkcx4 .
+
+km-dev:PredicateObjectMap_9e5d328c-da15-4cff-bb38-26a206326f90 rr:objectMap _:node1ifrunlkcx4 .
+
+km-dev:TriplesMap_ccd0cd0c-2e75-467c-a392-90f0fadd8c9e rr:predicateObjectMap km-dev:PredicateObjectMap_9e5d328c-da15-4cff-bb38-26a206326f90 .
+
+km-dev:PredicateObjectMap_9e5d328c-da15-4cff-bb38-26a206326f90 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrunlkcx1 .
+
+_:node1ifrunlkcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9e5d328c-da15-4cff-bb38-26a206326f90 .
+
+km-dev:PredicateObjectMap_f4cbaa43-a8e5-4dd0-af76-3d56a1832555 rr:predicate etype:given_name_UKC-33531 .
+
+_:node1ifrunlkcx5 rr:column " givenName" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrunlkcx1 .
+
+_:node1ifrunlkcx1 km-dev:hasObjectMap _:node1ifrunlkcx5 .
+
+km-dev:PredicateObjectMap_f4cbaa43-a8e5-4dd0-af76-3d56a1832555 rr:objectMap _:node1ifrunlkcx5 .
+
+km-dev:TriplesMap_ccd0cd0c-2e75-467c-a392-90f0fadd8c9e rr:predicateObjectMap km-dev:PredicateObjectMap_f4cbaa43-a8e5-4dd0-af76-3d56a1832555 .
+
+km-dev:PredicateObjectMap_f4cbaa43-a8e5-4dd0-af76-3d56a1832555 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrunlkcx1 .
+
+_:node1ifrunlkcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f4cbaa43-a8e5-4dd0-af76-3d56a1832555 .
+
+km-dev:PredicateObjectMap_bac544dd-bd9e-4d44-9068-b62b8e923dd6 rr:predicate etype:family_name_UKC-33528 .
+
+_:node1ifrunlkcx6 rr:column " familyName" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrunlkcx1 .
+
+_:node1ifrunlkcx1 km-dev:hasObjectMap _:node1ifrunlkcx6 .
+
+km-dev:PredicateObjectMap_bac544dd-bd9e-4d44-9068-b62b8e923dd6 rr:objectMap _:node1ifrunlkcx6 .
+
+km-dev:TriplesMap_ccd0cd0c-2e75-467c-a392-90f0fadd8c9e rr:predicateObjectMap km-dev:PredicateObjectMap_bac544dd-bd9e-4d44-9068-b62b8e923dd6 .
+
+km-dev:PredicateObjectMap_bac544dd-bd9e-4d44-9068-b62b8e923dd6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrunlkcx1 .
+
+_:node1ifrunlkcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_bac544dd-bd9e-4d44-9068-b62b8e923dd6 .
+
+km-dev:PredicateObjectMap_8135aa1a-8333-42bf-a400-e4a4eb0e47b6 rr:predicate <http://knowdive.disi.unitn.it/etype#birthDate_schema.org-birthDate> .
+
+_:node1ifrunlkcx7 rr:column " birthDate" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrunlkcx1 .
+
+_:node1ifrunlkcx1 km-dev:hasObjectMap _:node1ifrunlkcx7 .
+
+km-dev:PredicateObjectMap_8135aa1a-8333-42bf-a400-e4a4eb0e47b6 rr:objectMap _:node1ifrunlkcx7 .
+
+km-dev:TriplesMap_ccd0cd0c-2e75-467c-a392-90f0fadd8c9e rr:predicateObjectMap km-dev:PredicateObjectMap_8135aa1a-8333-42bf-a400-e4a4eb0e47b6 .
+
+km-dev:PredicateObjectMap_8135aa1a-8333-42bf-a400-e4a4eb0e47b6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrunlkcx1 .
+
+_:node1ifrunlkcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8135aa1a-8333-42bf-a400-e4a4eb0e47b6 .
+
+km-dev:PredicateObjectMap_70dcb202-59ff-43e0-b268-9cda61a89c70 rr:predicate <http://knowdive.disi.unitn.it/etype#hasOccupation_schema.org-hasOccupation> .
+
+_:node1ifrunlkcx8 rr:column " hasOccupation" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrunlkcx1 .
+
+_:node1ifrunlkcx1 km-dev:hasObjectMap _:node1ifrunlkcx8 .
+
+km-dev:PredicateObjectMap_70dcb202-59ff-43e0-b268-9cda61a89c70 rr:objectMap _:node1ifrunlkcx8 .
+
+km-dev:TriplesMap_ccd0cd0c-2e75-467c-a392-90f0fadd8c9e rr:predicateObjectMap km-dev:PredicateObjectMap_70dcb202-59ff-43e0-b268-9cda61a89c70 .
+
+km-dev:PredicateObjectMap_70dcb202-59ff-43e0-b268-9cda61a89c70 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifrunlkcx1 .
+
+_:node1ifrunlkcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_70dcb202-59ff-43e0-b268-9cda61a89c70 .

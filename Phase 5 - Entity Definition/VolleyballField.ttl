@@ -1,0 +1,343 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix etype: <http://knowdive.disi.unitn.it/etype#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1ifs6udrrx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "VolleyballField.csv" ;
+	km-dev:modelPublicationTime "1735039858555"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"id\"}],[{\"columnName\":\"lit\"}],[{\"columnName\":\"surface\"}],[{\"columnName\":\"name\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"id\"}],[{\"columnName\":\"lit\"}],[{\"columnName\":\"surface\"}],[{\"columnName\":\"name\"}]]" ;
+	km-dev:hasModelLabel "VolleyballField.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-80041\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#identification_UKC-36247\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004/SportEvents-80041 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-80041\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#name_UKC-2\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004/SportEvents-80041\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"surface\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-80041\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#surface_OSM-surface\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004/SportEvents-80041\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"surface\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"surface\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"lit\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-80041\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#lit_UKC-75466\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004/SportEvents-80041\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"lit\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"lit\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_6512927a-67a2-40ca-b65a-49b39d324e33 a rr:TriplesMap .
+
+_:node1ifs6udrrx1 km-dev:hasTriplesMap km-dev:TriplesMap_6512927a-67a2-40ca-b65a-49b39d324e33 .
+
+km-dev:TriplesMap_6512927a-67a2-40ca-b65a-49b39d324e33 km-dev:isPartOfMapping _:node1ifs6udrrx1 .
+
+_:node1ifs6udrrx2 rr:tableName "VolleyballField.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ifs6udrrx1 .
+
+_:node1ifs6udrrx1 km-dev:hasLogicalTable _:node1ifs6udrrx2 .
+
+km-dev:TriplesMap_6512927a-67a2-40ca-b65a-49b39d324e33 rr:logicalTable _:node1ifs6udrrx2 ;
+	rr:subjectMap _:node1ifs6udrrx3 .
+
+_:node1ifs6udrrx1 km-dev:hasSubjectMap _:node1ifs6udrrx3 .
+
+_:node1ifs6udrrx3 km-dev:isPartOfMapping _:node1ifs6udrrx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-80041" ;
+	rr:class <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "SportEvents-80041" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_9a08e463-2604-4010-a484-16afad2cad53 rr:predicate etype:identification_UKC-36247 .
+
+_:node1ifs6udrrx4 rr:column "id" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifs6udrrx1 .
+
+_:node1ifs6udrrx1 km-dev:hasObjectMap _:node1ifs6udrrx4 .
+
+km-dev:PredicateObjectMap_9a08e463-2604-4010-a484-16afad2cad53 rr:objectMap _:node1ifs6udrrx4 .
+
+km-dev:TriplesMap_6512927a-67a2-40ca-b65a-49b39d324e33 rr:predicateObjectMap km-dev:PredicateObjectMap_9a08e463-2604-4010-a484-16afad2cad53 .
+
+km-dev:PredicateObjectMap_9a08e463-2604-4010-a484-16afad2cad53 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifs6udrrx1 .
+
+_:node1ifs6udrrx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9a08e463-2604-4010-a484-16afad2cad53 .
+
+km-dev:PredicateObjectMap_f5f23773-007a-4eed-b1ae-6d672ac34f54 rr:predicate etype:name_UKC-2 .
+
+_:node1ifs6udrrx5 rr:column "name" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifs6udrrx1 .
+
+_:node1ifs6udrrx1 km-dev:hasObjectMap _:node1ifs6udrrx5 .
+
+km-dev:PredicateObjectMap_f5f23773-007a-4eed-b1ae-6d672ac34f54 rr:objectMap _:node1ifs6udrrx5 .
+
+km-dev:TriplesMap_6512927a-67a2-40ca-b65a-49b39d324e33 rr:predicateObjectMap km-dev:PredicateObjectMap_f5f23773-007a-4eed-b1ae-6d672ac34f54 .
+
+km-dev:PredicateObjectMap_f5f23773-007a-4eed-b1ae-6d672ac34f54 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifs6udrrx1 .
+
+_:node1ifs6udrrx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f5f23773-007a-4eed-b1ae-6d672ac34f54 .
+
+km-dev:PredicateObjectMap_43ae3db2-2cfd-496d-a187-ffabe0d382a9 rr:predicate etype:surface_OSM-surface .
+
+_:node1ifs6udrrx6 rr:column "surface" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifs6udrrx1 .
+
+_:node1ifs6udrrx1 km-dev:hasObjectMap _:node1ifs6udrrx6 .
+
+km-dev:PredicateObjectMap_43ae3db2-2cfd-496d-a187-ffabe0d382a9 rr:objectMap _:node1ifs6udrrx6 .
+
+km-dev:TriplesMap_6512927a-67a2-40ca-b65a-49b39d324e33 rr:predicateObjectMap km-dev:PredicateObjectMap_43ae3db2-2cfd-496d-a187-ffabe0d382a9 .
+
+km-dev:PredicateObjectMap_43ae3db2-2cfd-496d-a187-ffabe0d382a9 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifs6udrrx1 .
+
+_:node1ifs6udrrx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_43ae3db2-2cfd-496d-a187-ffabe0d382a9 .
+
+km-dev:PredicateObjectMap_94299788-ea0b-4b7b-89ff-b59f0f0ab4e0 rr:predicate etype:lit_UKC-75466 .
+
+_:node1ifs6udrrx7 rr:column "lit" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifs6udrrx1 .
+
+_:node1ifs6udrrx1 km-dev:hasObjectMap _:node1ifs6udrrx7 .
+
+km-dev:PredicateObjectMap_94299788-ea0b-4b7b-89ff-b59f0f0ab4e0 rr:objectMap _:node1ifs6udrrx7 .
+
+km-dev:TriplesMap_6512927a-67a2-40ca-b65a-49b39d324e33 rr:predicateObjectMap km-dev:PredicateObjectMap_94299788-ea0b-4b7b-89ff-b59f0f0ab4e0 .
+
+km-dev:PredicateObjectMap_94299788-ea0b-4b7b-89ff-b59f0f0ab4e0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifs6udrrx1 .
+
+_:node1ifs6udrrx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_94299788-ea0b-4b7b-89ff-b59f0f0ab4e0 .

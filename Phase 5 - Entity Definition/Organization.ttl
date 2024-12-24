@@ -1,0 +1,193 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix etype: <http://knowdive.disi.unitn.it/etype#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1ifs00pesx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "Organization.csv" ;
+	km-dev:modelPublicationTime "1735032595932"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"id\"}],[{\"columnName\":\" name\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"id\"}],[{\"columnName\":\" name\"}]]" ;
+	km-dev:hasModelLabel "Organization.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \" name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Organization_UKC-43416\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Organization_UKC-434161\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#name_UKC-2\",
+                    \"DomainLabel\": \"etype:Organization_UKC-434161 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\" name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\" name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Organization_UKC-43416\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Organization_UKC-434161\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#identification_UKC-36247\",
+                    \"DomainLabel\": \"etype:Organization_UKC-434161\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_a5a04452-96e0-4314-ae91-18b17681892b a rr:TriplesMap .
+
+_:node1ifs00pesx1 km-dev:hasTriplesMap km-dev:TriplesMap_a5a04452-96e0-4314-ae91-18b17681892b .
+
+km-dev:TriplesMap_a5a04452-96e0-4314-ae91-18b17681892b km-dev:isPartOfMapping _:node1ifs00pesx1 .
+
+_:node1ifs00pesx2 rr:tableName "Organization.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ifs00pesx1 .
+
+_:node1ifs00pesx1 km-dev:hasLogicalTable _:node1ifs00pesx2 .
+
+km-dev:TriplesMap_a5a04452-96e0-4314-ae91-18b17681892b rr:logicalTable _:node1ifs00pesx2 ;
+	rr:subjectMap _:node1ifs00pesx3 .
+
+_:node1ifs00pesx1 km-dev:hasSubjectMap _:node1ifs00pesx3 .
+
+_:node1ifs00pesx3 km-dev:isPartOfMapping _:node1ifs00pesx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Organization_UKC-434161" ;
+	rr:class etype:Organization_UKC-43416 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Organization_UKC-434161" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_58cdcea2-e0c1-4b95-a5b0-04bd7d2db008 rr:predicate etype:name_UKC-2 .
+
+_:node1ifs00pesx4 rr:column " name" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifs00pesx1 .
+
+_:node1ifs00pesx1 km-dev:hasObjectMap _:node1ifs00pesx4 .
+
+km-dev:PredicateObjectMap_58cdcea2-e0c1-4b95-a5b0-04bd7d2db008 rr:objectMap _:node1ifs00pesx4 .
+
+km-dev:TriplesMap_a5a04452-96e0-4314-ae91-18b17681892b rr:predicateObjectMap km-dev:PredicateObjectMap_58cdcea2-e0c1-4b95-a5b0-04bd7d2db008 .
+
+km-dev:PredicateObjectMap_58cdcea2-e0c1-4b95-a5b0-04bd7d2db008 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifs00pesx1 .
+
+_:node1ifs00pesx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_58cdcea2-e0c1-4b95-a5b0-04bd7d2db008 .
+
+km-dev:PredicateObjectMap_cd26c813-70c8-4a97-8e86-15a4952583e9 rr:predicate etype:identification_UKC-36247 .
+
+_:node1ifs00pesx5 rr:column "id" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ifs00pesx1 .
+
+_:node1ifs00pesx1 km-dev:hasObjectMap _:node1ifs00pesx5 .
+
+km-dev:PredicateObjectMap_cd26c813-70c8-4a97-8e86-15a4952583e9 rr:objectMap _:node1ifs00pesx5 .
+
+km-dev:TriplesMap_a5a04452-96e0-4314-ae91-18b17681892b rr:predicateObjectMap km-dev:PredicateObjectMap_cd26c813-70c8-4a97-8e86-15a4952583e9 .
+
+km-dev:PredicateObjectMap_cd26c813-70c8-4a97-8e86-15a4952583e9 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ifs00pesx1 .
+
+_:node1ifs00pesx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_cd26c813-70c8-4a97-8e86-15a4952583e9 .
