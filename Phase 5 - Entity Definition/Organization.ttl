@@ -1,193 +1,104 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix etype: <http://knowdive.disi.unitn.it/etype#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rr: <http://www.w3.org/ns/r2rml#> .
-@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+_:etype_Organization_UKC-434161_4d1af1b128175f058aad1db7e6ba13feda93e7f4_N191791_356a192b7913b04c54574d18c28d46e6395428ab_N191790 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_4d1af1b128175f058aad1db7e6ba13feda93e7f4_N191791_356a192b7913b04c54574d18c28d46e6395428ab_N191790 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Alps Hockey League" .
+_:etype_Organization_UKC-434161_4d1af1b128175f058aad1db7e6ba13feda93e7f4_N191791_356a192b7913b04c54574d18c28d46e6395428ab_N191790 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1" .
 
-_:node1ifs00pesx1 a km-dev:R2RMLMapping ;
-	km-dev:sourceName "Organization.csv" ;
-	km-dev:modelPublicationTime "1735032595932"^^xsd:long ;
-	km-dev:modelVersion "1.7" ;
-	km-dev:hasInputColumns "[[{\"columnName\":\"id\"}],[{\"columnName\":\" name\"}]]" ;
-	km-dev:hasOutputColumns "[[{\"columnName\":\"id\"}],[{\"columnName\":\" name\"}]]" ;
-	km-dev:hasModelLabel "Organization.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
-	km-dev:hasWorksheetHistory """[
-    {
-        \"commandName\": \"SetSemanticTypeCommand\",
-        \"model\": \"new\",
-        \"inputParameters\": [
-            {
-                \"name\": \"hNodeId\",
-                \"type\": \"hNodeId\",
-                \"value\": [{\"columnName\": \" name\"}]
-            },
-            {
-                \"name\": \"worksheetId\",
-                \"type\": \"worksheetId\",
-                \"value\": \"W\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"type\": \"other\",
-                \"value\": \"DEFAULT_TEST\"
-            },
-            {
-                \"name\": \"SemanticTypesArray\",
-                \"type\": \"other\",
-                \"value\": [{
-                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Organization_UKC-43416\",
-                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Organization_UKC-434161\",
-                    \"isPrimary\": true,
-                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#name_UKC-2\",
-                    \"DomainLabel\": \"etype:Organization_UKC-434161 (add)\"
-                }]
-            },
-            {
-                \"name\": \"trainAndShowUpdates\",
-                \"type\": \"other\",
-                \"value\": true
-            },
-            {
-                \"name\": \"rdfLiteralType\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"language\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\" name\\\"}]}]\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\" name\\\"}]}]\"
-            }
-        ],
-        \"tags\": [\"SemanticType\"]
-    },
-    {
-        \"commandName\": \"SetSemanticTypeCommand\",
-        \"model\": \"new\",
-        \"inputParameters\": [
-            {
-                \"name\": \"hNodeId\",
-                \"type\": \"hNodeId\",
-                \"value\": [{\"columnName\": \"id\"}]
-            },
-            {
-                \"name\": \"worksheetId\",
-                \"type\": \"worksheetId\",
-                \"value\": \"W\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"type\": \"other\",
-                \"value\": \"DEFAULT_TEST\"
-            },
-            {
-                \"name\": \"SemanticTypesArray\",
-                \"type\": \"other\",
-                \"value\": [{
-                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Organization_UKC-43416\",
-                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Organization_UKC-434161\",
-                    \"isPrimary\": true,
-                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#identification_UKC-36247\",
-                    \"DomainLabel\": \"etype:Organization_UKC-434161\"
-                }]
-            },
-            {
-                \"name\": \"trainAndShowUpdates\",
-                \"type\": \"other\",
-                \"value\": true
-            },
-            {
-                \"name\": \"rdfLiteralType\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"language\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
-            }
-        ],
-        \"tags\": [\"SemanticType\"]
-    }
-]""" .
+_:etype_Organization_UKC-434161_3d06b353475eb2938f4f97c7609a6f52e82961a5_N191794_da4b9237bacccdf19c0760cab7aec4a8359010b0_N191793 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "2" .
+_:etype_Organization_UKC-434161_3d06b353475eb2938f4f97c7609a6f52e82961a5_N191794_da4b9237bacccdf19c0760cab7aec4a8359010b0_N191793 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_3d06b353475eb2938f4f97c7609a6f52e82961a5_N191794_da4b9237bacccdf19c0760cab7aec4a8359010b0_N191793 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Amministrazione comunale" .
 
-km-dev:TriplesMap_a5a04452-96e0-4314-ae91-18b17681892b a rr:TriplesMap .
+_:etype_Organization_UKC-434161_edf75a9220f8463e22c342cd3ddfe894ca6c022e_N191797_77de68daecd823babbb58edb1c8e14d7106e83bb_N191796 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "3" .
+_:etype_Organization_UKC-434161_edf75a9220f8463e22c342cd3ddfe894ca6c022e_N191797_77de68daecd823babbb58edb1c8e14d7106e83bb_N191796 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_edf75a9220f8463e22c342cd3ddfe894ca6c022e_N191797_77de68daecd823babbb58edb1c8e14d7106e83bb_N191796 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "ASD Ortigaralefre" .
 
-_:node1ifs00pesx1 km-dev:hasTriplesMap km-dev:TriplesMap_a5a04452-96e0-4314-ae91-18b17681892b .
+_:etype_Organization_UKC-434161_e32bf01d6d272c1916ad5664b60ed997aa9da8e1_N191800_1b6453892473a467d07372d45eb05abc2031647a_N191799 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Associazione Pro loco Sabbionara" .
+_:etype_Organization_UKC-434161_e32bf01d6d272c1916ad5664b60ed997aa9da8e1_N191800_1b6453892473a467d07372d45eb05abc2031647a_N191799 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_e32bf01d6d272c1916ad5664b60ed997aa9da8e1_N191800_1b6453892473a467d07372d45eb05abc2031647a_N191799 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "4" .
 
-km-dev:TriplesMap_a5a04452-96e0-4314-ae91-18b17681892b km-dev:isPartOfMapping _:node1ifs00pesx1 .
+_:etype_Organization_UKC-434161_e1cf861812547f005ec772a8e89ddac339844c44_N191803_ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4_N191802 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_e1cf861812547f005ec772a8e89ddac339844c44_N191803_ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4_N191802 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "5" .
+_:etype_Organization_UKC-434161_e1cf861812547f005ec772a8e89ddac339844c44_N191803_ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4_N191802 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Azienda Per Il Turismo Dolomiti Paganella" .
 
-_:node1ifs00pesx2 rr:tableName "Organization.csv" ;
-	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1ifs00pesx1 .
+_:etype_Organization_UKC-434161_7d15e889201a27a4670497eb66eaaa00a0b3eab0_N191806_c1dfd96eea8cc2b62785275bca38ac261256e278_N191805 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Circolo Tennis Borgo e il Golf Club Roncegno" .
+_:etype_Organization_UKC-434161_7d15e889201a27a4670497eb66eaaa00a0b3eab0_N191806_c1dfd96eea8cc2b62785275bca38ac261256e278_N191805 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "6" .
+_:etype_Organization_UKC-434161_7d15e889201a27a4670497eb66eaaa00a0b3eab0_N191806_c1dfd96eea8cc2b62785275bca38ac261256e278_N191805 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
 
-_:node1ifs00pesx1 km-dev:hasLogicalTable _:node1ifs00pesx2 .
+_:etype_Organization_UKC-434161_f7f51d226777e3b9c4a95be97d90cfc449f7be55_N191809_902ba3cda1883801594b6e1b452790cc53948fda_N191808 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_f7f51d226777e3b9c4a95be97d90cfc449f7be55_N191809_902ba3cda1883801594b6e1b452790cc53948fda_N191808 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Cles Estate" .
+_:etype_Organization_UKC-434161_f7f51d226777e3b9c4a95be97d90cfc449f7be55_N191809_902ba3cda1883801594b6e1b452790cc53948fda_N191808 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "7" .
 
-km-dev:TriplesMap_a5a04452-96e0-4314-ae91-18b17681892b rr:logicalTable _:node1ifs00pesx2 ;
-	rr:subjectMap _:node1ifs00pesx3 .
+_:etype_Organization_UKC-434161_1f692584027b3be0822462e8c75c687d18e5d6dc_N191812_fe5dbbcea5ce7e2988b8c69bcfdfde8904aabc1f_N191811 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "8" .
+_:etype_Organization_UKC-434161_1f692584027b3be0822462e8c75c687d18e5d6dc_N191812_fe5dbbcea5ce7e2988b8c69bcfdfde8904aabc1f_N191811 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Collettivo Clochart A.P.S., Amministrazione comunale" .
+_:etype_Organization_UKC-434161_1f692584027b3be0822462e8c75c687d18e5d6dc_N191812_fe5dbbcea5ce7e2988b8c69bcfdfde8904aabc1f_N191811 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
 
-_:node1ifs00pesx1 km-dev:hasSubjectMap _:node1ifs00pesx3 .
+_:etype_Organization_UKC-434161_542f15135ca56e7be18c0352631ee00de05fbc92_N191815_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N191814 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "9" .
+_:etype_Organization_UKC-434161_542f15135ca56e7be18c0352631ee00de05fbc92_N191815_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N191814 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_542f15135ca56e7be18c0352631ee00de05fbc92_N191815_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N191814 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Comune di Besenello" .
 
-_:node1ifs00pesx3 km-dev:isPartOfMapping _:node1ifs00pesx1 ;
-	a rr:SubjectMap ;
-	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Organization_UKC-434161" ;
-	rr:class etype:Organization_UKC-43416 ;
-	rr:termType rr:BlankNode ;
-	km-dev:namePrefix "etype:Organization_UKC-434161" ;
-	a km-dev:steinerTreeRootNode .
+_:etype_Organization_UKC-434161_7f5c8353b9f28666eb3bd8ab6670c3744984bf03_N191818_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N191817 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_7f5c8353b9f28666eb3bd8ab6670c3744984bf03_N191818_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N191817 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "10" .
+_:etype_Organization_UKC-434161_7f5c8353b9f28666eb3bd8ab6670c3744984bf03_N191818_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N191817 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Comune di Brentonico, SAT - Società Alpinisti Tridentini, sezione di Brentonico" .
 
-km-dev:PredicateObjectMap_58cdcea2-e0c1-4b95-a5b0-04bd7d2db008 rr:predicate etype:name_UKC-2 .
+_:etype_Organization_UKC-434161_32335350ff8c381e257dbf3bf05b9b2c9c2c576b_N191821_17ba0791499db908433b80f37c5fbc89b870084b_N191820 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Comune di Cles" .
+_:etype_Organization_UKC-434161_32335350ff8c381e257dbf3bf05b9b2c9c2c576b_N191821_17ba0791499db908433b80f37c5fbc89b870084b_N191820 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "11" .
+_:etype_Organization_UKC-434161_32335350ff8c381e257dbf3bf05b9b2c9c2c576b_N191821_17ba0791499db908433b80f37c5fbc89b870084b_N191820 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
 
-_:node1ifs00pesx4 rr:column " name" ;
-	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1ifs00pesx1 .
+_:etype_Organization_UKC-434161_71a96947bf640704757acd94521c7bae68830fa9_N191824_7b52009b64fd0a2a49e6d8a939753077792b0554_N191823 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Comune e dalla Biblioteca di Cles" .
+_:etype_Organization_UKC-434161_71a96947bf640704757acd94521c7bae68830fa9_N191824_7b52009b64fd0a2a49e6d8a939753077792b0554_N191823 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_71a96947bf640704757acd94521c7bae68830fa9_N191824_7b52009b64fd0a2a49e6d8a939753077792b0554_N191823 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "12" .
 
-_:node1ifs00pesx1 km-dev:hasObjectMap _:node1ifs00pesx4 .
+_:etype_Organization_UKC-434161_f455eb6830acfc3467929de2a611d11566d2832b_N191827_bd307a3ec329e10a2cff8fb87480823da114f8f4_N191826 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Comunità della Valle di Cembra" .
+_:etype_Organization_UKC-434161_f455eb6830acfc3467929de2a611d11566d2832b_N191827_bd307a3ec329e10a2cff8fb87480823da114f8f4_N191826 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_f455eb6830acfc3467929de2a611d11566d2832b_N191827_bd307a3ec329e10a2cff8fb87480823da114f8f4_N191826 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "13" .
 
-km-dev:PredicateObjectMap_58cdcea2-e0c1-4b95-a5b0-04bd7d2db008 rr:objectMap _:node1ifs00pesx4 .
+_:etype_Organization_UKC-434161_9863e20fbc742dc2c0ceebfd6cb9e49bf7e24d1c_N191830_fa35e192121eabf3dabf9f5ea6abdbcbc107ac3b_N191829 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "14" .
+_:etype_Organization_UKC-434161_9863e20fbc742dc2c0ceebfd6cb9e49bf7e24d1c_N191830_fa35e192121eabf3dabf9f5ea6abdbcbc107ac3b_N191829 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_9863e20fbc742dc2c0ceebfd6cb9e49bf7e24d1c_N191830_fa35e192121eabf3dabf9f5ea6abdbcbc107ac3b_N191829 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Comunità di Valle Alto Garda e Ledro" .
 
-km-dev:TriplesMap_a5a04452-96e0-4314-ae91-18b17681892b rr:predicateObjectMap km-dev:PredicateObjectMap_58cdcea2-e0c1-4b95-a5b0-04bd7d2db008 .
+_:etype_Organization_UKC-434161_1089947e20a2710fae09dca500a448832117fbcc_N191833_f1abd670358e036c31296e66b3b66c382ac00812_N191832 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_1089947e20a2710fae09dca500a448832117fbcc_N191833_f1abd670358e036c31296e66b3b66c382ac00812_N191832 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "15" .
+_:etype_Organization_UKC-434161_1089947e20a2710fae09dca500a448832117fbcc_N191833_f1abd670358e036c31296e66b3b66c382ac00812_N191832 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Consiglio Comunale dei Ragazzi di Cles" .
 
-km-dev:PredicateObjectMap_58cdcea2-e0c1-4b95-a5b0-04bd7d2db008 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1ifs00pesx1 .
+_:etype_Organization_UKC-434161_cfba0eaf239dd40bf694350f8c57fd3516522dd3_N191836_1574bddb75c78a6fd2251d61e2993b5146201319_N191835 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "16" .
+_:etype_Organization_UKC-434161_cfba0eaf239dd40bf694350f8c57fd3516522dd3_N191836_1574bddb75c78a6fd2251d61e2993b5146201319_N191835 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Dolomytennis" .
+_:etype_Organization_UKC-434161_cfba0eaf239dd40bf694350f8c57fd3516522dd3_N191836_1574bddb75c78a6fd2251d61e2993b5146201319_N191835 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
 
-_:node1ifs00pesx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_58cdcea2-e0c1-4b95-a5b0-04bd7d2db008 .
+_:etype_Organization_UKC-434161_a351ebfca1c14a364698a32a1e57648146ccb8bb_N191839_0716d9708d321ffb6a00818614779e779925365c_N191838 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_a351ebfca1c14a364698a32a1e57648146ccb8bb_N191839_0716d9708d321ffb6a00818614779e779925365c_N191838 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "17" .
+_:etype_Organization_UKC-434161_a351ebfca1c14a364698a32a1e57648146ccb8bb_N191839_0716d9708d321ffb6a00818614779e779925365c_N191838 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Judo Zen'Yo Destra Adige" .
 
-km-dev:PredicateObjectMap_cd26c813-70c8-4a97-8e86-15a4952583e9 rr:predicate etype:identification_UKC-36247 .
+_:etype_Organization_UKC-434161_046b2fa5c1823b0b4142eba043c86ab8eb92b86d_N191842_9e6a55b6b4563e652a23be9d623ca5055c356940_N191841 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "La Gazzetta dello Sport e Trentino Marketing" .
+_:etype_Organization_UKC-434161_046b2fa5c1823b0b4142eba043c86ab8eb92b86d_N191842_9e6a55b6b4563e652a23be9d623ca5055c356940_N191841 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_046b2fa5c1823b0b4142eba043c86ab8eb92b86d_N191842_9e6a55b6b4563e652a23be9d623ca5055c356940_N191841 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "18" .
 
-_:node1ifs00pesx5 rr:column "id" ;
-	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1ifs00pesx1 .
+_:etype_Organization_UKC-434161_fec9628537e189a3979844e4b63e5101028a625c_N191845_b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f_N191844 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Mountain Friends" .
+_:etype_Organization_UKC-434161_fec9628537e189a3979844e4b63e5101028a625c_N191845_b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f_N191844 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_fec9628537e189a3979844e4b63e5101028a625c_N191845_b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f_N191844 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "19" .
 
-_:node1ifs00pesx1 km-dev:hasObjectMap _:node1ifs00pesx5 .
+_:etype_Organization_UKC-434161_26d41f1af6721c2190b5bd43181d4d0571aee3e3_N191848_91032ad7bbcb6cf72875e8e8207dcfba80173f7c_N191847 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_26d41f1af6721c2190b5bd43181d4d0571aee3e3_N191848_91032ad7bbcb6cf72875e8e8207dcfba80173f7c_N191847 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Pro Loco Stenico" .
+_:etype_Organization_UKC-434161_26d41f1af6721c2190b5bd43181d4d0571aee3e3_N191848_91032ad7bbcb6cf72875e8e8207dcfba80173f7c_N191847 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "20" .
 
-km-dev:PredicateObjectMap_cd26c813-70c8-4a97-8e86-15a4952583e9 rr:objectMap _:node1ifs00pesx5 .
+_:etype_Organization_UKC-434161_a5e35b540fa846f7e63fcf34553bd1f89ea35610_N191851_472b07b9fcf2c2451e8781e944bf5f77cd8457c8_N191850 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "21" .
+_:etype_Organization_UKC-434161_a5e35b540fa846f7e63fcf34553bd1f89ea35610_N191851_472b07b9fcf2c2451e8781e944bf5f77cd8457c8_N191850 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_a5e35b540fa846f7e63fcf34553bd1f89ea35610_N191851_472b07b9fcf2c2451e8781e944bf5f77cd8457c8_N191850 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "S.P.A.L. CALCIO" .
 
-km-dev:TriplesMap_a5a04452-96e0-4314-ae91-18b17681892b rr:predicateObjectMap km-dev:PredicateObjectMap_cd26c813-70c8-4a97-8e86-15a4952583e9 .
+_:etype_Organization_UKC-434161_6eb190ca83829089845ea52ecd75258a660bebfb_N191854_12c6fc06c99a462375eeb3f43dfd832b08ca9e17_N191853 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_6eb190ca83829089845ea52ecd75258a660bebfb_N191854_12c6fc06c99a462375eeb3f43dfd832b08ca9e17_N191853 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "22" .
+_:etype_Organization_UKC-434161_6eb190ca83829089845ea52ecd75258a660bebfb_N191854_12c6fc06c99a462375eeb3f43dfd832b08ca9e17_N191853 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "U.S. Robur Sporminore" .
 
-km-dev:PredicateObjectMap_cd26c813-70c8-4a97-8e86-15a4952583e9 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1ifs00pesx1 .
+_:etype_Organization_UKC-434161_71fce723de92c1cace526411f425a94d47fe5349_N191857_d435a6cdd786300dff204ee7c2ef942d3e9034e2_N191856 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Unione sportiva Castel Ivano ASD" .
+_:etype_Organization_UKC-434161_71fce723de92c1cace526411f425a94d47fe5349_N191857_d435a6cdd786300dff204ee7c2ef942d3e9034e2_N191856 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_71fce723de92c1cace526411f425a94d47fe5349_N191857_d435a6cdd786300dff204ee7c2ef942d3e9034e2_N191856 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "23" .
 
-_:node1ifs00pesx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_cd26c813-70c8-4a97-8e86-15a4952583e9 .
+_:etype_Organization_UKC-434161_3f224e00978c041769b13f35fa1817d419ac6a22_N191860_4d134bc072212ace2df385dae143139da74ec0ef_N191859 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "24" .
+_:etype_Organization_UKC-434161_3f224e00978c041769b13f35fa1817d419ac6a22_N191860_4d134bc072212ace2df385dae143139da74ec0ef_N191859 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Unione Sportiva Marter" .
+_:etype_Organization_UKC-434161_3f224e00978c041769b13f35fa1817d419ac6a22_N191860_4d134bc072212ace2df385dae143139da74ec0ef_N191859 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+
+_:etype_Organization_UKC-434161_c2b619008a04f9e0bdfb6786cb29e956d6f3322f_N191863_f6e1126cedebf23e1463aee73f9df08783640400_N191862 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Unione sportiva Villagnedo ASD" .
+_:etype_Organization_UKC-434161_c2b619008a04f9e0bdfb6786cb29e956d6f3322f_N191863_f6e1126cedebf23e1463aee73f9df08783640400_N191862 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+_:etype_Organization_UKC-434161_c2b619008a04f9e0bdfb6786cb29e956d6f3322f_N191863_f6e1126cedebf23e1463aee73f9df08783640400_N191862 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "25" .
+
+_:etype_Organization_UKC-434161_6820d97b576b2d7bc88ee86dae6eeabbdef2b575_N191866_887309d048beef83ad3eabf2a79a64a389ab1c9f_N191865 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "26" .
+_:etype_Organization_UKC-434161_6820d97b576b2d7bc88ee86dae6eeabbdef2b575_N191866_887309d048beef83ad3eabf2a79a64a389ab1c9f_N191865 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "US Pieve di Bono" .
+_:etype_Organization_UKC-434161_6820d97b576b2d7bc88ee86dae6eeabbdef2b575_N191866_887309d048beef83ad3eabf2a79a64a389ab1c9f_N191865 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Organization_UKC-43416> .
+

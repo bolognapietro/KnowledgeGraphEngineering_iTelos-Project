@@ -1,193 +1,604 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix etype: <http://knowdive.disi.unitn.it/etype#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rr: <http://www.w3.org/ns/r2rml#> .
-@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+_:etype_Sport_UKC-25931_356a192b7913b04c54574d18c28d46e6395428ab_N15_42217140fa5da86e8896b3f0676c5bebcc3145aa_N14 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1" .
+_:etype_Sport_UKC-25931_356a192b7913b04c54574d18c28d46e6395428ab_N15_42217140fa5da86e8896b3f0676c5bebcc3145aa_N14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_356a192b7913b04c54574d18c28d46e6395428ab_N15_42217140fa5da86e8896b3f0676c5bebcc3145aa_N14 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "acrobatics" .
 
-_:node1ifs0sa3gx1 a km-dev:R2RMLMapping ;
-	km-dev:sourceName "Sport.csv" ;
-	km-dev:modelPublicationTime "1735033497712"^^xsd:long ;
-	km-dev:modelVersion "1.7" ;
-	km-dev:hasInputColumns "[[{\"columnName\":\"name\"}],[{\"columnName\":\"id\"}]]" ;
-	km-dev:hasOutputColumns "[[{\"columnName\":\"name\"}],[{\"columnName\":\"id\"}]]" ;
-	km-dev:hasModelLabel "Sport.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
-	km-dev:hasWorksheetHistory """[
-    {
-        \"commandName\": \"SetSemanticTypeCommand\",
-        \"model\": \"new\",
-        \"inputParameters\": [
-            {
-                \"name\": \"hNodeId\",
-                \"type\": \"hNodeId\",
-                \"value\": [{\"columnName\": \"id\"}]
-            },
-            {
-                \"name\": \"worksheetId\",
-                \"type\": \"worksheetId\",
-                \"value\": \"W\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"type\": \"other\",
-                \"value\": \"DEFAULT_TEST\"
-            },
-            {
-                \"name\": \"SemanticTypesArray\",
-                \"type\": \"other\",
-                \"value\": [{
-                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Sport_UKC-2593\",
-                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Sport_UKC-25931\",
-                    \"isPrimary\": true,
-                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#identification_UKC-36247\",
-                    \"DomainLabel\": \"etype:Sport_UKC-25931 (add)\"
-                }]
-            },
-            {
-                \"name\": \"trainAndShowUpdates\",
-                \"type\": \"other\",
-                \"value\": true
-            },
-            {
-                \"name\": \"rdfLiteralType\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"language\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
-            }
-        ],
-        \"tags\": [\"SemanticType\"]
-    },
-    {
-        \"commandName\": \"SetSemanticTypeCommand\",
-        \"model\": \"new\",
-        \"inputParameters\": [
-            {
-                \"name\": \"hNodeId\",
-                \"type\": \"hNodeId\",
-                \"value\": [{\"columnName\": \"name\"}]
-            },
-            {
-                \"name\": \"worksheetId\",
-                \"type\": \"worksheetId\",
-                \"value\": \"W\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"type\": \"other\",
-                \"value\": \"DEFAULT_TEST\"
-            },
-            {
-                \"name\": \"SemanticTypesArray\",
-                \"type\": \"other\",
-                \"value\": [{
-                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Sport_UKC-2593\",
-                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Sport_UKC-25931\",
-                    \"isPrimary\": true,
-                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#name_UKC-2\",
-                    \"DomainLabel\": \"etype:Sport_UKC-25931\"
-                }]
-            },
-            {
-                \"name\": \"trainAndShowUpdates\",
-                \"type\": \"other\",
-                \"value\": true
-            },
-            {
-                \"name\": \"rdfLiteralType\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"language\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
-            }
-        ],
-        \"tags\": [\"SemanticType\"]
-    }
-]""" .
+_:etype_Sport_UKC-25931_da4b9237bacccdf19c0760cab7aec4a8359010b0_N18_3b712a9d61c5541e32479978818df2956763f400_N17 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "aikido" .
+_:etype_Sport_UKC-25931_da4b9237bacccdf19c0760cab7aec4a8359010b0_N18_3b712a9d61c5541e32479978818df2956763f400_N17 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "2" .
+_:etype_Sport_UKC-25931_da4b9237bacccdf19c0760cab7aec4a8359010b0_N18_3b712a9d61c5541e32479978818df2956763f400_N17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
 
-km-dev:TriplesMap_b7eb9dd8-1893-4479-8534-dbed9986e1de a rr:TriplesMap .
+_:etype_Sport_UKC-25931_77de68daecd823babbb58edb1c8e14d7106e83bb_N21_d90fd16c337129de46cdd61bb19a6dbb874cc797_N20 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "3" .
+_:etype_Sport_UKC-25931_77de68daecd823babbb58edb1c8e14d7106e83bb_N21_d90fd16c337129de46cdd61bb19a6dbb874cc797_N20 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "mountaineering" .
+_:etype_Sport_UKC-25931_77de68daecd823babbb58edb1c8e14d7106e83bb_N21_d90fd16c337129de46cdd61bb19a6dbb874cc797_N20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
 
-_:node1ifs0sa3gx1 km-dev:hasTriplesMap km-dev:TriplesMap_b7eb9dd8-1893-4479-8534-dbed9986e1de .
+_:etype_Sport_UKC-25931_1b6453892473a467d07372d45eb05abc2031647a_N24_2bbed9587ed692a4c2be81cb33a9936100a38524_N23 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "4" .
+_:etype_Sport_UKC-25931_1b6453892473a467d07372d45eb05abc2031647a_N24_2bbed9587ed692a4c2be81cb33a9936100a38524_N23 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "climbing" .
+_:etype_Sport_UKC-25931_1b6453892473a467d07372d45eb05abc2031647a_N24_2bbed9587ed692a4c2be81cb33a9936100a38524_N23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
 
-km-dev:TriplesMap_b7eb9dd8-1893-4479-8534-dbed9986e1de km-dev:isPartOfMapping _:node1ifs0sa3gx1 .
+_:etype_Sport_UKC-25931_ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4_N27_d5cb4e5830980b3274c01dae2a136d91f41bfecd_N26 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "artistic swimming" .
+_:etype_Sport_UKC-25931_ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4_N27_d5cb4e5830980b3274c01dae2a136d91f41bfecd_N26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4_N27_d5cb4e5830980b3274c01dae2a136d91f41bfecd_N26 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "5" .
 
-_:node1ifs0sa3gx2 rr:tableName "Sport.csv" ;
-	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1ifs0sa3gx1 .
+_:etype_Sport_UKC-25931_c1dfd96eea8cc2b62785275bca38ac261256e278_N30_b3c71402d8fc1c7b8ba7a105c199c5ca785a910e_N29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_c1dfd96eea8cc2b62785275bca38ac261256e278_N30_b3c71402d8fc1c7b8ba7a105c199c5ca785a910e_N29 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "6" .
+_:etype_Sport_UKC-25931_c1dfd96eea8cc2b62785275bca38ac261256e278_N30_b3c71402d8fc1c7b8ba7a105c199c5ca785a910e_N29 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "athletics" .
 
-_:node1ifs0sa3gx1 km-dev:hasLogicalTable _:node1ifs0sa3gx2 .
+_:etype_Sport_UKC-25931_902ba3cda1883801594b6e1b452790cc53948fda_N33_364d83e18a8a0f2c018d88742ce4e12f1a2f9c68_N32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_902ba3cda1883801594b6e1b452790cc53948fda_N33_364d83e18a8a0f2c018d88742ce4e12f1a2f9c68_N32 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "7" .
+_:etype_Sport_UKC-25931_902ba3cda1883801594b6e1b452790cc53948fda_N33_364d83e18a8a0f2c018d88742ce4e12f1a2f9c68_N32 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "badminton" .
 
-km-dev:TriplesMap_b7eb9dd8-1893-4479-8534-dbed9986e1de rr:logicalTable _:node1ifs0sa3gx2 ;
-	rr:subjectMap _:node1ifs0sa3gx3 .
+_:etype_Sport_UKC-25931_fe5dbbcea5ce7e2988b8c69bcfdfde8904aabc1f_N36_a2c901c8c6dea98958c219f6f2d038c44dc5d362_N35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_fe5dbbcea5ce7e2988b8c69bcfdfde8904aabc1f_N36_a2c901c8c6dea98958c219f6f2d038c44dc5d362_N35 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "8" .
+_:etype_Sport_UKC-25931_fe5dbbcea5ce7e2988b8c69bcfdfde8904aabc1f_N36_a2c901c8c6dea98958c219f6f2d038c44dc5d362_N35 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "baseball" .
 
-_:node1ifs0sa3gx1 km-dev:hasSubjectMap _:node1ifs0sa3gx3 .
+_:etype_Sport_UKC-25931_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N39_151bd2998f0db86caeddf088a50e8c0c84bc713b_N38 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "9" .
+_:etype_Sport_UKC-25931_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N39_151bd2998f0db86caeddf088a50e8c0c84bc713b_N38 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "softball" .
+_:etype_Sport_UKC-25931_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N39_151bd2998f0db86caeddf088a50e8c0c84bc713b_N38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
 
-_:node1ifs0sa3gx3 km-dev:isPartOfMapping _:node1ifs0sa3gx1 ;
-	a rr:SubjectMap ;
-	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Sport_UKC-25931" ;
-	rr:class etype:Sport_UKC-2593 ;
-	rr:termType rr:BlankNode ;
-	km-dev:namePrefix "etype:Sport_UKC-25931" ;
-	a km-dev:steinerTreeRootNode .
+_:etype_Sport_UKC-25931_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N42_aa6b35e57336927591fa9fae06fd49806b0bbfe7_N41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N42_aa6b35e57336927591fa9fae06fd49806b0bbfe7_N41 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "beach volleyball" .
+_:etype_Sport_UKC-25931_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N42_aa6b35e57336927591fa9fae06fd49806b0bbfe7_N41 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "10" .
 
-km-dev:PredicateObjectMap_a083660d-1270-476e-b6e3-b2c1b7e1b20d rr:predicate etype:identification_UKC-36247 .
+_:etype_Sport_UKC-25931_17ba0791499db908433b80f37c5fbc89b870084b_N45_dd7e70572b1ffad93895c3c0bc9c819f8cb92dcb_N44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_17ba0791499db908433b80f37c5fbc89b870084b_N45_dd7e70572b1ffad93895c3c0bc9c819f8cb92dcb_N44 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "11" .
+_:etype_Sport_UKC-25931_17ba0791499db908433b80f37c5fbc89b870084b_N45_dd7e70572b1ffad93895c3c0bc9c819f8cb92dcb_N44 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "boogie woogie" .
 
-_:node1ifs0sa3gx4 rr:column "id" ;
-	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1ifs0sa3gx1 .
+_:etype_Sport_UKC-25931_7b52009b64fd0a2a49e6d8a939753077792b0554_N48_5c17fa03e6d5fc247565e1cd8ffa70e1bfe5b8d9_N47 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "12" .
+_:etype_Sport_UKC-25931_7b52009b64fd0a2a49e6d8a939753077792b0554_N48_5c17fa03e6d5fc247565e1cd8ffa70e1bfe5b8d9_N47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_7b52009b64fd0a2a49e6d8a939753077792b0554_N48_5c17fa03e6d5fc247565e1cd8ffa70e1bfe5b8d9_N47 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "soccer" .
 
-_:node1ifs0sa3gx1 km-dev:hasObjectMap _:node1ifs0sa3gx4 .
+_:etype_Sport_UKC-25931_bd307a3ec329e10a2cff8fb87480823da114f8f4_N51_ab14e5c80c8e8187ec0e4134dc2e797305892b26_N50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_bd307a3ec329e10a2cff8fb87480823da114f8f4_N51_ab14e5c80c8e8187ec0e4134dc2e797305892b26_N50 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "gaelic football" .
+_:etype_Sport_UKC-25931_bd307a3ec329e10a2cff8fb87480823da114f8f4_N51_ab14e5c80c8e8187ec0e4134dc2e797305892b26_N50 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "13" .
 
-km-dev:PredicateObjectMap_a083660d-1270-476e-b6e3-b2c1b7e1b20d rr:objectMap _:node1ifs0sa3gx4 .
+_:etype_Sport_UKC-25931_fa35e192121eabf3dabf9f5ea6abdbcbc107ac3b_N54_a2d9a8498ddcdd899261dd8d57ae7912e9faffa6_N53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_fa35e192121eabf3dabf9f5ea6abdbcbc107ac3b_N54_a2d9a8498ddcdd899261dd8d57ae7912e9faffa6_N53 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "14" .
+_:etype_Sport_UKC-25931_fa35e192121eabf3dabf9f5ea6abdbcbc107ac3b_N54_a2d9a8498ddcdd899261dd8d57ae7912e9faffa6_N53 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "canoeing" .
 
-km-dev:TriplesMap_b7eb9dd8-1893-4479-8534-dbed9986e1de rr:predicateObjectMap km-dev:PredicateObjectMap_a083660d-1270-476e-b6e3-b2c1b7e1b20d .
+_:etype_Sport_UKC-25931_f1abd670358e036c31296e66b3b66c382ac00812_N57_81c4e5517cb3f98c5b89162fd7736f113669e97f_N56 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "15" .
+_:etype_Sport_UKC-25931_f1abd670358e036c31296e66b3b66c382ac00812_N57_81c4e5517cb3f98c5b89162fd7736f113669e97f_N56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_f1abd670358e036c31296e66b3b66c382ac00812_N57_81c4e5517cb3f98c5b89162fd7736f113669e97f_N56 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "rowing" .
 
-km-dev:PredicateObjectMap_a083660d-1270-476e-b6e3-b2c1b7e1b20d a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1ifs0sa3gx1 .
+_:etype_Sport_UKC-25931_1574bddb75c78a6fd2251d61e2993b5146201319_N60_79fccdf45466bf70743012a2071999dfa3b07875_N59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_1574bddb75c78a6fd2251d61e2993b5146201319_N60_79fccdf45466bf70743012a2071999dfa3b07875_N59 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "capoeira" .
+_:etype_Sport_UKC-25931_1574bddb75c78a6fd2251d61e2993b5146201319_N60_79fccdf45466bf70743012a2071999dfa3b07875_N59 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "16" .
 
-_:node1ifs0sa3gx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a083660d-1270-476e-b6e3-b2c1b7e1b20d .
+_:etype_Sport_UKC-25931_0716d9708d321ffb6a00818614779e779925365c_N63_760693623c741273c6252a59f9f3622899da0d69_N62 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "17" .
+_:etype_Sport_UKC-25931_0716d9708d321ffb6a00818614779e779925365c_N63_760693623c741273c6252a59f9f3622899da0d69_N62 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "cycling" .
+_:etype_Sport_UKC-25931_0716d9708d321ffb6a00818614779e779925365c_N63_760693623c741273c6252a59f9f3622899da0d69_N62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
 
-km-dev:PredicateObjectMap_5dbad390-f78d-4413-a023-4a0bf9298d53 rr:predicate etype:name_UKC-2 .
+_:etype_Sport_UKC-25931_9e6a55b6b4563e652a23be9d623ca5055c356940_N66_d20716fa0c401bf4f144189087a02a133fd7f839_N65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_9e6a55b6b4563e652a23be9d623ca5055c356940_N66_d20716fa0c401bf4f144189087a02a133fd7f839_N65 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "18" .
+_:etype_Sport_UKC-25931_9e6a55b6b4563e652a23be9d623ca5055c356940_N66_d20716fa0c401bf4f144189087a02a133fd7f839_N65 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "track cycling" .
 
-_:node1ifs0sa3gx5 rr:column "name" ;
-	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1ifs0sa3gx1 .
+_:etype_Sport_UKC-25931_b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f_N69_c6e2e88db5fcdfa400ba6867d53e4e6a63072201_N68 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "19" .
+_:etype_Sport_UKC-25931_b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f_N69_c6e2e88db5fcdfa400ba6867d53e4e6a63072201_N68 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "road cycling" .
+_:etype_Sport_UKC-25931_b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f_N69_c6e2e88db5fcdfa400ba6867d53e4e6a63072201_N68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
 
-_:node1ifs0sa3gx1 km-dev:hasObjectMap _:node1ifs0sa3gx5 .
+_:etype_Sport_UKC-25931_91032ad7bbcb6cf72875e8e8207dcfba80173f7c_N72_8b6d258d8b73665928b75e48e9f107bf3de9a64e_N71 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "cyclocross" .
+_:etype_Sport_UKC-25931_91032ad7bbcb6cf72875e8e8207dcfba80173f7c_N72_8b6d258d8b73665928b75e48e9f107bf3de9a64e_N71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_91032ad7bbcb6cf72875e8e8207dcfba80173f7c_N72_8b6d258d8b73665928b75e48e9f107bf3de9a64e_N71 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "20" .
 
-km-dev:PredicateObjectMap_5dbad390-f78d-4413-a023-4a0bf9298d53 rr:objectMap _:node1ifs0sa3gx5 .
+_:etype_Sport_UKC-25931_472b07b9fcf2c2451e8781e944bf5f77cd8457c8_N75_2a09dba40fa07624d0bc592b0191fde04065f381_N74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_472b07b9fcf2c2451e8781e944bf5f77cd8457c8_N75_2a09dba40fa07624d0bc592b0191fde04065f381_N74 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "21" .
+_:etype_Sport_UKC-25931_472b07b9fcf2c2451e8781e944bf5f77cd8457c8_N75_2a09dba40fa07624d0bc592b0191fde04065f381_N74 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "orienteering" .
 
-km-dev:TriplesMap_b7eb9dd8-1893-4479-8534-dbed9986e1de rr:predicateObjectMap km-dev:PredicateObjectMap_5dbad390-f78d-4413-a023-4a0bf9298d53 .
+_:etype_Sport_UKC-25931_12c6fc06c99a462375eeb3f43dfd832b08ca9e17_N78_d80ef31457a7f758f4854fe3a860dea714b47405_N77 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "curling" .
+_:etype_Sport_UKC-25931_12c6fc06c99a462375eeb3f43dfd832b08ca9e17_N78_d80ef31457a7f758f4854fe3a860dea714b47405_N77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_12c6fc06c99a462375eeb3f43dfd832b08ca9e17_N78_d80ef31457a7f758f4854fe3a860dea714b47405_N77 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "22" .
 
-km-dev:PredicateObjectMap_5dbad390-f78d-4413-a023-4a0bf9298d53 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1ifs0sa3gx1 .
+_:etype_Sport_UKC-25931_d435a6cdd786300dff204ee7c2ef942d3e9034e2_N81_74b518ed5512d0ca1abf57120656a3191375da5e_N80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_d435a6cdd786300dff204ee7c2ef942d3e9034e2_N81_74b518ed5512d0ca1abf57120656a3191375da5e_N80 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "23" .
+_:etype_Sport_UKC-25931_d435a6cdd786300dff204ee7c2ef942d3e9034e2_N81_74b518ed5512d0ca1abf57120656a3191375da5e_N80 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "dance" .
 
-_:node1ifs0sa3gx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5dbad390-f78d-4413-a023-4a0bf9298d53 .
+_:etype_Sport_UKC-25931_4d134bc072212ace2df385dae143139da74ec0ef_N84_a93f0e42ac431ce374b2e40ccaed52963a11c5df_N83 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "24" .
+_:etype_Sport_UKC-25931_4d134bc072212ace2df385dae143139da74ec0ef_N84_a93f0e42ac431ce374b2e40ccaed52963a11c5df_N83 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "standard latin dance" .
+_:etype_Sport_UKC-25931_4d134bc072212ace2df385dae143139da74ec0ef_N84_a93f0e42ac431ce374b2e40ccaed52963a11c5df_N83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_f6e1126cedebf23e1463aee73f9df08783640400_N87_f19a40d555404c9505e6f3a21e95298dafc2487b_N86 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "donut hockey" .
+_:etype_Sport_UKC-25931_f6e1126cedebf23e1463aee73f9df08783640400_N87_f19a40d555404c9505e6f3a21e95298dafc2487b_N86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_f6e1126cedebf23e1463aee73f9df08783640400_N87_f19a40d555404c9505e6f3a21e95298dafc2487b_N86 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "25" .
+
+_:etype_Sport_UKC-25931_887309d048beef83ad3eabf2a79a64a389ab1c9f_N90_583ead2114dde8687249f0d089ce4f20a8934153_N89 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "26" .
+_:etype_Sport_UKC-25931_887309d048beef83ad3eabf2a79a64a389ab1c9f_N90_583ead2114dde8687249f0d089ce4f20a8934153_N89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_887309d048beef83ad3eabf2a79a64a389ab1c9f_N90_583ead2114dde8687249f0d089ce4f20a8934153_N89 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "flag football" .
+
+_:etype_Sport_UKC-25931_bc33ea4e26e5e1af1408321416956113a4658763_N93_07c268f8d1162ec4e6d31066b5e4d1c229e5d52d_N92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_bc33ea4e26e5e1af1408321416956113a4658763_N93_07c268f8d1162ec4e6d31066b5e4d1c229e5d52d_N92 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "foobaskill" .
+_:etype_Sport_UKC-25931_bc33ea4e26e5e1af1408321416956113a4658763_N93_07c268f8d1162ec4e6d31066b5e4d1c229e5d52d_N92 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "27" .
+
+_:etype_Sport_UKC-25931_0a57cb53ba59c46fc4b692527a38a87c78d84028_N96_8ca0c94859cc6ad2f697212091cf93ea6e4b11f7_N95 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "frisbee" .
+_:etype_Sport_UKC-25931_0a57cb53ba59c46fc4b692527a38a87c78d84028_N96_8ca0c94859cc6ad2f697212091cf93ea6e4b11f7_N95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_0a57cb53ba59c46fc4b692527a38a87c78d84028_N96_8ca0c94859cc6ad2f697212091cf93ea6e4b11f7_N95 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "28" .
+
+_:etype_Sport_UKC-25931_7719a1c782a1ba91c031a682a0a2f8658209adbf_N99_4bf2d13ae180588343f85d9d1e106ef98bdec769_N98 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "futnet" .
+_:etype_Sport_UKC-25931_7719a1c782a1ba91c031a682a0a2f8658209adbf_N99_4bf2d13ae180588343f85d9d1e106ef98bdec769_N98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_7719a1c782a1ba91c031a682a0a2f8658209adbf_N99_4bf2d13ae180588343f85d9d1e106ef98bdec769_N98 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "29" .
+
+_:etype_Sport_UKC-25931_22d200f8670dbdb3e253a90eee5098477c95c23d_N102_f8087a8136c5a25290ccf0f4d60e9fa1ff2bdda0_N101 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "futsal" .
+_:etype_Sport_UKC-25931_22d200f8670dbdb3e253a90eee5098477c95c23d_N102_f8087a8136c5a25290ccf0f4d60e9fa1ff2bdda0_N101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_22d200f8670dbdb3e253a90eee5098477c95c23d_N102_f8087a8136c5a25290ccf0f4d60e9fa1ff2bdda0_N101 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "30" .
+
+_:etype_Sport_UKC-25931_632667547e7cd3e0466547863e1207a8c0c0c549_N105_b516080b1d85c5b75528e17b0cd96c9498c468f2_N104 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "gymnastics" .
+_:etype_Sport_UKC-25931_632667547e7cd3e0466547863e1207a8c0c0c549_N105_b516080b1d85c5b75528e17b0cd96c9498c468f2_N104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_632667547e7cd3e0466547863e1207a8c0c0c549_N105_b516080b1d85c5b75528e17b0cd96c9498c468f2_N104 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "31" .
+
+_:etype_Sport_UKC-25931_cb4e5208b4cd87268b208e49452ed6e89a68e0b8_N108_b187ffbbf946c3a370cd5c6b02afbe402449f486_N107 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "32" .
+_:etype_Sport_UKC-25931_cb4e5208b4cd87268b208e49452ed6e89a68e0b8_N108_b187ffbbf946c3a370cd5c6b02afbe402449f486_N107 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "apparatus gymnastics" .
+_:etype_Sport_UKC-25931_cb4e5208b4cd87268b208e49452ed6e89a68e0b8_N108_b187ffbbf946c3a370cd5c6b02afbe402449f486_N107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_b6692ea5df920cad691c20319a6fffd7a4a766b8_N111_c201bcd5d7a94b59af43b9e3bc8c26d8b5e33ef8_N110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_b6692ea5df920cad691c20319a6fffd7a4a766b8_N111_c201bcd5d7a94b59af43b9e3bc8c26d8b5e33ef8_N110 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "33" .
+_:etype_Sport_UKC-25931_b6692ea5df920cad691c20319a6fffd7a4a766b8_N111_c201bcd5d7a94b59af43b9e3bc8c26d8b5e33ef8_N110 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "artistic gymnastics" .
+
+_:etype_Sport_UKC-25931_f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59_N114_f7de5de4621c7b6b4a1aa8765a584d9591f7005e_N113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59_N114_f7de5de4621c7b6b4a1aa8765a584d9591f7005e_N113 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "34" .
+_:etype_Sport_UKC-25931_f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59_N114_f7de5de4621c7b6b4a1aa8765a584d9591f7005e_N113 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "gymnastics and dance" .
+
+_:etype_Sport_UKC-25931_972a67c48192728a34979d9a35164c1295401b71_N117_027f21f619479f4439f4a2ef4864cde762b09f59_N116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_972a67c48192728a34979d9a35164c1295401b71_N117_027f21f619479f4439f4a2ef4864cde762b09f59_N116 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "rhythmic gymnastics" .
+_:etype_Sport_UKC-25931_972a67c48192728a34979d9a35164c1295401b71_N117_027f21f619479f4439f4a2ef4864cde762b09f59_N116 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "35" .
+
+_:etype_Sport_UKC-25931_fc074d501302eb2b93e2554793fcaf50b3bf7291_N120_90b258f880f4870e6d05fa29c4596625c845057a_N119 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "36" .
+_:etype_Sport_UKC-25931_fc074d501302eb2b93e2554793fcaf50b3bf7291_N120_90b258f880f4870e6d05fa29c4596625c845057a_N119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_fc074d501302eb2b93e2554793fcaf50b3bf7291_N120_90b258f880f4870e6d05fa29c4596625c845057a_N119 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "return games" .
+
+_:etype_Sport_UKC-25931_cb7a1d775e800fd1ee4049f7dca9e041eb9ba083_N123_d192736a70fadb7593e39f3fd729895434a015ee_N122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_cb7a1d775e800fd1ee4049f7dca9e041eb9ba083_N123_d192736a70fadb7593e39f3fd729895434a015ee_N122 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "37" .
+_:etype_Sport_UKC-25931_cb7a1d775e800fd1ee4049f7dca9e041eb9ba083_N123_d192736a70fadb7593e39f3fd729895434a015ee_N122 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "national games" .
+
+_:etype_Sport_UKC-25931_5b384ce32d8cdef02bc3a139d4cac0a22bb029e8_N126_e53d92caa56e00a9cfb84ebfd57dde859f77e2c1_N125 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "golf" .
+_:etype_Sport_UKC-25931_5b384ce32d8cdef02bc3a139d4cac0a22bb029e8_N126_e53d92caa56e00a9cfb84ebfd57dde859f77e2c1_N125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_5b384ce32d8cdef02bc3a139d4cac0a22bb029e8_N126_e53d92caa56e00a9cfb84ebfd57dde859f77e2c1_N125 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "38" .
+
+_:etype_Sport_UKC-25931_ca3512f4dfa95a03169c5a670a4c91a19b3077b4_N129_c0d7746b60fb58d371120e66663dd3e9bd3b1565_N128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_ca3512f4dfa95a03169c5a670a4c91a19b3077b4_N129_c0d7746b60fb58d371120e66663dd3e9bd3b1565_N128 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "39" .
+_:etype_Sport_UKC-25931_ca3512f4dfa95a03169c5a670a4c91a19b3077b4_N129_c0d7746b60fb58d371120e66663dd3e9bd3b1565_N128 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "inline hockey" .
+
+_:etype_Sport_UKC-25931_af3e133428b9e25c55bc59fe534248e6a0c0f17b_N132_af441d7b1dceb476cfe9664553fc59128f7c04c7_N131 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "40" .
+_:etype_Sport_UKC-25931_af3e133428b9e25c55bc59fe534248e6a0c0f17b_N132_af441d7b1dceb476cfe9664553fc59128f7c04c7_N131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_af3e133428b9e25c55bc59fe534248e6a0c0f17b_N132_af441d7b1dceb476cfe9664553fc59128f7c04c7_N131 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "ice hockey" .
+
+_:etype_Sport_UKC-25931_761f22b2c1593d0bb87e0b606f990ba4974706de_N135_27e26926efda36356a3076646b7c49cb2783bc91_N134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_761f22b2c1593d0bb87e0b606f990ba4974706de_N135_27e26926efda36356a3076646b7c49cb2783bc91_N134 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "field hockey" .
+_:etype_Sport_UKC-25931_761f22b2c1593d0bb87e0b606f990ba4974706de_N135_27e26926efda36356a3076646b7c49cb2783bc91_N134 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "41" .
+
+_:etype_Sport_UKC-25931_92cfceb39d57d914ed8b14d0e37643de0797ae56_N138_9b5b38bfa2bee872a76d690960854a19bab23fd8_N137 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "42" .
+_:etype_Sport_UKC-25931_92cfceb39d57d914ed8b14d0e37643de0797ae56_N138_9b5b38bfa2bee872a76d690960854a19bab23fd8_N137 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "hornuss" .
+_:etype_Sport_UKC-25931_92cfceb39d57d914ed8b14d0e37643de0797ae56_N138_9b5b38bfa2bee872a76d690960854a19bab23fd8_N137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_0286dd552c9bea9a69ecb3759e7b94777635514b_N141_5a5774ba59ff2a8918f6739dc43c3cf73d44aa7f_N140 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "43" .
+_:etype_Sport_UKC-25931_0286dd552c9bea9a69ecb3759e7b94777635514b_N141_5a5774ba59ff2a8918f6739dc43c3cf73d44aa7f_N140 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "freediving" .
+_:etype_Sport_UKC-25931_0286dd552c9bea9a69ecb3759e7b94777635514b_N141_5a5774ba59ff2a8918f6739dc43c3cf73d44aa7f_N140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_98fbc42faedc02492397cb5962ea3a3ffc0a9243_N144_5e1ad697983c9b1c86bfd566a1f3408ad777e0b6_N143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_98fbc42faedc02492397cb5962ea3a3ffc0a9243_N144_5e1ad697983c9b1c86bfd566a1f3408ad777e0b6_N143 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "44" .
+_:etype_Sport_UKC-25931_98fbc42faedc02492397cb5962ea3a3ffc0a9243_N144_5e1ad697983c9b1c86bfd566a1f3408ad777e0b6_N143 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "inline skating" .
+
+_:etype_Sport_UKC-25931_fb644351560d8296fe6da332236b1f8d61b2828a_N147_df2a85a2156139e4c32d9c526b697d604557da64_N146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_fb644351560d8296fe6da332236b1f8d61b2828a_N147_df2a85a2156139e4c32d9c526b697d604557da64_N146 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "45" .
+_:etype_Sport_UKC-25931_fb644351560d8296fe6da332236b1f8d61b2828a_N147_df2a85a2156139e4c32d9c526b697d604557da64_N146 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "intercrosse" .
+
+_:etype_Sport_UKC-25931_fe2ef495a1152561572949784c16bf23abb28057_N150_f4f04e15adeb2629d06ad4781b51b3340325247b_N149 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "ju jitsu" .
+_:etype_Sport_UKC-25931_fe2ef495a1152561572949784c16bf23abb28057_N150_f4f04e15adeb2629d06ad4781b51b3340325247b_N149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_fe2ef495a1152561572949784c16bf23abb28057_N150_f4f04e15adeb2629d06ad4781b51b3340325247b_N149 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "46" .
+
+_:etype_Sport_UKC-25931_827bfc458708f0b442009c9c9836f7e4b65557fb_N153_95513ec3b211c344b906d3970a7a4384025a384b_N152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_827bfc458708f0b442009c9c9836f7e4b65557fb_N153_95513ec3b211c344b906d3970a7a4384025a384b_N152 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "judo" .
+_:etype_Sport_UKC-25931_827bfc458708f0b442009c9c9836f7e4b65557fb_N153_95513ec3b211c344b906d3970a7a4384025a384b_N152 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "47" .
+
+_:etype_Sport_UKC-25931_64e095fe763fc62418378753f9402623bea9e227_N156_c204f4f177bdbc889e8d7a53c67d0394d30ed06b_N155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_64e095fe763fc62418378753f9402623bea9e227_N156_c204f4f177bdbc889e8d7a53c67d0394d30ed06b_N155 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "48" .
+_:etype_Sport_UKC-25931_64e095fe763fc62418378753f9402623bea9e227_N156_c204f4f177bdbc889e8d7a53c67d0394d30ed06b_N155 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "karate" .
+
+_:etype_Sport_UKC-25931_2e01e17467891f7c933dbaa00e1459d23db3fe4f_N159_a6c55a5fb2a7153b68c8f7f803593499e1fa8fdd_N158 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "49" .
+_:etype_Sport_UKC-25931_2e01e17467891f7c933dbaa00e1459d23db3fe4f_N159_a6c55a5fb2a7153b68c8f7f803593499e1fa8fdd_N158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_2e01e17467891f7c933dbaa00e1459d23db3fe4f_N159_a6c55a5fb2a7153b68c8f7f803593499e1fa8fdd_N158 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "kin ball" .
+
+_:etype_Sport_UKC-25931_e1822db470e60d090affd0956d743cb0e7cdf113_N162_6897c662a74629487654a4401c5eea7d4fa57bc3_N161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_e1822db470e60d090affd0956d743cb0e7cdf113_N162_6897c662a74629487654a4401c5eea7d4fa57bc3_N161 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "50" .
+_:etype_Sport_UKC-25931_e1822db470e60d090affd0956d743cb0e7cdf113_N162_6897c662a74629487654a4401c5eea7d4fa57bc3_N161 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "light contact boxing" .
+
+_:etype_Sport_UKC-25931_b7eb6c689c037217079766fdb77c3bac3e51cb4c_N165_27be5fea97c812a69c528450335b615ea46c45ca_N164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_b7eb6c689c037217079766fdb77c3bac3e51cb4c_N165_27be5fea97c812a69c528450335b615ea46c45ca_N164 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "51" .
+_:etype_Sport_UKC-25931_b7eb6c689c037217079766fdb77c3bac3e51cb4c_N165_27be5fea97c812a69c528450335b615ea46c45ca_N164 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "wrestling" .
+
+_:etype_Sport_UKC-25931_a9334987ece78b6fe8bf130ef00b74847c1d3da6_N168_0a51b99b2ce8ac1620cf92fd410a3e9994240d89_N167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_a9334987ece78b6fe8bf130ef00b74847c1d3da6_N168_0a51b99b2ce8ac1620cf92fd410a3e9994240d89_N167 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "52" .
+_:etype_Sport_UKC-25931_a9334987ece78b6fe8bf130ef00b74847c1d3da6_N168_0a51b99b2ce8ac1620cf92fd410a3e9994240d89_N167 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "swiss wrestling" .
+
+_:etype_Sport_UKC-25931_c5b76da3e608d34edb07244cd9b875ee86906328_N171_f989d354ca2664c4289337068919716a84e06a2e_N170 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "madball" .
+_:etype_Sport_UKC-25931_c5b76da3e608d34edb07244cd9b875ee86906328_N171_f989d354ca2664c4289337068919716a84e06a2e_N170 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "53" .
+_:etype_Sport_UKC-25931_c5b76da3e608d34edb07244cd9b875ee86906328_N171_f989d354ca2664c4289337068919716a84e06a2e_N170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_80e28a51cbc26fa4bd34938c5e593b36146f5e0c_N174_118d4d7273ce3f2efcc175335c567dc8984bacd3_N173 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "minigolf" .
+_:etype_Sport_UKC-25931_80e28a51cbc26fa4bd34938c5e593b36146f5e0c_N174_118d4d7273ce3f2efcc175335c567dc8984bacd3_N173 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "54" .
+_:etype_Sport_UKC-25931_80e28a51cbc26fa4bd34938c5e593b36146f5e0c_N174_118d4d7273ce3f2efcc175335c567dc8984bacd3_N173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_8effee409c625e1a2d8f5033631840e6ce1dcb64_N177_ae5515c9d32390b219cea4b7664b72e5ad4626a5_N176 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "mountain biking" .
+_:etype_Sport_UKC-25931_8effee409c625e1a2d8f5033631840e6ce1dcb64_N177_ae5515c9d32390b219cea4b7664b72e5ad4626a5_N176 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "55" .
+_:etype_Sport_UKC-25931_8effee409c625e1a2d8f5033631840e6ce1dcb64_N177_ae5515c9d32390b219cea4b7664b72e5ad4626a5_N176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_54ceb91256e8190e474aa752a6e0650a2df5ba37_N180_87acb7b767e05f656ba42b06d80bfe15a1c77782_N179 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "56" .
+_:etype_Sport_UKC-25931_54ceb91256e8190e474aa752a6e0650a2df5ba37_N180_87acb7b767e05f656ba42b06d80bfe15a1c77782_N179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_54ceb91256e8190e474aa752a6e0650a2df5ba37_N180_87acb7b767e05f656ba42b06d80bfe15a1c77782_N179 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "netzball" .
+
+_:etype_Sport_UKC-25931_9109c85a45b703f87f1413a405549a2cea9ab556_N183_c4564361443389043bb251412627d2dfd8cfd820_N182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_9109c85a45b703f87f1413a405549a2cea9ab556_N183_c4564361443389043bb251412627d2dfd8cfd820_N182 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "57" .
+_:etype_Sport_UKC-25931_9109c85a45b703f87f1413a405549a2cea9ab556_N183_c4564361443389043bb251412627d2dfd8cfd820_N182 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "nordic walking" .
+
+_:etype_Sport_UKC-25931_667be543b02294b7624119adc3a725473df39885_N186_bb500fcedfa3bb79ec1ebcfb3631364e5ab49dda_N185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_667be543b02294b7624119adc3a725473df39885_N186_bb500fcedfa3bb79ec1ebcfb3631364e5ab49dda_N185 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "58" .
+_:etype_Sport_UKC-25931_667be543b02294b7624119adc3a725473df39885_N186_bb500fcedfa3bb79ec1ebcfb3631364e5ab49dda_N185 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "swimming" .
+
+_:etype_Sport_UKC-25931_5a5b0f9b7d3f8fc84c3cef8fd8efaaa6c70d75ab_N189_53a2f45c1a2fbea19da3eae572570c5fbdfe630f_N188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_5a5b0f9b7d3f8fc84c3cef8fd8efaaa6c70d75ab_N189_53a2f45c1a2fbea19da3eae572570c5fbdfe630f_N188 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "lifesaving swimming" .
+_:etype_Sport_UKC-25931_5a5b0f9b7d3f8fc84c3cef8fd8efaaa6c70d75ab_N189_53a2f45c1a2fbea19da3eae572570c5fbdfe630f_N188 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "59" .
+
+_:etype_Sport_UKC-25931_e6c3dd630428fd54834172b8fd2735fed9416da4_N192_468ee5cbd54e42b8aeaad13c130f780f0d091173_N191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_e6c3dd630428fd54834172b8fd2735fed9416da4_N192_468ee5cbd54e42b8aeaad13c130f780f0d091173_N191 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "60" .
+_:etype_Sport_UKC-25931_e6c3dd630428fd54834172b8fd2735fed9416da4_N192_468ee5cbd54e42b8aeaad13c130f780f0d091173_N191 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "basketball" .
+
+_:etype_Sport_UKC-25931_6c1e671f9af5b46d9c1a52067bdf0e53685674f7_N195_06a1ffd2b7f02d67a2fb97a5adf966bab360b345_N194 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "61" .
+_:etype_Sport_UKC-25931_6c1e671f9af5b46d9c1a52067bdf0e53685674f7_N195_06a1ffd2b7f02d67a2fb97a5adf966bab360b345_N194 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "streetball" .
+_:etype_Sport_UKC-25931_6c1e671f9af5b46d9c1a52067bdf0e53685674f7_N195_06a1ffd2b7f02d67a2fb97a5adf966bab360b345_N194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_511a418e72591eb7e33f703f04c3fa16df6c90bd_N198_f539a227e5323072293b6cb8cbe0e845620d578b_N197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_511a418e72591eb7e33f703f04c3fa16df6c90bd_N198_f539a227e5323072293b6cb8cbe0e845620d578b_N197 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "62" .
+_:etype_Sport_UKC-25931_511a418e72591eb7e33f703f04c3fa16df6c90bd_N198_f539a227e5323072293b6cb8cbe0e845620d578b_N197 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "handball" .
+
+_:etype_Sport_UKC-25931_a17554a0d2b15a664c0e73900184544f19e70227_N201_9a4ea01887cc93befa1f3aa0b1c8efe3dc6f67f0_N200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_a17554a0d2b15a664c0e73900184544f19e70227_N201_9a4ea01887cc93befa1f3aa0b1c8efe3dc6f67f0_N200 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "63" .
+_:etype_Sport_UKC-25931_a17554a0d2b15a664c0e73900184544f19e70227_N201_9a4ea01887cc93befa1f3aa0b1c8efe3dc6f67f0_N200 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "water polo" .
+
+_:etype_Sport_UKC-25931_c66c65175fecc3103b3b587be9b5b230889c8628_N204_7c1f67158f1c068b2cfb5365406776c4da0e8985_N203 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "pallapugno" .
+_:etype_Sport_UKC-25931_c66c65175fecc3103b3b587be9b5b230889c8628_N204_7c1f67158f1c068b2cfb5365406776c4da0e8985_N203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_c66c65175fecc3103b3b587be9b5b230889c8628_N204_7c1f67158f1c068b2cfb5365406776c4da0e8985_N203 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "64" .
+
+_:etype_Sport_UKC-25931_2a459380709e2fe4ac2dae5733c73225ff6cfee1_N207_9c758f06878ddd2938cc6021bcda9518223f76d0_N206 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "volleyball" .
+_:etype_Sport_UKC-25931_2a459380709e2fe4ac2dae5733c73225ff6cfee1_N207_9c758f06878ddd2938cc6021bcda9518223f76d0_N206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_2a459380709e2fe4ac2dae5733c73225ff6cfee1_N207_9c758f06878ddd2938cc6021bcda9518223f76d0_N206 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "65" .
+
+_:etype_Sport_UKC-25931_59129aacfb6cebbe2c52f30ef3424209f7252e82_N210_e5e701bcb7b485062fe5d737cdfe4089bc46d3de_N209 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "parkour" .
+_:etype_Sport_UKC-25931_59129aacfb6cebbe2c52f30ef3424209f7252e82_N210_e5e701bcb7b485062fe5d737cdfe4089bc46d3de_N209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_59129aacfb6cebbe2c52f30ef3424209f7252e82_N210_e5e701bcb7b485062fe5d737cdfe4089bc46d3de_N209 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "66" .
+
+_:etype_Sport_UKC-25931_4d89d294cd4ca9f2ca57dc24a53ffb3ef5303122_N213_39933f8bea5b63fcccd390ce0464d644920b6e69_N212 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "67" .
+_:etype_Sport_UKC-25931_4d89d294cd4ca9f2ca57dc24a53ffb3ef5303122_N213_39933f8bea5b63fcccd390ce0464d644920b6e69_N212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_4d89d294cd4ca9f2ca57dc24a53ffb3ef5303122_N213_39933f8bea5b63fcccd390ce0464d644920b6e69_N212 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "figure skating" .
+
+_:etype_Sport_UKC-25931_b4c96d80854dd27e76d8cc9e21960eebda52e962_N216_710a31c9b322a510d8b123cbe4636b11a9db16ed_N215 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "68" .
+_:etype_Sport_UKC-25931_b4c96d80854dd27e76d8cc9e21960eebda52e962_N216_710a31c9b322a510d8b123cbe4636b11a9db16ed_N215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_b4c96d80854dd27e76d8cc9e21960eebda52e962_N216_710a31c9b322a510d8b123cbe4636b11a9db16ed_N215 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "pilates" .
+
+_:etype_Sport_UKC-25931_a72b20062ec2c47ab2ceb97ac1bee818f8b6c6cb_N219_71025eb3db4f730c36330977548e195ba220d42c_N218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_a72b20062ec2c47ab2ceb97ac1bee818f8b6c6cb_N219_71025eb3db4f730c36330977548e195ba220d42c_N218 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "69" .
+_:etype_Sport_UKC-25931_a72b20062ec2c47ab2ceb97ac1bee818f8b6c6cb_N219_71025eb3db4f730c36330977548e195ba220d42c_N218 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "poull ball" .
+
+_:etype_Sport_UKC-25931_b7103ca278a75cad8f7d065acda0c2e80da0b7dc_N222_cba9d9c4c1f8bb2f370b48035945dabdcbba3b6e_N221 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "snowshoeing" .
+_:etype_Sport_UKC-25931_b7103ca278a75cad8f7d065acda0c2e80da0b7dc_N222_cba9d9c4c1f8bb2f370b48035945dabdcbba3b6e_N221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_b7103ca278a75cad8f7d065acda0c2e80da0b7dc_N222_cba9d9c4c1f8bb2f370b48035945dabdcbba3b6e_N221 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "70" .
+
+_:etype_Sport_UKC-25931_d02560dd9d7db4467627745bd6701e809ffca6e3_N225_f2edf37e4daa60b92dc1fc4176e0a5aca43f731a_N224 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "71" .
+_:etype_Sport_UKC-25931_d02560dd9d7db4467627745bd6701e809ffca6e3_N225_f2edf37e4daa60b92dc1fc4176e0a5aca43f731a_N224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_d02560dd9d7db4467627745bd6701e809ffca6e3_N225_f2edf37e4daa60b92dc1fc4176e0a5aca43f731a_N224 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "rafroball" .
+
+_:etype_Sport_UKC-25931_c097638f92de80ba8d6c696b26e6e601a5f61eb7_N228_1a6b5494a81267ad0d17838032763296b7e3fb63_N227 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "72" .
+_:etype_Sport_UKC-25931_c097638f92de80ba8d6c696b26e6e601a5f61eb7_N228_1a6b5494a81267ad0d17838032763296b7e3fb63_N227 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "rh nrad" .
+_:etype_Sport_UKC-25931_c097638f92de80ba8d6c696b26e6e601a5f61eb7_N228_1a6b5494a81267ad0d17838032763296b7e3fb63_N227 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_35e995c107a71caeb833bb3b79f9f54781b33fa1_N231_7948ca00b82faee4d6963601df9bb1f836871bb0_N230 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "73" .
+_:etype_Sport_UKC-25931_35e995c107a71caeb833bb3b79f9f54781b33fa1_N231_7948ca00b82faee4d6963601df9bb1f836871bb0_N230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_35e995c107a71caeb833bb3b79f9f54781b33fa1_N231_7948ca00b82faee4d6963601df9bb1f836871bb0_N230 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "rock n roll" .
+
+_:etype_Sport_UKC-25931_1f1362ea41d1bc65be321c0a378a20159f9a26d0_N234_805151937c01d053e82a87a9e758a5d07a0b3ada_N233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_1f1362ea41d1bc65be321c0a378a20159f9a26d0_N234_805151937c01d053e82a87a9e758a5d07a0b3ada_N233 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "74" .
+_:etype_Sport_UKC-25931_1f1362ea41d1bc65be321c0a378a20159f9a26d0_N234_805151937c01d053e82a87a9e758a5d07a0b3ada_N233 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "roundnet" .
+
+_:etype_Sport_UKC-25931_450ddec8dd206c2e2ab1aeeaa90e85e51753b8b7_N237_68208df6501bb5f1a09187f7100b2ef8f8d92875_N236 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_450ddec8dd206c2e2ab1aeeaa90e85e51753b8b7_N237_68208df6501bb5f1a09187f7100b2ef8f8d92875_N236 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "75" .
+_:etype_Sport_UKC-25931_450ddec8dd206c2e2ab1aeeaa90e85e51753b8b7_N237_68208df6501bb5f1a09187f7100b2ef8f8d92875_N236 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "rugby" .
+
+_:etype_Sport_UKC-25931_d54ad009d179ae346683cfc3603979bc99339ef7_N240_3c49d9cc3c0c83421a1cfb921cdd4aa35dc1ba5c_N239 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_d54ad009d179ae346683cfc3603979bc99339ef7_N240_3c49d9cc3c0c83421a1cfb921cdd4aa35dc1ba5c_N239 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "running" .
+_:etype_Sport_UKC-25931_d54ad009d179ae346683cfc3603979bc99339ef7_N240_3c49d9cc3c0c83421a1cfb921cdd4aa35dc1ba5c_N239 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "76" .
+
+_:etype_Sport_UKC-25931_d321d6f7ccf98b51540ec9d933f20898af3bd71e_N243_00fb243f282b379b7929e3f34cc6de6cef08a1a5_N242 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "77" .
+_:etype_Sport_UKC-25931_d321d6f7ccf98b51540ec9d933f20898af3bd71e_N243_00fb243f282b379b7929e3f34cc6de6cef08a1a5_N242 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "ski jumping" .
+_:etype_Sport_UKC-25931_d321d6f7ccf98b51540ec9d933f20898af3bd71e_N243_00fb243f282b379b7929e3f34cc6de6cef08a1a5_N242 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_eb4ac3033e8ab3591e0fcefa8c26ce3fd36d5a0f_N246_b5d9eb8c1c8894ec164135a58a716795ca0bd5f3_N245 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_eb4ac3033e8ab3591e0fcefa8c26ce3fd36d5a0f_N246_b5d9eb8c1c8894ec164135a58a716795ca0bd5f3_N245 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "fencing" .
+_:etype_Sport_UKC-25931_eb4ac3033e8ab3591e0fcefa8c26ce3fd36d5a0f_N246_b5d9eb8c1c8894ec164135a58a716795ca0bd5f3_N245 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "78" .
+
+_:etype_Sport_UKC-25931_b74f5ee9461495ba5ca4c72a7108a23904c27a05_N249_5ba727304ee3d55c9cbea4e5785e50c015849564_N248 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "79" .
+_:etype_Sport_UKC-25931_b74f5ee9461495ba5ca4c72a7108a23904c27a05_N249_5ba727304ee3d55c9cbea4e5785e50c015849564_N248 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "skiing" .
+_:etype_Sport_UKC-25931_b74f5ee9461495ba5ca4c72a7108a23904c27a05_N249_5ba727304ee3d55c9cbea4e5785e50c015849564_N248 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_b888b29826bb53dc531437e723738383d8339b56_N252_aec0e7dd4e5e9133c49ff95a68cb5eed3f121746_N251 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "cross country skiing" .
+_:etype_Sport_UKC-25931_b888b29826bb53dc531437e723738383d8339b56_N252_aec0e7dd4e5e9133c49ff95a68cb5eed3f121746_N251 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_b888b29826bb53dc531437e723738383d8339b56_N252_aec0e7dd4e5e9133c49ff95a68cb5eed3f121746_N251 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "80" .
+
+_:etype_Sport_UKC-25931_1d513c0bcbe33b2e7440e5e14d0b22ef95c9d673_N255_15f28c0fabfd5b3e037f203181534089829cb9c1_N254 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_1d513c0bcbe33b2e7440e5e14d0b22ef95c9d673_N255_15f28c0fabfd5b3e037f203181534089829cb9c1_N254 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "81" .
+_:etype_Sport_UKC-25931_1d513c0bcbe33b2e7440e5e14d0b22ef95c9d673_N255_15f28c0fabfd5b3e037f203181534089829cb9c1_N254 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "ski touring" .
+
+_:etype_Sport_UKC-25931_76546f9a641ede2beab506b96df1688d889e629a_N258_8f3a48ffa24d70132ac45a85e3f66e6392d0bfcc_N257 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_76546f9a641ede2beab506b96df1688d889e629a_N258_8f3a48ffa24d70132ac45a85e3f66e6392d0bfcc_N257 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "skateboarding waveboarding" .
+_:etype_Sport_UKC-25931_76546f9a641ede2beab506b96df1688d889e629a_N258_8f3a48ffa24d70132ac45a85e3f66e6392d0bfcc_N257 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "82" .
+
+_:etype_Sport_UKC-25931_7d7116e23efef7292cad5e6f033d9a962708228c_N261_a897ee2edc29870da2bd64039345d6f575fc0e2e_N260 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_7d7116e23efef7292cad5e6f033d9a962708228c_N261_a897ee2edc29870da2bd64039345d6f575fc0e2e_N260 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "83" .
+_:etype_Sport_UKC-25931_7d7116e23efef7292cad5e6f033d9a962708228c_N261_a897ee2edc29870da2bd64039345d6f575fc0e2e_N260 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "slackline" .
+
+_:etype_Sport_UKC-25931_be461a0cd1fda052a69c3fd94f8cf5f6f86afa34_N264_cc3fe5cda1e8dfb2373b04df1ab26e6389857726_N263 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "smolball" .
+_:etype_Sport_UKC-25931_be461a0cd1fda052a69c3fd94f8cf5f6f86afa34_N264_cc3fe5cda1e8dfb2373b04df1ab26e6389857726_N263 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "84" .
+_:etype_Sport_UKC-25931_be461a0cd1fda052a69c3fd94f8cf5f6f86afa34_N264_cc3fe5cda1e8dfb2373b04df1ab26e6389857726_N263 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_1352246e33277e9d3c9090a434fa72cfa6536ae2_N267_70be0355bc6e2ea82fe8dba0bf8e227f309bbc14_N266 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "snowboarding" .
+_:etype_Sport_UKC-25931_1352246e33277e9d3c9090a434fa72cfa6536ae2_N267_70be0355bc6e2ea82fe8dba0bf8e227f309bbc14_N266 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_1352246e33277e9d3c9090a434fa72cfa6536ae2_N267_70be0355bc6e2ea82fe8dba0bf8e227f309bbc14_N266 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "85" .
+
+_:etype_Sport_UKC-25931_3c26dffc8a2e8804dfe2c8a1195cfaa5ef6d0014_N270_59b2410470368cb89e05ab6073192a7b66217221_N269 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_3c26dffc8a2e8804dfe2c8a1195cfaa5ef6d0014_N270_59b2410470368cb89e05ab6073192a7b66217221_N269 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "adult sports" .
+_:etype_Sport_UKC-25931_3c26dffc8a2e8804dfe2c8a1195cfaa5ef6d0014_N270_59b2410470368cb89e05ab6073192a7b66217221_N269 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "86" .
+
+_:etype_Sport_UKC-25931_e62d7f1eb43d87c202d2f164ba61297e71be80f4_N273_cc5cb375264b86f49b5bc5516b812d9df1f30833_N272 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_e62d7f1eb43d87c202d2f164ba61297e71be80f4_N273_cc5cb375264b86f49b5bc5516b812d9df1f30833_N272 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "87" .
+_:etype_Sport_UKC-25931_e62d7f1eb43d87c202d2f164ba61297e71be80f4_N273_cc5cb375264b86f49b5bc5516b812d9df1f30833_N272 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "field sports trekking" .
+
+_:etype_Sport_UKC-25931_b37f6ddcefad7e8657837d3177f9ef2462f98acf_N276_ef3139db0ba6017888964e0f72a3595349d4bf3b_N275 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_b37f6ddcefad7e8657837d3177f9ef2462f98acf_N276_ef3139db0ba6017888964e0f72a3595349d4bf3b_N275 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "equestrian sports" .
+_:etype_Sport_UKC-25931_b37f6ddcefad7e8657837d3177f9ef2462f98acf_N276_ef3139db0ba6017888964e0f72a3595349d4bf3b_N275 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "88" .
+
+_:etype_Sport_UKC-25931_16b06bd9b738835e2d134fe8d596e9ab0086a985_N279_b1b1b10a030b0fc0e118dd6f69563b41a8890503_N278 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "freestyle sports" .
+_:etype_Sport_UKC-25931_16b06bd9b738835e2d134fe8d596e9ab0086a985_N279_b1b1b10a030b0fc0e118dd6f69563b41a8890503_N278 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "89" .
+_:etype_Sport_UKC-25931_16b06bd9b738835e2d134fe8d596e9ab0086a985_N279_b1b1b10a030b0fc0e118dd6f69563b41a8890503_N278 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_2d0c8af807ef45ac17cafb2973d866ba8f38caa9_N282_86117cf6b2b3d472d0b140fcff0132e59f976fe3_N281 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_2d0c8af807ef45ac17cafb2973d866ba8f38caa9_N282_86117cf6b2b3d472d0b140fcff0132e59f976fe3_N281 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "90" .
+_:etype_Sport_UKC-25931_2d0c8af807ef45ac17cafb2973d866ba8f38caa9_N282_86117cf6b2b3d472d0b140fcff0132e59f976fe3_N281 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "wheelchair sports" .
+
+_:etype_Sport_UKC-25931_4cd66dfabbd964f8c6c4414b07cdb45dae692e19_N285_8c0ea81fd622318dc60f0c305d6791c99630afb5_N284 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_4cd66dfabbd964f8c6c4414b07cdb45dae692e19_N285_8c0ea81fd622318dc60f0c305d6791c99630afb5_N284 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "school sports" .
+_:etype_Sport_UKC-25931_4cd66dfabbd964f8c6c4414b07cdb45dae692e19_N285_8c0ea81fd622318dc60f0c305d6791c99630afb5_N284 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "91" .
+
+_:etype_Sport_UKC-25931_8ee51caaa2c2f4ee2e5b4b7ef5a89db7df1068d7_N288_75171a0200a19e579f4df8b390ac832c0fce93aa_N287 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "92" .
+_:etype_Sport_UKC-25931_8ee51caaa2c2f4ee2e5b4b7ef5a89db7df1068d7_N288_75171a0200a19e579f4df8b390ac832c0fce93aa_N287 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "sprint relay" .
+_:etype_Sport_UKC-25931_8ee51caaa2c2f4ee2e5b4b7ef5a89db7df1068d7_N288_75171a0200a19e579f4df8b390ac832c0fce93aa_N287 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_08a35293e09f508494096c1c1b3819edb9df50db_N291_f77695ae7ad3ec2fa6e918b510913320e4ad7ea5_N290 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "squash" .
+_:etype_Sport_UKC-25931_08a35293e09f508494096c1c1b3819edb9df50db_N291_f77695ae7ad3ec2fa6e918b510913320e4ad7ea5_N290 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "93" .
+_:etype_Sport_UKC-25931_08a35293e09f508494096c1c1b3819edb9df50db_N291_f77695ae7ad3ec2fa6e918b510913320e4ad7ea5_N290 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_215bb47da8fac3342b858ac3db09b033c6c46e0b_N294_dfdc94e1b442f730e831ec09a24d2aa8cc956034_N293 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "stand up paddle" .
+_:etype_Sport_UKC-25931_215bb47da8fac3342b858ac3db09b033c6c46e0b_N294_dfdc94e1b442f730e831ec09a24d2aa8cc956034_N293 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_215bb47da8fac3342b858ac3db09b033c6c46e0b_N294_dfdc94e1b442f730e831ec09a24d2aa8cc956034_N293 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "94" .
+
+_:etype_Sport_UKC-25931_8e63fd3e77796b102589b1ba1e4441c7982e4132_N297_40e1702a74519c1cfe37dd4625e1f8befc976559_N296 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "95" .
+_:etype_Sport_UKC-25931_8e63fd3e77796b102589b1ba1e4441c7982e4132_N297_40e1702a74519c1cfe37dd4625e1f8befc976559_N296 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "street racket" .
+_:etype_Sport_UKC-25931_8e63fd3e77796b102589b1ba1e4441c7982e4132_N297_40e1702a74519c1cfe37dd4625e1f8befc976559_N296 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_6fb84aed32facd1299ee1e77c8fd2b1a6352669e_N300_bf3ef6d47e4cb4e0c29f332d5613ad1f5b6b2358_N299 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "tchoukball" .
+_:etype_Sport_UKC-25931_6fb84aed32facd1299ee1e77c8fd2b1a6352669e_N300_bf3ef6d47e4cb4e0c29f332d5613ad1f5b6b2358_N299 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_6fb84aed32facd1299ee1e77c8fd2b1a6352669e_N300_bf3ef6d47e4cb4e0c29f332d5613ad1f5b6b2358_N299 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "96" .
+
+_:etype_Sport_UKC-25931_812ed4562d3211363a7b813aa9cd2cf042b63bb2_N303_9c881bdb6bc930d18797d72d07bb9e01eeb40d8b_N302 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "97" .
+_:etype_Sport_UKC-25931_812ed4562d3211363a7b813aa9cd2cf042b63bb2_N303_9c881bdb6bc930d18797d72d07bb9e01eeb40d8b_N302 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_812ed4562d3211363a7b813aa9cd2cf042b63bb2_N303_9c881bdb6bc930d18797d72d07bb9e01eeb40d8b_N302 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "tennis" .
+
+_:etype_Sport_UKC-25931_31bd9b9f5f7b338e41b56183a2f3008b541d7c84_N306_b2c4331fbb462a91e438d6e5f910bc8a2c4294cd_N305 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_31bd9b9f5f7b338e41b56183a2f3008b541d7c84_N306_b2c4331fbb462a91e438d6e5f910bc8a2c4294cd_N305 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "table tennis" .
+_:etype_Sport_UKC-25931_31bd9b9f5f7b338e41b56183a2f3008b541d7c84_N306_b2c4331fbb462a91e438d6e5f910bc8a2c4294cd_N305 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "98" .
+
+_:etype_Sport_UKC-25931_9a79be611e0267e1d943da0737c6c51be67865a0_N309_6d06ada50492647f4eac47d8eb075f40224d00ea_N308 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "99" .
+_:etype_Sport_UKC-25931_9a79be611e0267e1d943da0737c6c51be67865a0_N309_6d06ada50492647f4eac47d8eb075f40224d00ea_N308 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "shooting sports" .
+_:etype_Sport_UKC-25931_9a79be611e0267e1d943da0737c6c51be67865a0_N309_6d06ada50492647f4eac47d8eb075f40224d00ea_N308 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_310b86e0b62b828562fc91c7be5380a992b2786a_N312_b72b74f9c8e1782867bc77493367691dcada36be_N311 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "touch rugby" .
+_:etype_Sport_UKC-25931_310b86e0b62b828562fc91c7be5380a992b2786a_N312_b72b74f9c8e1782867bc77493367691dcada36be_N311 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_310b86e0b62b828562fc91c7be5380a992b2786a_N312_b72b74f9c8e1782867bc77493367691dcada36be_N311 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "100" .
+
+_:etype_Sport_UKC-25931_dbc0f004854457f59fb16ab863a3a1722cef553f_N315_6be35098e4483b816c50c9a099509f0ed843a218_N314 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_dbc0f004854457f59fb16ab863a3a1722cef553f_N315_6be35098e4483b816c50c9a099509f0ed843a218_N314 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "trail running" .
+_:etype_Sport_UKC-25931_dbc0f004854457f59fb16ab863a3a1722cef553f_N315_6be35098e4483b816c50c9a099509f0ed843a218_N314 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "101" .
+
+_:etype_Sport_UKC-25931_c8306ae139ac98f432932286151dc0ec55580eca_N318_05ba87a1fd32ba7d670b17b5a55e2c1f9fd366d3_N317 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_c8306ae139ac98f432932286151dc0ec55580eca_N318_05ba87a1fd32ba7d670b17b5a55e2c1f9fd366d3_N317 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "102" .
+_:etype_Sport_UKC-25931_c8306ae139ac98f432932286151dc0ec55580eca_N318_05ba87a1fd32ba7d670b17b5a55e2c1f9fd366d3_N317 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "trampoline" .
+
+_:etype_Sport_UKC-25931_934385f53d1bd0c1b8493e44d0dfd4c8e88a04bb_N321_a0690273be9242a9fb8b9b4e866df85162e1f3ca_N320 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "103" .
+_:etype_Sport_UKC-25931_934385f53d1bd0c1b8493e44d0dfd4c8e88a04bb_N321_a0690273be9242a9fb8b9b4e866df85162e1f3ca_N320 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "triathlon" .
+_:etype_Sport_UKC-25931_934385f53d1bd0c1b8493e44d0dfd4c8e88a04bb_N321_a0690273be9242a9fb8b9b4e866df85162e1f3ca_N320 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_78a8efcbaaa1a9a30f9f327aa89d0b6acaaffb03_N324_35d1b36277d4c222a0526478b2ce06929de6a8ed_N323 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "diving" .
+_:etype_Sport_UKC-25931_78a8efcbaaa1a9a30f9f327aa89d0b6acaaffb03_N324_35d1b36277d4c222a0526478b2ce06929de6a8ed_N323 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "104" .
+_:etype_Sport_UKC-25931_78a8efcbaaa1a9a30f9f327aa89d0b6acaaffb03_N324_35d1b36277d4c222a0526478b2ce06929de6a8ed_N323 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_e114c448f4ab8554ad14eff3d66dfeb3965ce8fc_N327_5341724648ff6d60b17b83c6b4c97f3f8971d692_N326 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_e114c448f4ab8554ad14eff3d66dfeb3965ce8fc_N327_5341724648ff6d60b17b83c6b4c97f3f8971d692_N326 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "floorball" .
+_:etype_Sport_UKC-25931_e114c448f4ab8554ad14eff3d66dfeb3965ce8fc_N327_5341724648ff6d60b17b83c6b4c97f3f8971d692_N326 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "105" .
+
+_:etype_Sport_UKC-25931_7224f997fc148baa0b7f81c1eda6fcc3fd003db0_N330_a4bb44eb9667ae0f20abd7dc73fe4a82d68c5bae_N329 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_7224f997fc148baa0b7f81c1eda6fcc3fd003db0_N330_a4bb44eb9667ae0f20abd7dc73fe4a82d68c5bae_N329 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "sailing" .
+_:etype_Sport_UKC-25931_7224f997fc148baa0b7f81c1eda6fcc3fd003db0_N330_a4bb44eb9667ae0f20abd7dc73fe4a82d68c5bae_N329 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "106" .
+
+_:etype_Sport_UKC-25931_524e05dc77239f3a15dab766aaa59a9e432efde7_N333_ab60c0447bc4d1bb1a40e90c353283350b1dfcb7_N332 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_524e05dc77239f3a15dab766aaa59a9e432efde7_N333_ab60c0447bc4d1bb1a40e90c353283350b1dfcb7_N332 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "vaulting" .
+_:etype_Sport_UKC-25931_524e05dc77239f3a15dab766aaa59a9e432efde7_N333_ab60c0447bc4d1bb1a40e90c353283350b1dfcb7_N332 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "107" .
+
+_:etype_Sport_UKC-25931_17503a6b2326f09fbc4e3a7c03874c7333002038_N336_6b3bebb6d418f3726781486e710abee36f1b371b_N335 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "108" .
+_:etype_Sport_UKC-25931_17503a6b2326f09fbc4e3a7c03874c7333002038_N336_6b3bebb6d418f3726781486e710abee36f1b371b_N335 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "yoga" .
+_:etype_Sport_UKC-25931_17503a6b2326f09fbc4e3a7c03874c7333002038_N336_6b3bebb6d418f3726781486e710abee36f1b371b_N335 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_a1422e6a168630cdd214ac5e31ca01ae1bee8d92_N339_4cf02ad64b4cc303e4e1af3e00019b557b9e07ee_N338 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "equestrian" .
+_:etype_Sport_UKC-25931_a1422e6a168630cdd214ac5e31ca01ae1bee8d92_N339_4cf02ad64b4cc303e4e1af3e00019b557b9e07ee_N338 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "109" .
+_:etype_Sport_UKC-25931_a1422e6a168630cdd214ac5e31ca01ae1bee8d92_N339_4cf02ad64b4cc303e4e1af3e00019b557b9e07ee_N338 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_5e796e48332af4142b10ca0f86e65d9bfdb05884_N342_62729d5f667bfb591f3ae49ea18e480bfee6c475_N341 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "boules" .
+_:etype_Sport_UKC-25931_5e796e48332af4142b10ca0f86e65d9bfdb05884_N342_62729d5f667bfb591f3ae49ea18e480bfee6c475_N341 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_5e796e48332af4142b10ca0f86e65d9bfdb05884_N342_62729d5f667bfb591f3ae49ea18e480bfee6c475_N341 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "110" .
+
+_:etype_Sport_UKC-25931_6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2_N345_f2847b1bd9624f927e979c1846d9fe17dd65f518_N344 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2_N345_f2847b1bd9624f927e979c1846d9fe17dd65f518_N344 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "hockey" .
+_:etype_Sport_UKC-25931_6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2_N345_f2847b1bd9624f927e979c1846d9fe17dd65f518_N344 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "111" .
+
+_:etype_Sport_UKC-25931_601ca99d55f00a2e8e736676b606a4d31d374fdd_N348_452d59957a2e18e8df8f1ba1d8446cbba38925aa_N347 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "112" .
+_:etype_Sport_UKC-25931_601ca99d55f00a2e8e736676b606a4d31d374fdd_N348_452d59957a2e18e8df8f1ba1d8446cbba38925aa_N347 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "skateboard" .
+_:etype_Sport_UKC-25931_601ca99d55f00a2e8e736676b606a4d31d374fdd_N348_452d59957a2e18e8df8f1ba1d8446cbba38925aa_N347 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_e993215bfdaa515f6ea00fafc1918f549119f993_N351_8734fa0897eb347392b5bdb4fd0fc22a3a63676e_N350 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_e993215bfdaa515f6ea00fafc1918f549119f993_N351_8734fa0897eb347392b5bdb4fd0fc22a3a63676e_N350 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "113" .
+_:etype_Sport_UKC-25931_e993215bfdaa515f6ea00fafc1918f549119f993_N351_8734fa0897eb347392b5bdb4fd0fc22a3a63676e_N350 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "rugby league" .
+
+_:etype_Sport_UKC-25931_ecb7937db58ec9dea0c47db88463d85e81143032_N354_2d27b62c597ec858f6e7b54e7e58525e6a95e6d8_N353 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_ecb7937db58ec9dea0c47db88463d85e81143032_N354_2d27b62c597ec858f6e7b54e7e58525e6a95e6d8_N353 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "114" .
+_:etype_Sport_UKC-25931_ecb7937db58ec9dea0c47db88463d85e81143032_N354_2d27b62c597ec858f6e7b54e7e58525e6a95e6d8_N353 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "football" .
+
+_:etype_Sport_UKC-25931_efa6e44dfa0145249be273ecd84a97f534b04920_N357_1c8b7a550779d8506e83f72841cf5d00d549bc80_N356 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "free flying" .
+_:etype_Sport_UKC-25931_efa6e44dfa0145249be273ecd84a97f534b04920_N357_1c8b7a550779d8506e83f72841cf5d00d549bc80_N356 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "115" .
+_:etype_Sport_UKC-25931_efa6e44dfa0145249be273ecd84a97f534b04920_N357_1c8b7a550779d8506e83f72841cf5d00d549bc80_N356 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_683e725c03a87baaad2623231644e944e537acab_N360_cbfe32d088891838cbd434a384404928bae994c9_N359 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_683e725c03a87baaad2623231644e944e537acab_N360_cbfe32d088891838cbd434a384404928bae994c9_N359 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "116" .
+_:etype_Sport_UKC-25931_683e725c03a87baaad2623231644e944e537acab_N360_cbfe32d088891838cbd434a384404928bae994c9_N359 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "ice skating" .
+
+_:etype_Sport_UKC-25931_d0e2dbb0bac1917d360aaf52c01a2a4b669e8cdb_N363_a17fb10fc155244c4f2f009e76573ef61f13b734_N362 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "roller skating" .
+_:etype_Sport_UKC-25931_d0e2dbb0bac1917d360aaf52c01a2a4b669e8cdb_N363_a17fb10fc155244c4f2f009e76573ef61f13b734_N362 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_d0e2dbb0bac1917d360aaf52c01a2a4b669e8cdb_N363_a17fb10fc155244c4f2f009e76573ef61f13b734_N362 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "117" .
+
+_:etype_Sport_UKC-25931_12f0de3dc76e067d21ed85125716e02e9f1e69f0_N366_b280a2a8b18316562fee597efa0aa482b7d1a271_N365 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_12f0de3dc76e067d21ed85125716e02e9f1e69f0_N366_b280a2a8b18316562fee597efa0aa482b7d1a271_N365 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "118" .
+_:etype_Sport_UKC-25931_12f0de3dc76e067d21ed85125716e02e9f1e69f0_N366_b280a2a8b18316562fee597efa0aa482b7d1a271_N365 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "bowls" .
+
+_:etype_Sport_UKC-25931_a2e33d344f272e100d4a8efeabc7ae8a60a8ba7a_N369_32da253883f4a97ea557c485c6c70d2981babf22_N368 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "motocross" .
+_:etype_Sport_UKC-25931_a2e33d344f272e100d4a8efeabc7ae8a60a8ba7a_N369_32da253883f4a97ea557c485c6c70d2981babf22_N368 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "119" .
+_:etype_Sport_UKC-25931_a2e33d344f272e100d4a8efeabc7ae8a60a8ba7a_N369_32da253883f4a97ea557c485c6c70d2981babf22_N368 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_775bc5c30e27f0e562115d136e7f7edbd3cead89_N372_f58b0d817758ab7e6212096681056d7f375160a9_N371 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_775bc5c30e27f0e562115d136e7f7edbd3cead89_N372_f58b0d817758ab7e6212096681056d7f375160a9_N371 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "beachvolleyball" .
+_:etype_Sport_UKC-25931_775bc5c30e27f0e562115d136e7f7edbd3cead89_N372_f58b0d817758ab7e6212096681056d7f375160a9_N371 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "120" .
+
+_:etype_Sport_UKC-25931_8bd7954c40c1e59a900f71ea3a266732609915b1_N375_5aab34d7323912153e4d8e832fa40d3843f7a108_N374 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_8bd7954c40c1e59a900f71ea3a266732609915b1_N375_5aab34d7323912153e4d8e832fa40d3843f7a108_N374 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "121" .
+_:etype_Sport_UKC-25931_8bd7954c40c1e59a900f71ea3a266732609915b1_N375_5aab34d7323912153e4d8e832fa40d3843f7a108_N374 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "tamburello" .
+
+_:etype_Sport_UKC-25931_05a8ea5382b9fd885261bb3eed0527d1d3b07262_N378_d7d784ce566570fa358bad5e94c3bce8bde795e2_N377 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_05a8ea5382b9fd885261bb3eed0527d1d3b07262_N378_d7d784ce566570fa358bad5e94c3bce8bde795e2_N377 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "122" .
+_:etype_Sport_UKC-25931_05a8ea5382b9fd885261bb3eed0527d1d3b07262_N378_d7d784ce566570fa358bad5e94c3bce8bde795e2_N377 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "mtb" .
+
+_:etype_Sport_UKC-25931_40bd001563085fc35165329ea1ff5c5ecbdbbeef_N381_912d01679e4fb117729879c5c192d11ae9277b00_N380 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "bmx" .
+_:etype_Sport_UKC-25931_40bd001563085fc35165329ea1ff5c5ecbdbbeef_N381_912d01679e4fb117729879c5c192d11ae9277b00_N380 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "123" .
+_:etype_Sport_UKC-25931_40bd001563085fc35165329ea1ff5c5ecbdbbeef_N381_912d01679e4fb117729879c5c192d11ae9277b00_N380 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_f38cfe2e2facbcc742bad63f91ad55637300cb45_N384_c465576024ccd0bf3e7a39b99b1c3f11411ff45b_N383 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_f38cfe2e2facbcc742bad63f91ad55637300cb45_N384_c465576024ccd0bf3e7a39b99b1c3f11411ff45b_N383 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "124" .
+_:etype_Sport_UKC-25931_f38cfe2e2facbcc742bad63f91ad55637300cb45_N384_c465576024ccd0bf3e7a39b99b1c3f11411ff45b_N383 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "skating" .
+
+_:etype_Sport_UKC-25931_0ca9277f91e40054767f69afeb0426711ca0fddd_N387_e601e393d9cd134a13cd1fa2029ab60d06a59d25_N386 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "archery" .
+_:etype_Sport_UKC-25931_0ca9277f91e40054767f69afeb0426711ca0fddd_N387_e601e393d9cd134a13cd1fa2029ab60d06a59d25_N386 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "125" .
+_:etype_Sport_UKC-25931_0ca9277f91e40054767f69afeb0426711ca0fddd_N387_e601e393d9cd134a13cd1fa2029ab60d06a59d25_N386 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_114d4eefde1dae3983e7a79f04c72feb9a3a7efd_N390_3879b077b33ce7d2c5992c4898c7a0b82e0c7723_N389 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "126" .
+_:etype_Sport_UKC-25931_114d4eefde1dae3983e7a79f04c72feb9a3a7efd_N390_3879b077b33ce7d2c5992c4898c7a0b82e0c7723_N389 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "paddle tennis" .
+_:etype_Sport_UKC-25931_114d4eefde1dae3983e7a79f04c72feb9a3a7efd_N390_3879b077b33ce7d2c5992c4898c7a0b82e0c7723_N389 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_008451a05e1e7aa32c75119df950d405265e0904_N393_32405e889a51a69c470ad00213c68b016a41dde7_N392 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "motor" .
+_:etype_Sport_UKC-25931_008451a05e1e7aa32c75119df950d405265e0904_N393_32405e889a51a69c470ad00213c68b016a41dde7_N392 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "127" .
+_:etype_Sport_UKC-25931_008451a05e1e7aa32c75119df950d405265e0904_N393_32405e889a51a69c470ad00213c68b016a41dde7_N392 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_b4182bff4b3cf75f9e54f4990f9bd153c0c2973c_N396_69645f6bd75951010acb712e4550f367ec7b6c8a_N395 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_b4182bff4b3cf75f9e54f4990f9bd153c0c2973c_N396_69645f6bd75951010acb712e4550f367ec7b6c8a_N395 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "nordic ski" .
+_:etype_Sport_UKC-25931_b4182bff4b3cf75f9e54f4990f9bd153c0c2973c_N396_69645f6bd75951010acb712e4550f367ec7b6c8a_N395 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "128" .
+
+_:etype_Sport_UKC-25931_8b7471f4ae0bf59f5f0a425068c05d96f4801b9e_N399_e8c4866fee9a66920f58f3818875a3ecd0a7bc1b_N398 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_8b7471f4ae0bf59f5f0a425068c05d96f4801b9e_N399_e8c4866fee9a66920f58f3818875a3ecd0a7bc1b_N398 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "129" .
+_:etype_Sport_UKC-25931_8b7471f4ae0bf59f5f0a425068c05d96f4801b9e_N399_e8c4866fee9a66920f58f3818875a3ecd0a7bc1b_N398 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "model aerodrome" .
+
+_:etype_Sport_UKC-25931_2a7541babb57434e5631ffa2b5639e24f8ce84fc_N402_0294564ed4d4f19bb8e2c9a8f9488d67978ea8c6_N401 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "130" .
+_:etype_Sport_UKC-25931_2a7541babb57434e5631ffa2b5639e24f8ce84fc_N402_0294564ed4d4f19bb8e2c9a8f9488d67978ea8c6_N401 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_2a7541babb57434e5631ffa2b5639e24f8ce84fc_N402_0294564ed4d4f19bb8e2c9a8f9488d67978ea8c6_N401 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "team handball" .
+
+_:etype_Sport_UKC-25931_e794a80eb109162d579df51db6d52e223bb0e9be_N405_01a82f86f4a5284db00b201fea841915df67827e_N404 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "131" .
+_:etype_Sport_UKC-25931_e794a80eb109162d579df51db6d52e223bb0e9be_N405_01a82f86f4a5284db00b201fea841915df67827e_N404 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "rugby union" .
+_:etype_Sport_UKC-25931_e794a80eb109162d579df51db6d52e223bb0e9be_N405_01a82f86f4a5284db00b201fea841915df67827e_N404 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_91dfde1d6e005e422f64a59776234f1f4c80b5e4_N408_a3b24171f2fe673637cd2c3a55b488c60bfdc203_N407 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_91dfde1d6e005e422f64a59776234f1f4c80b5e4_N408_a3b24171f2fe673637cd2c3a55b488c60bfdc203_N407 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "shooting" .
+_:etype_Sport_UKC-25931_91dfde1d6e005e422f64a59776234f1f4c80b5e4_N408_a3b24171f2fe673637cd2c3a55b488c60bfdc203_N407 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "132" .
+
+_:etype_Sport_UKC-25931_d30f79cf7fef47bd7a5611719f936539bec0d2e9_N411_cc7740ca9ba79e21fd0b6d340b07cc0bbfede3fb_N410 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "133" .
+_:etype_Sport_UKC-25931_d30f79cf7fef47bd7a5611719f936539bec0d2e9_N411_cc7740ca9ba79e21fd0b6d340b07cc0bbfede3fb_N410 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_d30f79cf7fef47bd7a5611719f936539bec0d2e9_N411_cc7740ca9ba79e21fd0b6d340b07cc0bbfede3fb_N410 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "beach volley" .
+
+_:etype_Sport_UKC-25931_95e815d1541bf6f358cfffbe66ab3af0d0c09d09_N414_c9be014f81aeb389b4616f87ace64399a7381a3e_N413 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_95e815d1541bf6f358cfffbe66ab3af0d0c09d09_N414_c9be014f81aeb389b4616f87ace64399a7381a3e_N413 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "basket" .
+_:etype_Sport_UKC-25931_95e815d1541bf6f358cfffbe66ab3af0d0c09d09_N414_c9be014f81aeb389b4616f87ace64399a7381a3e_N413 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "134" .
+
+_:etype_Sport_UKC-25931_40f7c01f4189510031adccd9c604a128adaf9b00_N417_8fe63c015a9b530b576c408f8e25c043967ef67b_N416 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_40f7c01f4189510031adccd9c604a128adaf9b00_N417_8fe63c015a9b530b576c408f8e25c043967ef67b_N416 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "135" .
+_:etype_Sport_UKC-25931_40f7c01f4189510031adccd9c604a128adaf9b00_N417_8fe63c015a9b530b576c408f8e25c043967ef67b_N416 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "chess" .
+
+_:etype_Sport_UKC-25931_9e071a3a594a8964cbefe784f8a6afaa94c0de17_N420_bb53a1700d1da09b8f049d50b820c5996d9fe7b0_N419 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_9e071a3a594a8964cbefe784f8a6afaa94c0de17_N420_bb53a1700d1da09b8f049d50b820c5996d9fe7b0_N419 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "136" .
+_:etype_Sport_UKC-25931_9e071a3a594a8964cbefe784f8a6afaa94c0de17_N420_bb53a1700d1da09b8f049d50b820c5996d9fe7b0_N419 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "padel" .
+
+_:etype_Sport_UKC-25931_e1a864f0b77f6c89794827a9035355dc8d052622_N423_3286d7c4c5b6ea9ce5541ba020f7214b74e108fc_N422 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "karting" .
+_:etype_Sport_UKC-25931_e1a864f0b77f6c89794827a9035355dc8d052622_N423_3286d7c4c5b6ea9ce5541ba020f7214b74e108fc_N422 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_e1a864f0b77f6c89794827a9035355dc8d052622_N423_3286d7c4c5b6ea9ce5541ba020f7214b74e108fc_N422 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "137" .
+
+_:etype_Sport_UKC-25931_56ad4d4deaec98465c419b4a8ea7bfc1ed38c4d9_N426_c51d58730adfc2fa5c50d3e0801ccf5b85e48cad_N425 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "five a side" .
+_:etype_Sport_UKC-25931_56ad4d4deaec98465c419b4a8ea7bfc1ed38c4d9_N426_c51d58730adfc2fa5c50d3e0801ccf5b85e48cad_N425 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_56ad4d4deaec98465c419b4a8ea7bfc1ed38c4d9_N426_c51d58730adfc2fa5c50d3e0801ccf5b85e48cad_N425 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "138" .
+
+_:etype_Sport_UKC-25931_fa755791d0509bb06ae715a2072de724815ed84d_N429_0a54bc9602fe81e67aed72588162fc805aeb15fd_N428 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_fa755791d0509bb06ae715a2072de724815ed84d_N429_0a54bc9602fe81e67aed72588162fc805aeb15fd_N428 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "paintball" .
+_:etype_Sport_UKC-25931_fa755791d0509bb06ae715a2072de724815ed84d_N429_0a54bc9602fe81e67aed72588162fc805aeb15fd_N428 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "139" .
+
+_:etype_Sport_UKC-25931_c28aca23f1ef3718a464383d925c66842078edaa_N432_725f2a42afc6ed18d9ca311c47ba868b5c87944a_N431 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "climbing adventure" .
+_:etype_Sport_UKC-25931_c28aca23f1ef3718a464383d925c66842078edaa_N432_725f2a42afc6ed18d9ca311c47ba868b5c87944a_N431 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_c28aca23f1ef3718a464383d925c66842078edaa_N432_725f2a42afc6ed18d9ca311c47ba868b5c87944a_N431 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "140" .
+
+_:etype_Sport_UKC-25931_c9ca442765657fc90e9e779c34d0d2259d2c3c5b_N435_862021235188f8fc1101d30859348acc124bde10_N434 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_c9ca442765657fc90e9e779c34d0d2259d2c3c5b_N435_862021235188f8fc1101d30859348acc124bde10_N434 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "canoe" .
+_:etype_Sport_UKC-25931_c9ca442765657fc90e9e779c34d0d2259d2c3c5b_N435_862021235188f8fc1101d30859348acc124bde10_N434 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "141" .
+
+_:etype_Sport_UKC-25931_2a2b47bf21a372f267deccbb420567f3d450b3c0_N438_c43200111063cfec2a385fccc1d2d333cbf12d07_N437 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_2a2b47bf21a372f267deccbb420567f3d450b3c0_N438_c43200111063cfec2a385fccc1d2d333cbf12d07_N437 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "142" .
+_:etype_Sport_UKC-25931_2a2b47bf21a372f267deccbb420567f3d450b3c0_N438_c43200111063cfec2a385fccc1d2d333cbf12d07_N437 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "rafting" .
+
+_:etype_Sport_UKC-25931_f47aea8bdcbd1179a1f3d91e6afeeb259488f2d1_N441_b2f6c56ece9caf1926cefc4ec5410db53d8e39b0_N440 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "143" .
+_:etype_Sport_UKC-25931_f47aea8bdcbd1179a1f3d91e6afeeb259488f2d1_N441_b2f6c56ece9caf1926cefc4ec5410db53d8e39b0_N440 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_f47aea8bdcbd1179a1f3d91e6afeeb259488f2d1_N441_b2f6c56ece9caf1926cefc4ec5410db53d8e39b0_N440 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "boxing" .
+
+_:etype_Sport_UKC-25931_7320828c9153b2a9848d6bc45d3544236b22fc48_N444_c15d841f287225d41bd00133531a8e86ca1ad8a9_N443 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_7320828c9153b2a9848d6bc45d3544236b22fc48_N444_c15d841f287225d41bd00133531a8e86ca1ad8a9_N443 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "ultralight flying" .
+_:etype_Sport_UKC-25931_7320828c9153b2a9848d6bc45d3544236b22fc48_N444_c15d841f287225d41bd00133531a8e86ca1ad8a9_N443 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "144" .
+
+_:etype_Sport_UKC-25931_50336bc687eb161ee9fb0ddb8cf2b7e65bad865f_N447_c77aeb9be953460da7f0b8de1e15497b9c7c0303_N446 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_50336bc687eb161ee9fb0ddb8cf2b7e65bad865f_N447_c77aeb9be953460da7f0b8de1e15497b9c7c0303_N446 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "water sports" .
+_:etype_Sport_UKC-25931_50336bc687eb161ee9fb0ddb8cf2b7e65bad865f_N447_c77aeb9be953460da7f0b8de1e15497b9c7c0303_N446 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "145" .
+
+_:etype_Sport_UKC-25931_3fcfb99ec010d4a8ba364f43169465d91ca39ada_N450_abf2187a5df7f427ace3a47c1f906457749748f8_N449 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "146" .
+_:etype_Sport_UKC-25931_3fcfb99ec010d4a8ba364f43169465d91ca39ada_N450_abf2187a5df7f427ace3a47c1f906457749748f8_N449 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "windsurfing" .
+_:etype_Sport_UKC-25931_3fcfb99ec010d4a8ba364f43169465d91ca39ada_N450_abf2187a5df7f427ace3a47c1f906457749748f8_N449 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_b3c0730cf3f50613e40561e67c871fdb92820cf9_N453_03c970b1aded3b0db15f235beaa10ff96753e22b_N452 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "147" .
+_:etype_Sport_UKC-25931_b3c0730cf3f50613e40561e67c871fdb92820cf9_N453_03c970b1aded3b0db15f235beaa10ff96753e22b_N452 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "ski" .
+_:etype_Sport_UKC-25931_b3c0730cf3f50613e40561e67c871fdb92820cf9_N453_03c970b1aded3b0db15f235beaa10ff96753e22b_N452 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_536fb6934062440c464ca2eef82b0be8e6b36cc8_N456_ae7d0b51cadede813a727f1abdfae152f58d5c96_N455 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "wakeboarding" .
+_:etype_Sport_UKC-25931_536fb6934062440c464ca2eef82b0be8e6b36cc8_N456_ae7d0b51cadede813a727f1abdfae152f58d5c96_N455 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+_:etype_Sport_UKC-25931_536fb6934062440c464ca2eef82b0be8e6b36cc8_N456_ae7d0b51cadede813a727f1abdfae152f58d5c96_N455 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "148" .
+
+_:etype_Sport_UKC-25931_39dfc9ffd3253c48c9af5dd55c4b3e4b4b5e6229_N459_c3503a15d847a4f434a5f971cb2b526b4395151b_N458 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "149" .
+_:etype_Sport_UKC-25931_39dfc9ffd3253c48c9af5dd55c4b3e4b4b5e6229_N459_c3503a15d847a4f434a5f971cb2b526b4395151b_N458 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "motorcycling" .
+_:etype_Sport_UKC-25931_39dfc9ffd3253c48c9af5dd55c4b3e4b4b5e6229_N459_c3503a15d847a4f434a5f971cb2b526b4395151b_N458 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_13682ac418603aa0966369d46bbf282f562acf47_N462_b6978f1ac1b43050a2b78a6083ad17d8b71f3b09_N461 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "150" .
+_:etype_Sport_UKC-25931_13682ac418603aa0966369d46bbf282f562acf47_N462_b6978f1ac1b43050a2b78a6083ad17d8b71f3b09_N461 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "martial arts" .
+_:etype_Sport_UKC-25931_13682ac418603aa0966369d46bbf282f562acf47_N462_b6978f1ac1b43050a2b78a6083ad17d8b71f3b09_N461 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
+_:etype_Sport_UKC-25931_b16a457a3302d7c1f4563df2ffc96dccf3779af7_N465_5e214d1062f4354fb1e0f21ea7f3bb3e78d4607d_N464 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "151" .
+_:etype_Sport_UKC-25931_b16a457a3302d7c1f4563df2ffc96dccf3779af7_N465_5e214d1062f4354fb1e0f21ea7f3bb3e78d4607d_N464 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "slacklining" .
+_:etype_Sport_UKC-25931_b16a457a3302d7c1f4563df2ffc96dccf3779af7_N465_5e214d1062f4354fb1e0f21ea7f3bb3e78d4607d_N464 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Sport_UKC-2593> .
+
