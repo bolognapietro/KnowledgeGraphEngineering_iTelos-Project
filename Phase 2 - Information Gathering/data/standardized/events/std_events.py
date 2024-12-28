@@ -27,6 +27,6 @@ df['startDate'] = df['startDate'].apply(lambda x: x.strftime('%Y-%m-%d %H:%M:%S'
 df['endDate'] = df['endDate'].apply(lambda x: x.strftime('%Y-%m-%d %H:%M:%S') if pd.notnull(x) else '')
 
 # Save the standardized file
-df.to_csv(output_path, index=False)
+df.to_csv("Phase 2 - Information Gathering/data/standardized/events/Event_new.csv", index=False)
 
 print(f"File processed successfully. Output saved to: {output_path}")
