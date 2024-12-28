@@ -31,7 +31,7 @@ WHERE {
 
 ### CQ2: Luca also asks if there are any padel events during the weekend of the Festival dello Sport.
 ```sparql
-  PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
+PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT ?event_name ?address ?municipality
@@ -74,7 +74,42 @@ WHERE {
 
 ### CQ3: Luca asks if there will be events in Trentino that have Sara Errani as a guest.
 ```sparql
+PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
+SELECT ?event_name ?address ?municipality
+WHERE {
+  ?event rdf:type etype:Event_UKC-56 ;
+    etype:identification_UKC-36247 ?event_id ;
+    etype:name_UKC-2 ?event_name .
+  
+  ?organise etype:organise_UKC-104711 ?event ;
+    etype:identification_UKC-36247 ?organise_organization_id .
+  
+  ?organization rdf:type etype:Organization_UKC-43416 ;
+    etype:name_UKC-2 ?organization_name ;
+    etype:identification_UKC-36247 ?organization_id .
+    
+  FILTER(?organise_organization_id = ?organization_id)
+  
+  ?based_on etype:basedOn_UKC-92536 ?event ;
+    etype:identification_UKC-36247 ?based_on_sport_id .
+  
+  ?sport rdf:type etype:Sport_UKC-2593 ;
+    etype:identification_UKC-36247 ?sport_id ;
+    etype:name_UKC-2 ?sport_name .
+  
+  FILTER(?based_on_sport_id = ?sport_id && ?organization_name = "La Gazzetta dello Sport e Trentino Marketing" && ?sport_id = "136")
+    
+  # Match event location
+  ?placed etype:placed_UKC-85982 ?event ;
+          etype:identification_UKC-36247 ?location_id .
+  
+  ?location rdf:type etype:Location_UKC-695 ;
+            etype:identification_UKC-36247 ?location_id ;
+            etype:address_UKC-45004 ?address ;
+            etype:municipality_UKC-45537 ?municipality .
+}
 ```
 
 ### CQ4: Anna wants to know what sports can be practiced in Trentino.
