@@ -2,7 +2,7 @@
 
 ### CQ1: Luca inquires about available padel courts in Trento after 7 PM.
 
-~~~~sql
+```sparql
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
@@ -27,50 +27,88 @@ WHERE {
             
   FILTER(?have_sport_id = ?sport_id && ?sport_id = "97")
 }
-~~~~
+```
 
 ### CQ2: Luca also asks if there are any padel events during the weekend of the Festival dello Sport.
-~~~~sql
+```sparql
+  PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-~~~~
+SELECT ?event_name ?address ?municipality
+WHERE {
+  
+  # Match Event and Organization
+  ?event rdf:type etype:Event_UKC-56 ;
+         etype:identification_UKC-36247 ?event_id ;
+         etype:name_UKC-2 ?event_name .
+  
+  ?organise etype:organise_UKC-104711 ?event ;
+            etype:identification_UKC-36247 ?organise_organization_id .
+  
+  ?organization rdf:type etype:Organization_UKC-43416 ;
+               etype:identification_UKC-36247 ?organization_id ;
+               etype:name_UKC-2 "La Gazzetta dello Sport e Trentino Marketing" .
+  
+  FILTER(?organise_organization_id = ?organization_id)
+
+  # Match the Sport
+  ?based_on etype:basedOn_UKC-92536 ?event ;
+            etype:identification_UKC-36247 ?based_on_sport_id .
+  
+  ?sport rdf:type etype:Sport_UKC-2593 ;
+         etype:identification_UKC-36247 ?sport_id ;
+         etype:name_UKC-2 ?sport_name .
+  
+  FILTER(?based_on_sport_id = ?sport_id && ?sport_id = "136")
+    
+  # Match Event's Location
+  ?placed etype:placed_UKC-85982 ?event ;
+          etype:identification_UKC-36247 ?location_id .
+  
+  ?location rdf:type etype:Location_UKC-695 ;
+            etype:identification_UKC-36247 ?location_id ;
+            etype:address_UKC-45004 ?address ;
+            etype:municipality_UKC-45537 ?municipality .
+}
+```
 
 ### CQ3: Luca asks if there will be events in Trentino that have Sara Errani as a guest.
-~~~~sql
+```sparql
 
-~~~~
+```
 
 ### CQ4: Anna wants to know what sports can be practiced in Trentino.
-~~~~sql
+```sparql
 
-~~~~
+```
 
 ### CQ5: Spending the weekend with friends in Folgaria, Anna asks if there are any lighted volleyball or beach volleyball courts available throughout the day.
-~~~~sql
+```sparql
 
-~~~~
+```
 
 ### CQ6: As a volleyball enthusiast, Anna would like to know if there will be any volleyball events during the summer holidays of 2024.
-~~~~sql
+```sparql
 
-~~~~
+```
 
 ### CQ7: Matteo also wants to know if there are any skiing events held in Stelvio National Park during the winter season.
-~~~~sql
+```sparql
 
-~~~~
+```
 
 ### CQ8: Not finding what he’s looking for, Matteo asks if there are any sport events during his vacation in Trentino.
-~~~~sql
+```sparql
 
-~~~~
+```
 
 ### CQ9: A visitor asks Camilla about the events happening today, October 10, at the Festival dello Sport.
-~~~~sql
+```sparql
 
-~~~~
+```
 
 ### CQ10: While volunteering at the Festival dello Sport, Camilla becomes interested in tennis and wants to know if there are any tennis-related events and if tennis courts are available when she returns to Molveno for the weekend.
-~~~~sql
+```sparql
 
-~~~~
+```
 
