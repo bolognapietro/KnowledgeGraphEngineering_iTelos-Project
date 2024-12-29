@@ -1,0 +1,912 @@
+{
+    "acrobatics":{
+        "keywords":[
+            "acrobatica"
+        ],
+        "id":1
+    },
+    "aikido":{
+        "keywords":[
+            "aikido"
+        ],
+        "id":2
+    },
+    "mountaineering":{
+        "keywords":[
+            "alpinismo"
+        ],
+        "id":3
+    },
+    "climbing":{
+        "keywords":[
+            "arrampicata"
+        ],
+        "id":4
+    },
+    "artistic swimming":{
+        "keywords":[
+            "nuoto sincronizzato", "piscine", "piscina", "natatorio"
+        ],
+        "id":5
+    },
+    "athletics":{
+        "keywords":[
+            "atletica"
+        ],
+        "id":6
+    },
+    "badminton":{
+        "keywords":[
+            "badminton"
+        ],
+        "id":7
+    },
+    "baseball":{
+        "keywords":[
+            "baseball"
+        ],
+        "id":8
+    },
+    "softball":{
+        "keywords":[
+            "softball"
+        ],
+        "id":9
+    },
+    "beach volleyball":{
+        "keywords":[
+            "beach volley",
+            "beachvolley"
+        ],
+        "id":10
+    },
+    "boogie woogie":{
+        "keywords":[
+            "boogie woogie"
+        ],
+        "id":11
+    },
+    "soccer":{
+        "keywords":[
+            "calcio"
+        ],
+        "id":12
+    },
+    "gaelic football":{
+        "keywords":[
+            "gaelic football",
+            "calcio gaelico"
+        ],
+        "id":13
+    },
+    "canoeing":{
+        "keywords":[
+            "canoismo"
+        ],
+        "id":14
+    },
+    "rowing":{
+        "keywords":[
+            "canottaggio"
+        ],
+        "id":15
+    },
+    "capoeira":{
+        "keywords":[
+            "capoeira"
+        ],
+        "id":16
+    },
+    "cycling":{
+        "keywords":[
+            "ciclismo"
+        ],
+        "id":17
+    },
+    "track cycling":{
+        "keywords":[
+            "ciclismo su pista"
+        ],
+        "id":18
+    },
+    "road cycling":{
+        "keywords":[
+            "ciclismo su strada"
+        ],
+        "id":19
+    },
+    "cyclocross":{
+        "keywords":[
+            "cyclocross"
+        ],
+        "id":20
+    },
+    "orienteering":{
+        "keywords":[
+            "orienteering"
+        ],
+        "id":21
+    },
+    "curling":{
+        "keywords":[
+            "curling"
+        ],
+        "id":22
+    },
+    "dance":{
+        "keywords":[
+            "danza"
+        ],
+        "id":23
+    },
+    "standard latin dance":{
+        "keywords":[
+            "danza latina standard",
+            "danza latina"
+        ],
+        "id":24
+    },
+    "donut hockey":{
+        "keywords":[
+            "donut hockey",
+            "hockey su ciambella"
+        ],
+        "id":25
+    },
+    "flag football":{
+        "keywords":[
+            "flag football"
+        ],
+        "id":26
+    },
+    "foobaskill":{
+        "keywords":[
+            "foobaskill"
+        ],
+        "id":27
+    },
+    "frisbee":{
+        "keywords":[
+            "frisbee"
+        ],
+        "id":28
+    },
+    "futnet":{
+        "keywords":[
+            "futnet"
+        ],
+        "id":29
+    },
+    "futsal":{
+        "keywords":[
+            "futsal"
+        ],
+        "id":30
+    },
+    "gymnastics":{
+        "keywords":[
+            "ginnastica"
+        ],
+        "id":31
+    },
+    "apparatus gymnastics":{
+        "keywords":[
+            "ginnastica artistica"
+        ],
+        "id":32
+    },
+    "artistic gymnastics":{
+        "keywords":[
+            "ginnastica artistica"
+        ],
+        "id":33
+    },
+    "gymnastics and dance":{
+        "keywords":[
+            "ginnastica e danza"
+        ],
+        "id":34
+    },
+    "rhythmic gymnastics":{
+        "keywords":[
+            "ginnastica ritmica"
+        ],
+        "id":35
+    },
+    "return games":{
+        "keywords":[
+            "giochi di ritorno"
+        ],
+        "id":36
+    },
+    "national games":{
+        "keywords":[
+            "giochi nazionali"
+        ],
+        "id":37
+    },
+    "golf":{
+        "keywords":[
+            "golf"
+        ],
+        "id":38
+    },
+    "inline hockey":{
+        "keywords":[
+            "inline hockey"
+        ],
+        "id":39
+    },
+    "ice hockey":{
+        "keywords":[
+            "hockey su ghiaccio"
+        ],
+        "id":40
+    },
+    "field hockey":{
+        "keywords":[
+            "hockey su prato"
+        ],
+        "id":41
+    },
+    "hornuss":{
+        "keywords":[
+            "hornuss"
+        ],
+        "id":42
+    },
+    "freediving":{
+        "keywords":[
+            "apnea"
+        ],
+        "id":43
+    },
+    "inline skating":{
+        "keywords":[
+            "pattinaggio in linea"
+        ],
+        "id":44
+    },
+    "intercrosse":{
+        "keywords":[
+            "intercrosse"
+        ],
+        "id":45
+    },
+    "ju jitsu":{
+        "keywords":[
+            "ju jitsu"
+        ],
+        "id":46
+    },
+    "judo":{
+        "keywords":[
+            "judo"
+        ],
+        "id":47
+    },
+    "karate":{
+        "keywords":[
+            "karate"
+        ],
+        "id":48
+    },
+    "kin ball":{
+        "keywords":[
+            "kin ball"
+        ],
+        "id":49
+    },
+    "light contact boxing":{
+        "keywords":[
+            "boxe a contatto leggero"
+        ],
+        "id":50
+    },
+    "wrestling":{
+        "keywords":[
+            "lotta"
+        ],
+        "id":51
+    },
+    "swiss wrestling":{
+        "keywords":[
+            "lotta svizzera"
+        ],
+        "id":52
+    },
+    "madball":{
+        "keywords":[
+            "madball"
+        ],
+        "id":53
+    },
+    "minigolf":{
+        "keywords":[
+            "minigolf"
+        ],
+        "id":54
+    },
+    "mountain biking":{
+        "keywords":[
+            "mountain bike"
+        ],
+        "id":55
+    },
+    "netzball":{
+        "keywords":[
+            "netzball"
+        ],
+        "id":56
+    },
+    "nordic walking":{
+        "keywords":[
+            "nordic walking"
+        ],
+        "id":57
+    },
+    "swimming":{
+        "keywords":[
+            "nuoto", "piscine", "piscina", "natatorio"
+        ],
+        "id":58
+    },
+    "lifesaving swimming":{
+        "keywords":[
+            "nuoto salvamento", "piscine", "piscina", "natatorio"
+        ],
+        "id":59
+    },
+    "basketball":{
+        "keywords":[
+            "basket"
+        ],
+        "id":60
+    },
+    "streetball":{
+        "keywords":[
+            "streetball"
+        ],
+        "id":61
+    },
+    "handball":{
+        "keywords":[
+            "pallamano"
+        ],
+        "id":62
+    },
+    "water polo":{
+        "keywords":[
+            "pallanuoto", "natatorio"
+        ],
+        "id":63
+    },
+    "pallapugno":{
+        "keywords":[
+            "pallapugno"
+        ],
+        "id":64
+    },
+    "volleyball":{
+        "keywords":[
+            "pallavolo"
+        ],
+        "id":65
+    },
+    "parkour":{
+        "keywords":[
+            "parkour"
+        ],
+        "id":66
+    },
+    "figure skating":{
+        "keywords":[
+            "pattinaggio artistico"
+        ],
+        "id":67
+    },
+    "pilates":{
+        "keywords":[
+            "pilates"
+        ],
+        "id":68
+    },
+    "poull ball":{
+        "keywords":[
+            "poull ball"
+        ],
+        "id":69
+    },
+    "snowshoeing":{
+        "keywords":[
+            "ciaspolate"
+        ],
+        "id":70
+    },
+    "rafroball":{
+        "keywords":[
+            "rafroball"
+        ],
+        "id":71
+    },
+    "rh nrad":{
+        "keywords":[
+            "rh nrad"
+        ],
+        "id":72
+    },
+    "rock n roll":{
+        "keywords":[
+            "rock n roll"
+        ],
+        "id":73
+    },
+    "roundnet":{
+        "keywords":[
+            "roundnet"
+        ],
+        "id":74
+    },
+    "rugby":{
+        "keywords":[
+            "rugby"
+        ],
+        "id":75
+    },
+    "running":{
+        "keywords":[
+            "corsa"
+        ],
+        "id":76
+    },
+    "ski jumping":{
+        "keywords":[
+            "salto con gli sci"
+        ],
+        "id":77
+    },
+    "fencing":{
+        "keywords":[
+            "scherma"
+        ],
+        "id":78
+    },
+    "skiing":{
+        "keywords":[
+            "sci"
+        ],
+        "id":79
+    },
+    "cross country skiing":{
+        "keywords":[
+            "sci di fondo"
+        ],
+        "id":80
+    },
+    "ski touring":{
+        "keywords":[
+            "sci alpinismo"
+        ],
+        "id":81
+    },
+    "skateboarding waveboarding":{
+        "keywords":[
+            "skateboarding waveboarding"
+        ],
+        "id":82
+    },
+    "slackline":{
+        "keywords":[
+            "slackline"
+        ],
+        "id":83
+    },
+    "smolball":{
+        "keywords":[
+            "smolball"
+        ],
+        "id":84
+    },
+    "snowboarding":{
+        "keywords":[
+            "snowboard"
+        ],
+        "id":85
+    },
+    "adult sports":{
+        "keywords":[
+            "sport per adulti"
+        ],
+        "id":86
+    },
+    "field sports trekking":{
+        "keywords":[
+            "sport di campo trekking"
+        ],
+        "id":87
+    },
+    "equestrian sports":{
+        "keywords":[
+            "sport equestri", "equitazione", "ippico", "ippica", "equestre"
+        ],
+        "id":88
+    },
+    "freestyle sports":{
+        "keywords":[
+            "sport freestyle"
+        ],
+        "id":89
+    },
+    "wheelchair sports":{
+        "keywords":[
+            "sport per disabili"
+        ],
+        "id":90
+    },
+    "school sports":{
+        "keywords":[
+            "sport scolastici"
+        ],
+        "id":91
+    },
+    "sprint relay":{
+        "keywords":[
+            "staffetta sprint"
+        ],
+        "id":92
+    },
+    "squash":{
+        "keywords":[
+            "squash"
+        ],
+        "id":93
+    },
+    "stand up paddle":{
+        "keywords":[
+            "stand up paddle"
+        ],
+        "id":94
+    },
+    "street racket":{
+        "keywords":[
+            "street racket"
+        ],
+        "id":95
+    },
+    "tchoukball":{
+        "keywords":[
+            "tchoukball"
+        ],
+        "id":96
+    },
+    "tennis":{
+        "keywords":[
+            "tennis", "tennisclub", "tennis club"
+        ],
+        "id":97
+    },
+    "table tennis":{
+        "keywords":[
+            "ping pong"
+        ],
+        "id":98
+    },
+    "shooting sports":{
+        "keywords":[
+            "tiro sportivo"
+        ],
+        "id":99
+    },
+    "touch rugby":{
+        "keywords":[
+            "touch rugby"
+        ],
+        "id":100
+    },
+    "trail running":{
+        "keywords":[
+            "trail running"
+        ],
+        "id":101
+    },
+    "trampoline":{
+        "keywords":[
+            "trampolino"
+        ],
+        "id":102
+    },
+    "triathlon":{
+        "keywords":[
+            "triathlon"
+        ],
+        "id":103
+    },
+    "diving":{
+        "keywords":[
+            "immersioni"
+        ],
+        "id":104
+    },
+    "floorball":{
+        "keywords":[
+            "floorball"
+        ],
+        "id":105
+    },
+    "sailing":{
+        "keywords":[
+            "vela"
+        ],
+        "id":106
+    },
+    "vaulting":{
+        "keywords":[
+            "salto con l'asta"
+        ],
+        "id":107
+    },
+    "yoga":{
+        "keywords":[
+            "yoga"
+        ],
+        "id":108
+    },
+    "equestrian":{
+        "keywords":[
+            "equestre"
+        ],
+        "id":109
+    },
+    "boules":{
+        "keywords":[
+            "bocce", "bocciodromo", "bocciofila"
+        ],
+        "id":110
+    },
+    "hockey":{
+        "keywords":[
+            "hockey"
+        ],
+        "id":111
+    },
+    "skateboard":{
+        "keywords":[
+            "skateboard"
+        ],
+        "id":112
+    },
+    "rugby league":{
+        "keywords":[
+            "rugby league"
+        ],
+        "id":113
+    },
+    "football":{
+        "keywords":[
+            "calcio"
+        ],
+        "id":114
+    },
+    "free flying":{
+        "keywords":[
+            "volo libero"
+        ],
+        "id":115
+    },
+    "ice skating":{
+        "keywords":[
+            "pattinaggio su ghiaccio", "palaghiaccio", "pattinaggio sul ghiaccio"
+        ],
+        "id":116
+    },
+    "roller skating":{
+        "keywords":[
+            "pattinaggio a rotelle"
+        ],
+        "id":117
+    },
+    "bowls":{
+        "keywords":[
+            "bowls"
+        ],
+        "id":118
+    },
+    "motocross":{
+        "keywords":[
+            "motocross"
+        ],
+        "id":119
+    },
+    "beachvolleyball":{
+        "keywords":[
+            "beach volley"
+        ],
+        "id":120
+    },
+    "tamburello":{
+        "keywords":[
+            "tamburello"
+        ],
+        "id":121
+    },
+    "mtb":{
+        "keywords":[
+            "mtb"
+        ],
+        "id":122
+    },
+    "bmx":{
+        "keywords":[
+            "bmx"
+        ],
+        "id":123
+    },
+    "skating":{
+        "keywords":[
+            "skating"
+        ],
+        "id":124
+    },
+    "archery":{
+        "keywords":[
+            "tiro con l'arco", "arcieri"
+        ],
+        "id":125
+    },
+    "paddle tennis":{
+        "keywords":[
+            "paddle tennis"
+        ],
+        "id":126
+    },
+    "motor":{
+        "keywords":[
+            "motore"
+        ],
+        "id":127
+    },
+    "nordic ski":{
+        "keywords":[
+            "sci nordico"
+        ],
+        "id":128
+    },
+    "model aerodrome":{
+        "keywords":[
+            "aerodromo modellistico"
+        ],
+        "id":129
+    },
+    "team handball":{
+        "keywords":[
+            "pallamano a squadre", "pallamano"
+        ],
+        "id":130
+    },
+    "rugby union":{
+        "keywords":[
+            "rugby union", "rugby"
+        ],
+        "id":131
+    },
+    "shooting":{
+        "keywords":[
+            "tiro"
+        ],
+        "id":132
+    },
+    "beach volley":{
+        "keywords":[
+            "beach volley"
+        ],
+        "id":133
+    },
+    "basket":{
+        "keywords":[
+            "basket", "palla"
+        ],
+        "id":134
+    },
+    "chess":{
+        "keywords":[
+            "scacchi"
+        ],
+        "id":135
+    },
+    "padel":{
+        "keywords":[
+            "padel"
+        ],
+        "id":136
+    },
+    "karting":{
+        "keywords":[
+            "karting"
+        ],
+        "id":137
+    },
+    "five a side":{
+        "keywords":[
+            "calcio a 5"
+        ],
+        "id":138
+    },
+    "paintball":{
+        "keywords":[
+            "paintball"
+        ],
+        "id":139
+    },
+    "climbing adventure":{
+        "keywords":[
+            "avventura in arrampicata"
+        ],
+        "id":140
+    },
+    "canoe":{
+        "keywords":[
+            "canoa"
+        ],
+        "id":141
+    },
+    "rafting":{
+        "keywords":[
+            "rafting"
+        ],
+        "id":142
+    },
+    "boxing":{
+        "keywords":[
+            "pugilato"
+        ],
+        "id":143
+    },
+    "ultralight flying":{
+        "keywords":[
+            "volo ultraleggero"
+        ],
+        "id":144
+    },
+    "water sports":{
+        "keywords":[
+            "sport acquatici"
+        ],
+        "id":145
+    },
+    "windsurfing":{
+        "keywords":[
+            "windsurf"
+        ],
+        "id":146
+    },
+    "ski":{
+        "keywords":[
+            "sci"
+        ],
+        "id":147
+    },
+    "wakeboarding":{
+        "keywords":[
+            "wakeboard"
+        ],
+        "id":148
+    },
+    "motorcycling":{
+        "keywords":[
+            "motociclismo"
+        ],
+        "id":149
+    },
+    "martial arts":{
+        "keywords":[
+            "arti marziali"
+        ],
+        "id":150
+    },
+    "slacklining":{
+        "keywords":[
+            "slacklining"
+        ],
+        "id":151
+    }
+}
