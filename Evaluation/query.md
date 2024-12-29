@@ -269,11 +269,71 @@ WHERE {
 
 ### CQ9: A visitor asks Camilla about the events happening today, October 10, at the Festival dello Sport.
 ```sparql
+PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
+SELECT ?event_name ?startDate ?address ?municipality
+WHERE {
+  
+  # Match Event and Organization
+  ?event rdf:type etype:Event_UKC-56 ;
+         etype:identification_UKC-36247 ?event_id ;
+         etype:name_UKC-2 ?event_name ;
+       etype:startDate_schema.org-startDate ?startDate .
+  
+  FILTER(CONTAINS(?startDate, "2024-10-10"))
+
+  ?organise etype:organise_UKC-104711 ?event ;
+            etype:identification_UKC-36247 ?organise_organization_id .
+  
+  ?organization rdf:type etype:Organization_UKC-43416 ;
+               etype:identification_UKC-36247 ?organization_id ;
+               etype:name_UKC-2 "La Gazzetta dello Sport e Trentino Marketing" .
+  
+  FILTER(?organise_organization_id = ?organization_id)
+    
+  # Match Event's Location
+  ?placed etype:placed_UKC-85982 ?event ;
+          etype:identification_UKC-36247 ?location_id .
+  
+  ?location rdf:type etype:Location_UKC-695 ;
+            etype:identification_UKC-36247 ?location_id ;
+            etype:address_UKC-45004 ?address ;
+            etype:municipality_UKC-45537 ?municipality .
+}
 ```
 
 ### CQ10: While volunteering at the Festival dello Sport, Camilla becomes interested in tennis and wants to know if there are any tennis-related events and if tennis courts are available when she returns to Molveno for the weekend.
 ```sparql
+PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
+SELECT ?facility_id ?event_name ?address ?municipality
+WHERE {
+  
+  # Match Facility in Molveno
+  ?facility rdf:type etype:Facility_UKC-17619 ;
+         etype:identification_UKC-36247 ?facility_id ;
+         etype:name_UKC-2 ?name .
+    
+  ?placed etype:placed_UKC-85982 ?facility ;
+            etype:identification_UKC-36247 ?placed_location_id .
+  
+  ?location rdf:type etype:Location_UKC-695 ;
+            etype:identification_UKC-36247 ?location_id ;
+        etype:address_UKC-45004 ?address ;
+            etype:municipality_UKC-45537 ?municipality .
+  
+  FILTER(?location_id = ?placed_location_id && ?municipality = "Molveno")
+    
+  ?have etype:have_UKC-103527 ?facility ;
+            etype:identification_UKC-36247 ?have_sport_id .
+  
+  ?sport rdf:type etype:Sport_UKC-2593 ;
+         etype:identification_UKC-36247 ?sport_id ;
+         etype:name_UKC-2 ?sport_name .
+  
+  FILTER(?based_on_sport_id = ?sport_id && ?sport_id = "97")
+}
 ```
 
