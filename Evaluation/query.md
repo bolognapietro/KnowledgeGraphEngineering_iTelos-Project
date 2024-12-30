@@ -7,7 +7,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT ?legalName ?openingHours ?address ?municipality
+SELECT DISTINCT ?legalName ?address ?municipality ?openingHours
 WHERE {
 
   # Match the facility
@@ -16,28 +16,58 @@ WHERE {
             etype:name_UKC-2 ?legalName .
   
   # Extract openingHours (if any)
-  OPTIONAL { 
-    ?facility etype:openingHours_schema.org-openingHours ?openingHours .
-    BIND(IF(STRLEN(?openingHours) >= 15, 
-            SUBSTR(?openingHours, 13, 2), 
-            true) AS ?closingHourCheck)
-  }
-
-  # Match the sport related to the facility
+  ?facility etype:openingHours_schema.org-openingHours ?openingHours .
+  
   ?have etype:have_UKC-103527 ?facility ;
-        etype:identification_UKC-36247 "136" . # Directly match sport ID
+    etype:identification_UKC-36247 "136" .
+    
+  # Define a list of days to process
+    VALUES (?day ?dayRegex) {
+      ("monday"   "monday: (\\d{2}:\\d{2}) - (\\d{2}:\\d{2})")
+      ("tuesday"  "tuesday: (\\d{2}:\\d{2}) - (\\d{2}:\\d{2})")
+      ("wednesday" "wednesday: (\\d{2}:\\d{2}) - (\\d{2}:\\d{2})")
+      ("thursday" "thursday: (\\d{2}:\\d{2}) - (\\d{2}:\\d{2})")
+      ("friday"   "friday: (\\d{2}:\\d{2}) - (\\d{2}:\\d{2})")
+      ("saturday" "saturday: (\\d{2}:\\d{2}) - (\\d{2}:\\d{2})")
+      ("sunday"   "sunday: (\\d{2}:\\d{2}) - (\\d{2}:\\d{2})")
+    }
+
+    # Process each day and extract the hours and minutes
+    BIND(
+        IF(
+          REGEX(?openingHours, ?dayRegex, "i"),
+          STRDT(SUBSTR(REPLACE(?openingHours, "." + ?day + ": (\\d{2}:\\d{2}) - (\\d{2}:\\d{2}).", "$2"), 1, 2), xsd:integer) * 60,
+          false
+        ) AS ?hours
+    )
+
+    BIND(
+        IF(
+          REGEX(?openingHours, ?dayRegex, "i"),
+          STRDT(SUBSTR(REPLACE(?openingHours, "." + ?day + ": (\\d{2}:\\d{2}) - (\\d{2}:\\d{2}).", "$2"), 4, 2), xsd:integer),
+          false
+        ) AS ?minutes
+    )
+
+    # Check if the total time for the day exceeds 19:00 (1140 minutes)
+    BIND(
+        IF(
+          ?hours + ?minutes >= 1140,
+          true,
+          false
+        ) AS ?exceeds19
+    )
   
   # Extract the location of each facility
   ?placed etype:placed_UKC-85982 ?facility ;
-          etype:identification_UKC-36247 ?location_id .
-  
+          etype:identification_UKC-36247 ?placed_id .
+    		  
   ?location rdf:type etype:Location_UKC-695 ;
-            etype:identification_UKC-36247 ?location_id ;
-            etype:address_UKC-45004 ?address ;
-            etype:municipality_UKC-45537 ?municipality .
-
-  # Filter results
-  FILTER(?closingHourCheck = true || xsd:integer(?closingHourCheck) >= 19)
+          etype:identification_UKC-36247 ?location_id ;
+          etype:address_UKC-45004 ?address ;
+          etype:municipality_UKC-45537 ?municipality .
+    
+  FILTER(?placed_id = ?location_id)
 }
 ```
 
@@ -90,7 +120,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT ?name ?startDate ?endDate ?address ?municipality
+SELECT ?event_name ?address ?municipality ?startDate ?endDate
 WHERE {
   # Filter early for guests named "Sara Errani"
   ?guest rdf:type <http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&SportEvents-8001> ;
@@ -104,7 +134,7 @@ WHERE {
   
   # Get events and optional end dates
   ?event rdf:type etype:Event_UKC-56 ;
-         etype:name_UKC-2 ?name ;
+         etype:name_UKC-2 ?event_name ;
          etype:startDate_schema.org-startDate ?startDate .
   
   OPTIONAL {
