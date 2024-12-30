@@ -1,19 +1,27 @@
-_:SportEvents-80021_b5c266757ac9ef810421ae368ca05635f732b480_N191908_356a192b7913b04c54574d18c28d46e6395428ab_N191907_da39a3ee5e6b4b0d3255bfef95601890afd80709_N191906 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1" .
-_:SportEvents-80021_b5c266757ac9ef810421ae368ca05635f732b480_N191908_356a192b7913b04c54574d18c28d46e6395428ab_N191907_da39a3ee5e6b4b0d3255bfef95601890afd80709_N191906 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Campo Padel" .
-_:SportEvents-80021_b5c266757ac9ef810421ae368ca05635f732b480_N191908_356a192b7913b04c54574d18c28d46e6395428ab_N191907_da39a3ee5e6b4b0d3255bfef95601890afd80709_N191906 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#PadelCourt_KGE24-SportFacilities&SportEvents-8002> .
+_:SportEvents-80021_b5c266757ac9ef810421ae368ca05635f732b480_N12_da39a3ee5e6b4b0d3255bfef95601890afd80709_N14 <http://knowdive.disi.unitn.it/etype#have_UKC-103527> "Campo Padel" .
+_:SportEvents-80021_b5c266757ac9ef810421ae368ca05635f732b480_N12_da39a3ee5e6b4b0d3255bfef95601890afd80709_N14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#PadelCourt_KGE24-SportFacilities&SportEvents-8002> .
+_:etype_Facility_UKC-176191_57440b8079f1f30c079bbc3fd0c68f6f2b79e938_N13 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80021_b5c266757ac9ef810421ae368ca05635f732b480_N12_da39a3ee5e6b4b0d3255bfef95601890afd80709_N14 .
+_:etype_Facility_UKC-176191_57440b8079f1f30c079bbc3fd0c68f6f2b79e938_N13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_57440b8079f1f30c079bbc3fd0c68f6f2b79e938_N13 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1266" .
 
-_:SportEvents-80021_51b87e833c2ca612d68e61e189023a3c2b461a7a_N191912_da4b9237bacccdf19c0760cab7aec4a8359010b0_N191911_da39a3ee5e6b4b0d3255bfef95601890afd80709_N191910 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "2" .
-_:SportEvents-80021_51b87e833c2ca612d68e61e189023a3c2b461a7a_N191912_da4b9237bacccdf19c0760cab7aec4a8359010b0_N191911_da39a3ee5e6b4b0d3255bfef95601890afd80709_N191910 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Trento Padel" .
-_:SportEvents-80021_51b87e833c2ca612d68e61e189023a3c2b461a7a_N191912_da4b9237bacccdf19c0760cab7aec4a8359010b0_N191911_da39a3ee5e6b4b0d3255bfef95601890afd80709_N191910 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#PadelCourt_KGE24-SportFacilities&SportEvents-8002> .
+_:etype_Facility_UKC-176191_ff3d3275e74dcbac2d970eea9ad779212cadda17_N17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_ff3d3275e74dcbac2d970eea9ad779212cadda17_N17 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80021_2d11950b6edcad4b33f442b60571b7fb08c9b1c2_N16_da39a3ee5e6b4b0d3255bfef95601890afd80709_N18 .
+_:SportEvents-80021_2d11950b6edcad4b33f442b60571b7fb08c9b1c2_N16_da39a3ee5e6b4b0d3255bfef95601890afd80709_N18 <http://knowdive.disi.unitn.it/etype#have_UKC-103527> "Padel Trento Arena" .
+_:SportEvents-80021_2d11950b6edcad4b33f442b60571b7fb08c9b1c2_N16_da39a3ee5e6b4b0d3255bfef95601890afd80709_N18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#PadelCourt_KGE24-SportFacilities&SportEvents-8002> .
+_:etype_Facility_UKC-176191_ff3d3275e74dcbac2d970eea9ad779212cadda17_N17 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1455" .
 
-_:SportEvents-80021_2d11950b6edcad4b33f442b60571b7fb08c9b1c2_N191916_77de68daecd823babbb58edb1c8e14d7106e83bb_N191915_da39a3ee5e6b4b0d3255bfef95601890afd80709_N191914 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "3" .
-_:SportEvents-80021_2d11950b6edcad4b33f442b60571b7fb08c9b1c2_N191916_77de68daecd823babbb58edb1c8e14d7106e83bb_N191915_da39a3ee5e6b4b0d3255bfef95601890afd80709_N191914 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#PadelCourt_KGE24-SportFacilities&SportEvents-8002> .
-_:SportEvents-80021_2d11950b6edcad4b33f442b60571b7fb08c9b1c2_N191916_77de68daecd823babbb58edb1c8e14d7106e83bb_N191915_da39a3ee5e6b4b0d3255bfef95601890afd80709_N191914 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Padel Trento Arena" .
+_:etype_Facility_UKC-176191_41db62481aeb978fd13f591755b596ff0616be70_N21 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1491" .
+_:etype_Facility_UKC-176191_41db62481aeb978fd13f591755b596ff0616be70_N21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
 
-_:SportEvents-80021_da39a3ee5e6b4b0d3255bfef95601890afd80709_N191920_1b6453892473a467d07372d45eb05abc2031647a_N191919_da39a3ee5e6b4b0d3255bfef95601890afd80709_N191918 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "4" .
-_:SportEvents-80021_da39a3ee5e6b4b0d3255bfef95601890afd80709_N191920_1b6453892473a467d07372d45eb05abc2031647a_N191919_da39a3ee5e6b4b0d3255bfef95601890afd80709_N191918 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#PadelCourt_KGE24-SportFacilities&SportEvents-8002> .
+_:SportEvents-80021_0064d61bc8f051bfff72c0678ff510fac1cfea66_N24_da39a3ee5e6b4b0d3255bfef95601890afd80709_N26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#PadelCourt_KGE24-SportFacilities&SportEvents-8002> .
+_:SportEvents-80021_0064d61bc8f051bfff72c0678ff510fac1cfea66_N24_da39a3ee5e6b4b0d3255bfef95601890afd80709_N26 <http://knowdive.disi.unitn.it/etype#have_UKC-103527> "Moda Sport" .
+_:etype_Facility_UKC-176191_3ea77f23ba3301129b3fc06daf1ee04ecd559293_N25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_3ea77f23ba3301129b3fc06daf1ee04ecd559293_N25 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1521" .
+_:etype_Facility_UKC-176191_3ea77f23ba3301129b3fc06daf1ee04ecd559293_N25 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80021_0064d61bc8f051bfff72c0678ff510fac1cfea66_N24_da39a3ee5e6b4b0d3255bfef95601890afd80709_N26 .
 
-_:SportEvents-80021_fd14556a8db068f00875c49a7641569505948d2f_N191924_ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4_N191923_da39a3ee5e6b4b0d3255bfef95601890afd80709_N191922 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#PadelCourt_KGE24-SportFacilities&SportEvents-8002> .
-_:SportEvents-80021_fd14556a8db068f00875c49a7641569505948d2f_N191924_ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4_N191923_da39a3ee5e6b4b0d3255bfef95601890afd80709_N191922 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Padel Hall" .
-_:SportEvents-80021_fd14556a8db068f00875c49a7641569505948d2f_N191924_ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4_N191923_da39a3ee5e6b4b0d3255bfef95601890afd80709_N191922 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "5" .
+_:SportEvents-80021_fd14556a8db068f00875c49a7641569505948d2f_N28_da39a3ee5e6b4b0d3255bfef95601890afd80709_N30 <http://knowdive.disi.unitn.it/etype#have_UKC-103527> "Padel Hall" .
+_:etype_Facility_UKC-176191_77bf3f680d135c03c5a0f017e13016d0a4785bb9_N29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_77bf3f680d135c03c5a0f017e13016d0a4785bb9_N29 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80021_fd14556a8db068f00875c49a7641569505948d2f_N28_da39a3ee5e6b4b0d3255bfef95601890afd80709_N30 .
+_:etype_Facility_UKC-176191_77bf3f680d135c03c5a0f017e13016d0a4785bb9_N29 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1525" .
+_:SportEvents-80021_fd14556a8db068f00875c49a7641569505948d2f_N28_da39a3ee5e6b4b0d3255bfef95601890afd80709_N30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#PadelCourt_KGE24-SportFacilities&SportEvents-8002> .
 

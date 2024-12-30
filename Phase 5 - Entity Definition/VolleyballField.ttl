@@ -1,120 +1,598 @@
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192386_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192385_ed09447165efdde9b73bc83a052951a80934b22f_N192384_356a192b7913b04c54574d18c28d46e6395428ab_N192383 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1" .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192386_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192385_ed09447165efdde9b73bc83a052951a80934b22f_N192384_356a192b7913b04c54574d18c28d46e6395428ab_N192383 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Palestra Romarzollo" .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192386_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192385_ed09447165efdde9b73bc83a052951a80934b22f_N192384_356a192b7913b04c54574d18c28d46e6395428ab_N192383 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N105_da39a3ee5e6b4b0d3255bfef95601890afd80709_N102_ed09447165efdde9b73bc83a052951a80934b22f_N103 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Palestra Romarzollo" .
+_:etype_Facility_UKC-176191_ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4_N104 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N105_da39a3ee5e6b4b0d3255bfef95601890afd80709_N102_ed09447165efdde9b73bc83a052951a80934b22f_N103 .
+_:etype_Facility_UKC-176191_ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4_N104 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "5" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N105_da39a3ee5e6b4b0d3255bfef95601890afd80709_N102_ed09447165efdde9b73bc83a052951a80934b22f_N103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4_N104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
 
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192391_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192390_a30b66f223c72d08553606affbcb4fadf70ebabe_N192389_da4b9237bacccdf19c0760cab7aec4a8359010b0_N192388 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192391_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192390_a30b66f223c72d08553606affbcb4fadf70ebabe_N192389_da4b9237bacccdf19c0760cab7aec4a8359010b0_N192388 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Centro Sportivo Trento Nord" .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192391_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192390_a30b66f223c72d08553606affbcb4fadf70ebabe_N192389_da4b9237bacccdf19c0760cab7aec4a8359010b0_N192388 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "2" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N110_da39a3ee5e6b4b0d3255bfef95601890afd80709_N107_a30b66f223c72d08553606affbcb4fadf70ebabe_N108 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Centro Sportivo Trento Nord" .
+_:etype_Facility_UKC-176191_17ba0791499db908433b80f37c5fbc89b870084b_N109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N110_da39a3ee5e6b4b0d3255bfef95601890afd80709_N107_a30b66f223c72d08553606affbcb4fadf70ebabe_N108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_17ba0791499db908433b80f37c5fbc89b870084b_N109 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "11" .
+_:etype_Facility_UKC-176191_17ba0791499db908433b80f37c5fbc89b870084b_N109 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N110_da39a3ee5e6b4b0d3255bfef95601890afd80709_N107_a30b66f223c72d08553606affbcb4fadf70ebabe_N108 .
 
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192396_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192395_6f094a0a89c9586a8a7020608d46927b218157fc_N192394_77de68daecd823babbb58edb1c8e14d7106e83bb_N192393 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192396_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192395_6f094a0a89c9586a8a7020608d46927b218157fc_N192394_77de68daecd823babbb58edb1c8e14d7106e83bb_N192393 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "3" .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192396_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192395_6f094a0a89c9586a8a7020608d46927b218157fc_N192394_77de68daecd823babbb58edb1c8e14d7106e83bb_N192393 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Centro sportivo Vela" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N115_da39a3ee5e6b4b0d3255bfef95601890afd80709_N112_6f094a0a89c9586a8a7020608d46927b218157fc_N113 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Centro sportivo Vela" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N115_da39a3ee5e6b4b0d3255bfef95601890afd80709_N112_6f094a0a89c9586a8a7020608d46927b218157fc_N113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_b6692ea5df920cad691c20319a6fffd7a4a766b8_N114 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "33" .
+_:etype_Facility_UKC-176191_b6692ea5df920cad691c20319a6fffd7a4a766b8_N114 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N115_da39a3ee5e6b4b0d3255bfef95601890afd80709_N112_6f094a0a89c9586a8a7020608d46927b218157fc_N113 .
+_:etype_Facility_UKC-176191_b6692ea5df920cad691c20319a6fffd7a4a766b8_N114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
 
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192401_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192400_ccb0e958d2cc75627fe32a88c2ac2e7c03e58acc_N192399_1b6453892473a467d07372d45eb05abc2031647a_N192398 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "4" .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192401_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192400_ccb0e958d2cc75627fe32a88c2ac2e7c03e58acc_N192399_1b6453892473a467d07372d45eb05abc2031647a_N192398 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "PalaBocchi" .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192401_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192400_ccb0e958d2cc75627fe32a88c2ac2e7c03e58acc_N192399_1b6453892473a467d07372d45eb05abc2031647a_N192398 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N120_da39a3ee5e6b4b0d3255bfef95601890afd80709_N117_ccb0e958d2cc75627fe32a88c2ac2e7c03e58acc_N118 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "PalaBocchi" .
+_:etype_Facility_UKC-176191_f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59_N119 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "34" .
+_:etype_Facility_UKC-176191_f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59_N119 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N120_da39a3ee5e6b4b0d3255bfef95601890afd80709_N117_ccb0e958d2cc75627fe32a88c2ac2e7c03e58acc_N118 .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N120_da39a3ee5e6b4b0d3255bfef95601890afd80709_N117_ccb0e958d2cc75627fe32a88c2ac2e7c03e58acc_N118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59_N119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
 
-_:SportEvents-80041_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N192406_5ffe533b830f08a0326348a9160afafc8ada44db_N192405_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192404_ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4_N192403 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "true" .
-_:SportEvents-80041_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N192406_5ffe533b830f08a0326348a9160afafc8ada44db_N192405_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192404_ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4_N192403 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "sand" .
-_:SportEvents-80041_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N192406_5ffe533b830f08a0326348a9160afafc8ada44db_N192405_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192404_ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4_N192403 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "5" .
-_:SportEvents-80041_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N192406_5ffe533b830f08a0326348a9160afafc8ada44db_N192405_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192404_ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4_N192403 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_5e796e48332af4142b10ca0f86e65d9bfdb05884_N124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N125_aec5c8ead67a724bad5d84c927c123aafab21bdc_N122_da39a3ee5e6b4b0d3255bfef95601890afd80709_N123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_5e796e48332af4142b10ca0f86e65d9bfdb05884_N124 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "110" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N125_aec5c8ead67a724bad5d84c927c123aafab21bdc_N122_da39a3ee5e6b4b0d3255bfef95601890afd80709_N123 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "concrete" .
+_:etype_Facility_UKC-176191_5e796e48332af4142b10ca0f86e65d9bfdb05884_N124 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N125_aec5c8ead67a724bad5d84c927c123aafab21bdc_N122_da39a3ee5e6b4b0d3255bfef95601890afd80709_N123 .
 
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192411_5ffe533b830f08a0326348a9160afafc8ada44db_N192410_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192409_c1dfd96eea8cc2b62785275bca38ac261256e278_N192408 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "6" .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192411_5ffe533b830f08a0326348a9160afafc8ada44db_N192410_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192409_c1dfd96eea8cc2b62785275bca38ac261256e278_N192408 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192411_5ffe533b830f08a0326348a9160afafc8ada44db_N192410_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192409_c1dfd96eea8cc2b62785275bca38ac261256e278_N192408 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "true" .
+_:etype_Facility_UKC-176191_f76b2ea6b45eff3bc8e4399145cc17a0601f5c8d_N129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_f76b2ea6b45eff3bc8e4399145cc17a0601f5c8d_N129 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "168" .
 
-_:SportEvents-80041_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N192416_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192415_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192414_902ba3cda1883801594b6e1b452790cc53948fda_N192413 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "sand" .
-_:SportEvents-80041_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N192416_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192415_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192414_902ba3cda1883801594b6e1b452790cc53948fda_N192413 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N192416_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192415_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192414_902ba3cda1883801594b6e1b452790cc53948fda_N192413 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "7" .
-_:SportEvents-80041_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N192416_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192415_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192414_902ba3cda1883801594b6e1b452790cc53948fda_N192413 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "false" .
+_:etype_Facility_UKC-176191_acf1fffc01dc0193aa07d0b1de723c292a2c826d_N134 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "188" .
+_:etype_Facility_UKC-176191_acf1fffc01dc0193aa07d0b1de723c292a2c826d_N134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
 
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192421_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192420_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192419_fe5dbbcea5ce7e2988b8c69bcfdfde8904aabc1f_N192418 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192421_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192420_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192419_fe5dbbcea5ce7e2988b8c69bcfdfde8904aabc1f_N192418 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "8" .
+_:etype_Facility_UKC-176191_bc15c774dca4499ea6fb42da7d216ca54f8c697e_N139 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "224" .
+_:etype_Facility_UKC-176191_bc15c774dca4499ea6fb42da7d216ca54f8c697e_N139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
 
-_:SportEvents-80041_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N192426_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192425_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192424_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N192423 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "9" .
-_:SportEvents-80041_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N192426_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192425_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192424_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N192423 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "asphalt" .
-_:SportEvents-80041_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N192426_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192425_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192424_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N192423 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N145_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N142_da39a3ee5e6b4b0d3255bfef95601890afd80709_N143 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "asphalt" .
+_:etype_Facility_UKC-176191_4af7f9edc0f545f4de769f2e9e763df919915cab_N144 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "243" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N145_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N142_da39a3ee5e6b4b0d3255bfef95601890afd80709_N143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_4af7f9edc0f545f4de769f2e9e763df919915cab_N144 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N145_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N142_da39a3ee5e6b4b0d3255bfef95601890afd80709_N143 .
+_:etype_Facility_UKC-176191_4af7f9edc0f545f4de769f2e9e763df919915cab_N144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
 
-_:SportEvents-80041_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N192431_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192430_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192429_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N192428 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N192431_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192430_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192429_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N192428 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "10" .
-_:SportEvents-80041_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N192431_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192430_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192429_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N192428 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "sand" .
+_:etype_Facility_UKC-176191_ca3799b8ff860c55da009a5675031b8644cdf7e3_N149 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "248" .
+_:etype_Facility_UKC-176191_ca3799b8ff860c55da009a5675031b8644cdf7e3_N149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
 
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192436_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192435_c6a6052805d09b8a114f5d369ea6922b809f970f_N192434_17ba0791499db908433b80f37c5fbc89b870084b_N192433 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192436_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192435_c6a6052805d09b8a114f5d369ea6922b809f970f_N192434_17ba0791499db908433b80f37c5fbc89b870084b_N192433 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "11" .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192436_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192435_c6a6052805d09b8a114f5d369ea6922b809f970f_N192434_17ba0791499db908433b80f37c5fbc89b870084b_N192433 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Palestra Comunale" .
+_:etype_Facility_UKC-176191_ba30fd97b4127db56e9f4d3d9c030d71646fd2e7_N154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_ba30fd97b4127db56e9f4d3d9c030d71646fd2e7_N154 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "250" .
 
-_:SportEvents-80041_270b97a8d8f05535e26656eb242cc5e85f01fa12_N192441_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192440_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192439_7b52009b64fd0a2a49e6d8a939753077792b0554_N192438 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_270b97a8d8f05535e26656eb242cc5e85f01fa12_N192441_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192440_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192439_7b52009b64fd0a2a49e6d8a939753077792b0554_N192438 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "false" .
-_:SportEvents-80041_270b97a8d8f05535e26656eb242cc5e85f01fa12_N192441_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192440_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192439_7b52009b64fd0a2a49e6d8a939753077792b0554_N192438 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "artificial turf" .
-_:SportEvents-80041_270b97a8d8f05535e26656eb242cc5e85f01fa12_N192441_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192440_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192439_7b52009b64fd0a2a49e6d8a939753077792b0554_N192438 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "12" .
+_:etype_Facility_UKC-176191_98fcc378d7f5adda37f271debf5d7a4d1cdd37b9_N159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_98fcc378d7f5adda37f271debf5d7a4d1cdd37b9_N159 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "252" .
 
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192446_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192445_96974911ee7ebd45638a65fa56042e29fb91158f_N192444_bd307a3ec329e10a2cff8fb87480823da114f8f4_N192443 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Centro Polifunzionale" .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192446_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192445_96974911ee7ebd45638a65fa56042e29fb91158f_N192444_bd307a3ec329e10a2cff8fb87480823da114f8f4_N192443 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192446_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192445_96974911ee7ebd45638a65fa56042e29fb91158f_N192444_bd307a3ec329e10a2cff8fb87480823da114f8f4_N192443 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "13" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N165_da39a3ee5e6b4b0d3255bfef95601890afd80709_N162_c6a6052805d09b8a114f5d369ea6922b809f970f_N163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_c9f13c16144065a9ebccb216f3ec832b33e1693c_N164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_c9f13c16144065a9ebccb216f3ec832b33e1693c_N164 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "254" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N165_da39a3ee5e6b4b0d3255bfef95601890afd80709_N162_c6a6052805d09b8a114f5d369ea6922b809f970f_N163 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Palestra Comunale" .
+_:etype_Facility_UKC-176191_c9f13c16144065a9ebccb216f3ec832b33e1693c_N164 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N165_da39a3ee5e6b4b0d3255bfef95601890afd80709_N162_c6a6052805d09b8a114f5d369ea6922b809f970f_N163 .
 
-_:SportEvents-80041_de6b29cb18084bdc455d9d293dddac87217ce659_N192451_5ffe533b830f08a0326348a9160afafc8ada44db_N192450_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192449_fa35e192121eabf3dabf9f5ea6abdbcbc107ac3b_N192448 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_de6b29cb18084bdc455d9d293dddac87217ce659_N192451_5ffe533b830f08a0326348a9160afafc8ada44db_N192450_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192449_fa35e192121eabf3dabf9f5ea6abdbcbc107ac3b_N192448 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "true" .
-_:SportEvents-80041_de6b29cb18084bdc455d9d293dddac87217ce659_N192451_5ffe533b830f08a0326348a9160afafc8ada44db_N192450_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192449_fa35e192121eabf3dabf9f5ea6abdbcbc107ac3b_N192448 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "14" .
-_:SportEvents-80041_de6b29cb18084bdc455d9d293dddac87217ce659_N192451_5ffe533b830f08a0326348a9160afafc8ada44db_N192450_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192449_fa35e192121eabf3dabf9f5ea6abdbcbc107ac3b_N192448 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "clay" .
+_:etype_Facility_UKC-176191_982fd8b711279888a3b54f5af24f185041d22ee6_N169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N170_da39a3ee5e6b4b0d3255bfef95601890afd80709_N167_da39a3ee5e6b4b0d3255bfef95601890afd80709_N168 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "False" .
+_:etype_Facility_UKC-176191_982fd8b711279888a3b54f5af24f185041d22ee6_N169 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "258" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N170_da39a3ee5e6b4b0d3255bfef95601890afd80709_N167_da39a3ee5e6b4b0d3255bfef95601890afd80709_N168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_982fd8b711279888a3b54f5af24f185041d22ee6_N169 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N170_da39a3ee5e6b4b0d3255bfef95601890afd80709_N167_da39a3ee5e6b4b0d3255bfef95601890afd80709_N168 .
 
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192456_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192455_bdce1434362190d1a606a9dfde121e0319cd07ef_N192454_f1abd670358e036c31296e66b3b66c382ac00812_N192453 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192456_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192455_bdce1434362190d1a606a9dfde121e0319cd07ef_N192454_f1abd670358e036c31296e66b3b66c382ac00812_N192453 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "15" .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192456_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192455_bdce1434362190d1a606a9dfde121e0319cd07ef_N192454_f1abd670358e036c31296e66b3b66c382ac00812_N192453 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Cortile Grumes" .
+_:etype_Facility_UKC-176191_267b976f6f335984ab90f0f478e8a1637eabe7d5_N174 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "282" .
+_:etype_Facility_UKC-176191_267b976f6f335984ab90f0f478e8a1637eabe7d5_N174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
 
-_:SportEvents-80041_270b97a8d8f05535e26656eb242cc5e85f01fa12_N192461_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192460_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192459_1574bddb75c78a6fd2251d61e2993b5146201319_N192458 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "artificial turf" .
-_:SportEvents-80041_270b97a8d8f05535e26656eb242cc5e85f01fa12_N192461_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192460_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192459_1574bddb75c78a6fd2251d61e2993b5146201319_N192458 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_270b97a8d8f05535e26656eb242cc5e85f01fa12_N192461_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192460_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192459_1574bddb75c78a6fd2251d61e2993b5146201319_N192458 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "16" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N180_4b6207825db4dfc78725735846c1328cdedc8bbd_N177_da39a3ee5e6b4b0d3255bfef95601890afd80709_N178 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "artificial_turf" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N180_4b6207825db4dfc78725735846c1328cdedc8bbd_N177_da39a3ee5e6b4b0d3255bfef95601890afd80709_N178 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "False" .
+_:etype_Facility_UKC-176191_85f1002bf139bebdb7f0d07b31fa14155aea9dfc_N179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_85f1002bf139bebdb7f0d07b31fa14155aea9dfc_N179 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N180_4b6207825db4dfc78725735846c1328cdedc8bbd_N177_da39a3ee5e6b4b0d3255bfef95601890afd80709_N178 .
+_:etype_Facility_UKC-176191_85f1002bf139bebdb7f0d07b31fa14155aea9dfc_N179 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "292" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N180_4b6207825db4dfc78725735846c1328cdedc8bbd_N177_da39a3ee5e6b4b0d3255bfef95601890afd80709_N178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
 
-_:SportEvents-80041_4720d7d049df449e4abe0b5cb3676a0e251274ac_N192466_5ffe533b830f08a0326348a9160afafc8ada44db_N192465_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192464_0716d9708d321ffb6a00818614779e779925365c_N192463 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_4720d7d049df449e4abe0b5cb3676a0e251274ac_N192466_5ffe533b830f08a0326348a9160afafc8ada44db_N192465_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192464_0716d9708d321ffb6a00818614779e779925365c_N192463 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "17" .
-_:SportEvents-80041_4720d7d049df449e4abe0b5cb3676a0e251274ac_N192466_5ffe533b830f08a0326348a9160afafc8ada44db_N192465_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192464_0716d9708d321ffb6a00818614779e779925365c_N192463 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "true" .
-_:SportEvents-80041_4720d7d049df449e4abe0b5cb3676a0e251274ac_N192466_5ffe533b830f08a0326348a9160afafc8ada44db_N192465_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192464_0716d9708d321ffb6a00818614779e779925365c_N192463 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "paving stones" .
+_:etype_Facility_UKC-176191_72c1975b93f0fff13952a520575f947c42ad8114_N184 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "306" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N185_da39a3ee5e6b4b0d3255bfef95601890afd80709_N182_da39a3ee5e6b4b0d3255bfef95601890afd80709_N183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N185_da39a3ee5e6b4b0d3255bfef95601890afd80709_N182_da39a3ee5e6b4b0d3255bfef95601890afd80709_N183 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "False" .
+_:etype_Facility_UKC-176191_72c1975b93f0fff13952a520575f947c42ad8114_N184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_72c1975b93f0fff13952a520575f947c42ad8114_N184 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N185_da39a3ee5e6b4b0d3255bfef95601890afd80709_N182_da39a3ee5e6b4b0d3255bfef95601890afd80709_N183 .
 
-_:SportEvents-80041_022fe9e6785e0efbfadd413638a0159ae2113736_N192471_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192470_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192469_9e6a55b6b4563e652a23be9d623ca5055c356940_N192468 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "18" .
-_:SportEvents-80041_022fe9e6785e0efbfadd413638a0159ae2113736_N192471_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192470_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192469_9e6a55b6b4563e652a23be9d623ca5055c356940_N192468 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "false" .
-_:SportEvents-80041_022fe9e6785e0efbfadd413638a0159ae2113736_N192471_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192470_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192469_9e6a55b6b4563e652a23be9d623ca5055c356940_N192468 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "sett" .
-_:SportEvents-80041_022fe9e6785e0efbfadd413638a0159ae2113736_N192471_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192470_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192469_9e6a55b6b4563e652a23be9d623ca5055c356940_N192468 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N190_da39a3ee5e6b4b0d3255bfef95601890afd80709_N187_96974911ee7ebd45638a65fa56042e29fb91158f_N188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_ae5ffa6599c837509139132ef41c7856f33a50f7_N189 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N190_da39a3ee5e6b4b0d3255bfef95601890afd80709_N187_96974911ee7ebd45638a65fa56042e29fb91158f_N188 .
+_:etype_Facility_UKC-176191_ae5ffa6599c837509139132ef41c7856f33a50f7_N189 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "307" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N190_da39a3ee5e6b4b0d3255bfef95601890afd80709_N187_96974911ee7ebd45638a65fa56042e29fb91158f_N188 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Centro Polifunzionale" .
+_:etype_Facility_UKC-176191_ae5ffa6599c837509139132ef41c7856f33a50f7_N189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
 
-_:SportEvents-80041_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N192476_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192475_746ab08ae51c7edb5fbd132e9999a002a0b35525_N192474_b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f_N192473 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "asphalt" .
-_:SportEvents-80041_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N192476_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192475_746ab08ae51c7edb5fbd132e9999a002a0b35525_N192474_b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f_N192473 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "false" .
-_:SportEvents-80041_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N192476_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192475_746ab08ae51c7edb5fbd132e9999a002a0b35525_N192474_b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f_N192473 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N192476_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192475_746ab08ae51c7edb5fbd132e9999a002a0b35525_N192474_b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f_N192473 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Campo da Pallavolo" .
-_:SportEvents-80041_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N192476_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192475_746ab08ae51c7edb5fbd132e9999a002a0b35525_N192474_b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f_N192473 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "19" .
+_:etype_Facility_UKC-176191_a0d04378f37973ffa3b2aa8b3e27a3f0a98de06d_N194 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "365" .
+_:etype_Facility_UKC-176191_a0d04378f37973ffa3b2aa8b3e27a3f0a98de06d_N194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
 
-_:SportEvents-80041_bbc29b76c59b382aca12201c44929002ef1778ae_N192481_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192480_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192479_91032ad7bbcb6cf72875e8e8207dcfba80173f7c_N192478 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "20" .
-_:SportEvents-80041_bbc29b76c59b382aca12201c44929002ef1778ae_N192481_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192480_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192479_91032ad7bbcb6cf72875e8e8207dcfba80173f7c_N192478 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_bbc29b76c59b382aca12201c44929002ef1778ae_N192481_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192480_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192479_91032ad7bbcb6cf72875e8e8207dcfba80173f7c_N192478 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "grass" .
+_:etype_Facility_UKC-176191_ab7f7b955330dc8dcd7f8ae3d9689ffa32bf10d5_N199 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "400" .
+_:etype_Facility_UKC-176191_ab7f7b955330dc8dcd7f8ae3d9689ffa32bf10d5_N199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
 
-_:SportEvents-80041_270b97a8d8f05535e26656eb242cc5e85f01fa12_N192486_5ffe533b830f08a0326348a9160afafc8ada44db_N192485_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192484_472b07b9fcf2c2451e8781e944bf5f77cd8457c8_N192483 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_270b97a8d8f05535e26656eb242cc5e85f01fa12_N192486_5ffe533b830f08a0326348a9160afafc8ada44db_N192485_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192484_472b07b9fcf2c2451e8781e944bf5f77cd8457c8_N192483 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "21" .
-_:SportEvents-80041_270b97a8d8f05535e26656eb242cc5e85f01fa12_N192486_5ffe533b830f08a0326348a9160afafc8ada44db_N192485_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192484_472b07b9fcf2c2451e8781e944bf5f77cd8457c8_N192483 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "artificial turf" .
-_:SportEvents-80041_270b97a8d8f05535e26656eb242cc5e85f01fa12_N192486_5ffe533b830f08a0326348a9160afafc8ada44db_N192485_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192484_472b07b9fcf2c2451e8781e944bf5f77cd8457c8_N192483 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "true" .
+_:etype_Facility_UKC-176191_d051bf1ddf82f79c6af34f7f4e59707f081296ad_N204 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "482" .
+_:etype_Facility_UKC-176191_d051bf1ddf82f79c6af34f7f4e59707f081296ad_N204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
 
-_:SportEvents-80041_bbc29b76c59b382aca12201c44929002ef1778ae_N192491_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192490_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192489_12c6fc06c99a462375eeb3f43dfd832b08ca9e17_N192488 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "false" .
-_:SportEvents-80041_bbc29b76c59b382aca12201c44929002ef1778ae_N192491_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192490_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192489_12c6fc06c99a462375eeb3f43dfd832b08ca9e17_N192488 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "grass" .
-_:SportEvents-80041_bbc29b76c59b382aca12201c44929002ef1778ae_N192491_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192490_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192489_12c6fc06c99a462375eeb3f43dfd832b08ca9e17_N192488 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_bbc29b76c59b382aca12201c44929002ef1778ae_N192491_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192490_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192489_12c6fc06c99a462375eeb3f43dfd832b08ca9e17_N192488 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "22" .
+_:etype_Facility_UKC-176191_22ab0e4326f1e9096ffc3217cd20a17829a5c486_N209 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "527" .
+_:etype_Facility_UKC-176191_22ab0e4326f1e9096ffc3217cd20a17829a5c486_N209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
 
-_:SportEvents-80041_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N192496_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192495_23b56a848d01849e7e0d87bfedf16b9f2732bcaa_N192494_d435a6cdd786300dff204ee7c2ef942d3e9034e2_N192493 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "sand" .
-_:SportEvents-80041_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N192496_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192495_23b56a848d01849e7e0d87bfedf16b9f2732bcaa_N192494_d435a6cdd786300dff204ee7c2ef942d3e9034e2_N192493 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N192496_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192495_23b56a848d01849e7e0d87bfedf16b9f2732bcaa_N192494_d435a6cdd786300dff204ee7c2ef942d3e9034e2_N192493 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "23" .
-_:SportEvents-80041_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N192496_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192495_23b56a848d01849e7e0d87bfedf16b9f2732bcaa_N192494_d435a6cdd786300dff204ee7c2ef942d3e9034e2_N192493 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Campo da beach" .
+_:etype_Facility_UKC-176191_f53eac2e4221f1794509de8d786a143b5016901f_N214 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N215_de6b29cb18084bdc455d9d293dddac87217ce659_N212_da39a3ee5e6b4b0d3255bfef95601890afd80709_N213 .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N215_de6b29cb18084bdc455d9d293dddac87217ce659_N212_da39a3ee5e6b4b0d3255bfef95601890afd80709_N213 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "True" .
+_:etype_Facility_UKC-176191_f53eac2e4221f1794509de8d786a143b5016901f_N214 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N215_de6b29cb18084bdc455d9d293dddac87217ce659_N212_da39a3ee5e6b4b0d3255bfef95601890afd80709_N213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_f53eac2e4221f1794509de8d786a143b5016901f_N214 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "552" .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N215_de6b29cb18084bdc455d9d293dddac87217ce659_N212_da39a3ee5e6b4b0d3255bfef95601890afd80709_N213 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "clay" .
 
-_:SportEvents-80041_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N192501_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192500_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192499_4d134bc072212ace2df385dae143139da74ec0ef_N192498 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "false" .
-_:SportEvents-80041_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N192501_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192500_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192499_4d134bc072212ace2df385dae143139da74ec0ef_N192498 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "asphalt" .
-_:SportEvents-80041_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N192501_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192500_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192499_4d134bc072212ace2df385dae143139da74ec0ef_N192498 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N192501_7cb6efb98ba5972a9b5090dc2e517fe14d12cb04_N192500_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192499_4d134bc072212ace2df385dae143139da74ec0ef_N192498 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "24" .
+_:etype_Facility_UKC-176191_c8c06cfae2f59de7d444d46f0681e0845c5fcd68_N219 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "554" .
+_:etype_Facility_UKC-176191_c8c06cfae2f59de7d444d46f0681e0845c5fcd68_N219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
 
-_:SportEvents-80041_aec5c8ead67a724bad5d84c927c123aafab21bdc_N192506_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192505_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192504_f6e1126cedebf23e1463aee73f9df08783640400_N192503 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "concrete" .
-_:SportEvents-80041_aec5c8ead67a724bad5d84c927c123aafab21bdc_N192506_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192505_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192504_f6e1126cedebf23e1463aee73f9df08783640400_N192503 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_aec5c8ead67a724bad5d84c927c123aafab21bdc_N192506_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192505_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192504_f6e1126cedebf23e1463aee73f9df08783640400_N192503 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "25" .
+_:etype_Facility_UKC-176191_77c8184f671aa0397dd897541ed5ec0a8be0380b_N224 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "561" .
+_:etype_Facility_UKC-176191_77c8184f671aa0397dd897541ed5ec0a8be0380b_N224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
 
-_:SportEvents-80041_59d5346f701a7e151e530344d03cf26aa8cf2068_N192511_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192510_e33d475d1166ca6e784c3e1294434076dcd82c63_N192509_887309d048beef83ad3eabf2a79a64a389ab1c9f_N192508 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Campo polivalente" .
-_:SportEvents-80041_59d5346f701a7e151e530344d03cf26aa8cf2068_N192511_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192510_e33d475d1166ca6e784c3e1294434076dcd82c63_N192509_887309d048beef83ad3eabf2a79a64a389ab1c9f_N192508 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_59d5346f701a7e151e530344d03cf26aa8cf2068_N192511_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192510_e33d475d1166ca6e784c3e1294434076dcd82c63_N192509_887309d048beef83ad3eabf2a79a64a389ab1c9f_N192508 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "26" .
-_:SportEvents-80041_59d5346f701a7e151e530344d03cf26aa8cf2068_N192511_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192510_e33d475d1166ca6e784c3e1294434076dcd82c63_N192509_887309d048beef83ad3eabf2a79a64a389ab1c9f_N192508 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "acrylic" .
+_:etype_Facility_UKC-176191_985d6ac20b189c12b3cad0bd3af82450e25024c8_N229 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_985d6ac20b189c12b3cad0bd3af82450e25024c8_N229 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "582" .
 
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192516_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192515_d07216c065e4e0f732037cb126c9b56e803a1c2b_N192514_bc33ea4e26e5e1af1408321416956113a4658763_N192513 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "27" .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192516_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192515_d07216c065e4e0f732037cb126c9b56e803a1c2b_N192514_bc33ea4e26e5e1af1408321416956113a4658763_N192513 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
-_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192516_da39a3ee5e6b4b0d3255bfef95601890afd80709_N192515_d07216c065e4e0f732037cb126c9b56e803a1c2b_N192514_bc33ea4e26e5e1af1408321416956113a4658763_N192513 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Palazzetto dello sport Sanbàpolis" .
+_:etype_Facility_UKC-176191_c6eeaa0539eaa4ce33dfb9e4b4eee1cfc0cbf6e7_N234 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_c6eeaa0539eaa4ce33dfb9e4b4eee1cfc0cbf6e7_N234 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "584" .
+
+_:etype_Facility_UKC-176191_aa62ffff47619bf0b14843d4865e7dac00e278ef_N239 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_aa62ffff47619bf0b14843d4865e7dac00e278ef_N239 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "607" .
+
+_:etype_Facility_UKC-176191_63843e04b0f7a32d94539cf328ed335d39085a56_N244 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "611" .
+_:etype_Facility_UKC-176191_63843e04b0f7a32d94539cf328ed335d39085a56_N244 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_44b2920d7e9cb7c0ab668fd380af0c242dc27ad4_N249 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "625" .
+_:etype_Facility_UKC-176191_44b2920d7e9cb7c0ab668fd380af0c242dc27ad4_N249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_3f4ed2f1010b876ed91f61416a6515fd5b7758b1_N254 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_3f4ed2f1010b876ed91f61416a6515fd5b7758b1_N254 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "628" .
+
+_:etype_Facility_UKC-176191_961cc96ada94bed0d2ff9d76556e8651995d940f_N259 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_961cc96ada94bed0d2ff9d76556e8651995d940f_N259 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "646" .
+
+_:etype_Facility_UKC-176191_17820ac1fd68b22540b4a76c24849312e7f79c58_N264 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_17820ac1fd68b22540b4a76c24849312e7f79c58_N264 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "647" .
+
+_:etype_Facility_UKC-176191_491173598037c270f1fe2d1ccbd6b58c7ed459be_N269 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_491173598037c270f1fe2d1ccbd6b58c7ed459be_N269 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "649" .
+
+_:etype_Facility_UKC-176191_b66cd90e3946dd63b5a914d5eb2c7eddb46177ec_N274 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "663" .
+_:etype_Facility_UKC-176191_b66cd90e3946dd63b5a914d5eb2c7eddb46177ec_N274 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_4f2706558a59b0c71f4a31a81345052fc8623919_N279 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "683" .
+_:etype_Facility_UKC-176191_4f2706558a59b0c71f4a31a81345052fc8623919_N279 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_07eb1cd77ab3f5be92ee0c7050d2048fa1390e4c_N284 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_07eb1cd77ab3f5be92ee0c7050d2048fa1390e4c_N284 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "698" .
+
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N290_da39a3ee5e6b4b0d3255bfef95601890afd80709_N287_bdce1434362190d1a606a9dfde121e0319cd07ef_N288 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Cortile Grumes" .
+_:etype_Facility_UKC-176191_8e6b8a73bce7324e2b6e4afa73ee4215b98e9432_N289 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N290_da39a3ee5e6b4b0d3255bfef95601890afd80709_N287_bdce1434362190d1a606a9dfde121e0319cd07ef_N288 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_8e6b8a73bce7324e2b6e4afa73ee4215b98e9432_N289 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N290_da39a3ee5e6b4b0d3255bfef95601890afd80709_N287_bdce1434362190d1a606a9dfde121e0319cd07ef_N288 .
+_:etype_Facility_UKC-176191_8e6b8a73bce7324e2b6e4afa73ee4215b98e9432_N289 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "728" .
+
+_:etype_Facility_UKC-176191_a6b21a4281226e8a97c2e05517fbe546775efc6a_N294 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_a6b21a4281226e8a97c2e05517fbe546775efc6a_N294 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "735" .
+
+_:etype_Facility_UKC-176191_4b14fe7493932c29c0d1b85a3ba120bd22079c3e_N299 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_4b14fe7493932c29c0d1b85a3ba120bd22079c3e_N299 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "736" .
+
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N305_4b6207825db4dfc78725735846c1328cdedc8bbd_N302_da39a3ee5e6b4b0d3255bfef95601890afd80709_N303 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_2e0ab5b38ac3a139b7527efc5eec2118105b82b0_N304 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_2e0ab5b38ac3a139b7527efc5eec2118105b82b0_N304 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "740" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N305_4b6207825db4dfc78725735846c1328cdedc8bbd_N302_da39a3ee5e6b4b0d3255bfef95601890afd80709_N303 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "artificial_turf" .
+_:etype_Facility_UKC-176191_2e0ab5b38ac3a139b7527efc5eec2118105b82b0_N304 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N305_4b6207825db4dfc78725735846c1328cdedc8bbd_N302_da39a3ee5e6b4b0d3255bfef95601890afd80709_N303 .
+
+_:etype_Facility_UKC-176191_758a25f7dd163311b02efd5de19535312f7c1225_N309 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "751" .
+_:etype_Facility_UKC-176191_758a25f7dd163311b02efd5de19535312f7c1225_N309 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_8d1218244d96823a1ecdf1b383e010d29b57a3cc_N314 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "761" .
+_:etype_Facility_UKC-176191_8d1218244d96823a1ecdf1b383e010d29b57a3cc_N314 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_c99a2a26bd03c1536aa7684d3acb54914f099b3f_N319 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "762" .
+_:etype_Facility_UKC-176191_c99a2a26bd03c1536aa7684d3acb54914f099b3f_N319 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_ad2ad593b7a4db4d077dc9f94444092aad698ee9_N324 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_ad2ad593b7a4db4d077dc9f94444092aad698ee9_N324 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "768" .
+
+_:etype_Facility_UKC-176191_1dd4b9d8e432a99a58165a17dd67e5bd8791272e_N329 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_1dd4b9d8e432a99a58165a17dd67e5bd8791272e_N329 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "780" .
+
+_:etype_Facility_UKC-176191_6fe3dfe314684a658c1b19ca7a8e3abd29afe23e_N334 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_6fe3dfe314684a658c1b19ca7a8e3abd29afe23e_N334 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "793" .
+
+_:etype_Facility_UKC-176191_61b5df41f1006a3d0ead4e4e6a6a61cb32496959_N339 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_61b5df41f1006a3d0ead4e4e6a6a61cb32496959_N339 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "795" .
+
+_:etype_Facility_UKC-176191_c02b74809aaccf4972b9bb7059fa28aa91a255a3_N344 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_c02b74809aaccf4972b9bb7059fa28aa91a255a3_N344 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "843" .
+
+_:etype_Facility_UKC-176191_042ccdc6d60fbc84d9c1b0396ab0a6de37e41766_N349 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "882" .
+_:etype_Facility_UKC-176191_042ccdc6d60fbc84d9c1b0396ab0a6de37e41766_N349 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_c5f2486dc8a9ff70c8047c5d500cf9530ba8c1d3_N354 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "885" .
+_:etype_Facility_UKC-176191_c5f2486dc8a9ff70c8047c5d500cf9530ba8c1d3_N354 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_749bc367fd90880f2d6dbe578e98e14645b0b26d_N359 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_749bc367fd90880f2d6dbe578e98e14645b0b26d_N359 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "890" .
+
+_:etype_Facility_UKC-176191_f1c6feb7a3622b32bac480cf859a255cfaa778b9_N364 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_f1c6feb7a3622b32bac480cf859a255cfaa778b9_N364 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "895" .
+
+_:etype_Facility_UKC-176191_89da3d8a3c24dbd3e5e96f7f3896866f5e5eb878_N369 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_89da3d8a3c24dbd3e5e96f7f3896866f5e5eb878_N369 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "926" .
+
+_:etype_Facility_UKC-176191_e29f7b5c0960d53d40bc673a6b2cccd378f24e4b_N374 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "929" .
+_:etype_Facility_UKC-176191_e29f7b5c0960d53d40bc673a6b2cccd378f24e4b_N374 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_5cff99d9ee987e698a99ea820734b378ef524bff_N379 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_5cff99d9ee987e698a99ea820734b378ef524bff_N379 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "930" .
+
+_:etype_Facility_UKC-176191_0a6bd727548a5af89987f1aa4017003b32f96fd0_N384 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_0a6bd727548a5af89987f1aa4017003b32f96fd0_N384 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "948" .
+
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N390_022fe9e6785e0efbfadd413638a0159ae2113736_N387_da39a3ee5e6b4b0d3255bfef95601890afd80709_N388 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "sett" .
+_:etype_Facility_UKC-176191_192a0ec9b5d2ce313556e280b29940db5ef9fb07_N389 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "957" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N390_022fe9e6785e0efbfadd413638a0159ae2113736_N387_da39a3ee5e6b4b0d3255bfef95601890afd80709_N388 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_192a0ec9b5d2ce313556e280b29940db5ef9fb07_N389 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N390_022fe9e6785e0efbfadd413638a0159ae2113736_N387_da39a3ee5e6b4b0d3255bfef95601890afd80709_N388 .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N390_022fe9e6785e0efbfadd413638a0159ae2113736_N387_da39a3ee5e6b4b0d3255bfef95601890afd80709_N388 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "False" .
+_:etype_Facility_UKC-176191_192a0ec9b5d2ce313556e280b29940db5ef9fb07_N389 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N395_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N392_746ab08ae51c7edb5fbd132e9999a002a0b35525_N393 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "asphalt" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N395_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N392_746ab08ae51c7edb5fbd132e9999a002a0b35525_N393 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N395_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N392_746ab08ae51c7edb5fbd132e9999a002a0b35525_N393 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "False" .
+_:etype_Facility_UKC-176191_aa2dcf3d29d072a67b5602eb70a22b35ae79c3e4_N394 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N395_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N392_746ab08ae51c7edb5fbd132e9999a002a0b35525_N393 .
+_:etype_Facility_UKC-176191_aa2dcf3d29d072a67b5602eb70a22b35ae79c3e4_N394 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_aa2dcf3d29d072a67b5602eb70a22b35ae79c3e4_N394 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "969" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N395_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N392_746ab08ae51c7edb5fbd132e9999a002a0b35525_N393 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Campo da Pallavolo" .
+
+_:etype_Facility_UKC-176191_7698330419d7539e743e9f4985411faf76e64261_N399 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_7698330419d7539e743e9f4985411faf76e64261_N399 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "975" .
+
+_:etype_Facility_UKC-176191_7dcd5ff96b80f1bb263084ecb01e7696484613fd_N404 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_7dcd5ff96b80f1bb263084ecb01e7696484613fd_N404 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "979" .
+
+_:etype_Facility_UKC-176191_1047b56881438260286a8e7a57e07c53445ceb19_N409 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "982" .
+_:etype_Facility_UKC-176191_1047b56881438260286a8e7a57e07c53445ceb19_N409 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_fad3ea4094a1e0792528fd5419b68db5ce72e603_N414 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "992" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N415_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N412_da39a3ee5e6b4b0d3255bfef95601890afd80709_N413 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_fad3ea4094a1e0792528fd5419b68db5ce72e603_N414 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N415_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N412_da39a3ee5e6b4b0d3255bfef95601890afd80709_N413 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "sand" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N415_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N412_da39a3ee5e6b4b0d3255bfef95601890afd80709_N413 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "False" .
+_:etype_Facility_UKC-176191_fad3ea4094a1e0792528fd5419b68db5ce72e603_N414 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N415_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N412_da39a3ee5e6b4b0d3255bfef95601890afd80709_N413 .
+
+_:etype_Facility_UKC-176191_ae7b4b79bbda7972ec40d8cd085c7875087973cc_N419 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "996" .
+_:etype_Facility_UKC-176191_ae7b4b79bbda7972ec40d8cd085c7875087973cc_N419 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_a5b1d7e217aa227d5b2b8a84920780cf637960e2_N424 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N425_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N422_da39a3ee5e6b4b0d3255bfef95601890afd80709_N423 .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N425_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N422_da39a3ee5e6b4b0d3255bfef95601890afd80709_N423 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N425_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N422_da39a3ee5e6b4b0d3255bfef95601890afd80709_N423 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "asphalt" .
+_:etype_Facility_UKC-176191_a5b1d7e217aa227d5b2b8a84920780cf637960e2_N424 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_a5b1d7e217aa227d5b2b8a84920780cf637960e2_N424 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1002" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N425_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N422_da39a3ee5e6b4b0d3255bfef95601890afd80709_N423 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "False" .
+
+_:etype_Facility_UKC-176191_8554fe9ee0ed24d97cc3b500a33d4320c0fcd5a3_N429 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_8554fe9ee0ed24d97cc3b500a33d4320c0fcd5a3_N429 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1006" .
+
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N435_4b6207825db4dfc78725735846c1328cdedc8bbd_N432_da39a3ee5e6b4b0d3255bfef95601890afd80709_N433 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "artificial_turf" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N435_4b6207825db4dfc78725735846c1328cdedc8bbd_N432_da39a3ee5e6b4b0d3255bfef95601890afd80709_N433 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "False" .
+_:etype_Facility_UKC-176191_ba5bfc9d29e57bda5c45cf82d9fff043329f313a_N434 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N435_4b6207825db4dfc78725735846c1328cdedc8bbd_N432_da39a3ee5e6b4b0d3255bfef95601890afd80709_N433 .
+_:etype_Facility_UKC-176191_ba5bfc9d29e57bda5c45cf82d9fff043329f313a_N434 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1013" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N435_4b6207825db4dfc78725735846c1328cdedc8bbd_N432_da39a3ee5e6b4b0d3255bfef95601890afd80709_N433 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_ba5bfc9d29e57bda5c45cf82d9fff043329f313a_N434 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N440_4b6207825db4dfc78725735846c1328cdedc8bbd_N437_da39a3ee5e6b4b0d3255bfef95601890afd80709_N438 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "artificial_turf" .
+_:etype_Facility_UKC-176191_138825ed8f4199d67f9ca400b795b65fec1158ac_N439 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_138825ed8f4199d67f9ca400b795b65fec1158ac_N439 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1023" .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N440_4b6207825db4dfc78725735846c1328cdedc8bbd_N437_da39a3ee5e6b4b0d3255bfef95601890afd80709_N438 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "True" .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N440_4b6207825db4dfc78725735846c1328cdedc8bbd_N437_da39a3ee5e6b4b0d3255bfef95601890afd80709_N438 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_138825ed8f4199d67f9ca400b795b65fec1158ac_N439 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N440_4b6207825db4dfc78725735846c1328cdedc8bbd_N437_da39a3ee5e6b4b0d3255bfef95601890afd80709_N438 .
+
+_:etype_Facility_UKC-176191_8422051640d7c9a740564eff35fbdce111c6c557_N444 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1032" .
+_:etype_Facility_UKC-176191_8422051640d7c9a740564eff35fbdce111c6c557_N444 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_8fe39caeac3a30f1f5d796c87c71d3a53d8e8bce_N449 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1037" .
+_:etype_Facility_UKC-176191_8fe39caeac3a30f1f5d796c87c71d3a53d8e8bce_N449 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_070dafcb55881e67b7fce04cfb94faa33639b865_N454 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_070dafcb55881e67b7fce04cfb94faa33639b865_N454 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1043" .
+
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N460_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N457_da39a3ee5e6b4b0d3255bfef95601890afd80709_N458 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "asphalt" .
+_:etype_Facility_UKC-176191_f673929b7ae05128dd473c556386a7b585483947_N459 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1044" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N460_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N457_da39a3ee5e6b4b0d3255bfef95601890afd80709_N458 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_f673929b7ae05128dd473c556386a7b585483947_N459 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N460_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N457_da39a3ee5e6b4b0d3255bfef95601890afd80709_N458 .
+_:etype_Facility_UKC-176191_f673929b7ae05128dd473c556386a7b585483947_N459 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_23a63310b8e95a3702b44b2f22f3248de1561e88_N464 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_23a63310b8e95a3702b44b2f22f3248de1561e88_N464 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1049" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N465_bbc29b76c59b382aca12201c44929002ef1778ae_N462_da39a3ee5e6b4b0d3255bfef95601890afd80709_N463 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "grass" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N465_bbc29b76c59b382aca12201c44929002ef1778ae_N462_da39a3ee5e6b4b0d3255bfef95601890afd80709_N463 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "False" .
+_:etype_Facility_UKC-176191_23a63310b8e95a3702b44b2f22f3248de1561e88_N464 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N465_bbc29b76c59b382aca12201c44929002ef1778ae_N462_da39a3ee5e6b4b0d3255bfef95601890afd80709_N463 .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N465_bbc29b76c59b382aca12201c44929002ef1778ae_N462_da39a3ee5e6b4b0d3255bfef95601890afd80709_N463 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+
+_:etype_Facility_UKC-176191_929f9640bc8269918a6209919a8e2cc25ec65bf6_N469 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1051" .
+_:etype_Facility_UKC-176191_929f9640bc8269918a6209919a8e2cc25ec65bf6_N469 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_578d9283ca503d77b707716d16f3ae71036236d2_N474 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_578d9283ca503d77b707716d16f3ae71036236d2_N474 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1063" .
+
+_:etype_Facility_UKC-176191_bab750c63a16012fe1e06fd51c0f4954fb54b098_N479 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1077" .
+_:etype_Facility_UKC-176191_bab750c63a16012fe1e06fd51c0f4954fb54b098_N479 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_9bda887d240782244c93a03f3cf7f2727c71daf5_N484 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_9bda887d240782244c93a03f3cf7f2727c71daf5_N484 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N485_da39a3ee5e6b4b0d3255bfef95601890afd80709_N482_da39a3ee5e6b4b0d3255bfef95601890afd80709_N483 .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N485_da39a3ee5e6b4b0d3255bfef95601890afd80709_N482_da39a3ee5e6b4b0d3255bfef95601890afd80709_N483 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "False" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N485_da39a3ee5e6b4b0d3255bfef95601890afd80709_N482_da39a3ee5e6b4b0d3255bfef95601890afd80709_N483 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_9bda887d240782244c93a03f3cf7f2727c71daf5_N484 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1083" .
+
+_:etype_Facility_UKC-176191_07f97cc68eebf81afcd32f6fc0aad7e1f17e0c00_N489 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_07f97cc68eebf81afcd32f6fc0aad7e1f17e0c00_N489 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1087" .
+
+_:etype_Facility_UKC-176191_789ef3d6e1196152c1e7ccadc639c306254a305e_N494 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1091" .
+_:etype_Facility_UKC-176191_789ef3d6e1196152c1e7ccadc639c306254a305e_N494 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_fee8346a5a401a9c314846811346613d2ddf998c_N499 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1107" .
+_:etype_Facility_UKC-176191_fee8346a5a401a9c314846811346613d2ddf998c_N499 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_2f70e239c7a5d80384275be451075e4cb7125e9e_N504 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1109" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N505_da39a3ee5e6b4b0d3255bfef95601890afd80709_N502_23b56a848d01849e7e0d87bfedf16b9f2732bcaa_N503 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Campo da beach" .
+_:etype_Facility_UKC-176191_2f70e239c7a5d80384275be451075e4cb7125e9e_N504 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N505_da39a3ee5e6b4b0d3255bfef95601890afd80709_N502_23b56a848d01849e7e0d87bfedf16b9f2732bcaa_N503 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_2f70e239c7a5d80384275be451075e4cb7125e9e_N504 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N505_da39a3ee5e6b4b0d3255bfef95601890afd80709_N502_23b56a848d01849e7e0d87bfedf16b9f2732bcaa_N503 .
+
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N510_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N507_da39a3ee5e6b4b0d3255bfef95601890afd80709_N508 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "asphalt" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N510_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N507_da39a3ee5e6b4b0d3255bfef95601890afd80709_N508 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_533958a2148aa8a3466fa3a8340d51e28294f41d_N509 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1110" .
+_:etype_Facility_UKC-176191_533958a2148aa8a3466fa3a8340d51e28294f41d_N509 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N510_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N507_da39a3ee5e6b4b0d3255bfef95601890afd80709_N508 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "False" .
+_:etype_Facility_UKC-176191_533958a2148aa8a3466fa3a8340d51e28294f41d_N509 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N510_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N507_da39a3ee5e6b4b0d3255bfef95601890afd80709_N508 .
+
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N515_aec5c8ead67a724bad5d84c927c123aafab21bdc_N512_da39a3ee5e6b4b0d3255bfef95601890afd80709_N513 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_2e5a616a2cb3b91852eafe6c9f29c186cc2efd2e_N514 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N515_aec5c8ead67a724bad5d84c927c123aafab21bdc_N512_da39a3ee5e6b4b0d3255bfef95601890afd80709_N513 .
+_:etype_Facility_UKC-176191_2e5a616a2cb3b91852eafe6c9f29c186cc2efd2e_N514 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N515_aec5c8ead67a724bad5d84c927c123aafab21bdc_N512_da39a3ee5e6b4b0d3255bfef95601890afd80709_N513 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "concrete" .
+_:etype_Facility_UKC-176191_2e5a616a2cb3b91852eafe6c9f29c186cc2efd2e_N514 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1127" .
+
+_:etype_Facility_UKC-176191_eeb8f1dbcd3eedab645d5ab893d199d494579bf3_N519 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N520_4b6207825db4dfc78725735846c1328cdedc8bbd_N517_da39a3ee5e6b4b0d3255bfef95601890afd80709_N518 .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N520_4b6207825db4dfc78725735846c1328cdedc8bbd_N517_da39a3ee5e6b4b0d3255bfef95601890afd80709_N518 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N520_4b6207825db4dfc78725735846c1328cdedc8bbd_N517_da39a3ee5e6b4b0d3255bfef95601890afd80709_N518 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "artificial_turf" .
+_:etype_Facility_UKC-176191_eeb8f1dbcd3eedab645d5ab893d199d494579bf3_N519 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1131" .
+_:etype_Facility_UKC-176191_eeb8f1dbcd3eedab645d5ab893d199d494579bf3_N519 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N520_4b6207825db4dfc78725735846c1328cdedc8bbd_N517_da39a3ee5e6b4b0d3255bfef95601890afd80709_N518 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "True" .
+
+_:etype_Facility_UKC-176191_91d5e6728240dd7edc866732c15a56a934cf0a97_N524 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1133" .
+_:etype_Facility_UKC-176191_91d5e6728240dd7edc866732c15a56a934cf0a97_N524 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_619b7f2c7440776e5362a04735de28763ff332d8_N529 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1142" .
+_:etype_Facility_UKC-176191_619b7f2c7440776e5362a04735de28763ff332d8_N529 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_4b19229e380e9ca29673fdb967fd09cdcf4b5b44_N534 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1144" .
+_:etype_Facility_UKC-176191_4b19229e380e9ca29673fdb967fd09cdcf4b5b44_N534 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_25c65868b540200530fe4d75eb95a9a92c0c76ce_N539 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_25c65868b540200530fe4d75eb95a9a92c0c76ce_N539 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1161" .
+
+_:etype_Facility_UKC-176191_4080612570be15e797c5dae4449e556f77faa2fa_N544 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_4080612570be15e797c5dae4449e556f77faa2fa_N544 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1162" .
+
+_:etype_Facility_UKC-176191_31e32558fdf2acfa6e47afefa271580600d36202_N549 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_31e32558fdf2acfa6e47afefa271580600d36202_N549 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1164" .
+
+_:etype_Facility_UKC-176191_aa0e9f704b12a27af259750f79b22f99efdb68c5_N554 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1171" .
+_:etype_Facility_UKC-176191_aa0e9f704b12a27af259750f79b22f99efdb68c5_N554 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_64784bedd53258d0152783e812438f26f69da48c_N559 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1178" .
+_:etype_Facility_UKC-176191_64784bedd53258d0152783e812438f26f69da48c_N559 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_fdc01209f90eda589f0453b7e29e0114923ecd8b_N564 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_fdc01209f90eda589f0453b7e29e0114923ecd8b_N564 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1189" .
+
+_:etype_Facility_UKC-176191_0aec17ce3bff113e1c7c16e9d9dcaf90bf590974_N569 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_0aec17ce3bff113e1c7c16e9d9dcaf90bf590974_N569 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1192" .
+
+_:etype_Facility_UKC-176191_8350495d0f4c30922ea04e171519892a303ea929_N574 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N575_de6b29cb18084bdc455d9d293dddac87217ce659_N572_da39a3ee5e6b4b0d3255bfef95601890afd80709_N573 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "clay" .
+_:etype_Facility_UKC-176191_8350495d0f4c30922ea04e171519892a303ea929_N574 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N575_de6b29cb18084bdc455d9d293dddac87217ce659_N572_da39a3ee5e6b4b0d3255bfef95601890afd80709_N573 .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N575_de6b29cb18084bdc455d9d293dddac87217ce659_N572_da39a3ee5e6b4b0d3255bfef95601890afd80709_N573 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_8350495d0f4c30922ea04e171519892a303ea929_N574 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1193" .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N575_de6b29cb18084bdc455d9d293dddac87217ce659_N572_da39a3ee5e6b4b0d3255bfef95601890afd80709_N573 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "True" .
+
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N580_4b6207825db4dfc78725735846c1328cdedc8bbd_N577_da39a3ee5e6b4b0d3255bfef95601890afd80709_N578 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_4b7af5bd2d1026517f203f379e660fe2337a3e33_N579 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N580_4b6207825db4dfc78725735846c1328cdedc8bbd_N577_da39a3ee5e6b4b0d3255bfef95601890afd80709_N578 .
+_:etype_Facility_UKC-176191_4b7af5bd2d1026517f203f379e660fe2337a3e33_N579 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_4b7af5bd2d1026517f203f379e660fe2337a3e33_N579 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1199" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N580_4b6207825db4dfc78725735846c1328cdedc8bbd_N577_da39a3ee5e6b4b0d3255bfef95601890afd80709_N578 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "artificial_turf" .
+
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N585_59d5346f701a7e151e530344d03cf26aa8cf2068_N582_e33d475d1166ca6e784c3e1294434076dcd82c63_N583 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_b1d2e166d988e74123924d7bff9cd30a63aff067_N584 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N585_59d5346f701a7e151e530344d03cf26aa8cf2068_N582_e33d475d1166ca6e784c3e1294434076dcd82c63_N583 .
+_:etype_Facility_UKC-176191_b1d2e166d988e74123924d7bff9cd30a63aff067_N584 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_b1d2e166d988e74123924d7bff9cd30a63aff067_N584 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1209" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N585_59d5346f701a7e151e530344d03cf26aa8cf2068_N582_e33d475d1166ca6e784c3e1294434076dcd82c63_N583 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Campo polivalente" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N585_59d5346f701a7e151e530344d03cf26aa8cf2068_N582_e33d475d1166ca6e784c3e1294434076dcd82c63_N583 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "acrylic" .
+
+_:etype_Facility_UKC-176191_fe025dc13e5c9ab0d0625cae795d5cb0a0444b1d_N589 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1214" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N590_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N587_da39a3ee5e6b4b0d3255bfef95601890afd80709_N588 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "asphalt" .
+_:etype_Facility_UKC-176191_fe025dc13e5c9ab0d0625cae795d5cb0a0444b1d_N589 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N590_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N587_da39a3ee5e6b4b0d3255bfef95601890afd80709_N588 .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N590_484ed0b86cb02f46c99e4f7f45b71ea154ebabca_N587_da39a3ee5e6b4b0d3255bfef95601890afd80709_N588 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_fe025dc13e5c9ab0d0625cae795d5cb0a0444b1d_N589 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_76fbdd2b2ea23e13a5b1dbcf7900b3d92134f3a1_N594 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1217" .
+_:etype_Facility_UKC-176191_76fbdd2b2ea23e13a5b1dbcf7900b3d92134f3a1_N594 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_59e221a4758b17362bdeae901c5a8f58057468b2_N599 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_59e221a4758b17362bdeae901c5a8f58057468b2_N599 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1226" .
+
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N605_4b6207825db4dfc78725735846c1328cdedc8bbd_N602_da39a3ee5e6b4b0d3255bfef95601890afd80709_N603 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N605_4b6207825db4dfc78725735846c1328cdedc8bbd_N602_da39a3ee5e6b4b0d3255bfef95601890afd80709_N603 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "artificial_turf" .
+_:etype_Facility_UKC-176191_7110eda4d09e062aa5e4a390b0a572ac0d2c0220_N604 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N605_4b6207825db4dfc78725735846c1328cdedc8bbd_N602_da39a3ee5e6b4b0d3255bfef95601890afd80709_N603 .
+_:etype_Facility_UKC-176191_7110eda4d09e062aa5e4a390b0a572ac0d2c0220_N604 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1234" .
+_:etype_Facility_UKC-176191_7110eda4d09e062aa5e4a390b0a572ac0d2c0220_N604 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_c60d81f35d8be966fa0437e43f1feff777c6e121_N609 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1239" .
+_:etype_Facility_UKC-176191_c60d81f35d8be966fa0437e43f1feff777c6e121_N609 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_89ca91e6c9b28bdcfb629b12758f955d21072594_N614 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_89ca91e6c9b28bdcfb629b12758f955d21072594_N614 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1244" .
+
+_:etype_Facility_UKC-176191_74b10c057ded94dc2c9821f38a1096fbc9b3c2f9_N619 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1265" .
+_:etype_Facility_UKC-176191_74b10c057ded94dc2c9821f38a1096fbc9b3c2f9_N619 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_bf5ce6bca1837184b86a1fb332edb735665ca1ed_N624 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1274" .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N625_4b6207825db4dfc78725735846c1328cdedc8bbd_N622_da39a3ee5e6b4b0d3255bfef95601890afd80709_N623 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "True" .
+_:etype_Facility_UKC-176191_bf5ce6bca1837184b86a1fb332edb735665ca1ed_N624 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N625_4b6207825db4dfc78725735846c1328cdedc8bbd_N622_da39a3ee5e6b4b0d3255bfef95601890afd80709_N623 .
+_:etype_Facility_UKC-176191_bf5ce6bca1837184b86a1fb332edb735665ca1ed_N624 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N625_4b6207825db4dfc78725735846c1328cdedc8bbd_N622_da39a3ee5e6b4b0d3255bfef95601890afd80709_N623 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "artificial_turf" .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N625_4b6207825db4dfc78725735846c1328cdedc8bbd_N622_da39a3ee5e6b4b0d3255bfef95601890afd80709_N623 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+
+_:etype_Facility_UKC-176191_a9e76f7f478c7be32c80f3bb0b7cc06e002d25bb_N629 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1290" .
+_:etype_Facility_UKC-176191_a9e76f7f478c7be32c80f3bb0b7cc06e002d25bb_N629 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_bbd10f0f88f298fe0ae1d706e0600149c59adb04_N634 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1293" .
+_:etype_Facility_UKC-176191_bbd10f0f88f298fe0ae1d706e0600149c59adb04_N634 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_6077ad2b372d5a152de8191d73e3e4480c620035_N639 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_6077ad2b372d5a152de8191d73e3e4480c620035_N639 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1294" .
+
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N645_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N642_da39a3ee5e6b4b0d3255bfef95601890afd80709_N643 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "sand" .
+_:etype_Facility_UKC-176191_b3ad32a369754ee7acf23c5370ccf5b401604a78_N644 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N645_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N642_da39a3ee5e6b4b0d3255bfef95601890afd80709_N643 .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N645_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N642_da39a3ee5e6b4b0d3255bfef95601890afd80709_N643 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "False" .
+_:etype_Facility_UKC-176191_b3ad32a369754ee7acf23c5370ccf5b401604a78_N644 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1295" .
+_:etype_Facility_UKC-176191_b3ad32a369754ee7acf23c5370ccf5b401604a78_N644 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N645_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N642_da39a3ee5e6b4b0d3255bfef95601890afd80709_N643 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+
+_:etype_Facility_UKC-176191_6a0129d59aa4967c0627c4c0803ae1a9a49f6ddd_N649 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_6a0129d59aa4967c0627c4c0803ae1a9a49f6ddd_N649 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1312" .
+
+_:etype_Facility_UKC-176191_209cbd7df48248f976f6dd4817b07c208e0730a2_N654 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1314" .
+_:etype_Facility_UKC-176191_209cbd7df48248f976f6dd4817b07c208e0730a2_N654 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_1bf6592ecf317c9cd6f92bab901b7ac5dd6fa2af_N659 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1322" .
+_:etype_Facility_UKC-176191_1bf6592ecf317c9cd6f92bab901b7ac5dd6fa2af_N659 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_8322f586c69aaaec73b86b416ab8cbb4ef1f1ff2_N664 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1331" .
+_:etype_Facility_UKC-176191_8322f586c69aaaec73b86b416ab8cbb4ef1f1ff2_N664 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N665_de6b29cb18084bdc455d9d293dddac87217ce659_N662_da39a3ee5e6b4b0d3255bfef95601890afd80709_N663 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "True" .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N665_de6b29cb18084bdc455d9d293dddac87217ce659_N662_da39a3ee5e6b4b0d3255bfef95601890afd80709_N663 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N665_de6b29cb18084bdc455d9d293dddac87217ce659_N662_da39a3ee5e6b4b0d3255bfef95601890afd80709_N663 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "clay" .
+_:etype_Facility_UKC-176191_8322f586c69aaaec73b86b416ab8cbb4ef1f1ff2_N664 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N665_de6b29cb18084bdc455d9d293dddac87217ce659_N662_da39a3ee5e6b4b0d3255bfef95601890afd80709_N663 .
+
+_:etype_Facility_UKC-176191_f6219aea49987dc3046c2e75553782f638a4359d_N669 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_f6219aea49987dc3046c2e75553782f638a4359d_N669 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1345" .
+
+_:etype_Facility_UKC-176191_952b1d3c000dd8b840ad03461f71c71a0cb83086_N674 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_952b1d3c000dd8b840ad03461f71c71a0cb83086_N674 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1347" .
+
+_:etype_Facility_UKC-176191_b01f67adb17354737d273b0cae8d36366b08af91_N679 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1350" .
+_:etype_Facility_UKC-176191_b01f67adb17354737d273b0cae8d36366b08af91_N679 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_301f839b74b67350b1bdc01050369aec1f36e0d2_N684 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_301f839b74b67350b1bdc01050369aec1f36e0d2_N684 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1353" .
+
+_:etype_Facility_UKC-176191_d7c9518a46a3cadce5d9ddd36d2a64ef6c30a0b8_N689 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1365" .
+_:etype_Facility_UKC-176191_d7c9518a46a3cadce5d9ddd36d2a64ef6c30a0b8_N689 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_f29fa043b3ea6e599c8a224b6e6a13ce3c9c9191_N694 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_f29fa043b3ea6e599c8a224b6e6a13ce3c9c9191_N694 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1366" .
+
+_:etype_Facility_UKC-176191_c1401c9a808e0d25cd8afa853c36032ffaca83cb_N699 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1373" .
+_:etype_Facility_UKC-176191_c1401c9a808e0d25cd8afa853c36032ffaca83cb_N699 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_278bdab57253765b3ab458a7d9295abf2f42ffb6_N704 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_278bdab57253765b3ab458a7d9295abf2f42ffb6_N704 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1386" .
+
+_:etype_Facility_UKC-176191_ee02c29275e85aedd7d971820672ce0454733b81_N709 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_ee02c29275e85aedd7d971820672ce0454733b81_N709 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1398" .
+
+_:etype_Facility_UKC-176191_87b2eb969f96afe3b467215f279262e98c868d27_N714 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_87b2eb969f96afe3b467215f279262e98c868d27_N714 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1399" .
+
+_:etype_Facility_UKC-176191_6f34a3e0e1af181e8a78e70c146682b7ead12846_N719 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_6f34a3e0e1af181e8a78e70c146682b7ead12846_N719 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1400" .
+
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N725_4b6207825db4dfc78725735846c1328cdedc8bbd_N722_da39a3ee5e6b4b0d3255bfef95601890afd80709_N723 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_b9b31b56d8b82c95acf0f300853d587c81b0ebc0_N724 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N725_4b6207825db4dfc78725735846c1328cdedc8bbd_N722_da39a3ee5e6b4b0d3255bfef95601890afd80709_N723 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "artificial_turf" .
+_:etype_Facility_UKC-176191_b9b31b56d8b82c95acf0f300853d587c81b0ebc0_N724 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1404" .
+_:etype_Facility_UKC-176191_b9b31b56d8b82c95acf0f300853d587c81b0ebc0_N724 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N725_4b6207825db4dfc78725735846c1328cdedc8bbd_N722_da39a3ee5e6b4b0d3255bfef95601890afd80709_N723 .
+
+_:etype_Facility_UKC-176191_fbce66f99c809283638f344ecb3d50674ea64189_N729 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_fbce66f99c809283638f344ecb3d50674ea64189_N729 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1414" .
+
+_:etype_Facility_UKC-176191_b0eab7a122205823e6a462917b0b2ff48d77c1c5_N734 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_b0eab7a122205823e6a462917b0b2ff48d77c1c5_N734 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1434" .
+
+_:etype_Facility_UKC-176191_9449672fef19ba0f9e744f5e7355c5e1400b5504_N739 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N740_bbc29b76c59b382aca12201c44929002ef1778ae_N737_da39a3ee5e6b4b0d3255bfef95601890afd80709_N738 .
+_:etype_Facility_UKC-176191_9449672fef19ba0f9e744f5e7355c5e1400b5504_N739 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1438" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N740_bbc29b76c59b382aca12201c44929002ef1778ae_N737_da39a3ee5e6b4b0d3255bfef95601890afd80709_N738 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_9449672fef19ba0f9e744f5e7355c5e1400b5504_N739 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N740_bbc29b76c59b382aca12201c44929002ef1778ae_N737_da39a3ee5e6b4b0d3255bfef95601890afd80709_N738 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "grass" .
+_:SportEvents-80041_97cdbdc7feff827efb082a6b6dd2727237cd49fd_N740_bbc29b76c59b382aca12201c44929002ef1778ae_N737_da39a3ee5e6b4b0d3255bfef95601890afd80709_N738 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "False" .
+
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N745_4b6207825db4dfc78725735846c1328cdedc8bbd_N742_da39a3ee5e6b4b0d3255bfef95601890afd80709_N743 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N745_4b6207825db4dfc78725735846c1328cdedc8bbd_N742_da39a3ee5e6b4b0d3255bfef95601890afd80709_N743 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "artificial_turf" .
+_:etype_Facility_UKC-176191_3c5174b71d24aa217f93fc1b7439c1ee25e11556_N744 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1440" .
+_:etype_Facility_UKC-176191_3c5174b71d24aa217f93fc1b7439c1ee25e11556_N744 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N745_4b6207825db4dfc78725735846c1328cdedc8bbd_N742_da39a3ee5e6b4b0d3255bfef95601890afd80709_N743 .
+_:etype_Facility_UKC-176191_3c5174b71d24aa217f93fc1b7439c1ee25e11556_N744 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_c2760ee848bba2ea6d6bb779057fb2545f7a0825_N749 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1446" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N750_4b6207825db4dfc78725735846c1328cdedc8bbd_N747_da39a3ee5e6b4b0d3255bfef95601890afd80709_N748 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_c2760ee848bba2ea6d6bb779057fb2545f7a0825_N749 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_c2760ee848bba2ea6d6bb779057fb2545f7a0825_N749 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N750_4b6207825db4dfc78725735846c1328cdedc8bbd_N747_da39a3ee5e6b4b0d3255bfef95601890afd80709_N748 .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N750_4b6207825db4dfc78725735846c1328cdedc8bbd_N747_da39a3ee5e6b4b0d3255bfef95601890afd80709_N748 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "artificial_turf" .
+
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N755_4b6207825db4dfc78725735846c1328cdedc8bbd_N752_da39a3ee5e6b4b0d3255bfef95601890afd80709_N753 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N755_4b6207825db4dfc78725735846c1328cdedc8bbd_N752_da39a3ee5e6b4b0d3255bfef95601890afd80709_N753 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "artificial_turf" .
+_:etype_Facility_UKC-176191_b4a28ddbae199fa52875d0ae24fcc43da1506407_N754 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_b4a28ddbae199fa52875d0ae24fcc43da1506407_N754 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1447" .
+_:etype_Facility_UKC-176191_b4a28ddbae199fa52875d0ae24fcc43da1506407_N754 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N755_4b6207825db4dfc78725735846c1328cdedc8bbd_N752_da39a3ee5e6b4b0d3255bfef95601890afd80709_N753 .
+
+_:etype_Facility_UKC-176191_ecbc54904eb7fe332c5764cbefeee200527ff160_N759 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1448" .
+_:etype_Facility_UKC-176191_ecbc54904eb7fe332c5764cbefeee200527ff160_N759 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N760_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N757_da39a3ee5e6b4b0d3255bfef95601890afd80709_N758 .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N760_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N757_da39a3ee5e6b4b0d3255bfef95601890afd80709_N758 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "sand" .
+_:etype_Facility_UKC-176191_ecbc54904eb7fe332c5764cbefeee200527ff160_N759 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N760_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N757_da39a3ee5e6b4b0d3255bfef95601890afd80709_N758 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:SportEvents-80041_88b33e4e12f75ac8bf792aebde41f1a090f3a612_N760_42625bfecef1fbf9ae6ffb9427f666c98e27559f_N757_da39a3ee5e6b4b0d3255bfef95601890afd80709_N758 <http://knowdive.disi.unitn.it/etype#lit_UKC-75466> "True" .
+
+_:etype_Facility_UKC-176191_2613c67184db5b2f46b8f8277465ae5bf985821a_N764 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_2613c67184db5b2f46b8f8277465ae5bf985821a_N764 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1454" .
+
+_:etype_Facility_UKC-176191_fcd8b5b9ecb89e65d56504f6f6cfe82eed26887e_N769 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1474" .
+_:etype_Facility_UKC-176191_fcd8b5b9ecb89e65d56504f6f6cfe82eed26887e_N769 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:etype_Facility_UKC-176191_81887888a933d677e0835125eff02194202ae6b8_N774 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_81887888a933d677e0835125eff02194202ae6b8_N774 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1494" .
+
+_:etype_Facility_UKC-176191_87496e984d6e0cc5d47f38cf3076e21af2bd4815_N779 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_87496e984d6e0cc5d47f38cf3076e21af2bd4815_N779 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1526" .
+
+_:etype_Facility_UKC-176191_3c8101acb51e8f51363933e63bfb9106ec64d6e4_N784 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1550" .
+_:etype_Facility_UKC-176191_3c8101acb51e8f51363933e63bfb9106ec64d6e4_N784 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N790_bbc29b76c59b382aca12201c44929002ef1778ae_N787_da39a3ee5e6b4b0d3255bfef95601890afd80709_N788 <http://knowdive.disi.unitn.it/etype#surface_OSM-surface> "grass" .
+_:etype_Facility_UKC-176191_3d4bce24d3e7869a1459fd4cd1bfe131f5ad2a81_N789 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_3d4bce24d3e7869a1459fd4cd1bfe131f5ad2a81_N789 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N790_bbc29b76c59b382aca12201c44929002ef1778ae_N787_da39a3ee5e6b4b0d3255bfef95601890afd80709_N788 .
+_:etype_Facility_UKC-176191_3d4bce24d3e7869a1459fd4cd1bfe131f5ad2a81_N789 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1637" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N790_bbc29b76c59b382aca12201c44929002ef1778ae_N787_da39a3ee5e6b4b0d3255bfef95601890afd80709_N788 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N795_da39a3ee5e6b4b0d3255bfef95601890afd80709_N792_d07216c065e4e0f732037cb126c9b56e803a1c2b_N793 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Palazzetto dello sport Sanbàpolis" .
+_:etype_Facility_UKC-176191_637250c78dd38a4e6c7e05c62f9ff2e960a977a0_N794 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N795_da39a3ee5e6b4b0d3255bfef95601890afd80709_N792_d07216c065e4e0f732037cb126c9b56e803a1c2b_N793 .
+_:etype_Facility_UKC-176191_637250c78dd38a4e6c7e05c62f9ff2e960a977a0_N794 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_637250c78dd38a4e6c7e05c62f9ff2e960a977a0_N794 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1645" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N795_da39a3ee5e6b4b0d3255bfef95601890afd80709_N792_d07216c065e4e0f732037cb126c9b56e803a1c2b_N793 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+
+_:etype_Facility_UKC-176191_7fd0dc28db1b5252f0aca04247cf21853f772e70_N799 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_7fd0dc28db1b5252f0aca04247cf21853f772e70_N799 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "1656" .
+
+_:etype_Facility_UKC-176191_040f44c1d9a5160f0f87a9bd6dcf3ee54e715739_N804 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N805_da39a3ee5e6b4b0d3255bfef95601890afd80709_N802_5c394a9dd5c81954aa1c582d895891d88d396628_N803 .
+_:etype_Facility_UKC-176191_040f44c1d9a5160f0f87a9bd6dcf3ee54e715739_N804 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "3228" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N805_da39a3ee5e6b4b0d3255bfef95601890afd80709_N802_5c394a9dd5c81954aa1c582d895891d88d396628_N803 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N805_da39a3ee5e6b4b0d3255bfef95601890afd80709_N802_5c394a9dd5c81954aa1c582d895891d88d396628_N803 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Campo Pallavolo-Calcetto San Colombano" .
+_:etype_Facility_UKC-176191_040f44c1d9a5160f0f87a9bd6dcf3ee54e715739_N804 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N810_da39a3ee5e6b4b0d3255bfef95601890afd80709_N807_5c394a9dd5c81954aa1c582d895891d88d396628_N808 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_ebc6c3b8eda70e5a227c59ea174661a79a3659d9_N809 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "3264" .
+_:etype_Facility_UKC-176191_ebc6c3b8eda70e5a227c59ea174661a79a3659d9_N809 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N810_da39a3ee5e6b4b0d3255bfef95601890afd80709_N807_5c394a9dd5c81954aa1c582d895891d88d396628_N808 .
+_:etype_Facility_UKC-176191_ebc6c3b8eda70e5a227c59ea174661a79a3659d9_N809 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N810_da39a3ee5e6b4b0d3255bfef95601890afd80709_N807_5c394a9dd5c81954aa1c582d895891d88d396628_N808 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Campo Pallavolo-Calcetto San Colombano" .
+
+_:etype_Facility_UKC-176191_4345db81ddfe96e2f083c45de97b7586e46a072f_N814 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:etype_Facility_UKC-176191_4345db81ddfe96e2f083c45de97b7586e46a072f_N814 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "4423" .
+_:etype_Facility_UKC-176191_4345db81ddfe96e2f083c45de97b7586e46a072f_N814 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N815_da39a3ee5e6b4b0d3255bfef95601890afd80709_N812_5c394a9dd5c81954aa1c582d895891d88d396628_N813 .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N815_da39a3ee5e6b4b0d3255bfef95601890afd80709_N812_5c394a9dd5c81954aa1c582d895891d88d396628_N813 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N815_da39a3ee5e6b4b0d3255bfef95601890afd80709_N812_5c394a9dd5c81954aa1c582d895891d88d396628_N813 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Campo Pallavolo-Calcetto San Colombano" .
+
+_:etype_Facility_UKC-176191_e0e71f1d95a9ee61a43623682a3c9ac7da8812b0_N819 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N820_da39a3ee5e6b4b0d3255bfef95601890afd80709_N817_5c394a9dd5c81954aa1c582d895891d88d396628_N818 .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N820_da39a3ee5e6b4b0d3255bfef95601890afd80709_N817_5c394a9dd5c81954aa1c582d895891d88d396628_N818 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Campo Pallavolo-Calcetto San Colombano" .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N820_da39a3ee5e6b4b0d3255bfef95601890afd80709_N817_5c394a9dd5c81954aa1c582d895891d88d396628_N818 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
+_:etype_Facility_UKC-176191_e0e71f1d95a9ee61a43623682a3c9ac7da8812b0_N819 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "13644" .
+_:etype_Facility_UKC-176191_e0e71f1d95a9ee61a43623682a3c9ac7da8812b0_N819 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N825_da39a3ee5e6b4b0d3255bfef95601890afd80709_N822_5c394a9dd5c81954aa1c582d895891d88d396628_N823 <http://knowdive.disi.unitn.it/etype#name_UKC-2> "Campo Pallavolo-Calcetto San Colombano" .
+_:etype_Facility_UKC-176191_437316ba2d7682b623c6f165c74b384b65e37ca0_N824 <http://knowdive.disi.unitn.it/etype#identification_UKC-36247> "14701" .
+_:etype_Facility_UKC-176191_437316ba2d7682b623c6f165c74b384b65e37ca0_N824 <http://knowdive.disi.unitn.it/etype#isEtype> _:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N825_da39a3ee5e6b4b0d3255bfef95601890afd80709_N822_5c394a9dd5c81954aa1c582d895891d88d396628_N823 .
+_:etype_Facility_UKC-176191_437316ba2d7682b623c6f165c74b384b65e37ca0_N824 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Facility_UKC-17619> .
+_:SportEvents-80041_da39a3ee5e6b4b0d3255bfef95601890afd80709_N825_da39a3ee5e6b4b0d3255bfef95601890afd80709_N822_5c394a9dd5c81954aa1c582d895891d88d396628_N823 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#VolleyballField_KGE24-SportFacilities&SportEvents-8004> .
 
