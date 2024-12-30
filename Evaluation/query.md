@@ -3,29 +3,41 @@
 ### CQ1: Luca inquires about available padel courts in Trento after 7 PM.
 
 ```sparql
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT ?sport_facility_id ?legalName ?openingHours ?sport_id ?name
+SELECT ?legalName ?openingHours ?address ?municipality
 WHERE {
+
   # Match the facility
   ?facility rdf:type etype:Facility_UKC-17619 ;
-    etype:identification_UKC-36247 ?sport_facility_id ;
-    etype:name_UKC-2 ?legalName .
-    
-    OPTIONAL { 
-        ?facility etype:openingHours_schema.org-openingHours ?openingHours .
-    }
+            etype:identification_UKC-36247 ?sport_facility_id ;
+            etype:name_UKC-2 ?legalName .
+  
+  # Extract openingHours (if any)
+  OPTIONAL { 
+    ?facility etype:openingHours_schema.org-openingHours ?openingHours .
+    BIND(IF(STRLEN(?openingHours) >= 15, 
+            SUBSTR(?openingHours, 13, 2), 
+            true) AS ?closingHourCheck)
+  }
 
   # Match the sport related to the facility
   ?have etype:have_UKC-103527 ?facility ;
-    etype:identification_UKC-36247 ?have_sport_id .
+        etype:identification_UKC-36247 "136" . # Directly match sport ID
   
-  ?sport rdf:type etype:Sport_UKC-2593 ;
-    etype:identification_UKC-36247 ?sport_id ;
-    etype:name_UKC-2 ?name .
-            
-  FILTER(?have_sport_id = ?sport_id && ?sport_id = "136")
+  # Extract the location of each facility
+  ?placed etype:placed_UKC-85982 ?facility ;
+          etype:identification_UKC-36247 ?location_id .
+  
+  ?location rdf:type etype:Location_UKC-695 ;
+            etype:identification_UKC-36247 ?location_id ;
+            etype:address_UKC-45004 ?address ;
+            etype:municipality_UKC-45537 ?municipality .
+
+  # Filter results
+  FILTER(?closingHourCheck = true || xsd:integer(?closingHourCheck) >= 19)
 }
 ```
 
