@@ -7,8 +7,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT DISTINCT ?legalName ?address ?municipality ?openingHours
+SELECT DISTINCT ?givenName ?familyName ?legalName ?address ?municipality ?openingHours
 WHERE {
+  
+  ?user rdf:type etype:User_UKC-53492 ;
+    	etype:identification_UKC-36247 "1" ;
+    	etype:given_name_UKC-33531 ?givenName ;
+    	etype:family_name_UKC-33528 ?familyName .
 
   # Match the facility
   ?facility rdf:type etype:Facility_UKC-17619 ;
@@ -76,9 +81,14 @@ WHERE {
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT ?event_name ?address ?municipality
+SELECT DISTINCT ?givenName ?familyName ?event_name ?address ?municipality
 WHERE {
   
+  ?user rdf:type etype:User_UKC-53492 ;
+    	etype:identification_UKC-36247 "1" ;
+    	etype:given_name_UKC-33531 ?givenName ;
+    	etype:family_name_UKC-33528 ?familyName .
+
   # Match Event and Organization
   ?event rdf:type etype:Event_UKC-56 ;
          etype:identification_UKC-36247 ?event_id ;
@@ -120,8 +130,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT ?event_name ?address ?municipality ?startDate ?endDate
+SELECT DISTINCT ?givenName ?familyName ?event_name ?address ?municipality ?startDate ?endDate
 WHERE {
+    
+  ?user rdf:type etype:User_UKC-53492 ;
+    	etype:identification_UKC-36247 "1" ;
+    	etype:given_name_UKC-33531 ?givenName ;
+    	etype:family_name_UKC-33528 ?familyName .
+    
   # Filter early for guests named "Sara Errani"
   ?guest rdf:type <http://knowdive.disi.unitn.it/etype#Guest_KGE24-SportFacilities&SportEvents-8001> ;
          etype:identification_UKC-36247 ?guest_id ;
@@ -158,8 +174,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT DISTINCT ?name
+SELECT DISTINCT ?givenName ?familyName ?name
 WHERE {
+    
+    ?user rdf:type etype:User_UKC-53492 ;
+    	etype:identification_UKC-36247 "2" ;
+    	etype:given_name_UKC-33531 ?givenName ;
+    	etype:family_name_UKC-33528 ?familyName .
+    
     # Get Facilities
     ?facility rdf:type etype:Facility_UKC-17619 .
     
@@ -172,18 +194,23 @@ WHERE {
            etype:identification_UKC-36247 ?have_sport_id ;
            etype:name_UKC-2 ?name .
 }
+
 ```
 
 ### CQ5: Spending the weekend with friends in Folgaria, Anna asks if there are any lighted volleyball or beach volleyball courts available throughout the day.
 ```sparql
-# CQ5: Spending the weekend with friends in Folgaria, Anna asks if there are any lighted volleyball or beach volleyball courts available throughout the day.
-
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT DISTINCT ?facility_name ?address ?municipality ?facility_id ?surface
-WHERE {    
+SELECT DISTINCT ?givenName ?familyName ?facility_name ?address
+WHERE {
+    
+    ?user rdf:type etype:User_UKC-53492 ;
+    	etype:identification_UKC-36247 "2" ;
+    	etype:given_name_UKC-33531 ?givenName ;
+    	etype:family_name_UKC-33528 ?familyName .
+    
   # Match the facility
   ?facility rdf:type etype:Facility_UKC-17619 ;
     etype:identification_UKC-36247 ?sport_facility_id .
@@ -214,7 +241,6 @@ WHERE {
   VALUES ?have_sport_id {"10" "65" "120" "133"}
     
   ?volleyball_field rdf:type etype:VolleyballField_KGE24-SportFacilities\&SportEvents-8004 ;
-    etype:surface_OSM-surface ?surface ;
     etype:lit_UKC-75466 "True" .
 
   ?is etype:isEtype ?volleyball_field ;
@@ -230,13 +256,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT DISTINCT ?event_name ?startDate
+SELECT DISTINCT ?givenName ?familyName ?event_name ?startDate
 WHERE {
 
+    ?user rdf:type etype:User_UKC-53492 ;
+    	etype:identification_UKC-36247 "2" ;
+    	etype:given_name_UKC-33531 ?givenName ;
+    	etype:family_name_UKC-33528 ?familyName .
+    
     ?event rdf:type etype:Event_UKC-56 ;
          etype:identification_UKC-36247 ?event_id ;
          etype:name_UKC-2 ?event_name .
-     
+   	
     OPTIONAL {
         ?event etype:startDate_schema.org-startDate ?startDate .
 
@@ -249,7 +280,7 @@ WHERE {
     
     ?based_on etype:basedOn_UKC-92536 ?event ;
             etype:identification_UKC-36247 ?based_on_sport_id .
-  
+	
     VALUES ?based_on_sport_id {"10" "65" "120" "133"}
 }
 ```
@@ -259,9 +290,14 @@ WHERE {
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT ?event_name ?address ?municipality ?winter_holiday
+SELECT DISTINCT ?givenName ?familyName ?event_name ?address ?municipality ?winter_holiday
 WHERE {
   
+  ?user rdf:type etype:User_UKC-53492 ;
+    	etype:identification_UKC-36247 "3" ;
+    	etype:given_name_UKC-33531 ?givenName ;
+    	etype:family_name_UKC-33528 ?familyName .
+    
   # Match Event and Organization
   ?event rdf:type etype:Event_UKC-56 ;
          etype:identification_UKC-36247 ?event_id ;
@@ -298,9 +334,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT DISTINCT ?event_name ?startDate ?address ?municipality
+SELECT DISTINCT ?givenName ?familyName ?event_name ?startDate ?address ?municipality
 WHERE {
   
+    ?user rdf:type etype:User_UKC-53492 ;
+    	etype:identification_UKC-36247 "3" ;
+    	etype:given_name_UKC-33531 ?givenName ;
+    	etype:family_name_UKC-33528 ?familyName .
+    
   # Match Event and Organization
   ?event rdf:type etype:Event_UKC-56 ;
          etype:identification_UKC-36247 ?event_id ;
@@ -333,9 +374,14 @@ ORDER BY ?startDate
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT DISTINCT ?event_name ?startDate ?address ?municipality
+SELECT DISTINCT ?givenName ?familyName ?event_name ?startDate ?address ?municipality
 WHERE {
   
+    ?user rdf:type etype:User_UKC-53492 ;
+    	etype:identification_UKC-36247 "4" ;
+    	etype:given_name_UKC-33531 ?givenName ;
+    	etype:family_name_UKC-33528 ?familyName .
+    
   # Match Event and Organization
   ?event rdf:type etype:Event_UKC-56 ;
          etype:identification_UKC-36247 ?event_id ;
@@ -370,9 +416,14 @@ ORDER BY ?startDate
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT DISTINCT ?event_name ?address ?municipality
+SELECT DISTINCT ?givenName ?familyName ?event_name ?address ?municipality
 WHERE {
   
+    ?user rdf:type etype:User_UKC-53492 ;
+    	etype:identification_UKC-36247 "4" ;
+    	etype:given_name_UKC-33531 ?givenName ;
+    	etype:family_name_UKC-33528 ?familyName .
+    
   # Match Event and Organization
   ?event rdf:type etype:Event_UKC-56 ;
          etype:identification_UKC-36247 ?event_id ;
@@ -407,10 +458,14 @@ WHERE {
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT DISTINCT ?name ?address
+SELECT DISTINCT ?givenName ?familyName ?name ?address
 WHERE {
-  
-  # Match Facility in Bolzano
+	
+    ?user rdf:type etype:User_UKC-53492 ;
+    	etype:identification_UKC-36247 "4" ;
+    	etype:given_name_UKC-33531 ?givenName ;
+    	etype:family_name_UKC-33528 ?familyName .
+    
   ?facility rdf:type etype:Facility_UKC-17619 ;
          etype:identification_UKC-36247 ?facility_id ;
          etype:name_UKC-2 ?name .
