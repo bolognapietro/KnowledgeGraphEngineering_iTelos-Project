@@ -132,6 +132,21 @@ Website: https://schema.org
             <td>hasOccupation</td>
             <td>The person's occupation.</td>
         </tr>
+        <tr>
+            <td><a href="https://schema.org/telephone">schema.org-telephone</a></td>
+            <td>telephone</td>
+            <td>The telephone number.</td>
+        </tr>
+        <tr>
+            <td><a href="https://schema.org/email">schema.org-email</a></td>
+            <td>email</td>
+            <td>Email address.</td>
+        </tr>
+        <tr>
+            <td><a href="https://schema.org/url">schema.org-url</a></td>
+            <td>url</td>
+            <td>URL of the item.</td>
+        </tr>
     </tbody>
 </table>
 
