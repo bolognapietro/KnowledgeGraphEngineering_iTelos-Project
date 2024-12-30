@@ -176,8 +176,52 @@ WHERE {
 
 ### CQ5: Spending the weekend with friends in Folgaria, Anna asks if there are any lighted volleyball or beach volleyball courts available throughout the day.
 ```sparql
-# PROBLEM with tennis_court, padel_court and volleyball_field
-# PROBLEM with tennis_court, padel_court and volleyball_field
+# CQ5: Spending the weekend with friends in Folgaria, Anna asks if there are any lighted volleyball or beach volleyball courts available throughout the day.
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT DISTINCT ?facility_name ?address ?municipality ?facility_id ?surface
+WHERE {    
+  # Match the facility
+  ?facility rdf:type etype:Facility_UKC-17619 ;
+    etype:identification_UKC-36247 ?sport_facility_id .
+  
+  # Make the name optional
+  OPTIONAL {
+    ?facility etype:name_UKC-2 ?facility_name .
+  }
+
+  # Extract the location of each facility
+  ?placed etype:placed_UKC-85982 ?facility ;
+    etype:identification_UKC-36247 ?placed_id .
+  
+  # Match the location
+  ?location rdf:type etype:Location_UKC-695 ;
+    etype:identification_UKC-36247 ?placed_id ;
+    etype:municipality_UKC-45537 "Arco" .
+
+  # Make the name optional
+  OPTIONAL {
+    ?location etype:address_UKC-45004 ?address .
+  }
+  
+  # Extract the sport of each facility
+  ?have etype:have_UKC-103527 ?facility;
+     etype:identification_UKC-36247 ?have_sport_id .
+  
+  VALUES ?have_sport_id {"10" "65" "120" "133"}
+    
+  ?volleyball_field rdf:type etype:VolleyballField_KGE24-SportFacilities\&SportEvents-8004 ;
+    etype:surface_OSM-surface ?surface ;
+    etype:lit_UKC-75466 "True" .
+
+  ?is etype:isEtype ?volleyball_field ;
+    etype:identification_UKC-36247 ?facility_id .
+    
+  FILTER(?sport_facility_id = ?facility_id)
+}
 ```
 
 ### CQ6: As a volleyball enthusiast, Anna would like to know if there will be any volleyball events during the summer holidays of 2024.
@@ -186,91 +230,27 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT ?event_name ?startDate ?endDate ?address ?municipality
+SELECT DISTINCT ?event_name ?startDate
 WHERE {
-  
-  # Match Event and Organization
-  ?event rdf:type etype:Event_UKC-56 ;
+
+    ?event rdf:type etype:Event_UKC-56 ;
          etype:identification_UKC-36247 ?event_id ;
          etype:name_UKC-2 ?event_name .
-  
-  OPTIONAL {
-    ?event etype:startDate_schema.org-startDate ?startDate .
+     
+    OPTIONAL {
+        ?event etype:startDate_schema.org-startDate ?startDate .
 
-      BIND(IF(STRLEN(?startDate) >= 8, 
-            SUBSTR(?startDate, 6, 2), 
-            false) AS ?summer_holiday)  
-  }
+          BIND(IF(STRLEN(?startDate) >= 8, 
+                STRDT(SUBSTR(?startDate, 6, 2), xsd:integer), 
+                false) AS ?summer_holiday)  
+      }
+   
+    FILTER(?summer_holiday >= 5 && ?summer_holiday <= 9)
     
-  OPTIONAL { 
-    ?event etype:endDate_schema.org-endDate ?endDate .
-  }
-
-  # Match the Sport
-  ?based_on etype:basedOn_UKC-92536 ?event ;
+    ?based_on etype:basedOn_UKC-92536 ?event ;
             etype:identification_UKC-36247 ?based_on_sport_id .
   
-  ?sport rdf:type etype:Sport_UKC-2593 ;
-         etype:identification_UKC-36247 ?sport_id ;
-         etype:name_UKC-2 ?sport_name .
-  
-  FILTER(?based_on_sport_id = ?sport_id && ?sport_id IN ("10", "65", "120", "133"))
-    
-  # Match Event's Location
-  ?placed etype:placed_UKC-85982 ?event ;
-          etype:identification_UKC-36247 ?location_id .
-  
-  ?location rdf:type etype:Location_UKC-695 ;
-            etype:identification_UKC-36247 ?location_id ;
-            etype:address_UKC-45004 ?address ;
-            etype:municipality_UKC-45537 ?municipality .
-  
-    FILTER(?summer_holiday && xsd:integer(?summer_holiday) >= 6 && xsd:integer(?summer_holiday) <= 9)
-}
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-
-SELECT ?event_name ?startDate ?endDate ?address ?municipality
-WHERE {
-  
-  # Match Event and Organization
-  ?event rdf:type etype:Event_UKC-56 ;
-         etype:identification_UKC-36247 ?event_id ;
-         etype:name_UKC-2 ?event_name .
-  
-  OPTIONAL {
-    ?event etype:startDate_schema.org-startDate ?startDate .
-
-      BIND(IF(STRLEN(?startDate) >= 8, 
-            SUBSTR(?startDate, 6, 2), 
-            false) AS ?summer_holiday)  
-  }
-    
-  OPTIONAL { 
-    ?event etype:endDate_schema.org-endDate ?endDate .
-  }
-
-  # Match the Sport
-  ?based_on etype:basedOn_UKC-92536 ?event ;
-            etype:identification_UKC-36247 ?based_on_sport_id .
-  
-  ?sport rdf:type etype:Sport_UKC-2593 ;
-         etype:identification_UKC-36247 ?sport_id ;
-         etype:name_UKC-2 ?sport_name .
-  
-  FILTER(?based_on_sport_id = ?sport_id && ?sport_id IN ("10", "65", "120", "133"))
-    
-  # Match Event's Location
-  ?placed etype:placed_UKC-85982 ?event ;
-          etype:identification_UKC-36247 ?location_id .
-  
-  ?location rdf:type etype:Location_UKC-695 ;
-            etype:identification_UKC-36247 ?location_id ;
-            etype:address_UKC-45004 ?address ;
-            etype:municipality_UKC-45537 ?municipality .
-  
-    FILTER(?summer_holiday && xsd:integer(?summer_holiday) >= 6 && xsd:integer(?summer_holiday) <= 9)
+    VALUES ?based_on_sport_id {"10" "65" "120" "133"}
 }
 ```
 
@@ -297,64 +277,18 @@ WHERE {
     
   # Match the Sport
   ?based_on etype:basedOn_UKC-92536 ?event ;
-            etype:identification_UKC-36247 ?based_on_sport_id .
-  
-  ?sport rdf:type etype:Sport_UKC-2593 ;
-         etype:identification_UKC-36247 ?sport_id ;
-         etype:name_UKC-2 ?sport_name .
-  
-  FILTER(?based_on_sport_id = ?sport_id && ?sport_id = "79")
+            etype:identification_UKC-36247 "79" .
     
   # Match Event's Location
   ?placed etype:placed_UKC-85982 ?event ;
-          etype:identification_UKC-36247 ?location_id .
+          etype:identification_UKC-36247 ?placed_location_id .
   
   ?location rdf:type etype:Location_UKC-695 ;
             etype:identification_UKC-36247 ?location_id ;
             etype:address_UKC-45004 ?address ;
-            etype:municipality_UKC-45537 ?municipality .
-    
-  FILTER(?municipality = "Stelvio")
-}
-PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-
-SELECT ?event_name ?address ?municipality ?winter_holiday
-WHERE {
+            etype:municipality_UKC-45537 "Stelvio" .
   
-  # Match Event and Organization
-  ?event rdf:type etype:Event_UKC-56 ;
-         etype:identification_UKC-36247 ?event_id ;
-         etype:name_UKC-2 ?event_name .
-  
-  OPTIONAL {
-    ?event etype:startDate_schema.org-startDate ?startDate .
-
-      BIND(IF(STRLEN(?startDate) >= 8, 
-            SUBSTR(?startDate, 6, 2), 
-            false) AS ?winter_holiday)  
-  }
-    
-  # Match the Sport
-  ?based_on etype:basedOn_UKC-92536 ?event ;
-            etype:identification_UKC-36247 ?based_on_sport_id .
-  
-  ?sport rdf:type etype:Sport_UKC-2593 ;
-         etype:identification_UKC-36247 ?sport_id ;
-         etype:name_UKC-2 ?sport_name .
-  
-  FILTER(?based_on_sport_id = ?sport_id && ?sport_id = "79")
-    
-  # Match Event's Location
-  ?placed etype:placed_UKC-85982 ?event ;
-          etype:identification_UKC-36247 ?location_id .
-  
-  ?location rdf:type etype:Location_UKC-695 ;
-            etype:identification_UKC-36247 ?location_id ;
-            etype:address_UKC-45004 ?address ;
-            etype:municipality_UKC-45537 ?municipality .
-    
-  FILTER(?municipality = "Stelvio")
+  FILTER(?placed_location_id = ?location_id)
 }
 ```
 
@@ -376,12 +310,12 @@ WHERE {
     ?event etype:startDate_schema.org-startDate ?startDate .
 
       BIND(IF(STRLEN(?startDate) >= 8, 
-            SUBSTR(?startDate, 6, 2), 
+            STRDT(SUBSTR(?startDate, 6, 2), xsd:integer), 
             false) AS ?winter_holiday)  
   }
   
   # Match the season
-    FILTER(?winter_holiday && (xsd:integer(?winter_holiday) <= 2 || xsd:integer(?winter_holiday) >= 12))
+  FILTER(?winter_holiday && (xsd:integer(?winter_holiday) <= 2 || xsd:integer(?winter_holiday) >= 12))
   
   ?placed etype:placed_UKC-85982 ?event ;
           etype:identification_UKC-36247 ?location_id .
@@ -391,37 +325,7 @@ WHERE {
             etype:address_UKC-45004 ?address ;
             etype:municipality_UKC-45537 ?municipality .
 }
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-
-SELECT DISTINCT ?event_name ?startDate ?address ?municipality
-WHERE {
-  
-  # Match Event and Organization
-  ?event rdf:type etype:Event_UKC-56 ;
-         etype:identification_UKC-36247 ?event_id ;
-         etype:name_UKC-2 ?event_name .
-  
-  OPTIONAL {
-    ?event etype:startDate_schema.org-startDate ?startDate .
-
-      BIND(IF(STRLEN(?startDate) >= 8, 
-            SUBSTR(?startDate, 6, 2), 
-            false) AS ?winter_holiday)  
-  }
-  
-  # Match the season
-    FILTER(?winter_holiday && (xsd:integer(?winter_holiday) <= 2 || xsd:integer(?winter_holiday) >= 12))
-  
-  ?placed etype:placed_UKC-85982 ?event ;
-          etype:identification_UKC-36247 ?location_id .
-  
-  ?location rdf:type etype:Location_UKC-695 ;
-            etype:identification_UKC-36247 ?location_id ;
-            etype:address_UKC-45004 ?address ;
-            etype:municipality_UKC-45537 ?municipality .
-}
+ORDER BY ?startDate
 ```
 
 ### CQ9: A visitor asks Camilla about the events happening today, October 10, at the Festival dello Sport.
@@ -429,7 +333,7 @@ WHERE {
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT ?event_name ?startDate ?address ?municipality
+SELECT DISTINCT ?event_name ?startDate ?address ?municipality
 WHERE {
   
   # Match Event and Organization
@@ -458,6 +362,7 @@ WHERE {
             etype:address_UKC-45004 ?address ;
             etype:municipality_UKC-45537 ?municipality .
 }
+ORDER BY ?startDate
 ```
 
 ### CQ10: While volunteering at the Festival dello Sport, Camilla becomes interested in tennis and wants to know if there are any tennis-related events.
@@ -465,7 +370,7 @@ WHERE {
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT ?event_name ?address ?municipality
+SELECT DISTINCT ?event_name ?address ?municipality
 WHERE {
   
   # Match Event and Organization
@@ -484,13 +389,7 @@ WHERE {
   
   # Match the Sport
   ?based_on etype:basedOn_UKC-92536 ?event ;
-            etype:identification_UKC-36247 ?based_on_sport_id .
-  
-  ?sport rdf:type etype:Sport_UKC-2593 ;
-         etype:identification_UKC-36247 ?sport_id ;
-         etype:name_UKC-2 ?sport_name .
-  
-  FILTER(?based_on_sport_id = ?sport_id && ?sport_id = "97")
+            etype:identification_UKC-36247 "97" .
 
   # Match Event's Location
   ?placed etype:placed_UKC-85982 ?event ;
@@ -508,10 +407,10 @@ WHERE {
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT ?facility_id ?event_name ?address ?municipality
+SELECT DISTINCT ?name ?address
 WHERE {
   
-  # Match Facility in Molveno
+  # Match Facility in Bolzano
   ?facility rdf:type etype:Facility_UKC-17619 ;
          etype:identification_UKC-36247 ?facility_id ;
          etype:name_UKC-2 ?name .
@@ -520,19 +419,11 @@ WHERE {
             etype:identification_UKC-36247 ?placed_location_id .
   
   ?location rdf:type etype:Location_UKC-695 ;
-            etype:identification_UKC-36247 ?location_id ;
+            etype:identification_UKC-36247 ?placed_location_id ;
         etype:address_UKC-45004 ?address ;
-            etype:municipality_UKC-45537 ?municipality .
+            etype:municipality_UKC-45537 "Bolzano" .
   
-  FILTER(?location_id = ?placed_location_id && ?municipality = "Molveno")
-    
   ?have etype:have_UKC-103527 ?facility ;
-            etype:identification_UKC-36247 ?have_sport_id .
-  
-  ?sport rdf:type etype:Sport_UKC-2593 ;
-         etype:identification_UKC-36247 ?sport_id ;
-         etype:name_UKC-2 ?sport_name .
-  
-  FILTER(?based_on_sport_id = ?sport_id && ?sport_id = "97")
+            etype:identification_UKC-36247 "97" .
 }
 ```
