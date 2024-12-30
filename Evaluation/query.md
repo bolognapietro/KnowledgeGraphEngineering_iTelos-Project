@@ -25,7 +25,7 @@ WHERE {
     etype:identification_UKC-36247 ?sport_id ;
     etype:name_UKC-2 ?name .
             
-  FILTER(?have_sport_id = ?sport_id && ?sport_id = "97")
+  FILTER(?have_sport_id = ?sport_id && ?sport_id = "136")
 }
 ```
 
