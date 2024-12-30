@@ -160,19 +160,17 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT DISTINCT ?name
 WHERE {
-    
     # Get Facilities
     ?facility rdf:type etype:Facility_UKC-17619 .
-     
-    # Get associated sports
-  ?have etype:have_UKC-103527 ?facility ;
-      etype:identification_UKC-36247 ?have_sport_id .
     
+    # Retrieve sports associated with the facility
+    ?have etype:have_UKC-103527 ?facility ;
+          etype:identification_UKC-36247 ?have_sport_id .
+    
+    # Match sports details
     ?sport rdf:type etype:Sport_UKC-2593 ;
-      etype:identification_UKC-36247 ?sport_id ;
-      etype:name_UKC-2 ?name .
-    
-    FILTER(?have_sport_id = ?sport_id)
+           etype:identification_UKC-36247 ?have_sport_id ;
+           etype:name_UKC-2 ?name .
 }
 ```
 
