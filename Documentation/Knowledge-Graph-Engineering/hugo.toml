@@ -1,4 +1,5 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://christiansassi.github.io/knowledge-graph-engineering-project'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Knowledge Graph Engineering'
 theme = 'PaperMod'
+publishDir = "../../docs"
