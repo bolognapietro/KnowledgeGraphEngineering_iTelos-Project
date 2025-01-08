@@ -3,3 +3,4 @@ languageCode = 'en-us'
 title = 'Knowledge Graph Engineering'
 theme = 'PaperMod'
 publishDir = "../../docs"
+assetDir = "assets"
