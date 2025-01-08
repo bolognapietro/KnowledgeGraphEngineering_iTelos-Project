@@ -1,4 +1,4 @@
-baseURL = 'https://christiansassi.github.io/knowledge-graph-engineering-project/docs'
+baseURL = '/knowledge-graph-engineering-project/docs'
 languageCode = 'en-us'
 title = 'Knowledge Graph Engineering'
 theme = 'PaperMod'
