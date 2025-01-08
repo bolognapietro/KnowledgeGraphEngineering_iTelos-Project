@@ -1,0 +1,12 @@
+DatLicense,DatURL,DatKeyword,DatPublisher,DatCreator,DatOwner,DatLanguage,DatName,DatPublicationTimestamp,DatDescription,DatVersion,DatDomain
+Creative Commons Attribution NonCommercial ShareAlike,UKC-56,Event,ukc.datascientia.eu,ukc.datascientia.eu,ukc.datascientia.eu,italian,event,January 2025,Information related to event.,1,event
+Creative Commons Attribution NonCommercial ShareAlike,UKC-43416,Organization,ukc.datascientia.eu,ukc.datascientia.eu,ukc.datascientia.eu,english,organization,January 2025,Information related to organization.,1,event
+Creative Commons Attribution NonCommercial ShareAlike,UKC-53492,EndUser,ukc.datascientia.eu,ukc.datascientia.eu,ukc.datascientia.eu,english,end user,January 2025,Information related to end user.,1,person
+Creative Commons Attribution NonCommercial ShareAlike,UKC-17619,Facility,ukc.datascientia.eu,ukc.datascientia.eu,ukc.datascientia.eu,english,facility,January 2025,Information related to facility.,1,facility
+Creative Commons Attribution-ShareAlike License (version 3.0),https://schema.org/Place,Place,schema.org,schema.org,schema.org,english,place,January 2025,Information related to place.,1,spatial
+Creative Commons Attribution-ShareAlike License (version 3.0),https://schema.org/LocalBusiness,LocalBusiness,schema.org,schema.org,schema.org,english,local business,January 2025,Information related to local business.,1,facility
+Creative Commons Attribution-ShareAlike License (version 3.0),https://schema.org/SportsActivityLocation,SportsActivityLocation,schema.org,schema.org,schema.org,english,sports activity location,January 2025,Information related to sport activity location.,1,facility
+,,PadelCourt,,,,english,padel court,January 2025,Information related to padel court.,1,facility
+,,TennisCourt,,,,english,tennis court,January 2025,Information related to tennis court.,1,facility
+,,VolleyballField,,,,english,volleyball field,January 2025,Information related to volleyball field.,1,facility
+,,Guest,,,,english,guest,January 2025,Information related to guest.,1,person
