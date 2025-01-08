@@ -84,29 +84,55 @@
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
             
-            [...document.getElementsByTagName("img")].forEach(img => {
-                if(img.alt == "unitn-logo")
-                {
-                    img.src = "light.png";
-                    console.log("Light");
-                }
+            Array.from(document.querySelectorAll('img[alt="unitn-logo"]')).forEach(img => {
+                img.src = "light.png";
             });
 
             localStorage.setItem("pref-theme", 'light');
         } else {
             document.body.classList.add('dark');
 
-            [...document.getElementsByTagName("img")].forEach(img => {
-                if(img.alt == "unitn-logo")
-                {
-                    img.src = "dark.png";
-                    console.log("Dark");
-                }
+            Array.from(document.querySelectorAll('img[alt="unitn-logo"]')).forEach(img => {
+                img.src = "dark.png";
+                console.log("Light");
             });
 
             localStorage.setItem("pref-theme", 'dark');
         }
     })
+
+    // Create an Intersection Observer
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+
+                // Check if the event/script has already been executed
+                if (!img.dataset.scriptExecuted) {
+                    console.log(`Image viewed: ${img.src}`);
+                    
+                    if (document.body.className.includes("dark")) {
+
+                        if(img.src != "dark.png")
+                            img.src = "dark.png";
+                    }
+                    else {
+                        
+                        if(img.src != "light.png")
+                            img.src = "light.png";
+                    }
+                }
+
+                // Optionally, unobserve the image after it's processed
+                observer.unobserve(img);
+            }
+        });
+    });
+
+    // Attach the observer to all matching images
+    document.querySelectorAll('img[alt="unitn-logo"]').forEach(img => {
+        observer.observe(img);
+    });
 
 </script>
 {{- end }}
