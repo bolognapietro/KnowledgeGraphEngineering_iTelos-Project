@@ -83,9 +83,27 @@
     document.getElementById("theme-toggle").addEventListener("click", () => {
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
+            
+            [...document.getElementsByTagName("img")].forEach(img => {
+                if(img.alt == "unitn-logo")
+                {
+                    img.src = "light.png";
+                    console.log("Light");
+                }
+            });
+
             localStorage.setItem("pref-theme", 'light');
         } else {
             document.body.classList.add('dark');
+
+            [...document.getElementsByTagName("img")].forEach(img => {
+                if(img.alt == "unitn-logo")
+                {
+                    img.src = "dark.png";
+                    console.log("Dark");
+                }
+            });
+
             localStorage.setItem("pref-theme", 'dark');
         }
     })

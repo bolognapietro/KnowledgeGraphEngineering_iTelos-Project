@@ -150,13 +150,9 @@ This section describes the bottom-up knowledge definition phase of the kTelos pr
 ### 6.3 Teleontology
 
 This section explains the middle-out Knowledge Definition phase of the kTelos process, focusing on merging the project-specific teleology with the general-purpose lightweight ontology to form a teleontology. The resulting outcome is presented below:
-<div style="display: flex; justify-content: space-between;">
-  <img src="teleontology_classes.png" width="30%" />
-  <img src="teleontology_data_properties.png" width="30%" />
-  <img src="teleontology_object_properties.png" width="30%" />
-</div>
-
-
+![](teleontology_classes.png)
+![](teleontology_data_properties.png)
+![](teleontology_object_properties.png)
 
 ## 7. Entity definition
 This section covers the final phase of the iTelos methodology, Data Definition, which integrates knowledge and data processes into a cohesive structure. By synthesizing knowledge frameworks with aligned data and teleontology, the goal is to create a comprehensive Knowledge Graph. The phase addresses semantic diversity to ensure alignment with the project’s objectives, and is divided into three core activities: Entity Matching, Entity Identification, and Entity Mapping.
@@ -173,4 +169,4 @@ Christian Sassi - [christian.sassi@studenti.unitn.it](mailto:christian.sassi@stu
 
 Pietro Bologna - [pietro.bologna@studenti.unitn.it](mailto:pietro.bologna@studenti.unitn.it)
 
-![](light.png)
+![unitn-logo](light.png)
