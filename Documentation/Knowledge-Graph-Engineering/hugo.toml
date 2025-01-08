@@ -1,6 +1,6 @@
 baseURL = 'https://christiansassi.github.io/knowledge-graph-engineering-project'
 languageCode = 'en-us'
-title = 'Knowledge Graph Engineering'
+title = 'Sports Facilities & Events in Trentino'
 theme = 'PaperMod'
 publishDir = "../../docs"
 assetDir = "assets"
