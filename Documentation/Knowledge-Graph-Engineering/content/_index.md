@@ -4,9 +4,10 @@
 
 This project was developed during the 2024/25 academic year as part of the Knowledge Graph Engineering course. This page provides a detailed description of the work completed by our team, consisting of Mouez Khelifi, Pietro Bologna, Christian Sassi. Below, you can find all the links to the resources utilized for the project.
 
-- GitHub Repo: https://github.com/christiansassi/knowledge-graph-engineering-project
-- Report: https://github.com/christiansassi/knowledge-graph-engineering-project/blob/main/Documentation/KGE_2024___Sport_Facilities_and_Sport_Events.pdf
-- Presentation: https://github.com/christiansassi/knowledge-graph-engineering-project/blob/main/Documentation/Sports&Events_KGE_2024.pdf
+- The complete [GitHub repository](https://github.com/christiansassi/knowledge-graph-engineering-project)
+- The full [report](https://github.com/christiansassi/knowledge-graph-engineering-project/blob/a5f171d12e35e7d6fb7e58ca33649fa6c7d0b237/Documentation/KGE_2024___Sport_Facilities_and_Sport_Events.pdf)
+- The [presentation](https://github.com/christiansassi/knowledge-graph-engineering-project/blob/a5f171d12e35e7d6fb7e58ca33649fa6c7d0b237/Documentation/Sports%26Events_KGE_2024.pdf)
+- The [final KG](https://github.com/christiansassi/knowledge-graph-engineering-project/blob/a5f171d12e35e7d6fb7e58ca33649fa6c7d0b237/Evaluation/final_KG.ttl) 
 
 ## 1. Project Purpose
 
