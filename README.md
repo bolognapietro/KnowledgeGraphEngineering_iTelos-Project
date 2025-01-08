@@ -32,7 +32,7 @@ The ER diagram, which graphically represents the knowledge gathered in the prior
 9. __Location__: Represents a physical location where sports facilities and events are held.
 10. __EndUser__: Refers to the end user who will utilize the service.
 
-![](Documentation\Knowledge-Graph-Engineering\static\ER_model.png)
+![](Documentation/Knowledge-Graph-Engineering/static/ER_model.png)
 
 ## 4. Information gathering
 
@@ -150,14 +150,14 @@ This section describes the bottom-up knowledge definition phase of the kTelos pr
 ### 6.3 Teleontology
 
 This section explains the middle-out Knowledge Definition phase of the kTelos process, focusing on merging the project-specific teleology with the general-purpose lightweight ontology to form a teleontology. The resulting outcome is presented below:
-![](Documentation\Knowledge-Graph-Engineering\static\teleontology_classes.png)
-![](Documentation\Knowledge-Graph-Engineering\static\teleontology_data_properties.png)
-![](Documentation\Knowledge-Graph-Engineering\static\teleontology_object_properties.png)
+![](Documentation/Knowledge-Graph-Engineering/static/teleontology_classes.png)
+![](Documentation/Knowledge-Graph-Engineering/static/teleontology_data_properties.png)
+![](Documentation/Knowledge-Graph-Engineering/static/teleontology_object_properties.png)
 
 ## 7. Entity definition
 This section covers the final phase of the iTelos methodology, Data Definition, which integrates knowledge and data processes into a cohesive structure. By synthesizing knowledge frameworks with aligned data and teleontology, the goal is to create a comprehensive Knowledge Graph. The phase addresses semantic diversity to ensure alignment with the project’s objectives, and is divided into three core activities: Entity Matching, Entity Identification, and Entity Mapping.
 
-![](Documentation\Knowledge-Graph-Engineering\static\Event.png)
+![](Documentation/Knowledge-Graph-Engineering/static/Event.png)
 
 ## 8. Conclusion and Open Issues
 The project successfully developed a Knowledge Graph (KG) to consolidate information on sports facilities and events in Trentino, using the iTelos methodology to integrate diverse datasets and address Competency Questions (CQs). While the project achieved its primary goal, it also encountered challenges, such as data gaps and inconsistencies, which required manual intervention. Future improvements could be made by establishing data standards to enhance the KG's coverage, versatility, and flexibility. The setup of KarmaLinker posed difficulties, highlighting the need for a unified platform combining various tools. The project's limited temporal and geographical scope restricted scalability, but expanding it in the future could increase the KG's utility for a broader audience.
@@ -170,6 +170,6 @@ Christian Sassi - [christian.sassi@studenti.unitn.it](mailto:christian.sassi@stu
 Pietro Bologna - [pietro.bologna@studenti.unitn.it](mailto:pietro.bologna@studenti.unitn.it)
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="Documentation\Knowledge-Graph-Engineering\static\dark.png">
-    <img alt="https://www.unitn.it/" src="Documentation\Knowledge-Graph-Engineering\static\light.png" width="300px">
+    <source media="(prefers-color-scheme: dark)" srcset="Documentation/Knowledge-Graph-Engineering/static/dark.png">
+    <img alt="https://www.unitn.it/" src="Documentation/Knowledge-Graph-Engineering/static/light.png" width="300px">
 </picture>
