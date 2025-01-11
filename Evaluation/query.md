@@ -197,7 +197,7 @@ WHERE {
 
 ```
 
-### CQ5: Spending the weekend with friends in Folgaria, Anna asks if there are any lighted volleyball or beach volleyball courts available throughout the day.
+### CQ5: Spending the weekend with friends in Arco, Anna asks if there are any lighted volleyball or beach volleyball courts available throughout the day.
 ```sparql
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
@@ -453,7 +453,7 @@ WHERE {
 }
 ```
 
-### CQ11: Moreover, she wants to know if there are any tennis courts available when she returns to Molveno for the weekend. 
+### CQ11: Moreover, she wants to know if there are any tennis courts available when she returns to Bolzano for the weekend. 
 ```sparql
 PREFIX etype: <http://knowdive.disi.unitn.it/etype#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
